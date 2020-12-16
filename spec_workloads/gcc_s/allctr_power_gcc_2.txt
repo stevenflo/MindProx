@@ -1,0 +1,13 @@
+gcc-pp.c: In function 'fibheap_delete_node':
+gcc-pp.c:19958:49: warning: overflow in implicit constant conversion
+gcc-pp.c: In function 'htab_mod_1':
+gcc-pp.c:25469:7: warning: right shift count >= width of type
+
+ Performance counter stats for 'system wide':
+
+           4099.31 Joules power/energy-cores/                                           (100.00%)
+           7481.03 Joules power/energy-pkg/                                             (100.00%)
+           3299.47 Joules power/energy-ram/                                           
+
+     417.282971703 seconds time elapsed
+

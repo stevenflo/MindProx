@@ -1,0 +1,1421 @@
+# Mix output version 10
+# Intel(R) SDE version: 8.16.0 external
+# Starting tid 0,  OS-TID 22072
+# FINI: end of program
+
+# EMIT_IMAGE_ADDRESSES 
+# 
+#    IMAGE NAME                                                                              LOW ADDRESS   HIGH ADDRESS  
+# 
+/home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64             000000400000  00000063e8a6
+/lib64/ld-linux-x86-64.so.2                                                                  7f0250493000  7f02506b71c6
+/lib/x86_64-linux-gnu/libc.so.6                                                              7f02308af000  7f0230c772be
+# END_IMAGE_ADDRESSES
+
+# ==============================================
+# STATS FOR TID 0  OS-TID  22072 EMIT# 1
+# ==============================================
+# EMIT_TOP_BLOCK_STATS FOR TID 0  OS-TID 22072 EMIT # 1 EVENT=ICOUNT
+BLOCK:     0   PC: 000000000040d450   ICOUNT:  25689120   EXECUTIONS:   5137824   #BYTES: 18   %:  25.7   cumltv%:  25.7  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d450 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 553,553
+XDIS 000000000040d450: BASE 4189C2                   mov r10d, eax
+XDIS 000000000040d453: BASE 460FB61C13               movzx r11d, byte ptr [rbx+r10*1]
+XDIS 000000000040d458: BASE 460FB61412               movzx r10d, byte ptr [rdx+r10*1]
+XDIS 000000000040d45d: BASE 4538D3                   cmp r11b, r10b
+XDIS 000000000040d460: BASE 75CD                     jnz 0x40d42f
+
+BLOCK:     1   PC: 000000000040d3f0   ICOUNT:  19437804   EXECUTIONS:   1079878   #BYTES: 63   %:  19.4   cumltv%:  45.1  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3f0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 545,551
+XDIS 000000000040d3f0: BASE 4589EB                   mov r11d, r13d
+XDIS 000000000040d3f3: BASE 41BA00000000             mov r10d, 0x0
+XDIS 000000000040d3f9: BASE 4889D3                   mov rbx, rdx
+XDIS 000000000040d3fc: BASE 4129C3                   sub r11d, eax
+XDIS 000000000040d3ff: BASE 4139C5                   cmp r13d, eax
+XDIS 000000000040d402: BASE 450F42D6                 cmovb r10d, r14d
+XDIS 000000000040d406: BASE 4829C3                   sub rbx, rax
+XDIS 000000000040d409: BASE 4489E0                   mov eax, r12d
+XDIS 000000000040d40c: BASE 4501DA                   add r10d, r11d
+XDIS 000000000040d40f: BASE 4501D2                   add r10d, r10d
+XDIS 000000000040d412: BASE 4539E7                   cmp r15d, r12d
+XDIS 000000000040d415: BASE 410F46C7                 cmovbe eax, r15d
+XDIS 000000000040d419: BASE 4B8D2C91                 lea rbp, ptr [r9+r10*4]
+XDIS 000000000040d41d: BASE 4189C3                   mov r11d, eax
+XDIS 000000000040d420: BASE 460FB6141A               movzx r10d, byte ptr [rdx+r11*1]
+XDIS 000000000040d425: BASE 460FB61C1B               movzx r11d, byte ptr [rbx+r11*1]
+XDIS 000000000040d42a: BASE 4538D3                   cmp r11b, r10b
+XDIS 000000000040d42d: BASE 7433                     jz 0x40d462
+
+BLOCK:     2   PC: 000000000040d462   ICOUNT:  16027149   EXECUTIONS:   5342383   #BYTES:  7   %:    16   cumltv%:  61.2  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d462 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 552,552
+XDIS 000000000040d462: BASE 83C001                   add eax, 0x1
+XDIS 000000000040d465: BASE 39F8                     cmp eax, edi
+XDIS 000000000040d467: BASE 75E7                     jnz 0x40d450
+
+BLOCK:     3   PC: 000000000040fa24   ICOUNT:   6662080   EXECUTIONS:    208190   #BYTES: 132   %:  6.66   cumltv%:  67.8  FN: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: fa24 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder.h:224,/home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c:749
+XDIS 000000000040fa24: BASE 89CA                     mov edx, ecx
+XDIS 000000000040fa26: BASE 8B7314                   mov esi, dword ptr [rbx+0x14]
+XDIS 000000000040fa29: BASE 480313                   add rdx, qword ptr [rbx]
+XDIS 000000000040fa2c: BASE 4C8B5340                 mov r10, qword ptr [rbx+0x40]
+XDIS 000000000040fa30: BASE 01CE                     add esi, ecx
+XDIS 000000000040fa32: BASE 0FB602                   movzx eax, byte ptr [rdx]
+XDIS 000000000040fa35: BASE 440FB64A01               movzx r9d, byte ptr [rdx+0x1]
+XDIS 000000000040fa3a: BASE 440FB64202               movzx r8d, byte ptr [rdx+0x2]
+XDIS 000000000040fa3f: BASE 44330C85809E4200         xor r9d, dword ptr [rax*4+0x429e80]
+XDIS 000000000040fa47: BASE 0FB64203                 movzx eax, byte ptr [rdx+0x3]
+XDIS 000000000040fa4b: BASE 41C1E008                 shl r8d, 0x8
+XDIS 000000000040fa4f: BASE 4531C8                   xor r8d, r9d
+XDIS 000000000040fa52: BASE 4181E1FF030000           and r9d, 0x3ff
+XDIS 000000000040fa59: BASE 8B0485809E4200           mov eax, dword ptr [rax*4+0x429e80]
+XDIS 000000000040fa60: BASE C1E005                   shl eax, 0x5
+XDIS 000000000040fa63: BASE 4431C0                   xor eax, r8d
+XDIS 000000000040fa66: BASE 450FB7C0                 movzx r8d, r8w
+XDIS 000000000040fa6a: BASE 234358                   and eax, dword ptr [rbx+0x58]
+XDIS 000000000040fa6d: BASE 0500040100               add eax, 0x10400
+XDIS 000000000040fa72: BASE 418B0C82                 mov ecx, dword ptr [r10+rax*4]
+XDIS 000000000040fa76: BASE 4389348A                 mov dword ptr [r10+r9*4], esi
+XDIS 000000000040fa7a: BASE 4C8B4B40                 mov r9, qword ptr [rbx+0x40]
+XDIS 000000000040fa7e: BASE 4389B48100100000         mov dword ptr [r9+r8*4+0x1000], esi
+XDIS 000000000040fa86: BASE 4C8B4340                 mov r8, qword ptr [rbx+0x40]
+XDIS 000000000040fa8a: BASE 41893480                 mov dword ptr [r8+rax*4], esi
+XDIS 000000000040fa8e: BASE 8B4354                   mov eax, dword ptr [rbx+0x54]
+XDIS 000000000040fa91: BASE 4C8B4B48                 mov r9, qword ptr [rbx+0x48]
+XDIS 000000000040fa95: BASE 448B435C                 mov r8d, dword ptr [rbx+0x5c]
+XDIS 000000000040fa99: BASE 89442408                 mov dword ptr [rsp+0x8], eax
+XDIS 000000000040fa9d: BASE 8B4350                   mov eax, dword ptr [rbx+0x50]
+XDIS 000000000040faa0: BASE 890424                   mov dword ptr [rsp], eax
+XDIS 000000000040faa3: BASE E8D8D8FFFF               call 0x40d380
+
+BLOCK:     4   PC: 000000000040d3da   ICOUNT:   4334476   EXECUTIONS:   1083619   #BYTES: 13   %:  4.33   cumltv%:  72.1  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3da Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 538,539
+XDIS 000000000040d3da: BASE 89F0                     mov eax, esi
+XDIS 000000000040d3dc: BASE 29C8                     sub eax, ecx
+XDIS 000000000040d3de: BASE 4585C0                   test r8d, r8d
+XDIS 000000000040d3e1: BASE 0F84A9000000             jz 0x40d490
+
+BLOCK:     5   PC: 000000000040d380   ICOUNT:   3541100   EXECUTIONS:    208300   #BYTES: 60   %:  3.54   cumltv%:  75.7  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d380 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 530,532
+XDIS 000000000040d380: BASE 4157                     push r15
+XDIS 000000000040d382: BASE 4531FF                   xor r15d, r15d
+XDIS 000000000040d385: BASE 4156                     push r14
+XDIS 000000000040d387: BASE 4155                     push r13
+XDIS 000000000040d389: BASE 4154                     push r12
+XDIS 000000000040d38b: BASE 4531E4                   xor r12d, r12d
+XDIS 000000000040d38e: BASE 55                       push rbp
+XDIS 000000000040d38f: BASE 53                       push rbx
+XDIS 000000000040d390: BASE 448B6C2438               mov r13d, dword ptr [rsp+0x38]
+XDIS 000000000040d395: BASE 448B742440               mov r14d, dword ptr [rsp+0x40]
+XDIS 000000000040d39a: BASE 438D442D00               lea eax, ptr [r13+r13*1]
+XDIS 000000000040d39f: BASE 488D048504000000         lea rax, ptr [rax*4+0x4]
+XDIS 000000000040d3a7: BASE 498D1C01                 lea rbx, ptr [r9+rax*1]
+XDIS 000000000040d3ab: BASE 498D4401FC               lea rax, ptr [r9+rax*1-0x4]
+XDIS 000000000040d3b0: BASE 48895C24F0               mov qword ptr [rsp-0x10], rbx
+XDIS 000000000040d3b5: BASE 48894424F8               mov qword ptr [rsp-0x8], rax
+XDIS 000000000040d3ba: BASE EB1E                     jmp 0x40d3da
+
+BLOCK:     6   PC: 000000000040d434   ICOUNT:   2737122   EXECUTIONS:    456187   #BYTES: 20   %:  2.74   cumltv%:  78.4  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d434 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 569,571
+XDIS 000000000040d434: BASE 488B5C24F0               mov rbx, qword ptr [rsp-0x10]
+XDIS 000000000040d439: BASE 4189C4                   mov r12d, eax
+XDIS 000000000040d43c: BASE 48896C24F0               mov qword ptr [rsp-0x10], rbp
+XDIS 000000000040d441: BASE 890B                     mov dword ptr [rbx], ecx
+XDIS 000000000040d443: BASE 8B4D00                   mov ecx, dword ptr [rbp]
+XDIS 000000000040d446: BASE EB8E                     jmp 0x40d3d6
+
+BLOCK:     7   PC: 000000000040d469   ICOUNT:   2659254   EXECUTIONS:    204558   #BYTES: 31   %:  2.66   cumltv%:  81.1  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d469 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 557,575
+XDIS 000000000040d469: BASE 488B7424F8               mov rsi, qword ptr [rsp-0x8]
+XDIS 000000000040d46e: BASE 8B4500                   mov eax, dword ptr [rbp]
+XDIS 000000000040d471: BASE 8906                     mov dword ptr [rsi], eax
+XDIS 000000000040d473: BASE 488B7424F0               mov rsi, qword ptr [rsp-0x10]
+XDIS 000000000040d478: BASE 8B4504                   mov eax, dword ptr [rbp+0x4]
+XDIS 000000000040d47b: BASE 8906                     mov dword ptr [rsi], eax
+XDIS 000000000040d47d: BASE 5B                       pop rbx
+XDIS 000000000040d47e: BASE 5D                       pop rbp
+XDIS 000000000040d47f: BASE 415C                     pop r12
+XDIS 000000000040d481: BASE 415D                     pop r13
+XDIS 000000000040d483: BASE 415E                     pop r14
+XDIS 000000000040d485: BASE 415F                     pop r15
+XDIS 000000000040d487: BASE C3                       ret 
+
+BLOCK:     8   PC: 000000000040d3c0   ICOUNT:   2514792   EXECUTIONS:    419132   #BYTES: 22   %:  2.51   cumltv%:  83.6  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3c0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 564,566
+XDIS 000000000040d3c0: BASE 488B5C24F8               mov rbx, qword ptr [rsp-0x8]
+XDIS 000000000040d3c5: BASE 4189C7                   mov r15d, eax
+XDIS 000000000040d3c8: BASE 890B                     mov dword ptr [rbx], ecx
+XDIS 000000000040d3ca: BASE 488D4D04                 lea rcx, ptr [rbp+0x4]
+XDIS 000000000040d3ce: BASE 48894C24F8               mov qword ptr [rsp-0x8], rcx
+XDIS 000000000040d3d3: BASE 8B4D04                   mov ecx, dword ptr [rbp+0x4]
+
+BLOCK:     9   PC: 000000000040d3e7   ICOUNT:   2166604   EXECUTIONS:   1083302   #BYTES:  9   %:  2.17   cumltv%:  85.8  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3e7 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 539,539
+XDIS 000000000040d3e7: BASE 4439F0                   cmp eax, r14d
+XDIS 000000000040d3ea: BASE 0F83A0000000             jnb 0x40d490
+
+BLOCK:    10   PC: 000000000040d42f   ICOUNT:   1750638   EXECUTIONS:    875319   #BYTES:  5   %:  1.75   cumltv%:  87.5  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d42f Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 563,563
+XDIS 000000000040d42f: BASE 4538D3                   cmp r11b, r10b
+XDIS 000000000040d432: BASE 728C                     jb 0x40d3c0
+
+BLOCK:    11   PC: 000000000040fab8   ICOUNT:   1457323   EXECUTIONS:    208189   #BYTES: 19   %:  1.46   cumltv%:    89  FN: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: fab8 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 153,156
+XDIS 000000000040fab8: BASE 8B4318                   mov eax, dword ptr [rbx+0x18]
+XDIS 000000000040fabb: BASE 8B4B14                   mov ecx, dword ptr [rbx+0x14]
+XDIS 000000000040fabe: BASE 83C001                   add eax, 0x1
+XDIS 000000000040fac1: BASE 894318                   mov dword ptr [rbx+0x18], eax
+XDIS 000000000040fac4: BASE 01C8                     add eax, ecx
+XDIS 000000000040fac6: BASE 83F8FF                   cmp eax, 0xffffffff
+XDIS 000000000040fac9: BASE 744D                     jz 0x40fb18
+
+BLOCK:    12   PC: 000000000040fad0   ICOUNT:   1249134   EXECUTIONS:    208189   #BYTES: 19   %:  1.25   cumltv%:  90.2  FN: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: fad0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 735,738
+XDIS 000000000040fad0: BASE 8B4B18                   mov ecx, dword ptr [rbx+0x18]
+XDIS 000000000040fad3: BASE 8B4324                   mov eax, dword ptr [rbx+0x24]
+XDIS 000000000040fad6: BASE 8B7B60                   mov edi, dword ptr [rbx+0x60]
+XDIS 000000000040fad9: BASE 29C8                     sub eax, ecx
+XDIS 000000000040fadb: BASE 39C7                     cmp edi, eax
+XDIS 000000000040fadd: BASE 0F8641FFFFFF             jbe 0x40fa24
+
+BLOCK:    13   PC: 000000000040faa8   ICOUNT:   1249134   EXECUTIONS:    208189   #BYTES: 16   %:  1.25   cumltv%:  91.5  FN: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: faa8 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 150,150
+XDIS 000000000040faa8: BASE 8B4350                   mov eax, dword ptr [rbx+0x50]
+XDIS 000000000040faab: BASE 8B5354                   mov edx, dword ptr [rbx+0x54]
+XDIS 000000000040faae: BASE 83C001                   add eax, 0x1
+XDIS 000000000040fab1: BASE 39D0                     cmp eax, edx
+XDIS 000000000040fab3: BASE 894350                   mov dword ptr [rbx+0x50], eax
+XDIS 000000000040fab6: BASE 7450                     jz 0x40fb08
+
+BLOCK:    14   PC: 000000000040b680   ICOUNT:    905216   EXECUTIONS:     53248   #BYTES: 72   %: 0.905   cumltv%:  92.4  FN: lzma_crc64  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: b680 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/check/crc64_fast.c 52,47
+XDIS 000000000040b680: BASE 8B01                     mov eax, dword ptr [rcx]
+XDIS 000000000040b682: BASE 4883C104                 add rcx, 0x4
+XDIS 000000000040b686: BASE 31D0                     xor eax, edx
+XDIS 000000000040b688: BASE 48C1EA20                 shr rdx, 0x20
+XDIS 000000000040b68c: BASE 440FB6C0                 movzx r8d, al
+XDIS 000000000040b690: BASE 4189C1                   mov r9d, eax
+XDIS 000000000040b693: BASE 0FB6DC                   movzx ebx, ah
+XDIS 000000000040b696: BASE 4E8B04C580D64200         mov r8, qword ptr [r8*8+0x42d680]
+XDIS 000000000040b69e: BASE 41C1E918                 shr r9d, 0x18
+XDIS 000000000040b6a2: BASE C1E810                   shr eax, 0x10
+XDIS 000000000040b6a5: BASE 0FB6C0                   movzx eax, al
+XDIS 000000000040b6a8: BASE 4E3304CD80BE4200         xor r8, qword ptr [r9*8+0x42be80]
+XDIS 000000000040b6b0: BASE 4C31C2                   xor rdx, r8
+XDIS 000000000040b6b3: BASE 483314DD80CE4200         xor rdx, qword ptr [rbx*8+0x42ce80]
+XDIS 000000000040b6bb: BASE 483314C580C64200         xor rdx, qword ptr [rax*8+0x42c680]
+XDIS 000000000040b6c3: BASE 4939CA                   cmp r10, rcx
+XDIS 000000000040b6c6: BASE 77B8                     jnbe 0x40b680
+
+BLOCK:    15   PC: 000000000040d3d6   ICOUNT:    875319   EXECUTIONS:    875319   #BYTES:  4   %: 0.875   cumltv%:  93.3  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3d6 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 566,566
+XDIS 000000000040d3d6: BASE 4183E801                 sub r8d, 0x1
+
+BLOCK:    16   PC: 0000000000414ef0   ICOUNT:    794008   EXECUTIONS:    198502   #BYTES: 17   %: 0.794   cumltv%:    94  FN: lzma_lzma_optimum_normal  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 14ef0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lzma/lzma_encoder_optimum_normal.c 321,321
+XDIS 0000000000414ef0: BASE 460FB65C0A02             movzx r11d, byte ptr [rdx+r9*1+0x2]
+XDIS 0000000000414ef6: BASE 4983C101                 add r9, 0x1
+XDIS 0000000000414efa: BASE 473A5C0802               cmp r11b, byte ptr [r8+r9*1+0x2]
+XDIS 0000000000414eff: BASE 7508                     jnz 0x414f09
+
+BLOCK:    17   PC: 0000000000414f01   ICOUNT:    597657   EXECUTIONS:    199219   #BYTES:  8   %: 0.598   cumltv%:  94.6  FN: lzma_lzma_optimum_normal  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 14f01 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lzma/lzma_encoder_optimum_normal.c 322,320
+XDIS 0000000000414f01: BASE 83C601                   add esi, 0x1
+XDIS 0000000000414f04: BASE 4439D6                   cmp esi, r10d
+XDIS 0000000000414f07: BASE 75E7                     jnz 0x414ef0
+
+BLOCK:    18   PC: 000000000040d540   ICOUNT:    590832   EXECUTIONS:    147708   #BYTES: 13   %: 0.591   cumltv%:  95.2  FN: lzma_mf_find  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d540 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 69,69
+XDIS 000000000040d540: BASE 89CA                     mov edx, ecx
+XDIS 000000000040d542: BASE 410FB63411               movzx esi, byte ptr [r9+rdx*1]
+XDIS 000000000040d547: BASE 41383410                 cmp byte ptr [r8+rdx*1], sil
+XDIS 000000000040d54b: BASE 759B                     jnz 0x40d4e8
+
+BLOCK:    19   PC: 000000000040d54d   ICOUNT:    444753   EXECUTIONS:    148251   #BYTES:  7   %: 0.445   cumltv%:  95.7  FN: lzma_mf_find  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d54d Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 70,68
+XDIS 000000000040d54d: BASE 83C101                   add ecx, 0x1
+XDIS 000000000040d550: BASE 39F9                     cmp ecx, edi
+XDIS 000000000040d552: BASE 72EC                     jb 0x40d540
+
+# END_TOP_BLOCK_STATS
+# EMIT_DYNAMIC_STATS FOR TID 0  OS-TID 22072 EMIT #1
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                      4749568
+*stack-write                                                     3365650
+*iprel-read                                                          234
+*mem-read-1                                                     14218169
+*mem-read-2                                                        46576
+*mem-read-4                                                      5224232
+*mem-read-8                                                      4305469
+*mem-read-16                                                       26832
+*mem-write-1                                                        8685
+*mem-write-2                                                       18992
+*mem-write-4                                                     2937499
+*mem-write-8                                                     2952982
+*mem-write-16                                                      26832
+*isa-ext-BASE                                                   99947731
+*isa-ext-LONGMODE                                                    104
+*isa-ext-SSE2                                                      53664
+*isa-set-CMOV                                                    2201258
+*isa-set-FAT_NOP                                                    3308
+*isa-set-I186                                                     726309
+*isa-set-I386                                                   14227054
+*isa-set-I86                                                    82789802
+*isa-set-LONGMODE                                                    104
+*isa-set-SSE2                                                      53664
+*category-BINARY                                                31924550
+*category-CALL                                                    219538
+*category-CMOV                                                   2201258
+*category-COND_BR                                               16632227
+*category-DATAXFER                                              39074484
+*category-LOGICAL                                                3028457
+*category-MISC                                                   2581947
+*category-NOP                                                         44
+*category-POP                                                    1303560
+*category-PUSH                                                   1303618
+*category-RET                                                     219537
+*category-SETCC                                                     1411
+*category-SHIFT                                                   750538
+*category-UNCOND_BR                                               757022
+*category-WIDENOP                                                   3308
+*ilen-1                                                          1097289
+*ilen-2                                                         27432273
+*ilen-3                                                         39897735
+*ilen-4                                                          8533175
+*ilen-5                                                         17417602
+*ilen-6                                                          3970004
+*ilen-7                                                           610537
+*ilen-8                                                          1020094
+*ilen-9                                                            12213
+*ilen-10                                                             779
+*ilen-11                                                            7666
+*ilen-12                                                            2132
+*nop-ilen-1                                                           44
+*nop-ilen-3                                                          928
+*nop-ilen-4                                                          881
+*nop-ilen-6                                                         1323
+*nop-ilen-7                                                           75
+*nop-ilen-9                                                           26
+*nop-ilen-10                                                          75
+*sse-packed                                                        53664
+*gpr64                                                          12343162
+*legacy-prefixes-0                                              42628208
+*legacy-prefixes-1                                              57346813
+*legacy-prefixes-2                                                 26478
+*legacy-prefixes-and-escapes-0                                  39443490
+*legacy-prefixes-and-escapes-1                                  44711570
+*legacy-prefixes-and-escapes-2                                  15820023
+*legacy-prefixes-and-escapes-3                                     26416
+*66_prefix                                                         73078
+*rex_prefix                                                     57326691
+*rexw_prefix                                                     9296883
+*rexr_prefix                                                    32740078
+*rexx_prefix                                                    14822710
+*rexb_prefix                                                    32979661
+*loadop                                                          4460716
+*one-memops                                                     29721316
+*two-memops                                                         3481
+*cond-branch-forward                                             4362717
+*cond-branch-backward                                           12269510
+*index_disp                                                       656639
+*base_only                                                       5150881
+*base_disp                                                       9579474
+*base_index                                                     13571500
+*base_index_disp                                                  766303
+*scale_1                                                        29233828
+*scale_2                                                           74753
+*scale_4                                                         2719157
+*scale_8                                                          278980
+*memdisp8                                                       10733691
+*memdisp32                                                       1454826
+*dataxfer_i32_4                                                    53664
+ADD                                                              9697786
+AND                                                               515230
+CALL_NEAR                                                         219538
+CMOVB                                                            1093611
+CMOVBE                                                           1105132
+CMOVNB                                                               111
+CMOVNBE                                                              650
+CMOVNZ                                                              1246
+CMOVZ                                                                508
+CMP                                                             17510338
+IMUL                                                               18907
+JB                                                               1044178
+JBE                                                               236156
+JMP                                                               757022
+JNB                                                              1151831
+JNBE                                                              133900
+JNL                                                                   26
+JNLE                                                                 130
+JNZ                                                             11179934
+JS                                                                  1730
+JZ                                                               2884342
+LEA                                                              2581921
+LEAVE                                                                 26
+MOV                                                             24795073
+MOVDQA                                                             26416
+MOVDQU                                                             27248
+MOVSXD                                                               104
+MOVZX                                                           14225643
+NEG                                                                11599
+NOP                                                                 3352
+NOT                                                                24707
+OR                                                                   578
+POP                                                              1303560
+PUSH                                                             1303618
+RET_NEAR                                                          219537
+SAR                                                                11199
+SBB                                                                 4588
+SETNBE                                                               600
+SETNL                                                                 52
+SETNZ                                                                759
+SHL                                                               463962
+SHR                                                               275377
+SUB                                                              4681332
+TEST                                                             1117844
+XOR                                                              1370098
+*total                                                         100001499
+# END_DYNAMIC_STATS
+# FUNCTION TOTALS FOR TID 0  OS-TID 22072
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+   0:     81774529  81.773  81.773        208300            40d380 bt_skip_func     IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64
+   1:     11045269  11.045  92.818           935            40fa00 lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64
+   2:      2774225   2.774  95.593          1324            414d10 lzma_lzma_optimum_normal  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64
+   3:      1109003   1.109  96.702          2442            40d4c0 lzma_mf_find     IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64
+            100001499 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 22072 EMIT# 1
+#
+# $dynamic-counts-for-function: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64 at [0x00040d380, 0x00040d4c0)  81.773%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                      4451045
+*stack-write                                                     2541719
+*mem-read-1                                                     12435404
+*mem-read-4                                                      1701035
+*mem-read-8                                                      2750010
+*mem-write-4                                                     1291917
+*mem-write-8                                                     2541719
+*isa-ext-BASE                                                   81774529
+*isa-set-CMOV                                                    2159756
+*isa-set-I386                                                   12435404
+*isa-set-I86                                                    67179369
+*category-BINARY                                                27299295
+*category-CMOV                                                   2159756
+*category-COND_BR                                               14602325
+*category-DATAXFER                                              30508344
+*category-LOGICAL                                                1500219
+*category-MISC                                                   2332210
+*category-POP                                                    1249794
+*category-PUSH                                                   1249800
+*category-RET                                                     208299
+*category-UNCOND_BR                                               664487
+*ilen-1                                                          1041497
+*ilen-2                                                         23560343
+*ilen-3                                                         33115283
+*ilen-4                                                          4742385
+*ilen-5                                                         15852440
+*ilen-6                                                          3254281
+*ilen-8                                                           208300
+*gpr64                                                           9575395
+*legacy-prefixes-0                                              31736665
+*legacy-prefixes-1                                              50037864
+*legacy-prefixes-and-escapes-0                                  29569744
+*legacy-prefixes-and-escapes-1                                  37609625
+*legacy-prefixes-and-escapes-2                                  14595160
+*rex_prefix                                                     50037864
+*rexw_prefix                                                     6867502
+*rexr_prefix                                                    29007814
+*rexx_prefix                                                    13723582
+*rexb_prefix                                                    29651656
+*loadop                                                          2707893
+*one-memops                                                     20720085
+*cond-branch-forward                                             3246799
+*cond-branch-backward                                           11355526
+*base_only                                                       3999810
+*base_disp                                                       4284871
+*base_index                                                     12435404
+*scale_1                                                        21764117
+*scale_4                                                         1288178
+*memdisp8                                                        5120603
+*memdisp32                                                        208300
+ADD                                                              7502139
+CMOVB                                                            1079878
+CMOVBE                                                           1079878
+CMP                                                             15678462
+JB                                                                875319
+JMP                                                               664487
+JNB                                                              1083302
+JNZ                                                             10480207
+JZ                                                               2163497
+LEA                                                              2332210
+MOV                                                             18072940
+MOVZX                                                           12435404
+POP                                                              1249794
+PUSH                                                             1249800
+RET_NEAR                                                          208299
+SUB                                                              4118694
+TEST                                                             1083619
+XOR                                                               416600
+*total                                                          81774529
+#
+# $dynamic-counts-for-function: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64 at [0x00040fa00, 0x00040fcb0)  11.045%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                         3740
+*stack-write                                                      627375
+*mem-read-1                                                       832760
+*mem-read-4                                                      3122843
+*mem-read-8                                                      1044690
+*mem-write-4                                                     1457328
+*mem-write-8                                                      210995
+*isa-ext-BASE                                                   11045269
+*isa-set-I186                                                     416380
+*isa-set-I386                                                    1040950
+*isa-set-I86                                                     9587939
+*category-BINARY                                                 2291952
+*category-CALL                                                    208190
+*category-COND_BR                                                 832756
+*category-DATAXFER                                               6247561
+*category-LOGICAL                                                1040950
+*category-POP                                                       2805
+*category-PUSH                                                      2805
+*category-RET                                                        935
+*category-SHIFT                                                   416380
+*category-UNCOND_BR                                                  935
+*ilen-1                                                             4675
+*ilen-2                                                          1876508
+*ilen-3                                                          4789292
+*ilen-4                                                          2500150
+*ilen-5                                                           833695
+*ilen-6                                                           208189
+*ilen-7                                                           416380
+*ilen-8                                                           416380
+*gpr64                                                           1258490
+*legacy-prefixes-0                                               7293174
+*legacy-prefixes-1                                               3752095
+*legacy-prefixes-and-escapes-0                                   6668605
+*legacy-prefixes-and-escapes-1                                   3752094
+*legacy-prefixes-and-escapes-2                                    624570
+*rex_prefix                                                      3752095
+*rexw_prefix                                                     1043755
+*rexr_prefix                                                     2290090
+*rexx_prefix                                                      416380
+*rexb_prefix                                                     1667390
+*loadop                                                           839305
+*one-memops                                                      6668616
+*cond-branch-forward                                              624567
+*cond-branch-backward                                             208189
+*index_disp                                                       416380
+*base_only                                                        839305
+*base_disp                                                       4580171
+*base_index                                                       624570
+*base_index_disp                                                  208190
+*scale_1                                                         5419476
+*scale_4                                                         1249140
+*memdisp8                                                        4580171
+*memdisp32                                                        624570
+ADD                                                              1250072
+AND                                                               416380
+CALL_NEAR                                                         208190
+CMP                                                               624567
+JBE                                                               208189
+JMP                                                                  935
+JZ                                                                624567
+MOV                                                              5206611
+MOVZX                                                            1040950
+POP                                                                 2805
+PUSH                                                                2805
+RET_NEAR                                                             935
+SHL                                                               416380
+SUB                                                               417313
+XOR                                                               624570
+*total                                                          11045269
+#
+# $dynamic-counts-for-function: lzma_lzma_optimum_normal  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64 at [0x000414d10, 0x000416e40)   2.774%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                       157849
+*stack-write                                                       98350
+*mem-read-1                                                       473009
+*mem-read-2                                                        24170
+*mem-read-4                                                       155217
+*mem-read-8                                                        83825
+*mem-write-1                                                        4576
+*mem-write-2                                                         111
+*mem-write-4                                                       73018
+*mem-write-8                                                       51102
+*isa-ext-BASE                                                    2774225
+*isa-set-CMOV                                                      10649
+*isa-set-FAT_NOP                                                     684
+*isa-set-I186                                                      81839
+*isa-set-I386                                                     277923
+*isa-set-I86                                                     2403130
+*category-BINARY                                                 1131327
+*category-CALL                                                      3377
+*category-CMOV                                                     10649
+*category-COND_BR                                                 535696
+*category-DATAXFER                                                703817
+*category-LOGICAL                                                 133447
+*category-MISC                                                    129221
+*category-NOP                                                         18
+*category-POP                                                       7944
+*category-PUSH                                                      7944
+*category-RET                                                       1324
+*category-SHIFT                                                    93211
+*category-UNCOND_BR                                                15566
+*category-WIDENOP                                                    684
+*ilen-1                                                             6638
+*ilen-2                                                           681010
+*ilen-3                                                           748468
+*ilen-4                                                           435952
+*ilen-5                                                           281816
+*ilen-6                                                           324389
+*ilen-7                                                           146006
+*ilen-8                                                           128013
+*ilen-9                                                            12135
+*ilen-11                                                            7666
+*ilen-12                                                            2132
+*nop-ilen-1                                                           18
+*nop-ilen-3                                                          328
+*nop-ilen-4                                                          356
+*gpr64                                                            508357
+*legacy-prefixes-0                                               1355750
+*legacy-prefixes-1                                               1418413
+*legacy-prefixes-2                                                    62
+*legacy-prefixes-and-escapes-0                                   1222021
+*legacy-prefixes-and-escapes-1                                   1330368
+*legacy-prefixes-and-escapes-2                                    221836
+*66_prefix                                                         12491
+*rex_prefix                                                      1406046
+*rexw_prefix                                                      487768
+*rexr_prefix                                                      793011
+*rexx_prefix                                                      406115
+*rexb_prefix                                                      610236
+*loadop                                                           306256
+*one-memops                                                       848549
+*two-memops                                                          935
+*cond-branch-forward                                              287748
+*cond-branch-backward                                             247948
+*base_only                                                         41586
+*base_disp                                                        335695
+*base_index                                                        25197
+*base_index_disp                                                  447006
+*scale_1                                                          844720
+*scale_2                                                           47908
+*scale_4                                                           82645
+*scale_8                                                            3432
+*memdisp8                                                         537433
+*memdisp32                                                        309571
+ADD                                                               560415
+AND                                                                65324
+CALL_NEAR                                                           3377
+CMOVB                                                                111
+CMOVBE                                                              8189
+CMOVNB                                                               111
+CMOVNBE                                                              510
+CMOVNZ                                                              1220
+CMOVZ                                                                508
+CMP                                                               540091
+JB                                                                  5206
+JBE                                                                18686
+JMP                                                                15566
+JNB                                                                17633
+JNBE                                                               29634
+JNZ                                                               426016
+JS                                                                  1730
+JZ                                                                 36791
+LEA                                                               129221
+MOV                                                               425894
+MOVZX                                                             277923
+NEG                                                                 8224
+NOP                                                                  702
+NOT                                                                22917
+OR                                                                   248
+POP                                                                 7944
+PUSH                                                                7944
+RET_NEAR                                                            1324
+SAR                                                                 8664
+SBB                                                                 3467
+SHL                                                                34134
+SHR                                                                50413
+SUB                                                                19130
+TEST                                                                7754
+XOR                                                                37204
+*total                                                           2774225
+#
+# $dynamic-counts-for-function: lzma_mf_find  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64 at [0x00040d4c0, 0x00040d570)   1.109%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                         9768
+*stack-write                                                        9768
+*mem-read-1                                                       297272
+*mem-read-4                                                        10872
+*mem-read-8                                                        13138
+*mem-write-4                                                        4884
+*mem-write-8                                                        9768
+*isa-ext-BASE                                                    1109003
+*isa-set-CMOV                                                        928
+*isa-set-I386                                                     148636
+*isa-set-I86                                                      959439
+*category-BINARY                                                  454579
+*category-CALL                                                      2442
+*category-CMOV                                                       928
+*category-COND_BR                                                 302616
+*category-DATAXFER                                                318923
+*category-LOGICAL                                                   5812
+*category-MISC                                                      6574
+*category-POP                                                       7326
+*category-PUSH                                                      7326
+*category-RET                                                       2442
+*category-UNCOND_BR                                                   35
+*ilen-1                                                            12210
+*ilen-2                                                           615963
+*ilen-3                                                           173531
+*ilen-4                                                           155376
+*ilen-5                                                           151923
+*gpr64                                                             36303
+*legacy-prefixes-0                                                784854
+*legacy-prefixes-1                                                324149
+*legacy-prefixes-and-escapes-0                                    783926
+*legacy-prefixes-and-escapes-1                                    176441
+*legacy-prefixes-and-escapes-2                                    148636
+*rex_prefix                                                       324149
+*rexw_prefix                                                       16767
+*rexr_prefix                                                        7424
+*rexb_prefix                                                      307968
+*loadop                                                           171459
+*one-memops                                                       328608
+*two-memops                                                         2442
+*cond-branch-forward                                                5729
+*cond-branch-backward                                             296887
+*base_only                                                         22823
+*base_disp                                                         10955
+*base_index                                                       296344
+*base_index_disp                                                     928
+*scale_1                                                          335265
+*scale_8                                                            2359
+*memdisp8                                                          18457
+ADD                                                               152549
+CALL_NEAR                                                           2442
+CMOVBE                                                               928
+CMP                                                               301102
+JB                                                                148251
+JMP                                                                   35
+JNB                                                                  928
+JNZ                                                               147708
+JZ                                                                  5729
+LEA                                                                 6574
+MOV                                                               170287
+MOVZX                                                             148636
+NOT                                                                  928
+POP                                                                 7326
+PUSH                                                                7326
+RET_NEAR                                                            2442
+SUB                                                                  928
+TEST                                                                2442
+XOR                                                                 2442
+*total                                                           1109003
+# END_PER_FUNCTION_STATS 
+# EMIT_GLOBAL_TOP_BLOCK_STATS EVENT=ICOUNT
+BLOCK:     0   PC: 000000000040d450   ICOUNT:  25689120   EXECUTIONS:   5137824   #BYTES: 18   %:  25.7   cumltv%:  25.7  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d450 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 553,553
+XDIS 000000000040d450: BASE 4189C2                   mov r10d, eax
+XDIS 000000000040d453: BASE 460FB61C13               movzx r11d, byte ptr [rbx+r10*1]
+XDIS 000000000040d458: BASE 460FB61412               movzx r10d, byte ptr [rdx+r10*1]
+XDIS 000000000040d45d: BASE 4538D3                   cmp r11b, r10b
+XDIS 000000000040d460: BASE 75CD                     jnz 0x40d42f
+
+BLOCK:     1   PC: 000000000040d3f0   ICOUNT:  19437804   EXECUTIONS:   1079878   #BYTES: 63   %:  19.4   cumltv%:  45.1  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3f0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 545,551
+XDIS 000000000040d3f0: BASE 4589EB                   mov r11d, r13d
+XDIS 000000000040d3f3: BASE 41BA00000000             mov r10d, 0x0
+XDIS 000000000040d3f9: BASE 4889D3                   mov rbx, rdx
+XDIS 000000000040d3fc: BASE 4129C3                   sub r11d, eax
+XDIS 000000000040d3ff: BASE 4139C5                   cmp r13d, eax
+XDIS 000000000040d402: BASE 450F42D6                 cmovb r10d, r14d
+XDIS 000000000040d406: BASE 4829C3                   sub rbx, rax
+XDIS 000000000040d409: BASE 4489E0                   mov eax, r12d
+XDIS 000000000040d40c: BASE 4501DA                   add r10d, r11d
+XDIS 000000000040d40f: BASE 4501D2                   add r10d, r10d
+XDIS 000000000040d412: BASE 4539E7                   cmp r15d, r12d
+XDIS 000000000040d415: BASE 410F46C7                 cmovbe eax, r15d
+XDIS 000000000040d419: BASE 4B8D2C91                 lea rbp, ptr [r9+r10*4]
+XDIS 000000000040d41d: BASE 4189C3                   mov r11d, eax
+XDIS 000000000040d420: BASE 460FB6141A               movzx r10d, byte ptr [rdx+r11*1]
+XDIS 000000000040d425: BASE 460FB61C1B               movzx r11d, byte ptr [rbx+r11*1]
+XDIS 000000000040d42a: BASE 4538D3                   cmp r11b, r10b
+XDIS 000000000040d42d: BASE 7433                     jz 0x40d462
+
+BLOCK:     2   PC: 000000000040d462   ICOUNT:  16027149   EXECUTIONS:   5342383   #BYTES:  7   %:    16   cumltv%:  61.2  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d462 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 552,552
+XDIS 000000000040d462: BASE 83C001                   add eax, 0x1
+XDIS 000000000040d465: BASE 39F8                     cmp eax, edi
+XDIS 000000000040d467: BASE 75E7                     jnz 0x40d450
+
+BLOCK:     3   PC: 000000000040fa24   ICOUNT:   6662080   EXECUTIONS:    208190   #BYTES: 132   %:  6.66   cumltv%:  67.8  FN: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: fa24 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder.h:224,/home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c:749
+XDIS 000000000040fa24: BASE 89CA                     mov edx, ecx
+XDIS 000000000040fa26: BASE 8B7314                   mov esi, dword ptr [rbx+0x14]
+XDIS 000000000040fa29: BASE 480313                   add rdx, qword ptr [rbx]
+XDIS 000000000040fa2c: BASE 4C8B5340                 mov r10, qword ptr [rbx+0x40]
+XDIS 000000000040fa30: BASE 01CE                     add esi, ecx
+XDIS 000000000040fa32: BASE 0FB602                   movzx eax, byte ptr [rdx]
+XDIS 000000000040fa35: BASE 440FB64A01               movzx r9d, byte ptr [rdx+0x1]
+XDIS 000000000040fa3a: BASE 440FB64202               movzx r8d, byte ptr [rdx+0x2]
+XDIS 000000000040fa3f: BASE 44330C85809E4200         xor r9d, dword ptr [rax*4+0x429e80]
+XDIS 000000000040fa47: BASE 0FB64203                 movzx eax, byte ptr [rdx+0x3]
+XDIS 000000000040fa4b: BASE 41C1E008                 shl r8d, 0x8
+XDIS 000000000040fa4f: BASE 4531C8                   xor r8d, r9d
+XDIS 000000000040fa52: BASE 4181E1FF030000           and r9d, 0x3ff
+XDIS 000000000040fa59: BASE 8B0485809E4200           mov eax, dword ptr [rax*4+0x429e80]
+XDIS 000000000040fa60: BASE C1E005                   shl eax, 0x5
+XDIS 000000000040fa63: BASE 4431C0                   xor eax, r8d
+XDIS 000000000040fa66: BASE 450FB7C0                 movzx r8d, r8w
+XDIS 000000000040fa6a: BASE 234358                   and eax, dword ptr [rbx+0x58]
+XDIS 000000000040fa6d: BASE 0500040100               add eax, 0x10400
+XDIS 000000000040fa72: BASE 418B0C82                 mov ecx, dword ptr [r10+rax*4]
+XDIS 000000000040fa76: BASE 4389348A                 mov dword ptr [r10+r9*4], esi
+XDIS 000000000040fa7a: BASE 4C8B4B40                 mov r9, qword ptr [rbx+0x40]
+XDIS 000000000040fa7e: BASE 4389B48100100000         mov dword ptr [r9+r8*4+0x1000], esi
+XDIS 000000000040fa86: BASE 4C8B4340                 mov r8, qword ptr [rbx+0x40]
+XDIS 000000000040fa8a: BASE 41893480                 mov dword ptr [r8+rax*4], esi
+XDIS 000000000040fa8e: BASE 8B4354                   mov eax, dword ptr [rbx+0x54]
+XDIS 000000000040fa91: BASE 4C8B4B48                 mov r9, qword ptr [rbx+0x48]
+XDIS 000000000040fa95: BASE 448B435C                 mov r8d, dword ptr [rbx+0x5c]
+XDIS 000000000040fa99: BASE 89442408                 mov dword ptr [rsp+0x8], eax
+XDIS 000000000040fa9d: BASE 8B4350                   mov eax, dword ptr [rbx+0x50]
+XDIS 000000000040faa0: BASE 890424                   mov dword ptr [rsp], eax
+XDIS 000000000040faa3: BASE E8D8D8FFFF               call 0x40d380
+
+BLOCK:     4   PC: 000000000040d3da   ICOUNT:   4334476   EXECUTIONS:   1083619   #BYTES: 13   %:  4.33   cumltv%:  72.1  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3da Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 538,539
+XDIS 000000000040d3da: BASE 89F0                     mov eax, esi
+XDIS 000000000040d3dc: BASE 29C8                     sub eax, ecx
+XDIS 000000000040d3de: BASE 4585C0                   test r8d, r8d
+XDIS 000000000040d3e1: BASE 0F84A9000000             jz 0x40d490
+
+BLOCK:     5   PC: 000000000040d380   ICOUNT:   3541100   EXECUTIONS:    208300   #BYTES: 60   %:  3.54   cumltv%:  75.7  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d380 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 530,532
+XDIS 000000000040d380: BASE 4157                     push r15
+XDIS 000000000040d382: BASE 4531FF                   xor r15d, r15d
+XDIS 000000000040d385: BASE 4156                     push r14
+XDIS 000000000040d387: BASE 4155                     push r13
+XDIS 000000000040d389: BASE 4154                     push r12
+XDIS 000000000040d38b: BASE 4531E4                   xor r12d, r12d
+XDIS 000000000040d38e: BASE 55                       push rbp
+XDIS 000000000040d38f: BASE 53                       push rbx
+XDIS 000000000040d390: BASE 448B6C2438               mov r13d, dword ptr [rsp+0x38]
+XDIS 000000000040d395: BASE 448B742440               mov r14d, dword ptr [rsp+0x40]
+XDIS 000000000040d39a: BASE 438D442D00               lea eax, ptr [r13+r13*1]
+XDIS 000000000040d39f: BASE 488D048504000000         lea rax, ptr [rax*4+0x4]
+XDIS 000000000040d3a7: BASE 498D1C01                 lea rbx, ptr [r9+rax*1]
+XDIS 000000000040d3ab: BASE 498D4401FC               lea rax, ptr [r9+rax*1-0x4]
+XDIS 000000000040d3b0: BASE 48895C24F0               mov qword ptr [rsp-0x10], rbx
+XDIS 000000000040d3b5: BASE 48894424F8               mov qword ptr [rsp-0x8], rax
+XDIS 000000000040d3ba: BASE EB1E                     jmp 0x40d3da
+
+BLOCK:     6   PC: 000000000040d434   ICOUNT:   2737122   EXECUTIONS:    456187   #BYTES: 20   %:  2.74   cumltv%:  78.4  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d434 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 569,571
+XDIS 000000000040d434: BASE 488B5C24F0               mov rbx, qword ptr [rsp-0x10]
+XDIS 000000000040d439: BASE 4189C4                   mov r12d, eax
+XDIS 000000000040d43c: BASE 48896C24F0               mov qword ptr [rsp-0x10], rbp
+XDIS 000000000040d441: BASE 890B                     mov dword ptr [rbx], ecx
+XDIS 000000000040d443: BASE 8B4D00                   mov ecx, dword ptr [rbp]
+XDIS 000000000040d446: BASE EB8E                     jmp 0x40d3d6
+
+BLOCK:     7   PC: 000000000040d469   ICOUNT:   2659254   EXECUTIONS:    204558   #BYTES: 31   %:  2.66   cumltv%:  81.1  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d469 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 557,575
+XDIS 000000000040d469: BASE 488B7424F8               mov rsi, qword ptr [rsp-0x8]
+XDIS 000000000040d46e: BASE 8B4500                   mov eax, dword ptr [rbp]
+XDIS 000000000040d471: BASE 8906                     mov dword ptr [rsi], eax
+XDIS 000000000040d473: BASE 488B7424F0               mov rsi, qword ptr [rsp-0x10]
+XDIS 000000000040d478: BASE 8B4504                   mov eax, dword ptr [rbp+0x4]
+XDIS 000000000040d47b: BASE 8906                     mov dword ptr [rsi], eax
+XDIS 000000000040d47d: BASE 5B                       pop rbx
+XDIS 000000000040d47e: BASE 5D                       pop rbp
+XDIS 000000000040d47f: BASE 415C                     pop r12
+XDIS 000000000040d481: BASE 415D                     pop r13
+XDIS 000000000040d483: BASE 415E                     pop r14
+XDIS 000000000040d485: BASE 415F                     pop r15
+XDIS 000000000040d487: BASE C3                       ret 
+
+BLOCK:     8   PC: 000000000040d3c0   ICOUNT:   2514792   EXECUTIONS:    419132   #BYTES: 22   %:  2.51   cumltv%:  83.6  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3c0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 564,566
+XDIS 000000000040d3c0: BASE 488B5C24F8               mov rbx, qword ptr [rsp-0x8]
+XDIS 000000000040d3c5: BASE 4189C7                   mov r15d, eax
+XDIS 000000000040d3c8: BASE 890B                     mov dword ptr [rbx], ecx
+XDIS 000000000040d3ca: BASE 488D4D04                 lea rcx, ptr [rbp+0x4]
+XDIS 000000000040d3ce: BASE 48894C24F8               mov qword ptr [rsp-0x8], rcx
+XDIS 000000000040d3d3: BASE 8B4D04                   mov ecx, dword ptr [rbp+0x4]
+
+BLOCK:     9   PC: 000000000040d3e7   ICOUNT:   2166604   EXECUTIONS:   1083302   #BYTES:  9   %:  2.17   cumltv%:  85.8  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3e7 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 539,539
+XDIS 000000000040d3e7: BASE 4439F0                   cmp eax, r14d
+XDIS 000000000040d3ea: BASE 0F83A0000000             jnb 0x40d490
+
+BLOCK:    10   PC: 000000000040d42f   ICOUNT:   1750638   EXECUTIONS:    875319   #BYTES:  5   %:  1.75   cumltv%:  87.5  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d42f Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 563,563
+XDIS 000000000040d42f: BASE 4538D3                   cmp r11b, r10b
+XDIS 000000000040d432: BASE 728C                     jb 0x40d3c0
+
+BLOCK:    11   PC: 000000000040fab8   ICOUNT:   1457323   EXECUTIONS:    208189   #BYTES: 19   %:  1.46   cumltv%:    89  FN: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: fab8 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 153,156
+XDIS 000000000040fab8: BASE 8B4318                   mov eax, dword ptr [rbx+0x18]
+XDIS 000000000040fabb: BASE 8B4B14                   mov ecx, dword ptr [rbx+0x14]
+XDIS 000000000040fabe: BASE 83C001                   add eax, 0x1
+XDIS 000000000040fac1: BASE 894318                   mov dword ptr [rbx+0x18], eax
+XDIS 000000000040fac4: BASE 01C8                     add eax, ecx
+XDIS 000000000040fac6: BASE 83F8FF                   cmp eax, 0xffffffff
+XDIS 000000000040fac9: BASE 744D                     jz 0x40fb18
+
+BLOCK:    12   PC: 000000000040fad0   ICOUNT:   1249134   EXECUTIONS:    208189   #BYTES: 19   %:  1.25   cumltv%:  90.2  FN: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: fad0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 735,738
+XDIS 000000000040fad0: BASE 8B4B18                   mov ecx, dword ptr [rbx+0x18]
+XDIS 000000000040fad3: BASE 8B4324                   mov eax, dword ptr [rbx+0x24]
+XDIS 000000000040fad6: BASE 8B7B60                   mov edi, dword ptr [rbx+0x60]
+XDIS 000000000040fad9: BASE 29C8                     sub eax, ecx
+XDIS 000000000040fadb: BASE 39C7                     cmp edi, eax
+XDIS 000000000040fadd: BASE 0F8641FFFFFF             jbe 0x40fa24
+
+BLOCK:    13   PC: 000000000040faa8   ICOUNT:   1249134   EXECUTIONS:    208189   #BYTES: 16   %:  1.25   cumltv%:  91.5  FN: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: faa8 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 150,150
+XDIS 000000000040faa8: BASE 8B4350                   mov eax, dword ptr [rbx+0x50]
+XDIS 000000000040faab: BASE 8B5354                   mov edx, dword ptr [rbx+0x54]
+XDIS 000000000040faae: BASE 83C001                   add eax, 0x1
+XDIS 000000000040fab1: BASE 39D0                     cmp eax, edx
+XDIS 000000000040fab3: BASE 894350                   mov dword ptr [rbx+0x50], eax
+XDIS 000000000040fab6: BASE 7450                     jz 0x40fb08
+
+BLOCK:    14   PC: 000000000040b680   ICOUNT:    905216   EXECUTIONS:     53248   #BYTES: 72   %: 0.905   cumltv%:  92.4  FN: lzma_crc64  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: b680 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/check/crc64_fast.c 52,47
+XDIS 000000000040b680: BASE 8B01                     mov eax, dword ptr [rcx]
+XDIS 000000000040b682: BASE 4883C104                 add rcx, 0x4
+XDIS 000000000040b686: BASE 31D0                     xor eax, edx
+XDIS 000000000040b688: BASE 48C1EA20                 shr rdx, 0x20
+XDIS 000000000040b68c: BASE 440FB6C0                 movzx r8d, al
+XDIS 000000000040b690: BASE 4189C1                   mov r9d, eax
+XDIS 000000000040b693: BASE 0FB6DC                   movzx ebx, ah
+XDIS 000000000040b696: BASE 4E8B04C580D64200         mov r8, qword ptr [r8*8+0x42d680]
+XDIS 000000000040b69e: BASE 41C1E918                 shr r9d, 0x18
+XDIS 000000000040b6a2: BASE C1E810                   shr eax, 0x10
+XDIS 000000000040b6a5: BASE 0FB6C0                   movzx eax, al
+XDIS 000000000040b6a8: BASE 4E3304CD80BE4200         xor r8, qword ptr [r9*8+0x42be80]
+XDIS 000000000040b6b0: BASE 4C31C2                   xor rdx, r8
+XDIS 000000000040b6b3: BASE 483314DD80CE4200         xor rdx, qword ptr [rbx*8+0x42ce80]
+XDIS 000000000040b6bb: BASE 483314C580C64200         xor rdx, qword ptr [rax*8+0x42c680]
+XDIS 000000000040b6c3: BASE 4939CA                   cmp r10, rcx
+XDIS 000000000040b6c6: BASE 77B8                     jnbe 0x40b680
+
+BLOCK:    15   PC: 000000000040d3d6   ICOUNT:    875319   EXECUTIONS:    875319   #BYTES:  4   %: 0.875   cumltv%:  93.3  FN: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d3d6 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 566,566
+XDIS 000000000040d3d6: BASE 4183E801                 sub r8d, 0x1
+
+BLOCK:    16   PC: 0000000000414ef0   ICOUNT:    794008   EXECUTIONS:    198502   #BYTES: 17   %: 0.794   cumltv%:    94  FN: lzma_lzma_optimum_normal  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 14ef0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lzma/lzma_encoder_optimum_normal.c 321,321
+XDIS 0000000000414ef0: BASE 460FB65C0A02             movzx r11d, byte ptr [rdx+r9*1+0x2]
+XDIS 0000000000414ef6: BASE 4983C101                 add r9, 0x1
+XDIS 0000000000414efa: BASE 473A5C0802               cmp r11b, byte ptr [r8+r9*1+0x2]
+XDIS 0000000000414eff: BASE 7508                     jnz 0x414f09
+
+BLOCK:    17   PC: 0000000000414f01   ICOUNT:    597657   EXECUTIONS:    199219   #BYTES:  8   %: 0.598   cumltv%:  94.6  FN: lzma_lzma_optimum_normal  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 14f01 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lzma/lzma_encoder_optimum_normal.c 322,320
+XDIS 0000000000414f01: BASE 83C601                   add esi, 0x1
+XDIS 0000000000414f04: BASE 4439D6                   cmp esi, r10d
+XDIS 0000000000414f07: BASE 75E7                     jnz 0x414ef0
+
+BLOCK:    18   PC: 000000000040d540   ICOUNT:    590832   EXECUTIONS:    147708   #BYTES: 13   %: 0.591   cumltv%:  95.2  FN: lzma_mf_find  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d540 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 69,69
+XDIS 000000000040d540: BASE 89CA                     mov edx, ecx
+XDIS 000000000040d542: BASE 410FB63411               movzx esi, byte ptr [r9+rdx*1]
+XDIS 000000000040d547: BASE 41383410                 cmp byte ptr [r8+rdx*1], sil
+XDIS 000000000040d54b: BASE 759B                     jnz 0x40d4e8
+
+BLOCK:    19   PC: 000000000040d54d   ICOUNT:    444753   EXECUTIONS:    148251   #BYTES:  7   %: 0.445   cumltv%:  95.7  FN: lzma_mf_find  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: d54d Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/liblzma/lz/lz_encoder_mf.c 70,68
+XDIS 000000000040d54d: BASE 83C101                   add ecx, 0x1
+XDIS 000000000040d550: BASE 39F9                     cmp ecx, edi
+XDIS 000000000040d552: BASE 72EC                     jb 0x40d540
+
+# END_TOP_BLOCK_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*total                                                                 0
+# END_DYNAMIC_STATS
+#GLOBAL FUNCTION TOTALS
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+   0:     81774529  81.773  81.773        208300            40d380 bt_skip_func     IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64
+   1:     11045269  11.045  92.818           935            40fa00 lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64
+   2:      2774225   2.774  95.593          1324            414d10 lzma_lzma_optimum_normal  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64
+   3:      1109003   1.109  96.702          2442            40d4c0 lzma_mf_find     IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64
+            100001499 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 0 EMIT# 1
+#
+# $dynamic-counts-for-function: bt_skip_func  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64 at [0x00040d380, 0x00040d4c0)  81.773%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                      4451045
+*stack-write                                                     2541719
+*mem-read-1                                                     12435404
+*mem-read-4                                                      1701035
+*mem-read-8                                                      2750010
+*mem-write-4                                                     1291917
+*mem-write-8                                                     2541719
+*isa-ext-BASE                                                   81774529
+*isa-set-CMOV                                                    2159756
+*isa-set-I386                                                   12435404
+*isa-set-I86                                                    67179369
+*category-BINARY                                                27299295
+*category-CMOV                                                   2159756
+*category-COND_BR                                               14602325
+*category-DATAXFER                                              30508344
+*category-LOGICAL                                                1500219
+*category-MISC                                                   2332210
+*category-POP                                                    1249794
+*category-PUSH                                                   1249800
+*category-RET                                                     208299
+*category-UNCOND_BR                                               664487
+*ilen-1                                                          1041497
+*ilen-2                                                         23560343
+*ilen-3                                                         33115283
+*ilen-4                                                          4742385
+*ilen-5                                                         15852440
+*ilen-6                                                          3254281
+*ilen-8                                                           208300
+*gpr64                                                           9575395
+*legacy-prefixes-0                                              31736665
+*legacy-prefixes-1                                              50037864
+*legacy-prefixes-and-escapes-0                                  29569744
+*legacy-prefixes-and-escapes-1                                  37609625
+*legacy-prefixes-and-escapes-2                                  14595160
+*rex_prefix                                                     50037864
+*rexw_prefix                                                     6867502
+*rexr_prefix                                                    29007814
+*rexx_prefix                                                    13723582
+*rexb_prefix                                                    29651656
+*loadop                                                          2707893
+*one-memops                                                     20720085
+*cond-branch-forward                                             3246799
+*cond-branch-backward                                           11355526
+*base_only                                                       3999810
+*base_disp                                                       4284871
+*base_index                                                     12435404
+*scale_1                                                        21764117
+*scale_4                                                         1288178
+*memdisp8                                                        5120603
+*memdisp32                                                        208300
+ADD                                                              7502139
+CMOVB                                                            1079878
+CMOVBE                                                           1079878
+CMP                                                             15678462
+JB                                                                875319
+JMP                                                               664487
+JNB                                                              1083302
+JNZ                                                             10480207
+JZ                                                               2163497
+LEA                                                              2332210
+MOV                                                             18072940
+MOVZX                                                           12435404
+POP                                                              1249794
+PUSH                                                             1249800
+RET_NEAR                                                          208299
+SUB                                                              4118694
+TEST                                                             1083619
+XOR                                                               416600
+*total                                                          81774529
+#
+# $dynamic-counts-for-function: lzma_mf_bt4_skip  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64 at [0x00040fa00, 0x00040fcb0)  11.045%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                         3740
+*stack-write                                                      627375
+*mem-read-1                                                       832760
+*mem-read-4                                                      3122843
+*mem-read-8                                                      1044690
+*mem-write-4                                                     1457328
+*mem-write-8                                                      210995
+*isa-ext-BASE                                                   11045269
+*isa-set-I186                                                     416380
+*isa-set-I386                                                    1040950
+*isa-set-I86                                                     9587939
+*category-BINARY                                                 2291952
+*category-CALL                                                    208190
+*category-COND_BR                                                 832756
+*category-DATAXFER                                               6247561
+*category-LOGICAL                                                1040950
+*category-POP                                                       2805
+*category-PUSH                                                      2805
+*category-RET                                                        935
+*category-SHIFT                                                   416380
+*category-UNCOND_BR                                                  935
+*ilen-1                                                             4675
+*ilen-2                                                          1876508
+*ilen-3                                                          4789292
+*ilen-4                                                          2500150
+*ilen-5                                                           833695
+*ilen-6                                                           208189
+*ilen-7                                                           416380
+*ilen-8                                                           416380
+*gpr64                                                           1258490
+*legacy-prefixes-0                                               7293174
+*legacy-prefixes-1                                               3752095
+*legacy-prefixes-and-escapes-0                                   6668605
+*legacy-prefixes-and-escapes-1                                   3752094
+*legacy-prefixes-and-escapes-2                                    624570
+*rex_prefix                                                      3752095
+*rexw_prefix                                                     1043755
+*rexr_prefix                                                     2290090
+*rexx_prefix                                                      416380
+*rexb_prefix                                                     1667390
+*loadop                                                           839305
+*one-memops                                                      6668616
+*cond-branch-forward                                              624567
+*cond-branch-backward                                             208189
+*index_disp                                                       416380
+*base_only                                                        839305
+*base_disp                                                       4580171
+*base_index                                                       624570
+*base_index_disp                                                  208190
+*scale_1                                                         5419476
+*scale_4                                                         1249140
+*memdisp8                                                        4580171
+*memdisp32                                                        624570
+ADD                                                              1250072
+AND                                                               416380
+CALL_NEAR                                                         208190
+CMP                                                               624567
+JBE                                                               208189
+JMP                                                                  935
+JZ                                                                624567
+MOV                                                              5206611
+MOVZX                                                            1040950
+POP                                                                 2805
+PUSH                                                                2805
+RET_NEAR                                                             935
+SHL                                                               416380
+SUB                                                               417313
+XOR                                                               624570
+*total                                                          11045269
+#
+# $dynamic-counts-for-function: lzma_lzma_optimum_normal  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64 at [0x000414d10, 0x000416e40)   2.774%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                       157849
+*stack-write                                                       98350
+*mem-read-1                                                       473009
+*mem-read-2                                                        24170
+*mem-read-4                                                       155217
+*mem-read-8                                                        83825
+*mem-write-1                                                        4576
+*mem-write-2                                                         111
+*mem-write-4                                                       73018
+*mem-write-8                                                       51102
+*isa-ext-BASE                                                    2774225
+*isa-set-CMOV                                                      10649
+*isa-set-FAT_NOP                                                     684
+*isa-set-I186                                                      81839
+*isa-set-I386                                                     277923
+*isa-set-I86                                                     2403130
+*category-BINARY                                                 1131327
+*category-CALL                                                      3377
+*category-CMOV                                                     10649
+*category-COND_BR                                                 535696
+*category-DATAXFER                                                703817
+*category-LOGICAL                                                 133447
+*category-MISC                                                    129221
+*category-NOP                                                         18
+*category-POP                                                       7944
+*category-PUSH                                                      7944
+*category-RET                                                       1324
+*category-SHIFT                                                    93211
+*category-UNCOND_BR                                                15566
+*category-WIDENOP                                                    684
+*ilen-1                                                             6638
+*ilen-2                                                           681010
+*ilen-3                                                           748468
+*ilen-4                                                           435952
+*ilen-5                                                           281816
+*ilen-6                                                           324389
+*ilen-7                                                           146006
+*ilen-8                                                           128013
+*ilen-9                                                            12135
+*ilen-11                                                            7666
+*ilen-12                                                            2132
+*nop-ilen-1                                                           18
+*nop-ilen-3                                                          328
+*nop-ilen-4                                                          356
+*gpr64                                                            508357
+*legacy-prefixes-0                                               1355750
+*legacy-prefixes-1                                               1418413
+*legacy-prefixes-2                                                    62
+*legacy-prefixes-and-escapes-0                                   1222021
+*legacy-prefixes-and-escapes-1                                   1330368
+*legacy-prefixes-and-escapes-2                                    221836
+*66_prefix                                                         12491
+*rex_prefix                                                      1406046
+*rexw_prefix                                                      487768
+*rexr_prefix                                                      793011
+*rexx_prefix                                                      406115
+*rexb_prefix                                                      610236
+*loadop                                                           306256
+*one-memops                                                       848549
+*two-memops                                                          935
+*cond-branch-forward                                              287748
+*cond-branch-backward                                             247948
+*base_only                                                         41586
+*base_disp                                                        335695
+*base_index                                                        25197
+*base_index_disp                                                  447006
+*scale_1                                                          844720
+*scale_2                                                           47908
+*scale_4                                                           82645
+*scale_8                                                            3432
+*memdisp8                                                         537433
+*memdisp32                                                        309571
+ADD                                                               560415
+AND                                                                65324
+CALL_NEAR                                                           3377
+CMOVB                                                                111
+CMOVBE                                                              8189
+CMOVNB                                                               111
+CMOVNBE                                                              510
+CMOVNZ                                                              1220
+CMOVZ                                                                508
+CMP                                                               540091
+JB                                                                  5206
+JBE                                                                18686
+JMP                                                                15566
+JNB                                                                17633
+JNBE                                                               29634
+JNZ                                                               426016
+JS                                                                  1730
+JZ                                                                 36791
+LEA                                                               129221
+MOV                                                               425894
+MOVZX                                                             277923
+NEG                                                                 8224
+NOP                                                                  702
+NOT                                                                22917
+OR                                                                   248
+POP                                                                 7944
+PUSH                                                                7944
+RET_NEAR                                                            1324
+SAR                                                                 8664
+SBB                                                                 3467
+SHL                                                                34134
+SHR                                                                50413
+SUB                                                                19130
+TEST                                                                7754
+XOR                                                                37204
+*total                                                           2774225
+#
+# $dynamic-counts-for-function: lzma_mf_find  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64 at [0x00040d4c0, 0x00040d570)   1.109%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                         9768
+*stack-write                                                        9768
+*mem-read-1                                                       297272
+*mem-read-4                                                        10872
+*mem-read-8                                                        13138
+*mem-write-4                                                        4884
+*mem-write-8                                                        9768
+*isa-ext-BASE                                                    1109003
+*isa-set-CMOV                                                        928
+*isa-set-I386                                                     148636
+*isa-set-I86                                                      959439
+*category-BINARY                                                  454579
+*category-CALL                                                      2442
+*category-CMOV                                                       928
+*category-COND_BR                                                 302616
+*category-DATAXFER                                                318923
+*category-LOGICAL                                                   5812
+*category-MISC                                                      6574
+*category-POP                                                       7326
+*category-PUSH                                                      7326
+*category-RET                                                       2442
+*category-UNCOND_BR                                                   35
+*ilen-1                                                            12210
+*ilen-2                                                           615963
+*ilen-3                                                           173531
+*ilen-4                                                           155376
+*ilen-5                                                           151923
+*gpr64                                                             36303
+*legacy-prefixes-0                                                784854
+*legacy-prefixes-1                                                324149
+*legacy-prefixes-and-escapes-0                                    783926
+*legacy-prefixes-and-escapes-1                                    176441
+*legacy-prefixes-and-escapes-2                                    148636
+*rex_prefix                                                       324149
+*rexw_prefix                                                       16767
+*rexr_prefix                                                        7424
+*rexb_prefix                                                      307968
+*loadop                                                           171459
+*one-memops                                                       328608
+*two-memops                                                         2442
+*cond-branch-forward                                                5729
+*cond-branch-backward                                             296887
+*base_only                                                         22823
+*base_disp                                                         10955
+*base_index                                                       296344
+*base_index_disp                                                     928
+*scale_1                                                          335265
+*scale_8                                                            2359
+*memdisp8                                                          18457
+ADD                                                               152549
+CALL_NEAR                                                           2442
+CMOVBE                                                               928
+CMP                                                               301102
+JB                                                                148251
+JMP                                                                   35
+JNB                                                                  928
+JNZ                                                               147708
+JZ                                                                  5729
+LEA                                                                 6574
+MOV                                                               170287
+MOVZX                                                             148636
+NOT                                                                  928
+POP                                                                 7326
+PUSH                                                                7326
+RET_NEAR                                                            2442
+SUB                                                                  928
+TEST                                                                2442
+XOR                                                                 2442
+*total                                                           1109003
+# END_PER_FUNCTION_STATS 
+# EMIT_STATIC_STATS 
+#
+# $static-counts
+#
+#       opcode                 count
+#
+*total                                                                 0
+
+# END_STATIC_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS   EMIT# 1
+#
+# $global-dynamic-counts
+#
+#       opcode                 count
+#
+*stack-read                                                      4749568
+*stack-write                                                     3365650
+*iprel-read                                                          234
+*mem-read-1                                                     14218169
+*mem-read-2                                                        46576
+*mem-read-4                                                      5224232
+*mem-read-8                                                      4305469
+*mem-read-16                                                       26832
+*mem-write-1                                                        8685
+*mem-write-2                                                       18992
+*mem-write-4                                                     2937499
+*mem-write-8                                                     2952982
+*mem-write-16                                                      26832
+*isa-ext-BASE                                                   99947731
+*isa-ext-LONGMODE                                                    104
+*isa-ext-SSE2                                                      53664
+*isa-set-CMOV                                                    2201258
+*isa-set-FAT_NOP                                                    3308
+*isa-set-I186                                                     726309
+*isa-set-I386                                                   14227054
+*isa-set-I86                                                    82789802
+*isa-set-LONGMODE                                                    104
+*isa-set-SSE2                                                      53664
+*category-BINARY                                                31924550
+*category-CALL                                                    219538
+*category-CMOV                                                   2201258
+*category-COND_BR                                               16632227
+*category-DATAXFER                                              39074484
+*category-LOGICAL                                                3028457
+*category-MISC                                                   2581947
+*category-NOP                                                         44
+*category-POP                                                    1303560
+*category-PUSH                                                   1303618
+*category-RET                                                     219537
+*category-SETCC                                                     1411
+*category-SHIFT                                                   750538
+*category-UNCOND_BR                                               757022
+*category-WIDENOP                                                   3308
+*ilen-1                                                          1097289
+*ilen-2                                                         27432273
+*ilen-3                                                         39897735
+*ilen-4                                                          8533175
+*ilen-5                                                         17417602
+*ilen-6                                                          3970004
+*ilen-7                                                           610537
+*ilen-8                                                          1020094
+*ilen-9                                                            12213
+*ilen-10                                                             779
+*ilen-11                                                            7666
+*ilen-12                                                            2132
+*nop-ilen-1                                                           44
+*nop-ilen-3                                                          928
+*nop-ilen-4                                                          881
+*nop-ilen-6                                                         1323
+*nop-ilen-7                                                           75
+*nop-ilen-9                                                           26
+*nop-ilen-10                                                          75
+*sse-packed                                                        53664
+*gpr64                                                          12343162
+*legacy-prefixes-0                                              42628208
+*legacy-prefixes-1                                              57346813
+*legacy-prefixes-2                                                 26478
+*legacy-prefixes-and-escapes-0                                  39443490
+*legacy-prefixes-and-escapes-1                                  44711570
+*legacy-prefixes-and-escapes-2                                  15820023
+*legacy-prefixes-and-escapes-3                                     26416
+*66_prefix                                                         73078
+*rex_prefix                                                     57326691
+*rexw_prefix                                                     9296883
+*rexr_prefix                                                    32740078
+*rexx_prefix                                                    14822710
+*rexb_prefix                                                    32979661
+*loadop                                                          4460716
+*one-memops                                                     29721316
+*two-memops                                                         3481
+*cond-branch-forward                                             4362717
+*cond-branch-backward                                           12269510
+*index_disp                                                       656639
+*base_only                                                       5150881
+*base_disp                                                       9579474
+*base_index                                                     13571500
+*base_index_disp                                                  766303
+*scale_1                                                        29233828
+*scale_2                                                           74753
+*scale_4                                                         2719157
+*scale_8                                                          278980
+*memdisp8                                                       10733691
+*memdisp32                                                       1454826
+*dataxfer_i32_4                                                    53664
+ADD                                                              9697786
+AND                                                               515230
+CALL_NEAR                                                         219538
+CMOVB                                                            1093611
+CMOVBE                                                           1105132
+CMOVNB                                                               111
+CMOVNBE                                                              650
+CMOVNZ                                                              1246
+CMOVZ                                                                508
+CMP                                                             17510338
+IMUL                                                               18907
+JB                                                               1044178
+JBE                                                               236156
+JMP                                                               757022
+JNB                                                              1151831
+JNBE                                                              133900
+JNL                                                                   26
+JNLE                                                                 130
+JNZ                                                             11179934
+JS                                                                  1730
+JZ                                                               2884342
+LEA                                                              2581921
+LEAVE                                                                 26
+MOV                                                             24795073
+MOVDQA                                                             26416
+MOVDQU                                                             27248
+MOVSXD                                                               104
+MOVZX                                                           14225643
+NEG                                                                11599
+NOP                                                                 3352
+NOT                                                                24707
+OR                                                                   578
+POP                                                              1303560
+PUSH                                                             1303618
+RET_NEAR                                                          219537
+SAR                                                                11199
+SBB                                                                 4588
+SETNBE                                                               600
+SETNL                                                                 52
+SETNZ                                                                759
+SHL                                                               463962
+SHR                                                               275377
+SUB                                                              4681332
+TEST                                                             1117844
+XOR                                                              1370098
+*total                                                         100001499
+
+# END_GLOBAL_DYNAMIC_STATS

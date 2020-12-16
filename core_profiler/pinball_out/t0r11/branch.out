@@ -1,0 +1,18 @@
+# Mix output version 2
+# FINI: end of program
+# EMIT_DYNAMIC_STATS: instructions = 100101485
+Branch Stats: Cond Branches = 12441446 Uncond branches = 5448719 Tk branches = 10603302
+Branch Bucket 0 is equal to 0
+Branch Bucket 1 is equal to 4855313
+Branch Bucket 2 is equal to 5747989
+Branch Transition Bucket 0 is equal to 6029127
+Branch Transition Bucket 1 is equal to 1079912
+Branch Transition Bucket 2 is equal to 1207067
+Branch Transition Bucket 3 is equal to 1249702
+Branch Transition Bucket 4 is equal to 2175089
+Branch Transition Bucket 5 is equal to 380625
+Branch Transition Bucket 6 is equal to 256505
+Branch Transition Bucket 7 is equal to 18233
+Branch Transition Bucket 8 is equal to 1099
+Branch Transition Bucket 9 is equal to 44087
+# END_DYNAMIC_STATS

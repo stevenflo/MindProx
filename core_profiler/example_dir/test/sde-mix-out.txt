@@ -1,0 +1,2534 @@
+# Mix output version 10
+# Intel(R) SDE version: 8.16.0 external
+# Starting tid 0,  OS-TID 25601
+# FINI: end of program
+
+# EMIT_IMAGE_ADDRESSES 
+# 
+#    IMAGE NAME                                                                              LOW ADDRESS   HIGH ADDRESS  
+# 
+/export/sflolid/software/SimTrace/proxy_gen_upgrades/profiler/example_dir/hello              000000400000  00000040070b
+/lib64/ld-linux-x86-64.so.2                                                                  7f28aca36000  7f28aca58357
+[vdso]                                                                                       7ffeea9e1000  7ffeea9e1fce
+/lib/x86_64-linux-gnu/libc.so.6                                                              7f28975fb000  7f28979c32bf
+# END_IMAGE_ADDRESSES
+
+# ==============================================
+# STATS FOR TID 0  OS-TID  25601 EMIT# 1
+# ==============================================
+# EMIT_TOP_BLOCK_STATS FOR TID 0  OS-TID 25601 EMIT # 1 EVENT=ICOUNT
+BLOCK:     0   PC: 00007f28aca40a48   ICOUNT:      9504   EXECUTIONS:      1188   #BYTES: 24   %:   9.8   cumltv%:   9.8  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: aa48
+XDIS 00007f28aca40a48: BASE 4C89F1                   mov rcx, r14
+XDIS 00007f28aca40a4b: BASE 4883C201                 add rdx, 0x1
+XDIS 00007f28aca40a4f: BASE 48C1E105                 shl rcx, 0x5
+XDIS 00007f28aca40a53: BASE 4901CE                   add r14, rcx
+XDIS 00007f28aca40a56: BASE 4901C6                   add r14, rax
+XDIS 00007f28aca40a59: BASE 0FB602                   movzx eax, byte ptr [rdx]
+XDIS 00007f28aca40a5c: BASE 84C0                     test al, al
+XDIS 00007f28aca40a5e: BASE 75E8                     jnz 0x7f28aca40a48
+
+BLOCK:     1   PC: 00007f28aca425e1   ICOUNT:      7146   EXECUTIONS:      1191   #BYTES: 19   %:  7.37   cumltv%:  17.2  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c5e1
+XDIS 00007f28aca425e1: BASE 4889DA                   mov rdx, rbx
+XDIS 00007f28aca425e4: BASE 48035010                 add rdx, qword ptr [rax+0x10]
+XDIS 00007f28aca425e8: BASE 4883C018                 add rax, 0x18
+XDIS 00007f28aca425ec: BASE 4939C4                   cmp r12, rax
+XDIS 00007f28aca425ef: BASE 488911                   mov qword ptr [rcx], rdx
+XDIS 00007f28aca425f2: BASE 77D4                     jnbe 0x7f28aca425c8
+
+BLOCK:     2   PC: 00007f28aca425c8   ICOUNT:      5955   EXECUTIONS:      1191   #BYTES: 15   %:  6.14   cumltv%:  23.3  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c5c8
+XDIS 00007f28aca425c8: BASE 8B5008                   mov edx, dword ptr [rax+0x8]
+XDIS 00007f28aca425cb: BASE 4889D9                   mov rcx, rbx
+XDIS 00007f28aca425ce: BASE 480308                   add rcx, qword ptr [rax]
+XDIS 00007f28aca425d1: BASE 4883FA26                 cmp rdx, 0x26
+XDIS 00007f28aca425d5: BASE 740A                     jz 0x7f28aca425e1
+
+BLOCK:     3   PC: 00007f28aca4fdf6   ICOUNT:      5540   EXECUTIONS:      1385   #BYTES: 10   %:  5.71   cumltv%:    29  FN: realloc  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 19df6
+XDIS 00007f28aca4fdf6: BASE 48FFC7                   inc rdi
+XDIS 00007f28aca4fdf9: BASE 48FFC6                   inc rsi
+XDIS 00007f28aca4fdfc: BASE 84C0                     test al, al
+XDIS 00007f28aca4fdfe: BASE 75F0                     jnz 0x7f28aca4fdf0
+
+BLOCK:     4   PC: 00007f28aca4fdf0   ICOUNT:      4323   EXECUTIONS:      1441   #BYTES:  6   %:  4.46   cumltv%:  33.5  FN: realloc  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 19df0
+XDIS 00007f28aca4fdf0: BASE 8A07                     mov al, byte ptr [rdi]
+XDIS 00007f28aca4fdf2: BASE 3A06                     cmp al, byte ptr [rsi]
+XDIS 00007f28aca4fdf4: BASE 750D                     jnz 0x7f28aca4fe03
+
+BLOCK:     5   PC: 00007f28aca40191   ICOUNT:      2534   EXECUTIONS:       181   #BYTES: 51   %:  2.61   cumltv%:  36.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a191
+XDIS 00007f28aca40191: BASE 4489C1                   mov ecx, r8d
+XDIS 00007f28aca40194: BASE 238FF0020000             and ecx, dword ptr [rdi+0x2f0]
+XDIS 00007f28aca4019a: BASE 4C8B14C8                 mov r10, qword ptr [rax+rcx*8]
+XDIS 00007f28aca4019e: BASE 8B8FF4020000             mov ecx, dword ptr [rdi+0x2f4]
+XDIS 00007f28aca401a4: BASE 4889D8                   mov rax, rbx
+XDIS 00007f28aca401a7: BASE 48D3E8                   shr rax, cl
+XDIS 00007f28aca401aa: BASE 4889C1                   mov rcx, rax
+XDIS 00007f28aca401ad: BASE 4C89D0                   mov rax, r10
+XDIS 00007f28aca401b0: BASE 48D3E8                   shr rax, cl
+XDIS 00007f28aca401b3: BASE 4489F9                   mov ecx, r15d
+XDIS 00007f28aca401b6: BASE 49D3EA                   shr r10, cl
+XDIS 00007f28aca401b9: BASE 4C21D0                   and rax, r10
+XDIS 00007f28aca401bc: BASE A801                     test al, 0x1
+XDIS 00007f28aca401be: BASE 0F8566070000             jnz 0x7f28aca4092a
+
+BLOCK:     6   PC: 00007f28aca40090   ICOUNT:      2492   EXECUTIONS:        89   #BYTES: 120   %:  2.57   cumltv%:  38.7  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a090
+XDIS 00007f28aca40090: BASE 4157                     push r15
+XDIS 00007f28aca40092: BASE 4989D3                   mov r11, rdx
+XDIS 00007f28aca40095: BASE 4156                     push r14
+XDIS 00007f28aca40097: BASE 4155                     push r13
+XDIS 00007f28aca40099: BASE 4154                     push r12
+XDIS 00007f28aca4009b: BASE 55                       push rbp
+XDIS 00007f28aca4009c: BASE 53                       push rbx
+XDIS 00007f28aca4009d: BASE 4889F3                   mov rbx, rsi
+XDIS 00007f28aca400a0: BASE 4881EC88000000           sub rsp, 0x88
+XDIS 00007f28aca400a7: BASE 458B6108                 mov r12d, dword ptr [r9+0x8]
+XDIS 00007f28aca400ab: BASE 488B8424C8000000         mov rax, qword ptr [rsp+0xc8]
+XDIS 00007f28aca400b3: BASE 4C89442418               mov qword ptr [rsp+0x18], r8
+XDIS 00007f28aca400b8: BASE 488BAC24C0000000         mov rbp, qword ptr [rsp+0xc0]
+XDIS 00007f28aca400c0: BASE 4C8BB424D8000000         mov r14, qword ptr [rsp+0xd8]
+XDIS 00007f28aca400c8: BASE 48897C2458               mov qword ptr [rsp+0x58], rdi
+XDIS 00007f28aca400cd: BASE 48894C2468               mov qword ptr [rsp+0x68], rcx
+XDIS 00007f28aca400d2: BASE 4889442448               mov qword ptr [rsp+0x48], rax
+XDIS 00007f28aca400d7: BASE 8B8424D0000000           mov eax, dword ptr [rsp+0xd0]
+XDIS 00007f28aca400de: BASE 89442474                 mov dword ptr [rsp+0x74], eax
+XDIS 00007f28aca400e2: BASE 8B8424E0000000           mov eax, dword ptr [rsp+0xe0]
+XDIS 00007f28aca400e9: BASE 8944247C                 mov dword ptr [rsp+0x7c], eax
+XDIS 00007f28aca400ed: BASE 4D8B29                   mov r13, qword ptr [r9]
+XDIS 00007f28aca400f0: BASE 4989F0                   mov r8, rsi
+XDIS 00007f28aca400f3: BASE 4189F7                   mov r15d, esi
+XDIS 00007f28aca400f6: BASE 4C8D4C2440               lea r9, ptr [rsp+0x40]
+XDIS 00007f28aca400fb: BASE 49C1E806                 shr r8, 0x6
+XDIS 00007f28aca400ff: BASE 4183E73F                 and r15d, 0x3f
+XDIS 00007f28aca40103: BASE 0F1F440000               nop dword ptr [rax+rax*1], eax
+
+BLOCK:     7   PC: 00007f28aca425d7   ICOUNT:      2382   EXECUTIONS:      1191   #BYTES: 10   %:  2.46   cumltv%:  41.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c5d7
+XDIS 00007f28aca425d7: BASE 4883FA08                 cmp rdx, 0x8
+XDIS 00007f28aca425db: BASE 0F85E90B0000             jnz 0x7f28aca431ca
+
+BLOCK:     8   PC: 00007f28aca50b3a   ICOUNT:      2123   EXECUTIONS:      2123   #BYTES:  2   %:  2.19   cumltv%:  43.3  FN: realloc  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 1ab3a
+XDIS 00007f28aca50b3a: BASE F3AA                     rep stosb byte ptr [rdi]
+
+BLOCK:     9   PC: 00007f28aca40ac4   ICOUNT:      1691   EXECUTIONS:        89   #BYTES: 109   %:  1.74   cumltv%:  45.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: aac4
+XDIS 00007f28aca40ac4: BASE 4989C2                   mov r10, rax
+XDIS 00007f28aca40ac7: BASE 488D8570FFFFFF           lea rax, ptr [rbp-0x90]
+XDIS 00007f28aca40ace: BASE 4D89D6                   mov r14, r10
+XDIS 00007f28aca40ad1: BASE 48898540FFFFFF           mov qword ptr [rbp-0xc0], rax
+XDIS 00007f28aca40ad8: BASE 488D8560FFFFFF           lea rax, ptr [rbp-0xa0]
+XDIS 00007f28aca40adf: BASE 48898548FFFFFF           mov qword ptr [rbp-0xb8], rax
+XDIS 00007f28aca40ae6: BASE 8B4510                   mov eax, dword ptr [rbp+0x10]
+XDIS 00007f28aca40ae9: BASE 4C8B8540FFFFFF           mov r8, qword ptr [rbp-0xc0]
+XDIS 00007f28aca40af0: BASE 488B0B                   mov rcx, qword ptr [rbx]
+XDIS 00007f28aca40af3: BASE 488B9548FFFFFF           mov rdx, qword ptr [rbp-0xb8]
+XDIS 00007f28aca40afa: BASE 488BB550FFFFFF           mov rsi, qword ptr [rbp-0xb0]
+XDIS 00007f28aca40b01: BASE 488BBD58FFFFFF           mov rdi, qword ptr [rbp-0xa8]
+XDIS 00007f28aca40b08: BASE 4C897C2428               mov qword ptr [rsp+0x28], r15
+XDIS 00007f28aca40b0d: BASE 44896C2420               mov dword ptr [rsp+0x20], r13d
+XDIS 00007f28aca40b12: BASE 48C744241800000000       mov qword ptr [rsp+0x18], 0x0
+XDIS 00007f28aca40b1b: BASE 89442410                 mov dword ptr [rsp+0x10], eax
+XDIS 00007f28aca40b1f: BASE 4C89642408               mov qword ptr [rsp+0x8], r12
+XDIS 00007f28aca40b24: BASE 48C7042400000000         mov qword ptr [rsp], 0x0
+XDIS 00007f28aca40b2c: BASE E85FF5FFFF               call 0x7f28aca40090
+
+BLOCK:     a   PC: 00007f28aca40a00   ICOUNT:      1513   EXECUTIONS:        89   #BYTES: 57   %:  1.56   cumltv%:  46.6  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: aa00
+XDIS 00007f28aca40a00: BASE 55                       push rbp
+XDIS 00007f28aca40a01: BASE 4889E5                   mov rbp, rsp
+XDIS 00007f28aca40a04: BASE 4157                     push r15
+XDIS 00007f28aca40a06: BASE 4989F7                   mov r15, rsi
+XDIS 00007f28aca40a09: BASE 4156                     push r14
+XDIS 00007f28aca40a0b: BASE 4155                     push r13
+XDIS 00007f28aca40a0d: BASE 4589CD                   mov r13d, r9d
+XDIS 00007f28aca40a10: BASE 4154                     push r12
+XDIS 00007f28aca40a12: BASE 4D89C4                   mov r12, r8
+XDIS 00007f28aca40a15: BASE 53                       push rbx
+XDIS 00007f28aca40a16: BASE 4889D3                   mov rbx, rdx
+XDIS 00007f28aca40a19: BASE 4881ECF8000000           sub rsp, 0xf8
+XDIS 00007f28aca40a20: BASE 0FB607                   movzx eax, byte ptr [rdi]
+XDIS 00007f28aca40a23: BASE 4889BD58FFFFFF           mov qword ptr [rbp-0xa8], rdi
+XDIS 00007f28aca40a2a: BASE 48898D38FFFFFF           mov qword ptr [rbp-0xc8], rcx
+XDIS 00007f28aca40a31: BASE 84C0                     test al, al
+XDIS 00007f28aca40a33: BASE 0F8499010000             jz 0x7f28aca40bd2
+
+BLOCK:     b   PC: 00007f28aca4016c   ICOUNT:      1480   EXECUTIONS:       185   #BYTES: 37   %:  1.53   cumltv%:  48.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a16c
+XDIS 00007f28aca4016c: BASE 488B4770                 mov rax, qword ptr [rdi+0x70]
+XDIS 00007f28aca40170: BASE 488B7008                 mov rsi, qword ptr [rax+0x8]
+XDIS 00007f28aca40174: BASE 488B4768                 mov rax, qword ptr [rdi+0x68]
+XDIS 00007f28aca40178: BASE 488B4008                 mov rax, qword ptr [rax+0x8]
+XDIS 00007f28aca4017c: BASE 4889442460               mov qword ptr [rsp+0x60], rax
+XDIS 00007f28aca40181: BASE 488B87F8020000           mov rax, qword ptr [rdi+0x2f8]
+XDIS 00007f28aca40188: BASE 4885C0                   test rax, rax
+XDIS 00007f28aca4018b: BASE 0F8403060000             jz 0x7f28aca40794
+
+BLOCK:     c   PC: 00007f28aca40971   ICOUNT:      1328   EXECUTIONS:        83   #BYTES: 69   %:  1.37   cumltv%:  49.5  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a971
+XDIS 00007f28aca40971: BASE 488B442450               mov rax, qword ptr [rsp+0x50]
+XDIS 00007f28aca40976: BASE 4889D7                   mov rdi, rdx
+XDIS 00007f28aca40979: BASE 4D89CA                   mov r10, r9
+XDIS 00007f28aca4097c: BASE 4C895C2430               mov qword ptr [rsp+0x30], r11
+XDIS 00007f28aca40981: BASE 4C89442428               mov qword ptr [rsp+0x28], r8
+XDIS 00007f28aca40986: BASE 4C894C2408               mov qword ptr [rsp+0x8], r9
+XDIS 00007f28aca4098b: BASE 4889542420               mov qword ptr [rsp+0x20], rdx
+XDIS 00007f28aca40990: BASE 482BB808030000           sub rdi, qword ptr [rax+0x308]
+XDIS 00007f28aca40997: BASE 4889742410               mov qword ptr [rsp+0x10], rsi
+XDIS 00007f28aca4099c: BASE 4889F8                   mov rax, rdi
+XDIS 00007f28aca4099f: BASE 48C1F802                 sar rax, 0x2
+XDIS 00007f28aca409a3: BASE 89442478                 mov dword ptr [rsp+0x78], eax
+XDIS 00007f28aca409a7: BASE 89C0                     mov eax, eax
+XDIS 00007f28aca409a9: BASE 488D0440                 lea rax, ptr [rax+rax*2]
+XDIS 00007f28aca409ad: BASE 488D3CC6                 lea rdi, ptr [rsi+rax*8]
+XDIS 00007f28aca409b1: BASE E85AF5FFFF               call 0x7f28aca3ff10
+
+BLOCK:     d   PC: 00007f28aca40108   ICOUNT:      1295   EXECUTIONS:       185   #BYTES: 40   %:  1.34   cumltv%:  50.8  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a108
+XDIS 00007f28aca40108: BASE 498B44ED00               mov rax, qword ptr [r13+rbp*8]
+XDIS 00007f28aca4010d: BASE C744247000000000         mov dword ptr [rsp+0x70], 0x0
+XDIS 00007f28aca40115: BASE 48C744244000000000       mov qword ptr [rsp+0x40], 0x0
+XDIS 00007f28aca4011e: BASE 488B7828                 mov rdi, qword ptr [rax+0x28]
+XDIS 00007f28aca40122: BASE 4C39F7                   cmp rdi, r14
+XDIS 00007f28aca40125: BASE 48897C2450               mov qword ptr [rsp+0x50], rdi
+XDIS 00007f28aca4012a: BASE 0F84F0000000             jz 0x7f28aca40220
+
+BLOCK:     e   PC: 00007f28aca42652   ICOUNT:      1152   EXECUTIONS:        96   #BYTES: 58   %:  1.19   cumltv%:    52  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c652
+XDIS 00007f28aca42652: BASE 488BBD58FFFFFF           mov rdi, qword ptr [rbp-0xa8]
+XDIS 00007f28aca42659: BASE 48C1E820                 shr rax, 0x20
+XDIS 00007f28aca4265d: BASE 4D89FB                   mov r11, r15
+XDIS 00007f28aca42660: BASE 4D031C24                 add r11, qword ptr [r12]
+XDIS 00007f28aca42664: BASE 4983FD08                 cmp r13, 0x8
+XDIS 00007f28aca42668: BASE 488B93E0020000           mov rdx, qword ptr [rbx+0x2e0]
+XDIS 00007f28aca4266f: BASE 0FB70C47                 movzx ecx, word ptr [rdi+rax*2]
+XDIS 00007f28aca42673: BASE 488BBD68FFFFFF           mov rdi, qword ptr [rbp-0x98]
+XDIS 00007f28aca4267a: BASE 488D0440                 lea rax, ptr [rax+rax*2]
+XDIS 00007f28aca4267e: BASE 4C8D34C7                 lea r14, ptr [rdi+rax*8]
+XDIS 00007f28aca42682: BASE 4C897580                 mov qword ptr [rbp-0x80], r14
+XDIS 00007f28aca42686: BASE 0F842E0B0000             jz 0x7f28aca431ba
+
+BLOCK:     f   PC: 00007f28aca42716   ICOUNT:      1066   EXECUTIONS:        82   #BYTES: 71   %:   1.1   cumltv%:  53.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c716
+XDIS 00007f28aca42716: BASE 458B5008                 mov r10d, dword ptr [r8+0x8]
+XDIS 00007f28aca4271a: BASE B800000000               mov eax, 0x0
+XDIS 00007f28aca4271f: BASE 4585D2                   test r10d, r10d
+XDIS 00007f28aca42722: BASE 4C0F44C0                 cmovz r8, rax
+XDIS 00007f28aca42726: BASE 418B3E                   mov edi, dword ptr [r14]
+XDIS 00007f28aca42729: BASE 488B8D48FFFFFF           mov rcx, qword ptr [rbp-0xb8]
+XDIS 00007f28aca42730: BASE 4889DE                   mov rsi, rbx
+XDIS 00007f28aca42733: BASE 4803BD30FFFFFF           add rdi, qword ptr [rbp-0xd0]
+XDIS 00007f28aca4273a: BASE 488B9528FFFFFF           mov rdx, qword ptr [rbp-0xd8]
+XDIS 00007f28aca42741: BASE 48C744240800000000       mov qword ptr [rsp+0x8], 0x0
+XDIS 00007f28aca4274a: BASE C7042401000000           mov dword ptr [rsp], 0x1
+XDIS 00007f28aca42751: BASE 4C899D38FFFFFF           mov qword ptr [rbp-0xc8], r11
+XDIS 00007f28aca42758: BASE E8A3E2FFFF               call 0x7f28aca40a00
+
+BLOCK:    10   PC: 00007f28aca3ff10   ICOUNT:      1012   EXECUTIONS:        92   #BYTES: 34   %:  1.04   cumltv%:  54.2  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 9f10
+XDIS 00007f28aca3ff10: BASE 4155                     push r13
+XDIS 00007f28aca3ff12: BASE 4154                     push r12
+XDIS 00007f28aca3ff14: BASE 55                       push rbp
+XDIS 00007f28aca3ff15: BASE 4889FD                   mov rbp, rdi
+XDIS 00007f28aca3ff18: BASE 53                       push rbx
+XDIS 00007f28aca3ff19: BASE 4C89D3                   mov rbx, r10
+XDIS 00007f28aca3ff1c: BASE 4883EC08                 sub rsp, 0x8
+XDIS 00007f28aca3ff20: BASE 0FB64704                 movzx eax, byte ptr [rdi+0x4]
+XDIS 00007f28aca3ff24: BASE 83E00F                   and eax, 0xf
+XDIS 00007f28aca3ff27: BASE 48837F0800               cmp qword ptr [rdi+0x8], 0x0
+XDIS 00007f28aca3ff2c: BASE 0F8413010000             jz 0x7f28aca40045
+
+BLOCK:    11   PC: 00007f28aca426e4   ICOUNT:       984   EXECUTIONS:        82   #BYTES: 50   %:  1.01   cumltv%:  55.2  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c6e4
+XDIS 00007f28aca426e4: BASE 4531C9                   xor r9d, r9d
+XDIS 00007f28aca426e7: BASE 4983FD05                 cmp r13, 0x5
+XDIS 00007f28aca426eb: BASE 4C89B3F8030000           mov qword ptr [rbx+0x3f8], r14
+XDIS 00007f28aca426f2: BASE 410F94C1                 setz r9b
+XDIS 00007f28aca426f6: BASE 81E1FF7F0000             and ecx, 0x7fff
+XDIS 00007f28aca426fc: BASE 488D0449                 lea rax, ptr [rcx+rcx*2]
+XDIS 00007f28aca42700: BASE 4501C9                   add r9d, r9d
+XDIS 00007f28aca42703: BASE 4109F1                   or r9d, esi
+XDIS 00007f28aca42706: BASE 4C8D04C2                 lea r8, ptr [rdx+rax*8]
+XDIS 00007f28aca4270a: BASE 44898B00040000           mov dword ptr [rbx+0x400], r9d
+XDIS 00007f28aca42711: BASE 4D85C0                   test r8, r8
+XDIS 00007f28aca42714: BASE 7410                     jz 0x7f28aca42726
+
+BLOCK:    12   PC: 00007f28aca3ff8e   ICOUNT:       870   EXECUTIONS:        87   #BYTES: 41   %: 0.897   cumltv%:  56.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 9f8e
+XDIS 00007f28aca3ff8e: BASE 8B5338                   mov edx, dword ptr [rbx+0x38]
+XDIS 00007f28aca3ff91: BASE 440FB72C50               movzx r13d, word ptr [rax+rdx*2]
+XDIS 00007f28aca3ff96: BASE 4C89E8                   mov rax, r13
+XDIS 00007f28aca3ff99: BASE 25FF7F0000               and eax, 0x7fff
+XDIS 00007f28aca3ff9e: BASE 488D1440                 lea rdx, ptr [rax+rax*2]
+XDIS 00007f28aca3ffa2: BASE 488B86E0020000           mov rax, qword ptr [rsi+0x2e0]
+XDIS 00007f28aca3ffa9: BASE 488D04D0                 lea rax, ptr [rax+rdx*8]
+XDIS 00007f28aca3ffad: BASE 8B5808                   mov ebx, dword ptr [rax+0x8]
+XDIS 00007f28aca3ffb0: BASE 413B5C2408               cmp ebx, dword ptr [r12+0x8]
+XDIS 00007f28aca3ffb5: BASE 7479                     jz 0x7f28aca40030
+
+BLOCK:    13   PC: 00007f28aca40965   ICOUNT:       830   EXECUTIONS:       166   #BYTES: 12   %: 0.856   cumltv%:  56.9  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a965
+XDIS 00007f28aca40965: BASE 8B0A                     mov ecx, dword ptr [rdx]
+XDIS 00007f28aca40967: BASE 89C8                     mov eax, ecx
+XDIS 00007f28aca40969: BASE 4831D8                   xor rax, rbx
+XDIS 00007f28aca4096c: BASE 48D1E8                   shr rax, 0x1
+XDIS 00007f28aca4096f: BASE 75E7                     jnz 0x7f28aca40958
+
+# END_TOP_BLOCK_STATS
+# EMIT_DYNAMIC_STATS FOR TID 0  OS-TID 25601 EMIT #1
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                         6580
+*stack-write                                                        7024
+*iprel-read                                                          844
+*iprel-write                                                         317
+*mem-read-1                                                         6140
+*mem-read-2                                                          400
+*mem-read-4                                                         4051
+*mem-read-8                                                        13602
+*mem-read-16                                                          20
+*mem-write-1                                                        2228
+*mem-write-2                                                          31
+*mem-write-4                                                        1191
+*mem-write-8                                                        9041
+*isa-ext-BASE                                                      96324
+*isa-ext-LONGMODE                                                    503
+*isa-ext-SSE2                                                        152
+*isa-ext-XSAVE                                                         1
+*isa-set-CMOV                                                        248
+*isa-set-FAT_NOP                                                     458
+*isa-set-I186                                                       1988
+*isa-set-I386                                                       3198
+*isa-set-I486REAL                                                     19
+*isa-set-I86                                                       90394
+*isa-set-LONGMODE                                                    503
+*isa-set-PENTIUMREAL                                                  19
+*isa-set-SSE2                                                        152
+*isa-set-XSAVE                                                         1
+*category-BINARY                                                   23191
+*category-BITBYTE                                                    101
+*category-CALL                                                       761
+*category-CMOV                                                       248
+*category-COND_BR                                                  16752
+*category-CONVERT                                                      4
+*category-DATAXFER                                                 31305
+*category-LOGICAL                                                  10328
+*category-MISC                                                      2551
+*category-NOP                                                         12
+*category-POP                                                       2038
+*category-PUSH                                                      2054
+*category-RET                                                        757
+*category-ROTATE                                                      13
+*category-SEMAPHORE                                                    3
+*category-SETCC                                                      454
+*category-SHIFT                                                     2767
+*category-SSE                                                         84
+*category-STRINGOP                                                  2446
+*category-SYSCALL                                                     40
+*category-SYSTEM                                                      19
+*category-UNCOND_BR                                                  593
+*category-WIDENOP                                                    458
+*category-XSAVE                                                        1
+*ilen-1                                                             2467
+*ilen-2                                                            24700
+*ilen-3                                                            30524
+*ilen-4                                                            17648
+*ilen-5                                                             6203
+*ilen-6                                                             7642
+*ilen-7                                                             5693
+*ilen-8                                                             1301
+*ilen-9                                                              432
+*ilen-10                                                              62
+*ilen-11                                                             300
+*ilen-12                                                               6
+*ilen-15                                                               2
+*nop-ilen-1                                                            5
+*nop-ilen-2                                                            7
+*nop-ilen-3                                                           15
+*nop-ilen-4                                                           16
+*nop-ilen-5                                                          186
+*nop-ilen-6                                                          102
+*nop-ilen-7                                                           10
+*nop-ilen-8                                                           97
+*nop-ilen-9                                                            6
+*nop-ilen-10                                                          22
+*nop-ilen-12                                                           2
+*nop-ilen-15                                                           2
+*sse-packed                                                          152
+*gpr64                                                             55799
+*legacy-prefixes-0                                                 40632
+*legacy-prefixes-1                                                 55995
+*legacy-prefixes-2                                                   353
+*legacy-prefixes-and-escapes-0                                     31777
+*legacy-prefixes-and-escapes-1                                     63619
+*legacy-prefixes-and-escapes-2                                      1577
+*legacy-prefixes-and-escapes-3                                         7
+*segment_prefix                                                       38
+*rep_prefix                                                         2446
+*66_prefix                                                           422
+*rex_prefix                                                        53795
+*rexw_prefix                                                       47882
+*rexr_prefix                                                        8723
+*rexx_prefix                                                         198
+*rexb_prefix                                                       12871
+*loadop                                                            15711
+*one-memops                                                        36873
+*two-memops                                                           40
+*cond-branch-forward                                               11037
+*cond-branch-backward                                               5715
+*disp_only                                                            34
+*index_disp                                                            5
+*base_only                                                         17425
+*base_disp                                                         18003
+*base_index                                                          799
+*base_index_disp                                                     647
+*scale_1                                                           37473
+*scale_2                                                             628
+*scale_4                                                             334
+*scale_8                                                            1013
+*memdisp8                                                          12728
+*memdisp32                                                          7369
+*elements_i1_128                                                      26
+*elements_i8_16                                                       39
+*elements_i32_1                                                       24
+*elements_i32_4                                                       21
+*convert_i32_1                                                         3
+*convert_i64_1                                                         1
+*dataxfer_i32_1                                                        7
+*dataxfer_i32_4                                                       35
+ADD                                                                 9829
+AND                                                                 1506
+BSF                                                                    7
+BSR                                                                    2
+BT                                                                    92
+CALL_NEAR                                                            761
+CDQE                                                                   3
+CMOVB                                                                 91
+CMOVBE                                                                38
+CMOVNBE                                                                5
+CMOVNZ                                                                19
+CMOVZ                                                                 95
+CMP                                                                 9379
+CMPXCHG                                                                3
+CPUID                                                                 16
+CQO                                                                    1
+DEC                                                                   37
+DIV                                                                   92
+IDIV                                                                   1
+IMUL                                                                  22
+INC                                                                 2867
+JB                                                                    54
+JBE                                                                  234
+JLE                                                                   20
+JMP                                                                  593
+JNB                                                                  388
+JNBE                                                                1662
+JNLE                                                                 103
+JNS                                                                   11
+JNZ                                                                 8050
+JS                                                                    15
+JZ                                                                  6215
+LEA                                                                 2535
+MOV                                                                28463
+MOVD                                                                   7
+MOVDQA                                                                15
+MOVDQU                                                                20
+MOVSX                                                                104
+MOVSXD                                                               147
+MOVZX                                                               2539
+MUL                                                                    4
+NEG                                                                   86
+NOP                                                                  470
+NOT                                                                    8
+OR                                                                   305
+PCMPEQB                                                               39
+PMOVMSKB                                                              24
+POP                                                                 2038
+POR                                                                   15
+PSHUFD                                                                 7
+PUNPCKLBW                                                              7
+PUNPCKLWD                                                              7
+PUSH                                                                2054
+PXOR                                                                  11
+RDTSC                                                                 19
+REP_STOSB                                                           2134
+REP_STOSQ                                                            312
+RET_NEAR                                                             757
+ROL                                                                   12
+ROR                                                                    1
+SAR                                                                  106
+SBB                                                                    4
+SETBE                                                                 85
+SETNZ                                                                 19
+SETZ                                                                 350
+SHL                                                                 1395
+SHR                                                                 1266
+SUB                                                                  870
+SYSCALL                                                               40
+TEST                                                                7342
+XCHG                                                                  10
+XGETBV                                                                 1
+XOR                                                                 1141
+*total                                                             96980
+# END_DYNAMIC_STATS
+# FUNCTION TOTALS FOR TID 0  OS-TID 25601
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+   0:        66974  69.060  69.060             0      7f28aca3f8b0 _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2
+   1:        15835  16.328  85.388             0      7f28aca4df40 realloc          IMG: /lib64/ld-linux-x86-64.so.2
+   2:         5317   5.483  90.870             0      7f28aca36b00 .text            IMG: /lib64/ld-linux-x86-64.so.2
+   3:         2238   2.308  93.178             2      7f28aca46b10 _dl_debug_state  IMG: /lib64/ld-linux-x86-64.so.2
+   4:         1861   1.919  95.097             0      7f28aca4a3b0 _dl_find_dso_for_object  IMG: /lib64/ld-linux-x86-64.so.2
+   5:          901   0.929  96.026             0      7f2897695440 envz_strip       IMG: /lib/x86_64-linux-gnu/libc.so.6
+   6:          740   0.763  96.789            23      7f28aca4dc70 __libc_memalign  IMG: /lib64/ld-linux-x86-64.so.2
+                96980 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 25601 EMIT# 1
+#
+# $dynamic-counts-for-function: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca3f8b0, 0x7f28aca3ff04)  69.060%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                         5276
+*stack-write                                                        5926
+*iprel-read                                                          423
+*iprel-write                                                         107
+*mem-read-1                                                         2519
+*mem-read-2                                                          286
+*mem-read-4                                                         3537
+*mem-read-8                                                        10973
+*mem-write-1                                                          26
+*mem-write-2                                                           5
+*mem-write-4                                                         991
+*mem-write-8                                                        7124
+*isa-ext-BASE                                                      66849
+*isa-ext-LONGMODE                                                    125
+*isa-set-CMOV                                                         96
+*isa-set-FAT_NOP                                                     378
+*isa-set-I186                                                       1783
+*isa-set-I386                                                       2639
+*isa-set-I86                                                       61953
+*isa-set-LONGMODE                                                    125
+*category-BINARY                                                   15473
+*category-BITBYTE                                                     92
+*category-CALL                                                       449
+*category-CMOV                                                        96
+*category-COND_BR                                                  10751
+*category-CONVERT                                                      1
+*category-DATAXFER                                                 24676
+*category-LOGICAL                                                   6784
+*category-MISC                                                      1676
+*category-NOP                                                          2
+*category-POP                                                       1542
+*category-PUSH                                                      1542
+*category-RET                                                        296
+*category-SETCC                                                      432
+*category-SHIFT                                                     2497
+*category-STRINGOP                                                    24
+*category-UNCOND_BR                                                  263
+*category-WIDENOP                                                    378
+*ilen-1                                                             1470
+*ilen-2                                                            11286
+*ilen-3                                                            22280
+*ilen-4                                                            14247
+*ilen-5                                                             4908
+*ilen-6                                                             6295
+*ilen-7                                                             4738
+*ilen-8                                                             1075
+*ilen-9                                                              372
+*ilen-10                                                              17
+*ilen-11                                                             283
+*ilen-12                                                               3
+*nop-ilen-1                                                            2
+*nop-ilen-3                                                            3
+*nop-ilen-4                                                            4
+*nop-ilen-5                                                          179
+*nop-ilen-6                                                           91
+*nop-ilen-7                                                            2
+*nop-ilen-8                                                           85
+*nop-ilen-9                                                            2
+*nop-ilen-10                                                          12
+*gpr64                                                             41273
+*legacy-prefixes-0                                                 24806
+*legacy-prefixes-1                                                 42136
+*legacy-prefixes-2                                                    32
+*legacy-prefixes-and-escapes-0                                     17479
+*legacy-prefixes-and-escapes-1                                     48668
+*legacy-prefixes-and-escapes-2                                       827
+*segment_prefix                                                       18
+*rep_prefix                                                           24
+*66_prefix                                                           204
+*rex_prefix                                                        41954
+*rexw_prefix                                                       37345
+*rexr_prefix                                                        7281
+*rexx_prefix                                                         122
+*rexb_prefix                                                       10891
+*loadop                                                             9115
+*one-memops                                                        25675
+*two-memops                                                           11
+*cond-branch-forward                                                7375
+*cond-branch-backward                                               3376
+*disp_only                                                            18
+*base_only                                                          9172
+*base_disp                                                         15349
+*base_index                                                          582
+*base_index_disp                                                     565
+*scale_1                                                           25739
+*scale_2                                                             565
+*scale_4                                                             280
+*scale_8                                                             778
+*memdisp8                                                          10648
+*memdisp32                                                          6090
+*convert_i32_1                                                         1
+ADD                                                                 8609
+AND                                                                 1212
+BT                                                                    92
+CALL_NEAR                                                            449
+CDQE                                                                   1
+CMOVBE                                                                 2
+CMOVNZ                                                                 8
+CMOVZ                                                                 86
+CMP                                                                 6332
+DIV                                                                   89
+JB                                                                     8
+JBE                                                                   36
+JMP                                                                  263
+JNB                                                                  110
+JNBE                                                                1486
+JNLE                                                                  89
+JNS                                                                    4
+JNZ                                                                 4136
+JS                                                                     1
+JZ                                                                  4881
+LEA                                                                 1676
+MOV                                                                22461
+MOVSXD                                                               100
+MOVZX                                                               2115
+MUL                                                                    2
+NEG                                                                    4
+NOP                                                                  380
+NOT                                                                    3
+OR                                                                   187
+POP                                                                 1542
+PUSH                                                                1542
+REP_STOSQ                                                             24
+RET_NEAR                                                             296
+SAR                                                                   83
+SBB                                                                    3
+SETBE                                                                 85
+SETNZ                                                                  4
+SETZ                                                                 343
+SHL                                                                 1282
+SHR                                                                 1132
+SUB                                                                  434
+TEST                                                                4599
+XOR                                                                  783
+*total                                                             66974
+#
+# $dynamic-counts-for-function: realloc  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca4df40, 0x7f28aca4dfcd)  16.328%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                          341
+*stack-write                                                          55
+*iprel-read                                                            8
+*iprel-write                                                           4
+*mem-read-1                                                         3209
+*mem-read-2                                                           18
+*mem-read-4                                                            7
+*mem-read-8                                                          436
+*mem-read-16                                                          15
+*mem-write-1                                                        2150
+*mem-write-2                                                          18
+*mem-write-4                                                          20
+*mem-write-8                                                         119
+*isa-ext-BASE                                                      15680
+*isa-ext-LONGMODE                                                     38
+*isa-ext-SSE2                                                        117
+*isa-set-CMOV                                                         62
+*isa-set-FAT_NOP                                                      34
+*isa-set-I186                                                         29
+*isa-set-I386                                                        188
+*isa-set-I86                                                       15367
+*isa-set-LONGMODE                                                     38
+*isa-set-SSE2                                                        117
+*category-BINARY                                                    5113
+*category-BITBYTE                                                      6
+*category-CMOV                                                        62
+*category-COND_BR                                                   3602
+*category-CONVERT                                                      1
+*category-DATAXFER                                                  2346
+*category-LOGICAL                                                   1912
+*category-MISC                                                        68
+*category-POP                                                         50
+*category-PUSH                                                        50
+*category-RET                                                        280
+*category-ROTATE                                                       6
+*category-SHIFT                                                       31
+*category-SSE                                                         63
+*category-STRINGOP                                                  2134
+*category-SYSCALL                                                     35
+*category-UNCOND_BR                                                   42
+*category-WIDENOP                                                     34
+*ilen-1                                                              298
+*ilen-2                                                            10462
+*ilen-3                                                             3936
+*ilen-4                                                              705
+*ilen-5                                                              202
+*ilen-6                                                              174
+*ilen-7                                                               41
+*ilen-8                                                                3
+*ilen-9                                                                1
+*ilen-10                                                               9
+*ilen-12                                                               2
+*ilen-15                                                               2
+*nop-ilen-3                                                           10
+*nop-ilen-4                                                            7
+*nop-ilen-6                                                            9
+*nop-ilen-8                                                            3
+*nop-ilen-9                                                            1
+*nop-ilen-12                                                           2
+*nop-ilen-15                                                           2
+*sse-packed                                                          117
+*gpr64                                                              6593
+*legacy-prefixes-0                                                  9383
+*legacy-prefixes-1                                                  6452
+*legacy-prefixes-and-escapes-0                                      9049
+*legacy-prefixes-and-escapes-1                                      6601
+*legacy-prefixes-and-escapes-2                                       185
+*rep_prefix                                                         2134
+*66_prefix                                                           134
+*rex_prefix                                                         4184
+*rexw_prefix                                                        4044
+*rexr_prefix                                                         152
+*rexb_prefix                                                         215
+*loadop                                                             4170
+*one-memops                                                         6026
+*cond-branch-forward                                                2010
+*cond-branch-backward                                               1592
+*base_only                                                          5858
+*base_disp                                                           104
+*base_index                                                           47
+*base_index_disp                                                      17
+*scale_1                                                            6094
+*memdisp8                                                            152
+*memdisp32                                                            31
+*elements_i1_128                                                      21
+*elements_i8_16                                                       30
+*elements_i32_1                                                       15
+*elements_i32_4                                                       18
+*convert_i32_1                                                         1
+*dataxfer_i32_1                                                        6
+*dataxfer_i32_4                                                       27
+ADD                                                                  311
+AND                                                                   81
+BSF                                                                    6
+CDQE                                                                   1
+CMOVB                                                                 56
+CMOVNZ                                                                 6
+CMP                                                                 1777
+DEC                                                                   34
+INC                                                                 2866
+JB                                                                     4
+JBE                                                                    8
+JMP                                                                   42
+JNB                                                                   91
+JNBE                                                                  20
+JNLE                                                                   6
+JNZ                                                                 3095
+JZ                                                                   378
+LEA                                                                   68
+MOV                                                                 2129
+MOVD                                                                   6
+MOVDQA                                                                12
+MOVDQU                                                                15
+MOVSXD                                                                 2
+MOVZX                                                                182
+NEG                                                                   23
+NOP                                                                   34
+OR                                                                    46
+PCMPEQB                                                               30
+PMOVMSKB                                                              15
+POP                                                                   50
+POR                                                                   15
+PSHUFD                                                                 6
+PUNPCKLBW                                                              6
+PUNPCKLWD                                                              6
+PUSH                                                                  50
+PXOR                                                                   6
+REP_STOSB                                                           2134
+RET_NEAR                                                             280
+ROL                                                                    6
+SHL                                                                   15
+SHR                                                                   16
+SUB                                                                  102
+SYSCALL                                                               35
+TEST                                                                1614
+XOR                                                                  150
+*total                                                             15835
+#
+# $dynamic-counts-for-function: .text  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca36b00, 0x7f28aca3f8b0)   5.483%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                          368
+*stack-write                                                         402
+*iprel-read                                                          175
+*iprel-write                                                          68
+*mem-read-1                                                          131
+*mem-read-2                                                           13
+*mem-read-4                                                          161
+*mem-read-8                                                          894
+*mem-write-1                                                          28
+*mem-write-2                                                           7
+*mem-write-4                                                          67
+*mem-write-8                                                         645
+*isa-ext-BASE                                                       5303
+*isa-ext-LONGMODE                                                     14
+*isa-set-CMOV                                                         44
+*isa-set-FAT_NOP                                                      12
+*isa-set-I186                                                         85
+*isa-set-I386                                                        123
+*isa-set-I86                                                        5020
+*isa-set-LONGMODE                                                     14
+*isa-set-PENTIUMREAL                                                  19
+*category-BINARY                                                    1087
+*category-CALL                                                       142
+*category-CMOV                                                        44
+*category-COND_BR                                                    915
+*category-DATAXFER                                                  1752
+*category-LOGICAL                                                    588
+*category-MISC                                                       303
+*category-NOP                                                          5
+*category-POP                                                        116
+*category-PUSH                                                       116
+*category-RET                                                         31
+*category-SETCC                                                       16
+*category-SHIFT                                                       91
+*category-SYSCALL                                                      1
+*category-SYSTEM                                                      19
+*category-UNCOND_BR                                                   79
+*category-WIDENOP                                                     12
+*ilen-1                                                              115
+*ilen-2                                                              966
+*ilen-3                                                             1451
+*ilen-4                                                             1106
+*ilen-5                                                              513
+*ilen-6                                                              508
+*ilen-7                                                              463
+*ilen-8                                                              143
+*ilen-9                                                               23
+*ilen-10                                                              17
+*ilen-11                                                              11
+*ilen-12                                                               1
+*nop-ilen-2                                                            5
+*nop-ilen-4                                                            4
+*nop-ilen-5                                                            2
+*nop-ilen-6                                                            1
+*nop-ilen-7                                                            4
+*nop-ilen-10                                                           1
+*gpr64                                                              3239
+*legacy-prefixes-0                                                  2069
+*legacy-prefixes-1                                                  3241
+*legacy-prefixes-2                                                     7
+*legacy-prefixes-and-escapes-0                                      1581
+*legacy-prefixes-and-escapes-1                                      3610
+*legacy-prefixes-and-escapes-2                                       126
+*segment_prefix                                                        2
+*66_prefix                                                            18
+*rex_prefix                                                         3235
+*rexw_prefix                                                        2821
+*rexr_prefix                                                         608
+*rexx_prefix                                                          51
+*rexb_prefix                                                         953
+*loadop                                                              738
+*one-memops                                                         1908
+*cond-branch-forward                                                 601
+*cond-branch-backward                                                314
+*disp_only                                                             2
+*index_disp                                                            5
+*base_only                                                           677
+*base_disp                                                          1073
+*base_index                                                          117
+*base_index_disp                                                      34
+*scale_1                                                            2024
+*scale_2                                                              17
+*scale_4                                                              35
+*scale_8                                                             135
+*memdisp8                                                            704
+*memdisp32                                                           660
+ADD                                                                  374
+AND                                                                   54
+CALL_NEAR                                                            142
+CMOVBE                                                                36
+CMOVNBE                                                                4
+CMOVNZ                                                                 2
+CMOVZ                                                                  2
+CMP                                                                  527
+IMUL                                                                   1
+INC                                                                    1
+JB                                                                    17
+JBE                                                                  123
+JLE                                                                    2
+JMP                                                                   79
+JNB                                                                   40
+JNBE                                                                  51
+JNLE                                                                   1
+JNZ                                                                  243
+JS                                                                     4
+JZ                                                                   434
+LEA                                                                  303
+MOV                                                                 1632
+MOVSXD                                                                13
+MOVZX                                                                107
+MUL                                                                    2
+NEG                                                                    8
+NOP                                                                   17
+NOT                                                                    3
+OR                                                                    39
+POP                                                                  116
+PUSH                                                                 116
+RDTSC                                                                 19
+RET_NEAR                                                              31
+SAR                                                                    5
+SBB                                                                    1
+SETNZ                                                                 10
+SETZ                                                                   6
+SHL                                                                   69
+SHR                                                                   17
+SUB                                                                  173
+SYSCALL                                                                1
+TEST                                                                 426
+XOR                                                                   66
+*total                                                              5317
+#
+# $dynamic-counts-for-function: _dl_debug_state  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca46b10, 0x7f28aca46b12)   2.308%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                          174
+*stack-write                                                         207
+*iprel-read                                                            7
+*mem-read-1                                                           40
+*mem-read-2                                                           78
+*mem-read-4                                                          203
+*mem-read-8                                                          358
+*mem-write-4                                                          52
+*mem-write-8                                                         265
+*isa-ext-BASE                                                       2238
+*isa-set-CMOV                                                         34
+*isa-set-FAT_NOP                                                       4
+*isa-set-I186                                                          3
+*isa-set-I386                                                         82
+*isa-set-I86                                                        2115
+*category-BINARY                                                     248
+*category-CALL                                                        76
+*category-CMOV                                                        34
+*category-COND_BR                                                    311
+*category-DATAXFER                                                   835
+*category-LOGICAL                                                    402
+*category-MISC                                                        75
+*category-POP                                                         98
+*category-PUSH                                                        98
+*category-RET                                                         38
+*category-SETCC                                                        4
+*category-SHIFT                                                        3
+*category-UNCOND_BR                                                   12
+*category-WIDENOP                                                      4
+*ilen-1                                                              166
+*ilen-2                                                              552
+*ilen-3                                                              720
+*ilen-4                                                              464
+*ilen-5                                                              131
+*ilen-6                                                              110
+*ilen-7                                                               66
+*ilen-8                                                               27
+*ilen-9                                                                2
+*nop-ilen-5                                                            2
+*nop-ilen-9                                                            2
+*gpr64                                                              1089
+*legacy-prefixes-0                                                  1210
+*legacy-prefixes-1                                                  1028
+*legacy-prefixes-and-escapes-0                                      1083
+*legacy-prefixes-and-escapes-1                                      1110
+*legacy-prefixes-and-escapes-2                                        45
+*66_prefix                                                            20
+*rex_prefix                                                         1008
+*rexw_prefix                                                         779
+*rexr_prefix                                                         193
+*rexb_prefix                                                         185
+*loadop                                                              397
+*one-memops                                                          998
+*cond-branch-forward                                                 189
+*cond-branch-backward                                                122
+*base_only                                                           407
+*base_disp                                                           554
+*base_index                                                           33
+*base_index_disp                                                       4
+*scale_1                                                            1010
+*scale_2                                                              30
+*scale_8                                                              33
+*memdisp8                                                            505
+*memdisp32                                                            65
+ADD                                                                  151
+AND                                                                   69
+CALL_NEAR                                                             76
+CMOVB                                                                 33
+CMOVZ                                                                  1
+CMP                                                                   64
+JBE                                                                    3
+JMP                                                                   12
+JNZ                                                                  182
+JS                                                                     2
+JZ                                                                   124
+LEA                                                                   75
+MOV                                                                  757
+MOVZX                                                                 78
+NOP                                                                    4
+OR                                                                     7
+POP                                                                   98
+PUSH                                                                  98
+RET_NEAR                                                              38
+SETNZ                                                                  4
+SHL                                                                    3
+SUB                                                                   33
+TEST                                                                 285
+XOR                                                                   41
+*total                                                              2238
+#
+# $dynamic-counts-for-function: _dl_find_dso_for_object  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca4a3b0, 0x7f28aca4a497)   1.919%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                           73
+*stack-write                                                          71
+*iprel-read                                                           34
+*iprel-write                                                          19
+*mem-read-1                                                          155
+*mem-read-2                                                            2
+*mem-read-4                                                           49
+*mem-read-8                                                          217
+*mem-write-2                                                           1
+*mem-write-4                                                           5
+*mem-write-8                                                          85
+*isa-ext-BASE                                                       1831
+*isa-ext-LONGMODE                                                     30
+*isa-set-FAT_NOP                                                      14
+*isa-set-I186                                                          6
+*isa-set-I386                                                        106
+*isa-set-I86                                                        1705
+*isa-set-LONGMODE                                                     30
+*category-BINARY                                                     563
+*category-CALL                                                        22
+*category-COND_BR                                                    445
+*category-CONVERT                                                      1
+*category-DATAXFER                                                   391
+*category-LOGICAL                                                    153
+*category-MISC                                                       166
+*category-NOP                                                          4
+*category-POP                                                         18
+*category-PUSH                                                        18
+*category-RET                                                         16
+*category-SHIFT                                                       13
+*category-UNCOND_BR                                                   37
+*category-WIDENOP                                                     14
+*ilen-1                                                               30
+*ilen-2                                                              515
+*ilen-3                                                              524
+*ilen-4                                                              477
+*ilen-5                                                              106
+*ilen-6                                                              135
+*ilen-7                                                               57
+*ilen-8                                                                4
+*ilen-10                                                              11
+*ilen-11                                                               2
+*nop-ilen-1                                                            3
+*nop-ilen-2                                                            1
+*nop-ilen-4                                                            1
+*nop-ilen-5                                                            3
+*nop-ilen-6                                                            1
+*nop-ilen-10                                                           9
+*gpr64                                                               765
+*legacy-prefixes-0                                                  1082
+*legacy-prefixes-1                                                   778
+*legacy-prefixes-2                                                     1
+*legacy-prefixes-and-escapes-0                                       845
+*legacy-prefixes-and-escapes-1                                      1003
+*legacy-prefixes-and-escapes-2                                        13
+*66_prefix                                                            12
+*rex_prefix                                                          768
+*rexw_prefix                                                         670
+*rexr_prefix                                                          93
+*rexx_prefix                                                           6
+*rexb_prefix                                                          93
+*loadop                                                              201
+*one-memops                                                          527
+*cond-branch-forward                                                 272
+*cond-branch-backward                                                173
+*base_only                                                           262
+*base_disp                                                           231
+*base_index                                                           18
+*base_index_disp                                                      16
+*scale_1                                                             650
+*scale_2                                                              12
+*scale_4                                                              19
+*scale_8                                                              12
+*memdisp8                                                            307
+*memdisp32                                                            74
+*convert_i32_1                                                         1
+ADD                                                                  228
+AND                                                                    2
+CALL_NEAR                                                             22
+CDQE                                                                   1
+CMP                                                                  299
+JB                                                                     2
+JBE                                                                   58
+JLE                                                                    6
+JMP                                                                   37
+JNB                                                                    2
+JNBE                                                                  75
+JNLE                                                                   4
+JNS                                                                    6
+JNZ                                                                  211
+JS                                                                     1
+JZ                                                                    80
+LEA                                                                  166
+MOV                                                                  256
+MOVSX                                                                104
+MOVSXD                                                                29
+MOVZX                                                                  2
+NEG                                                                    2
+NOP                                                                   18
+NOT                                                                    1
+OR                                                                     1
+POP                                                                   18
+PUSH                                                                  18
+RET_NEAR                                                              16
+SAR                                                                    7
+SHR                                                                    6
+SUB                                                                   34
+TEST                                                                 139
+XOR                                                                   10
+*total                                                              1861
+#
+# $dynamic-counts-for-function: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6 at [0x7f2897695440, 0x7f28976954b5)   0.929%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                           30
+*stack-write                                                          38
+*mem-read-1                                                           54
+*mem-read-8                                                           30
+*mem-write-1                                                           4
+*mem-write-4                                                           6
+*mem-write-8                                                          28
+*isa-ext-BASE                                                        901
+*isa-set-FAT_NOP                                                      12
+*isa-set-I186                                                         21
+*isa-set-I386                                                         12
+*isa-set-I486REAL                                                      7
+*isa-set-I86                                                         849
+*category-BINARY                                                     222
+*category-CALL                                                         4
+*category-COND_BR                                                    234
+*category-DATAXFER                                                   138
+*category-LOGICAL                                                     52
+*category-MISC                                                       101
+*category-POP                                                         24
+*category-PUSH                                                        24
+*category-RET                                                          6
+*category-SHIFT                                                       75
+*category-UNCOND_BR                                                    9
+*category-WIDENOP                                                     12
+*ilen-1                                                               30
+*ilen-2                                                              269
+*ilen-3                                                              353
+*ilen-4                                                              124
+*ilen-5                                                               32
+*ilen-6                                                               59
+*ilen-7                                                               24
+*ilen-8                                                               10
+*nop-ilen-7                                                            4
+*nop-ilen-8                                                            8
+*gpr64                                                               356
+*legacy-prefixes-0                                                   430
+*legacy-prefixes-1                                                   471
+*legacy-prefixes-and-escapes-0                                       354
+*legacy-prefixes-and-escapes-1                                       535
+*legacy-prefixes-and-escapes-2                                        12
+*rex_prefix                                                          471
+*rexw_prefix                                                         298
+*rexr_prefix                                                         217
+*rexx_prefix                                                          14
+*rexb_prefix                                                         248
+*loadop                                                              124
+*one-memops                                                          134
+*cond-branch-forward                                                 165
+*cond-branch-backward                                                 69
+*base_only                                                           112
+*base_disp                                                            14
+*base_index_disp                                                       8
+*scale_1                                                             170
+*scale_2                                                               4
+*scale_8                                                              54
+*memdisp8                                                             22
+*memdisp32                                                            22
+ADD                                                                   53
+AND                                                                   11
+CALL_NEAR                                                              4
+CMP                                                                  151
+CPUID                                                                  7
+IMUL                                                                  10
+JBE                                                                    2
+JMP                                                                    9
+JNB                                                                  100
+JNBE                                                                   8
+JNZ                                                                   67
+JS                                                                     4
+JZ                                                                    53
+LEA                                                                   94
+MOV                                                                  116
+MOVZX                                                                 12
+NOP                                                                   12
+POP                                                                   24
+PUSH                                                                  24
+RET_NEAR                                                               6
+SAR                                                                    4
+SHR                                                                   71
+SUB                                                                    8
+TEST                                                                  25
+XCHG                                                                  10
+XOR                                                                   16
+*total                                                               901
+#
+# $dynamic-counts-for-function: __libc_memalign  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca4dc70, 0x7f28aca4dd7c)   0.763%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                           69
+*stack-write                                                          49
+*iprel-read                                                           55
+*iprel-write                                                          73
+*mem-read-8                                                          124
+*mem-write-8                                                         122
+*isa-ext-BASE                                                        740
+*isa-set-CMOV                                                          3
+*isa-set-I86                                                         737
+*category-BINARY                                                     148
+*category-CALL                                                         3
+*category-CMOV                                                         3
+*category-COND_BR                                                     72
+*category-DATAXFER                                                   271
+*category-LOGICAL                                                     56
+*category-MISC                                                        51
+*category-POP                                                         46
+*category-PUSH                                                        46
+*category-RET                                                         23
+*category-UNCOND_BR                                                   21
+*ilen-1                                                              115
+*ilen-2                                                               69
+*ilen-3                                                              289
+*ilen-4                                                               72
+*ilen-5                                                               37
+*ilen-6                                                               29
+*ilen-7                                                              126
+*ilen-8                                                                3
+*gpr64                                                               632
+*legacy-prefixes-0                                                   220
+*legacy-prefixes-1                                                   520
+*legacy-prefixes-and-escapes-0                                       194
+*legacy-prefixes-and-escapes-1                                       543
+*legacy-prefixes-and-escapes-2                                         3
+*rex_prefix                                                          520
+*rexw_prefix                                                         514
+*rexr_prefix                                                           3
+*rexb_prefix                                                           6
+*loadop                                                              124
+*one-memops                                                          246
+*cond-branch-forward                                                  72
+*base_only                                                           118
+*base_disp                                                           128
+*scale_1                                                             297
+*memdisp8                                                             27
+*memdisp32                                                           129
+ADD                                                                   29
+AND                                                                   27
+CALL_NEAR                                                              3
+CMOVZ                                                                  3
+CMP                                                                   49
+JB                                                                    20
+JMP                                                                   21
+JNB                                                                   23
+JZ                                                                    29
+LEA                                                                   51
+MOV                                                                  271
+NEG                                                                   47
+POP                                                                   46
+PUSH                                                                  46
+RET_NEAR                                                              23
+SUB                                                                   23
+TEST                                                                  23
+XOR                                                                    6
+*total                                                               740
+# END_PER_FUNCTION_STATS 
+# EMIT_GLOBAL_TOP_BLOCK_STATS EVENT=ICOUNT
+BLOCK:     0   PC: 00007f28aca40a48   ICOUNT:      9504   EXECUTIONS:      1188   #BYTES: 24   %:   9.8   cumltv%:   9.8  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: aa48
+XDIS 00007f28aca40a48: BASE 4C89F1                   mov rcx, r14
+XDIS 00007f28aca40a4b: BASE 4883C201                 add rdx, 0x1
+XDIS 00007f28aca40a4f: BASE 48C1E105                 shl rcx, 0x5
+XDIS 00007f28aca40a53: BASE 4901CE                   add r14, rcx
+XDIS 00007f28aca40a56: BASE 4901C6                   add r14, rax
+XDIS 00007f28aca40a59: BASE 0FB602                   movzx eax, byte ptr [rdx]
+XDIS 00007f28aca40a5c: BASE 84C0                     test al, al
+XDIS 00007f28aca40a5e: BASE 75E8                     jnz 0x7f28aca40a48
+
+BLOCK:     1   PC: 00007f28aca425e1   ICOUNT:      7146   EXECUTIONS:      1191   #BYTES: 19   %:  7.37   cumltv%:  17.2  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c5e1
+XDIS 00007f28aca425e1: BASE 4889DA                   mov rdx, rbx
+XDIS 00007f28aca425e4: BASE 48035010                 add rdx, qword ptr [rax+0x10]
+XDIS 00007f28aca425e8: BASE 4883C018                 add rax, 0x18
+XDIS 00007f28aca425ec: BASE 4939C4                   cmp r12, rax
+XDIS 00007f28aca425ef: BASE 488911                   mov qword ptr [rcx], rdx
+XDIS 00007f28aca425f2: BASE 77D4                     jnbe 0x7f28aca425c8
+
+BLOCK:     2   PC: 00007f28aca425c8   ICOUNT:      5955   EXECUTIONS:      1191   #BYTES: 15   %:  6.14   cumltv%:  23.3  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c5c8
+XDIS 00007f28aca425c8: BASE 8B5008                   mov edx, dword ptr [rax+0x8]
+XDIS 00007f28aca425cb: BASE 4889D9                   mov rcx, rbx
+XDIS 00007f28aca425ce: BASE 480308                   add rcx, qword ptr [rax]
+XDIS 00007f28aca425d1: BASE 4883FA26                 cmp rdx, 0x26
+XDIS 00007f28aca425d5: BASE 740A                     jz 0x7f28aca425e1
+
+BLOCK:     3   PC: 00007f28aca4fdf6   ICOUNT:      5540   EXECUTIONS:      1385   #BYTES: 10   %:  5.71   cumltv%:    29  FN: realloc  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 19df6
+XDIS 00007f28aca4fdf6: BASE 48FFC7                   inc rdi
+XDIS 00007f28aca4fdf9: BASE 48FFC6                   inc rsi
+XDIS 00007f28aca4fdfc: BASE 84C0                     test al, al
+XDIS 00007f28aca4fdfe: BASE 75F0                     jnz 0x7f28aca4fdf0
+
+BLOCK:     4   PC: 00007f28aca4fdf0   ICOUNT:      4323   EXECUTIONS:      1441   #BYTES:  6   %:  4.46   cumltv%:  33.5  FN: realloc  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 19df0
+XDIS 00007f28aca4fdf0: BASE 8A07                     mov al, byte ptr [rdi]
+XDIS 00007f28aca4fdf2: BASE 3A06                     cmp al, byte ptr [rsi]
+XDIS 00007f28aca4fdf4: BASE 750D                     jnz 0x7f28aca4fe03
+
+BLOCK:     5   PC: 00007f28aca40191   ICOUNT:      2534   EXECUTIONS:       181   #BYTES: 51   %:  2.61   cumltv%:  36.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a191
+XDIS 00007f28aca40191: BASE 4489C1                   mov ecx, r8d
+XDIS 00007f28aca40194: BASE 238FF0020000             and ecx, dword ptr [rdi+0x2f0]
+XDIS 00007f28aca4019a: BASE 4C8B14C8                 mov r10, qword ptr [rax+rcx*8]
+XDIS 00007f28aca4019e: BASE 8B8FF4020000             mov ecx, dword ptr [rdi+0x2f4]
+XDIS 00007f28aca401a4: BASE 4889D8                   mov rax, rbx
+XDIS 00007f28aca401a7: BASE 48D3E8                   shr rax, cl
+XDIS 00007f28aca401aa: BASE 4889C1                   mov rcx, rax
+XDIS 00007f28aca401ad: BASE 4C89D0                   mov rax, r10
+XDIS 00007f28aca401b0: BASE 48D3E8                   shr rax, cl
+XDIS 00007f28aca401b3: BASE 4489F9                   mov ecx, r15d
+XDIS 00007f28aca401b6: BASE 49D3EA                   shr r10, cl
+XDIS 00007f28aca401b9: BASE 4C21D0                   and rax, r10
+XDIS 00007f28aca401bc: BASE A801                     test al, 0x1
+XDIS 00007f28aca401be: BASE 0F8566070000             jnz 0x7f28aca4092a
+
+BLOCK:     6   PC: 00007f28aca40090   ICOUNT:      2492   EXECUTIONS:        89   #BYTES: 120   %:  2.57   cumltv%:  38.7  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a090
+XDIS 00007f28aca40090: BASE 4157                     push r15
+XDIS 00007f28aca40092: BASE 4989D3                   mov r11, rdx
+XDIS 00007f28aca40095: BASE 4156                     push r14
+XDIS 00007f28aca40097: BASE 4155                     push r13
+XDIS 00007f28aca40099: BASE 4154                     push r12
+XDIS 00007f28aca4009b: BASE 55                       push rbp
+XDIS 00007f28aca4009c: BASE 53                       push rbx
+XDIS 00007f28aca4009d: BASE 4889F3                   mov rbx, rsi
+XDIS 00007f28aca400a0: BASE 4881EC88000000           sub rsp, 0x88
+XDIS 00007f28aca400a7: BASE 458B6108                 mov r12d, dword ptr [r9+0x8]
+XDIS 00007f28aca400ab: BASE 488B8424C8000000         mov rax, qword ptr [rsp+0xc8]
+XDIS 00007f28aca400b3: BASE 4C89442418               mov qword ptr [rsp+0x18], r8
+XDIS 00007f28aca400b8: BASE 488BAC24C0000000         mov rbp, qword ptr [rsp+0xc0]
+XDIS 00007f28aca400c0: BASE 4C8BB424D8000000         mov r14, qword ptr [rsp+0xd8]
+XDIS 00007f28aca400c8: BASE 48897C2458               mov qword ptr [rsp+0x58], rdi
+XDIS 00007f28aca400cd: BASE 48894C2468               mov qword ptr [rsp+0x68], rcx
+XDIS 00007f28aca400d2: BASE 4889442448               mov qword ptr [rsp+0x48], rax
+XDIS 00007f28aca400d7: BASE 8B8424D0000000           mov eax, dword ptr [rsp+0xd0]
+XDIS 00007f28aca400de: BASE 89442474                 mov dword ptr [rsp+0x74], eax
+XDIS 00007f28aca400e2: BASE 8B8424E0000000           mov eax, dword ptr [rsp+0xe0]
+XDIS 00007f28aca400e9: BASE 8944247C                 mov dword ptr [rsp+0x7c], eax
+XDIS 00007f28aca400ed: BASE 4D8B29                   mov r13, qword ptr [r9]
+XDIS 00007f28aca400f0: BASE 4989F0                   mov r8, rsi
+XDIS 00007f28aca400f3: BASE 4189F7                   mov r15d, esi
+XDIS 00007f28aca400f6: BASE 4C8D4C2440               lea r9, ptr [rsp+0x40]
+XDIS 00007f28aca400fb: BASE 49C1E806                 shr r8, 0x6
+XDIS 00007f28aca400ff: BASE 4183E73F                 and r15d, 0x3f
+XDIS 00007f28aca40103: BASE 0F1F440000               nop dword ptr [rax+rax*1], eax
+
+BLOCK:     7   PC: 00007f28aca425d7   ICOUNT:      2382   EXECUTIONS:      1191   #BYTES: 10   %:  2.46   cumltv%:  41.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c5d7
+XDIS 00007f28aca425d7: BASE 4883FA08                 cmp rdx, 0x8
+XDIS 00007f28aca425db: BASE 0F85E90B0000             jnz 0x7f28aca431ca
+
+BLOCK:     8   PC: 00007f28aca50b3a   ICOUNT:      2123   EXECUTIONS:      2123   #BYTES:  2   %:  2.19   cumltv%:  43.3  FN: realloc  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 1ab3a
+XDIS 00007f28aca50b3a: BASE F3AA                     rep stosb byte ptr [rdi]
+
+BLOCK:     9   PC: 00007f28aca40ac4   ICOUNT:      1691   EXECUTIONS:        89   #BYTES: 109   %:  1.74   cumltv%:  45.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: aac4
+XDIS 00007f28aca40ac4: BASE 4989C2                   mov r10, rax
+XDIS 00007f28aca40ac7: BASE 488D8570FFFFFF           lea rax, ptr [rbp-0x90]
+XDIS 00007f28aca40ace: BASE 4D89D6                   mov r14, r10
+XDIS 00007f28aca40ad1: BASE 48898540FFFFFF           mov qword ptr [rbp-0xc0], rax
+XDIS 00007f28aca40ad8: BASE 488D8560FFFFFF           lea rax, ptr [rbp-0xa0]
+XDIS 00007f28aca40adf: BASE 48898548FFFFFF           mov qword ptr [rbp-0xb8], rax
+XDIS 00007f28aca40ae6: BASE 8B4510                   mov eax, dword ptr [rbp+0x10]
+XDIS 00007f28aca40ae9: BASE 4C8B8540FFFFFF           mov r8, qword ptr [rbp-0xc0]
+XDIS 00007f28aca40af0: BASE 488B0B                   mov rcx, qword ptr [rbx]
+XDIS 00007f28aca40af3: BASE 488B9548FFFFFF           mov rdx, qword ptr [rbp-0xb8]
+XDIS 00007f28aca40afa: BASE 488BB550FFFFFF           mov rsi, qword ptr [rbp-0xb0]
+XDIS 00007f28aca40b01: BASE 488BBD58FFFFFF           mov rdi, qword ptr [rbp-0xa8]
+XDIS 00007f28aca40b08: BASE 4C897C2428               mov qword ptr [rsp+0x28], r15
+XDIS 00007f28aca40b0d: BASE 44896C2420               mov dword ptr [rsp+0x20], r13d
+XDIS 00007f28aca40b12: BASE 48C744241800000000       mov qword ptr [rsp+0x18], 0x0
+XDIS 00007f28aca40b1b: BASE 89442410                 mov dword ptr [rsp+0x10], eax
+XDIS 00007f28aca40b1f: BASE 4C89642408               mov qword ptr [rsp+0x8], r12
+XDIS 00007f28aca40b24: BASE 48C7042400000000         mov qword ptr [rsp], 0x0
+XDIS 00007f28aca40b2c: BASE E85FF5FFFF               call 0x7f28aca40090
+
+BLOCK:     a   PC: 00007f28aca40a00   ICOUNT:      1513   EXECUTIONS:        89   #BYTES: 57   %:  1.56   cumltv%:  46.6  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: aa00
+XDIS 00007f28aca40a00: BASE 55                       push rbp
+XDIS 00007f28aca40a01: BASE 4889E5                   mov rbp, rsp
+XDIS 00007f28aca40a04: BASE 4157                     push r15
+XDIS 00007f28aca40a06: BASE 4989F7                   mov r15, rsi
+XDIS 00007f28aca40a09: BASE 4156                     push r14
+XDIS 00007f28aca40a0b: BASE 4155                     push r13
+XDIS 00007f28aca40a0d: BASE 4589CD                   mov r13d, r9d
+XDIS 00007f28aca40a10: BASE 4154                     push r12
+XDIS 00007f28aca40a12: BASE 4D89C4                   mov r12, r8
+XDIS 00007f28aca40a15: BASE 53                       push rbx
+XDIS 00007f28aca40a16: BASE 4889D3                   mov rbx, rdx
+XDIS 00007f28aca40a19: BASE 4881ECF8000000           sub rsp, 0xf8
+XDIS 00007f28aca40a20: BASE 0FB607                   movzx eax, byte ptr [rdi]
+XDIS 00007f28aca40a23: BASE 4889BD58FFFFFF           mov qword ptr [rbp-0xa8], rdi
+XDIS 00007f28aca40a2a: BASE 48898D38FFFFFF           mov qword ptr [rbp-0xc8], rcx
+XDIS 00007f28aca40a31: BASE 84C0                     test al, al
+XDIS 00007f28aca40a33: BASE 0F8499010000             jz 0x7f28aca40bd2
+
+BLOCK:     b   PC: 00007f28aca4016c   ICOUNT:      1480   EXECUTIONS:       185   #BYTES: 37   %:  1.53   cumltv%:  48.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a16c
+XDIS 00007f28aca4016c: BASE 488B4770                 mov rax, qword ptr [rdi+0x70]
+XDIS 00007f28aca40170: BASE 488B7008                 mov rsi, qword ptr [rax+0x8]
+XDIS 00007f28aca40174: BASE 488B4768                 mov rax, qword ptr [rdi+0x68]
+XDIS 00007f28aca40178: BASE 488B4008                 mov rax, qword ptr [rax+0x8]
+XDIS 00007f28aca4017c: BASE 4889442460               mov qword ptr [rsp+0x60], rax
+XDIS 00007f28aca40181: BASE 488B87F8020000           mov rax, qword ptr [rdi+0x2f8]
+XDIS 00007f28aca40188: BASE 4885C0                   test rax, rax
+XDIS 00007f28aca4018b: BASE 0F8403060000             jz 0x7f28aca40794
+
+BLOCK:     c   PC: 00007f28aca40971   ICOUNT:      1328   EXECUTIONS:        83   #BYTES: 69   %:  1.37   cumltv%:  49.5  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a971
+XDIS 00007f28aca40971: BASE 488B442450               mov rax, qword ptr [rsp+0x50]
+XDIS 00007f28aca40976: BASE 4889D7                   mov rdi, rdx
+XDIS 00007f28aca40979: BASE 4D89CA                   mov r10, r9
+XDIS 00007f28aca4097c: BASE 4C895C2430               mov qword ptr [rsp+0x30], r11
+XDIS 00007f28aca40981: BASE 4C89442428               mov qword ptr [rsp+0x28], r8
+XDIS 00007f28aca40986: BASE 4C894C2408               mov qword ptr [rsp+0x8], r9
+XDIS 00007f28aca4098b: BASE 4889542420               mov qword ptr [rsp+0x20], rdx
+XDIS 00007f28aca40990: BASE 482BB808030000           sub rdi, qword ptr [rax+0x308]
+XDIS 00007f28aca40997: BASE 4889742410               mov qword ptr [rsp+0x10], rsi
+XDIS 00007f28aca4099c: BASE 4889F8                   mov rax, rdi
+XDIS 00007f28aca4099f: BASE 48C1F802                 sar rax, 0x2
+XDIS 00007f28aca409a3: BASE 89442478                 mov dword ptr [rsp+0x78], eax
+XDIS 00007f28aca409a7: BASE 89C0                     mov eax, eax
+XDIS 00007f28aca409a9: BASE 488D0440                 lea rax, ptr [rax+rax*2]
+XDIS 00007f28aca409ad: BASE 488D3CC6                 lea rdi, ptr [rsi+rax*8]
+XDIS 00007f28aca409b1: BASE E85AF5FFFF               call 0x7f28aca3ff10
+
+BLOCK:     d   PC: 00007f28aca40108   ICOUNT:      1295   EXECUTIONS:       185   #BYTES: 40   %:  1.34   cumltv%:  50.8  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a108
+XDIS 00007f28aca40108: BASE 498B44ED00               mov rax, qword ptr [r13+rbp*8]
+XDIS 00007f28aca4010d: BASE C744247000000000         mov dword ptr [rsp+0x70], 0x0
+XDIS 00007f28aca40115: BASE 48C744244000000000       mov qword ptr [rsp+0x40], 0x0
+XDIS 00007f28aca4011e: BASE 488B7828                 mov rdi, qword ptr [rax+0x28]
+XDIS 00007f28aca40122: BASE 4C39F7                   cmp rdi, r14
+XDIS 00007f28aca40125: BASE 48897C2450               mov qword ptr [rsp+0x50], rdi
+XDIS 00007f28aca4012a: BASE 0F84F0000000             jz 0x7f28aca40220
+
+BLOCK:     e   PC: 00007f28aca42652   ICOUNT:      1152   EXECUTIONS:        96   #BYTES: 58   %:  1.19   cumltv%:    52  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c652
+XDIS 00007f28aca42652: BASE 488BBD58FFFFFF           mov rdi, qword ptr [rbp-0xa8]
+XDIS 00007f28aca42659: BASE 48C1E820                 shr rax, 0x20
+XDIS 00007f28aca4265d: BASE 4D89FB                   mov r11, r15
+XDIS 00007f28aca42660: BASE 4D031C24                 add r11, qword ptr [r12]
+XDIS 00007f28aca42664: BASE 4983FD08                 cmp r13, 0x8
+XDIS 00007f28aca42668: BASE 488B93E0020000           mov rdx, qword ptr [rbx+0x2e0]
+XDIS 00007f28aca4266f: BASE 0FB70C47                 movzx ecx, word ptr [rdi+rax*2]
+XDIS 00007f28aca42673: BASE 488BBD68FFFFFF           mov rdi, qword ptr [rbp-0x98]
+XDIS 00007f28aca4267a: BASE 488D0440                 lea rax, ptr [rax+rax*2]
+XDIS 00007f28aca4267e: BASE 4C8D34C7                 lea r14, ptr [rdi+rax*8]
+XDIS 00007f28aca42682: BASE 4C897580                 mov qword ptr [rbp-0x80], r14
+XDIS 00007f28aca42686: BASE 0F842E0B0000             jz 0x7f28aca431ba
+
+BLOCK:     f   PC: 00007f28aca42716   ICOUNT:      1066   EXECUTIONS:        82   #BYTES: 71   %:   1.1   cumltv%:  53.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c716
+XDIS 00007f28aca42716: BASE 458B5008                 mov r10d, dword ptr [r8+0x8]
+XDIS 00007f28aca4271a: BASE B800000000               mov eax, 0x0
+XDIS 00007f28aca4271f: BASE 4585D2                   test r10d, r10d
+XDIS 00007f28aca42722: BASE 4C0F44C0                 cmovz r8, rax
+XDIS 00007f28aca42726: BASE 418B3E                   mov edi, dword ptr [r14]
+XDIS 00007f28aca42729: BASE 488B8D48FFFFFF           mov rcx, qword ptr [rbp-0xb8]
+XDIS 00007f28aca42730: BASE 4889DE                   mov rsi, rbx
+XDIS 00007f28aca42733: BASE 4803BD30FFFFFF           add rdi, qword ptr [rbp-0xd0]
+XDIS 00007f28aca4273a: BASE 488B9528FFFFFF           mov rdx, qword ptr [rbp-0xd8]
+XDIS 00007f28aca42741: BASE 48C744240800000000       mov qword ptr [rsp+0x8], 0x0
+XDIS 00007f28aca4274a: BASE C7042401000000           mov dword ptr [rsp], 0x1
+XDIS 00007f28aca42751: BASE 4C899D38FFFFFF           mov qword ptr [rbp-0xc8], r11
+XDIS 00007f28aca42758: BASE E8A3E2FFFF               call 0x7f28aca40a00
+
+BLOCK:    10   PC: 00007f28aca3ff10   ICOUNT:      1012   EXECUTIONS:        92   #BYTES: 34   %:  1.04   cumltv%:  54.2  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 9f10
+XDIS 00007f28aca3ff10: BASE 4155                     push r13
+XDIS 00007f28aca3ff12: BASE 4154                     push r12
+XDIS 00007f28aca3ff14: BASE 55                       push rbp
+XDIS 00007f28aca3ff15: BASE 4889FD                   mov rbp, rdi
+XDIS 00007f28aca3ff18: BASE 53                       push rbx
+XDIS 00007f28aca3ff19: BASE 4C89D3                   mov rbx, r10
+XDIS 00007f28aca3ff1c: BASE 4883EC08                 sub rsp, 0x8
+XDIS 00007f28aca3ff20: BASE 0FB64704                 movzx eax, byte ptr [rdi+0x4]
+XDIS 00007f28aca3ff24: BASE 83E00F                   and eax, 0xf
+XDIS 00007f28aca3ff27: BASE 48837F0800               cmp qword ptr [rdi+0x8], 0x0
+XDIS 00007f28aca3ff2c: BASE 0F8413010000             jz 0x7f28aca40045
+
+BLOCK:    11   PC: 00007f28aca426e4   ICOUNT:       984   EXECUTIONS:        82   #BYTES: 50   %:  1.01   cumltv%:  55.2  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: c6e4
+XDIS 00007f28aca426e4: BASE 4531C9                   xor r9d, r9d
+XDIS 00007f28aca426e7: BASE 4983FD05                 cmp r13, 0x5
+XDIS 00007f28aca426eb: BASE 4C89B3F8030000           mov qword ptr [rbx+0x3f8], r14
+XDIS 00007f28aca426f2: BASE 410F94C1                 setz r9b
+XDIS 00007f28aca426f6: BASE 81E1FF7F0000             and ecx, 0x7fff
+XDIS 00007f28aca426fc: BASE 488D0449                 lea rax, ptr [rcx+rcx*2]
+XDIS 00007f28aca42700: BASE 4501C9                   add r9d, r9d
+XDIS 00007f28aca42703: BASE 4109F1                   or r9d, esi
+XDIS 00007f28aca42706: BASE 4C8D04C2                 lea r8, ptr [rdx+rax*8]
+XDIS 00007f28aca4270a: BASE 44898B00040000           mov dword ptr [rbx+0x400], r9d
+XDIS 00007f28aca42711: BASE 4D85C0                   test r8, r8
+XDIS 00007f28aca42714: BASE 7410                     jz 0x7f28aca42726
+
+BLOCK:    12   PC: 00007f28aca3ff8e   ICOUNT:       870   EXECUTIONS:        87   #BYTES: 41   %: 0.897   cumltv%:  56.1  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: 9f8e
+XDIS 00007f28aca3ff8e: BASE 8B5338                   mov edx, dword ptr [rbx+0x38]
+XDIS 00007f28aca3ff91: BASE 440FB72C50               movzx r13d, word ptr [rax+rdx*2]
+XDIS 00007f28aca3ff96: BASE 4C89E8                   mov rax, r13
+XDIS 00007f28aca3ff99: BASE 25FF7F0000               and eax, 0x7fff
+XDIS 00007f28aca3ff9e: BASE 488D1440                 lea rdx, ptr [rax+rax*2]
+XDIS 00007f28aca3ffa2: BASE 488B86E0020000           mov rax, qword ptr [rsi+0x2e0]
+XDIS 00007f28aca3ffa9: BASE 488D04D0                 lea rax, ptr [rax+rdx*8]
+XDIS 00007f28aca3ffad: BASE 8B5808                   mov ebx, dword ptr [rax+0x8]
+XDIS 00007f28aca3ffb0: BASE 413B5C2408               cmp ebx, dword ptr [r12+0x8]
+XDIS 00007f28aca3ffb5: BASE 7479                     jz 0x7f28aca40030
+
+BLOCK:    13   PC: 00007f28aca40965   ICOUNT:       830   EXECUTIONS:       166   #BYTES: 12   %: 0.856   cumltv%:  56.9  FN: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2  OFFSET: a965
+XDIS 00007f28aca40965: BASE 8B0A                     mov ecx, dword ptr [rdx]
+XDIS 00007f28aca40967: BASE 89C8                     mov eax, ecx
+XDIS 00007f28aca40969: BASE 4831D8                   xor rax, rbx
+XDIS 00007f28aca4096c: BASE 48D1E8                   shr rax, 0x1
+XDIS 00007f28aca4096f: BASE 75E7                     jnz 0x7f28aca40958
+
+# END_TOP_BLOCK_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*total                                                                 0
+# END_DYNAMIC_STATS
+#GLOBAL FUNCTION TOTALS
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+   0:        66974  69.060  69.060             0      7f28aca3f8b0 _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2
+   1:        15835  16.328  85.388             0      7f28aca4df40 realloc          IMG: /lib64/ld-linux-x86-64.so.2
+   2:         5317   5.483  90.870             0      7f28aca36b00 .text            IMG: /lib64/ld-linux-x86-64.so.2
+   3:         2238   2.308  93.178             2      7f28aca46b10 _dl_debug_state  IMG: /lib64/ld-linux-x86-64.so.2
+   4:         1861   1.919  95.097             0      7f28aca4a3b0 _dl_find_dso_for_object  IMG: /lib64/ld-linux-x86-64.so.2
+   5:          901   0.929  96.026             0      7f2897695440 envz_strip       IMG: /lib/x86_64-linux-gnu/libc.so.6
+   6:          740   0.763  96.789            23      7f28aca4dc70 __libc_memalign  IMG: /lib64/ld-linux-x86-64.so.2
+                96980 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 0 EMIT# 1
+#
+# $dynamic-counts-for-function: _dl_rtld_di_serinfo  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca3f8b0, 0x7f28aca3ff04)  69.060%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                         5276
+*stack-write                                                        5926
+*iprel-read                                                          423
+*iprel-write                                                         107
+*mem-read-1                                                         2519
+*mem-read-2                                                          286
+*mem-read-4                                                         3537
+*mem-read-8                                                        10973
+*mem-write-1                                                          26
+*mem-write-2                                                           5
+*mem-write-4                                                         991
+*mem-write-8                                                        7124
+*isa-ext-BASE                                                      66849
+*isa-ext-LONGMODE                                                    125
+*isa-set-CMOV                                                         96
+*isa-set-FAT_NOP                                                     378
+*isa-set-I186                                                       1783
+*isa-set-I386                                                       2639
+*isa-set-I86                                                       61953
+*isa-set-LONGMODE                                                    125
+*category-BINARY                                                   15473
+*category-BITBYTE                                                     92
+*category-CALL                                                       449
+*category-CMOV                                                        96
+*category-COND_BR                                                  10751
+*category-CONVERT                                                      1
+*category-DATAXFER                                                 24676
+*category-LOGICAL                                                   6784
+*category-MISC                                                      1676
+*category-NOP                                                          2
+*category-POP                                                       1542
+*category-PUSH                                                      1542
+*category-RET                                                        296
+*category-SETCC                                                      432
+*category-SHIFT                                                     2497
+*category-STRINGOP                                                    24
+*category-UNCOND_BR                                                  263
+*category-WIDENOP                                                    378
+*ilen-1                                                             1470
+*ilen-2                                                            11286
+*ilen-3                                                            22280
+*ilen-4                                                            14247
+*ilen-5                                                             4908
+*ilen-6                                                             6295
+*ilen-7                                                             4738
+*ilen-8                                                             1075
+*ilen-9                                                              372
+*ilen-10                                                              17
+*ilen-11                                                             283
+*ilen-12                                                               3
+*nop-ilen-1                                                            2
+*nop-ilen-3                                                            3
+*nop-ilen-4                                                            4
+*nop-ilen-5                                                          179
+*nop-ilen-6                                                           91
+*nop-ilen-7                                                            2
+*nop-ilen-8                                                           85
+*nop-ilen-9                                                            2
+*nop-ilen-10                                                          12
+*gpr64                                                             41273
+*legacy-prefixes-0                                                 24806
+*legacy-prefixes-1                                                 42136
+*legacy-prefixes-2                                                    32
+*legacy-prefixes-and-escapes-0                                     17479
+*legacy-prefixes-and-escapes-1                                     48668
+*legacy-prefixes-and-escapes-2                                       827
+*segment_prefix                                                       18
+*rep_prefix                                                           24
+*66_prefix                                                           204
+*rex_prefix                                                        41954
+*rexw_prefix                                                       37345
+*rexr_prefix                                                        7281
+*rexx_prefix                                                         122
+*rexb_prefix                                                       10891
+*loadop                                                             9115
+*one-memops                                                        25675
+*two-memops                                                           11
+*cond-branch-forward                                                7375
+*cond-branch-backward                                               3376
+*disp_only                                                            18
+*base_only                                                          9172
+*base_disp                                                         15349
+*base_index                                                          582
+*base_index_disp                                                     565
+*scale_1                                                           25739
+*scale_2                                                             565
+*scale_4                                                             280
+*scale_8                                                             778
+*memdisp8                                                          10648
+*memdisp32                                                          6090
+*convert_i32_1                                                         1
+ADD                                                                 8609
+AND                                                                 1212
+BT                                                                    92
+CALL_NEAR                                                            449
+CDQE                                                                   1
+CMOVBE                                                                 2
+CMOVNZ                                                                 8
+CMOVZ                                                                 86
+CMP                                                                 6332
+DIV                                                                   89
+JB                                                                     8
+JBE                                                                   36
+JMP                                                                  263
+JNB                                                                  110
+JNBE                                                                1486
+JNLE                                                                  89
+JNS                                                                    4
+JNZ                                                                 4136
+JS                                                                     1
+JZ                                                                  4881
+LEA                                                                 1676
+MOV                                                                22461
+MOVSXD                                                               100
+MOVZX                                                               2115
+MUL                                                                    2
+NEG                                                                    4
+NOP                                                                  380
+NOT                                                                    3
+OR                                                                   187
+POP                                                                 1542
+PUSH                                                                1542
+REP_STOSQ                                                             24
+RET_NEAR                                                             296
+SAR                                                                   83
+SBB                                                                    3
+SETBE                                                                 85
+SETNZ                                                                  4
+SETZ                                                                 343
+SHL                                                                 1282
+SHR                                                                 1132
+SUB                                                                  434
+TEST                                                                4599
+XOR                                                                  783
+*total                                                             66974
+#
+# $dynamic-counts-for-function: realloc  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca4df40, 0x7f28aca4dfcd)  16.328%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                          341
+*stack-write                                                          55
+*iprel-read                                                            8
+*iprel-write                                                           4
+*mem-read-1                                                         3209
+*mem-read-2                                                           18
+*mem-read-4                                                            7
+*mem-read-8                                                          436
+*mem-read-16                                                          15
+*mem-write-1                                                        2150
+*mem-write-2                                                          18
+*mem-write-4                                                          20
+*mem-write-8                                                         119
+*isa-ext-BASE                                                      15680
+*isa-ext-LONGMODE                                                     38
+*isa-ext-SSE2                                                        117
+*isa-set-CMOV                                                         62
+*isa-set-FAT_NOP                                                      34
+*isa-set-I186                                                         29
+*isa-set-I386                                                        188
+*isa-set-I86                                                       15367
+*isa-set-LONGMODE                                                     38
+*isa-set-SSE2                                                        117
+*category-BINARY                                                    5113
+*category-BITBYTE                                                      6
+*category-CMOV                                                        62
+*category-COND_BR                                                   3602
+*category-CONVERT                                                      1
+*category-DATAXFER                                                  2346
+*category-LOGICAL                                                   1912
+*category-MISC                                                        68
+*category-POP                                                         50
+*category-PUSH                                                        50
+*category-RET                                                        280
+*category-ROTATE                                                       6
+*category-SHIFT                                                       31
+*category-SSE                                                         63
+*category-STRINGOP                                                  2134
+*category-SYSCALL                                                     35
+*category-UNCOND_BR                                                   42
+*category-WIDENOP                                                     34
+*ilen-1                                                              298
+*ilen-2                                                            10462
+*ilen-3                                                             3936
+*ilen-4                                                              705
+*ilen-5                                                              202
+*ilen-6                                                              174
+*ilen-7                                                               41
+*ilen-8                                                                3
+*ilen-9                                                                1
+*ilen-10                                                               9
+*ilen-12                                                               2
+*ilen-15                                                               2
+*nop-ilen-3                                                           10
+*nop-ilen-4                                                            7
+*nop-ilen-6                                                            9
+*nop-ilen-8                                                            3
+*nop-ilen-9                                                            1
+*nop-ilen-12                                                           2
+*nop-ilen-15                                                           2
+*sse-packed                                                          117
+*gpr64                                                              6593
+*legacy-prefixes-0                                                  9383
+*legacy-prefixes-1                                                  6452
+*legacy-prefixes-and-escapes-0                                      9049
+*legacy-prefixes-and-escapes-1                                      6601
+*legacy-prefixes-and-escapes-2                                       185
+*rep_prefix                                                         2134
+*66_prefix                                                           134
+*rex_prefix                                                         4184
+*rexw_prefix                                                        4044
+*rexr_prefix                                                         152
+*rexb_prefix                                                         215
+*loadop                                                             4170
+*one-memops                                                         6026
+*cond-branch-forward                                                2010
+*cond-branch-backward                                               1592
+*base_only                                                          5858
+*base_disp                                                           104
+*base_index                                                           47
+*base_index_disp                                                      17
+*scale_1                                                            6094
+*memdisp8                                                            152
+*memdisp32                                                            31
+*elements_i1_128                                                      21
+*elements_i8_16                                                       30
+*elements_i32_1                                                       15
+*elements_i32_4                                                       18
+*convert_i32_1                                                         1
+*dataxfer_i32_1                                                        6
+*dataxfer_i32_4                                                       27
+ADD                                                                  311
+AND                                                                   81
+BSF                                                                    6
+CDQE                                                                   1
+CMOVB                                                                 56
+CMOVNZ                                                                 6
+CMP                                                                 1777
+DEC                                                                   34
+INC                                                                 2866
+JB                                                                     4
+JBE                                                                    8
+JMP                                                                   42
+JNB                                                                   91
+JNBE                                                                  20
+JNLE                                                                   6
+JNZ                                                                 3095
+JZ                                                                   378
+LEA                                                                   68
+MOV                                                                 2129
+MOVD                                                                   6
+MOVDQA                                                                12
+MOVDQU                                                                15
+MOVSXD                                                                 2
+MOVZX                                                                182
+NEG                                                                   23
+NOP                                                                   34
+OR                                                                    46
+PCMPEQB                                                               30
+PMOVMSKB                                                              15
+POP                                                                   50
+POR                                                                   15
+PSHUFD                                                                 6
+PUNPCKLBW                                                              6
+PUNPCKLWD                                                              6
+PUSH                                                                  50
+PXOR                                                                   6
+REP_STOSB                                                           2134
+RET_NEAR                                                             280
+ROL                                                                    6
+SHL                                                                   15
+SHR                                                                   16
+SUB                                                                  102
+SYSCALL                                                               35
+TEST                                                                1614
+XOR                                                                  150
+*total                                                             15835
+#
+# $dynamic-counts-for-function: .text  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca36b00, 0x7f28aca3f8b0)   5.483%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                          368
+*stack-write                                                         402
+*iprel-read                                                          175
+*iprel-write                                                          68
+*mem-read-1                                                          131
+*mem-read-2                                                           13
+*mem-read-4                                                          161
+*mem-read-8                                                          894
+*mem-write-1                                                          28
+*mem-write-2                                                           7
+*mem-write-4                                                          67
+*mem-write-8                                                         645
+*isa-ext-BASE                                                       5303
+*isa-ext-LONGMODE                                                     14
+*isa-set-CMOV                                                         44
+*isa-set-FAT_NOP                                                      12
+*isa-set-I186                                                         85
+*isa-set-I386                                                        123
+*isa-set-I86                                                        5020
+*isa-set-LONGMODE                                                     14
+*isa-set-PENTIUMREAL                                                  19
+*category-BINARY                                                    1087
+*category-CALL                                                       142
+*category-CMOV                                                        44
+*category-COND_BR                                                    915
+*category-DATAXFER                                                  1752
+*category-LOGICAL                                                    588
+*category-MISC                                                       303
+*category-NOP                                                          5
+*category-POP                                                        116
+*category-PUSH                                                       116
+*category-RET                                                         31
+*category-SETCC                                                       16
+*category-SHIFT                                                       91
+*category-SYSCALL                                                      1
+*category-SYSTEM                                                      19
+*category-UNCOND_BR                                                   79
+*category-WIDENOP                                                     12
+*ilen-1                                                              115
+*ilen-2                                                              966
+*ilen-3                                                             1451
+*ilen-4                                                             1106
+*ilen-5                                                              513
+*ilen-6                                                              508
+*ilen-7                                                              463
+*ilen-8                                                              143
+*ilen-9                                                               23
+*ilen-10                                                              17
+*ilen-11                                                              11
+*ilen-12                                                               1
+*nop-ilen-2                                                            5
+*nop-ilen-4                                                            4
+*nop-ilen-5                                                            2
+*nop-ilen-6                                                            1
+*nop-ilen-7                                                            4
+*nop-ilen-10                                                           1
+*gpr64                                                              3239
+*legacy-prefixes-0                                                  2069
+*legacy-prefixes-1                                                  3241
+*legacy-prefixes-2                                                     7
+*legacy-prefixes-and-escapes-0                                      1581
+*legacy-prefixes-and-escapes-1                                      3610
+*legacy-prefixes-and-escapes-2                                       126
+*segment_prefix                                                        2
+*66_prefix                                                            18
+*rex_prefix                                                         3235
+*rexw_prefix                                                        2821
+*rexr_prefix                                                         608
+*rexx_prefix                                                          51
+*rexb_prefix                                                         953
+*loadop                                                              738
+*one-memops                                                         1908
+*cond-branch-forward                                                 601
+*cond-branch-backward                                                314
+*disp_only                                                             2
+*index_disp                                                            5
+*base_only                                                           677
+*base_disp                                                          1073
+*base_index                                                          117
+*base_index_disp                                                      34
+*scale_1                                                            2024
+*scale_2                                                              17
+*scale_4                                                              35
+*scale_8                                                             135
+*memdisp8                                                            704
+*memdisp32                                                           660
+ADD                                                                  374
+AND                                                                   54
+CALL_NEAR                                                            142
+CMOVBE                                                                36
+CMOVNBE                                                                4
+CMOVNZ                                                                 2
+CMOVZ                                                                  2
+CMP                                                                  527
+IMUL                                                                   1
+INC                                                                    1
+JB                                                                    17
+JBE                                                                  123
+JLE                                                                    2
+JMP                                                                   79
+JNB                                                                   40
+JNBE                                                                  51
+JNLE                                                                   1
+JNZ                                                                  243
+JS                                                                     4
+JZ                                                                   434
+LEA                                                                  303
+MOV                                                                 1632
+MOVSXD                                                                13
+MOVZX                                                                107
+MUL                                                                    2
+NEG                                                                    8
+NOP                                                                   17
+NOT                                                                    3
+OR                                                                    39
+POP                                                                  116
+PUSH                                                                 116
+RDTSC                                                                 19
+RET_NEAR                                                              31
+SAR                                                                    5
+SBB                                                                    1
+SETNZ                                                                 10
+SETZ                                                                   6
+SHL                                                                   69
+SHR                                                                   17
+SUB                                                                  173
+SYSCALL                                                                1
+TEST                                                                 426
+XOR                                                                   66
+*total                                                              5317
+#
+# $dynamic-counts-for-function: _dl_debug_state  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca46b10, 0x7f28aca46b12)   2.308%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                          174
+*stack-write                                                         207
+*iprel-read                                                            7
+*mem-read-1                                                           40
+*mem-read-2                                                           78
+*mem-read-4                                                          203
+*mem-read-8                                                          358
+*mem-write-4                                                          52
+*mem-write-8                                                         265
+*isa-ext-BASE                                                       2238
+*isa-set-CMOV                                                         34
+*isa-set-FAT_NOP                                                       4
+*isa-set-I186                                                          3
+*isa-set-I386                                                         82
+*isa-set-I86                                                        2115
+*category-BINARY                                                     248
+*category-CALL                                                        76
+*category-CMOV                                                        34
+*category-COND_BR                                                    311
+*category-DATAXFER                                                   835
+*category-LOGICAL                                                    402
+*category-MISC                                                        75
+*category-POP                                                         98
+*category-PUSH                                                        98
+*category-RET                                                         38
+*category-SETCC                                                        4
+*category-SHIFT                                                        3
+*category-UNCOND_BR                                                   12
+*category-WIDENOP                                                      4
+*ilen-1                                                              166
+*ilen-2                                                              552
+*ilen-3                                                              720
+*ilen-4                                                              464
+*ilen-5                                                              131
+*ilen-6                                                              110
+*ilen-7                                                               66
+*ilen-8                                                               27
+*ilen-9                                                                2
+*nop-ilen-5                                                            2
+*nop-ilen-9                                                            2
+*gpr64                                                              1089
+*legacy-prefixes-0                                                  1210
+*legacy-prefixes-1                                                  1028
+*legacy-prefixes-and-escapes-0                                      1083
+*legacy-prefixes-and-escapes-1                                      1110
+*legacy-prefixes-and-escapes-2                                        45
+*66_prefix                                                            20
+*rex_prefix                                                         1008
+*rexw_prefix                                                         779
+*rexr_prefix                                                         193
+*rexb_prefix                                                         185
+*loadop                                                              397
+*one-memops                                                          998
+*cond-branch-forward                                                 189
+*cond-branch-backward                                                122
+*base_only                                                           407
+*base_disp                                                           554
+*base_index                                                           33
+*base_index_disp                                                       4
+*scale_1                                                            1010
+*scale_2                                                              30
+*scale_8                                                              33
+*memdisp8                                                            505
+*memdisp32                                                            65
+ADD                                                                  151
+AND                                                                   69
+CALL_NEAR                                                             76
+CMOVB                                                                 33
+CMOVZ                                                                  1
+CMP                                                                   64
+JBE                                                                    3
+JMP                                                                   12
+JNZ                                                                  182
+JS                                                                     2
+JZ                                                                   124
+LEA                                                                   75
+MOV                                                                  757
+MOVZX                                                                 78
+NOP                                                                    4
+OR                                                                     7
+POP                                                                   98
+PUSH                                                                  98
+RET_NEAR                                                              38
+SETNZ                                                                  4
+SHL                                                                    3
+SUB                                                                   33
+TEST                                                                 285
+XOR                                                                   41
+*total                                                              2238
+#
+# $dynamic-counts-for-function: _dl_find_dso_for_object  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca4a3b0, 0x7f28aca4a497)   1.919%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                           73
+*stack-write                                                          71
+*iprel-read                                                           34
+*iprel-write                                                          19
+*mem-read-1                                                          155
+*mem-read-2                                                            2
+*mem-read-4                                                           49
+*mem-read-8                                                          217
+*mem-write-2                                                           1
+*mem-write-4                                                           5
+*mem-write-8                                                          85
+*isa-ext-BASE                                                       1831
+*isa-ext-LONGMODE                                                     30
+*isa-set-FAT_NOP                                                      14
+*isa-set-I186                                                          6
+*isa-set-I386                                                        106
+*isa-set-I86                                                        1705
+*isa-set-LONGMODE                                                     30
+*category-BINARY                                                     563
+*category-CALL                                                        22
+*category-COND_BR                                                    445
+*category-CONVERT                                                      1
+*category-DATAXFER                                                   391
+*category-LOGICAL                                                    153
+*category-MISC                                                       166
+*category-NOP                                                          4
+*category-POP                                                         18
+*category-PUSH                                                        18
+*category-RET                                                         16
+*category-SHIFT                                                       13
+*category-UNCOND_BR                                                   37
+*category-WIDENOP                                                     14
+*ilen-1                                                               30
+*ilen-2                                                              515
+*ilen-3                                                              524
+*ilen-4                                                              477
+*ilen-5                                                              106
+*ilen-6                                                              135
+*ilen-7                                                               57
+*ilen-8                                                                4
+*ilen-10                                                              11
+*ilen-11                                                               2
+*nop-ilen-1                                                            3
+*nop-ilen-2                                                            1
+*nop-ilen-4                                                            1
+*nop-ilen-5                                                            3
+*nop-ilen-6                                                            1
+*nop-ilen-10                                                           9
+*gpr64                                                               765
+*legacy-prefixes-0                                                  1082
+*legacy-prefixes-1                                                   778
+*legacy-prefixes-2                                                     1
+*legacy-prefixes-and-escapes-0                                       845
+*legacy-prefixes-and-escapes-1                                      1003
+*legacy-prefixes-and-escapes-2                                        13
+*66_prefix                                                            12
+*rex_prefix                                                          768
+*rexw_prefix                                                         670
+*rexr_prefix                                                          93
+*rexx_prefix                                                           6
+*rexb_prefix                                                          93
+*loadop                                                              201
+*one-memops                                                          527
+*cond-branch-forward                                                 272
+*cond-branch-backward                                                173
+*base_only                                                           262
+*base_disp                                                           231
+*base_index                                                           18
+*base_index_disp                                                      16
+*scale_1                                                             650
+*scale_2                                                              12
+*scale_4                                                              19
+*scale_8                                                              12
+*memdisp8                                                            307
+*memdisp32                                                            74
+*convert_i32_1                                                         1
+ADD                                                                  228
+AND                                                                    2
+CALL_NEAR                                                             22
+CDQE                                                                   1
+CMP                                                                  299
+JB                                                                     2
+JBE                                                                   58
+JLE                                                                    6
+JMP                                                                   37
+JNB                                                                    2
+JNBE                                                                  75
+JNLE                                                                   4
+JNS                                                                    6
+JNZ                                                                  211
+JS                                                                     1
+JZ                                                                    80
+LEA                                                                  166
+MOV                                                                  256
+MOVSX                                                                104
+MOVSXD                                                                29
+MOVZX                                                                  2
+NEG                                                                    2
+NOP                                                                   18
+NOT                                                                    1
+OR                                                                     1
+POP                                                                   18
+PUSH                                                                  18
+RET_NEAR                                                              16
+SAR                                                                    7
+SHR                                                                    6
+SUB                                                                   34
+TEST                                                                 139
+XOR                                                                   10
+*total                                                              1861
+#
+# $dynamic-counts-for-function: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6 at [0x7f2897695440, 0x7f28976954b5)   0.929%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                           30
+*stack-write                                                          38
+*mem-read-1                                                           54
+*mem-read-8                                                           30
+*mem-write-1                                                           4
+*mem-write-4                                                           6
+*mem-write-8                                                          28
+*isa-ext-BASE                                                        901
+*isa-set-FAT_NOP                                                      12
+*isa-set-I186                                                         21
+*isa-set-I386                                                         12
+*isa-set-I486REAL                                                      7
+*isa-set-I86                                                         849
+*category-BINARY                                                     222
+*category-CALL                                                         4
+*category-COND_BR                                                    234
+*category-DATAXFER                                                   138
+*category-LOGICAL                                                     52
+*category-MISC                                                       101
+*category-POP                                                         24
+*category-PUSH                                                        24
+*category-RET                                                          6
+*category-SHIFT                                                       75
+*category-UNCOND_BR                                                    9
+*category-WIDENOP                                                     12
+*ilen-1                                                               30
+*ilen-2                                                              269
+*ilen-3                                                              353
+*ilen-4                                                              124
+*ilen-5                                                               32
+*ilen-6                                                               59
+*ilen-7                                                               24
+*ilen-8                                                               10
+*nop-ilen-7                                                            4
+*nop-ilen-8                                                            8
+*gpr64                                                               356
+*legacy-prefixes-0                                                   430
+*legacy-prefixes-1                                                   471
+*legacy-prefixes-and-escapes-0                                       354
+*legacy-prefixes-and-escapes-1                                       535
+*legacy-prefixes-and-escapes-2                                        12
+*rex_prefix                                                          471
+*rexw_prefix                                                         298
+*rexr_prefix                                                         217
+*rexx_prefix                                                          14
+*rexb_prefix                                                         248
+*loadop                                                              124
+*one-memops                                                          134
+*cond-branch-forward                                                 165
+*cond-branch-backward                                                 69
+*base_only                                                           112
+*base_disp                                                            14
+*base_index_disp                                                       8
+*scale_1                                                             170
+*scale_2                                                               4
+*scale_8                                                              54
+*memdisp8                                                             22
+*memdisp32                                                            22
+ADD                                                                   53
+AND                                                                   11
+CALL_NEAR                                                              4
+CMP                                                                  151
+CPUID                                                                  7
+IMUL                                                                  10
+JBE                                                                    2
+JMP                                                                    9
+JNB                                                                  100
+JNBE                                                                   8
+JNZ                                                                   67
+JS                                                                     4
+JZ                                                                    53
+LEA                                                                   94
+MOV                                                                  116
+MOVZX                                                                 12
+NOP                                                                   12
+POP                                                                   24
+PUSH                                                                  24
+RET_NEAR                                                               6
+SAR                                                                    4
+SHR                                                                   71
+SUB                                                                    8
+TEST                                                                  25
+XCHG                                                                  10
+XOR                                                                   16
+*total                                                               901
+#
+# $dynamic-counts-for-function: __libc_memalign  IMG: /lib64/ld-linux-x86-64.so.2 at [0x7f28aca4dc70, 0x7f28aca4dd7c)   0.763%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                           69
+*stack-write                                                          49
+*iprel-read                                                           55
+*iprel-write                                                          73
+*mem-read-8                                                          124
+*mem-write-8                                                         122
+*isa-ext-BASE                                                        740
+*isa-set-CMOV                                                          3
+*isa-set-I86                                                         737
+*category-BINARY                                                     148
+*category-CALL                                                         3
+*category-CMOV                                                         3
+*category-COND_BR                                                     72
+*category-DATAXFER                                                   271
+*category-LOGICAL                                                     56
+*category-MISC                                                        51
+*category-POP                                                         46
+*category-PUSH                                                        46
+*category-RET                                                         23
+*category-UNCOND_BR                                                   21
+*ilen-1                                                              115
+*ilen-2                                                               69
+*ilen-3                                                              289
+*ilen-4                                                               72
+*ilen-5                                                               37
+*ilen-6                                                               29
+*ilen-7                                                              126
+*ilen-8                                                                3
+*gpr64                                                               632
+*legacy-prefixes-0                                                   220
+*legacy-prefixes-1                                                   520
+*legacy-prefixes-and-escapes-0                                       194
+*legacy-prefixes-and-escapes-1                                       543
+*legacy-prefixes-and-escapes-2                                         3
+*rex_prefix                                                          520
+*rexw_prefix                                                         514
+*rexr_prefix                                                           3
+*rexb_prefix                                                           6
+*loadop                                                              124
+*one-memops                                                          246
+*cond-branch-forward                                                  72
+*base_only                                                           118
+*base_disp                                                           128
+*scale_1                                                             297
+*memdisp8                                                             27
+*memdisp32                                                           129
+ADD                                                                   29
+AND                                                                   27
+CALL_NEAR                                                              3
+CMOVZ                                                                  3
+CMP                                                                   49
+JB                                                                    20
+JMP                                                                   21
+JNB                                                                   23
+JZ                                                                    29
+LEA                                                                   51
+MOV                                                                  271
+NEG                                                                   47
+POP                                                                   46
+PUSH                                                                  46
+RET_NEAR                                                              23
+SUB                                                                   23
+TEST                                                                  23
+XOR                                                                    6
+*total                                                               740
+# END_PER_FUNCTION_STATS 
+# EMIT_STATIC_STATS 
+#
+# $static-counts
+#
+#       opcode                 count
+#
+*total                                                                 0
+
+# END_STATIC_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS   EMIT# 1
+#
+# $global-dynamic-counts
+#
+#       opcode                 count
+#
+*stack-read                                                         6580
+*stack-write                                                        7024
+*iprel-read                                                          844
+*iprel-write                                                         317
+*mem-read-1                                                         6140
+*mem-read-2                                                          400
+*mem-read-4                                                         4051
+*mem-read-8                                                        13602
+*mem-read-16                                                          20
+*mem-write-1                                                        2228
+*mem-write-2                                                          31
+*mem-write-4                                                        1191
+*mem-write-8                                                        9041
+*isa-ext-BASE                                                      96324
+*isa-ext-LONGMODE                                                    503
+*isa-ext-SSE2                                                        152
+*isa-ext-XSAVE                                                         1
+*isa-set-CMOV                                                        248
+*isa-set-FAT_NOP                                                     458
+*isa-set-I186                                                       1988
+*isa-set-I386                                                       3198
+*isa-set-I486REAL                                                     19
+*isa-set-I86                                                       90394
+*isa-set-LONGMODE                                                    503
+*isa-set-PENTIUMREAL                                                  19
+*isa-set-SSE2                                                        152
+*isa-set-XSAVE                                                         1
+*category-BINARY                                                   23191
+*category-BITBYTE                                                    101
+*category-CALL                                                       761
+*category-CMOV                                                       248
+*category-COND_BR                                                  16752
+*category-CONVERT                                                      4
+*category-DATAXFER                                                 31305
+*category-LOGICAL                                                  10328
+*category-MISC                                                      2551
+*category-NOP                                                         12
+*category-POP                                                       2038
+*category-PUSH                                                      2054
+*category-RET                                                        757
+*category-ROTATE                                                      13
+*category-SEMAPHORE                                                    3
+*category-SETCC                                                      454
+*category-SHIFT                                                     2767
+*category-SSE                                                         84
+*category-STRINGOP                                                  2446
+*category-SYSCALL                                                     40
+*category-SYSTEM                                                      19
+*category-UNCOND_BR                                                  593
+*category-WIDENOP                                                    458
+*category-XSAVE                                                        1
+*ilen-1                                                             2467
+*ilen-2                                                            24700
+*ilen-3                                                            30524
+*ilen-4                                                            17648
+*ilen-5                                                             6203
+*ilen-6                                                             7642
+*ilen-7                                                             5693
+*ilen-8                                                             1301
+*ilen-9                                                              432
+*ilen-10                                                              62
+*ilen-11                                                             300
+*ilen-12                                                               6
+*ilen-15                                                               2
+*nop-ilen-1                                                            5
+*nop-ilen-2                                                            7
+*nop-ilen-3                                                           15
+*nop-ilen-4                                                           16
+*nop-ilen-5                                                          186
+*nop-ilen-6                                                          102
+*nop-ilen-7                                                           10
+*nop-ilen-8                                                           97
+*nop-ilen-9                                                            6
+*nop-ilen-10                                                          22
+*nop-ilen-12                                                           2
+*nop-ilen-15                                                           2
+*sse-packed                                                          152
+*gpr64                                                             55799
+*legacy-prefixes-0                                                 40632
+*legacy-prefixes-1                                                 55995
+*legacy-prefixes-2                                                   353
+*legacy-prefixes-and-escapes-0                                     31777
+*legacy-prefixes-and-escapes-1                                     63619
+*legacy-prefixes-and-escapes-2                                      1577
+*legacy-prefixes-and-escapes-3                                         7
+*segment_prefix                                                       38
+*rep_prefix                                                         2446
+*66_prefix                                                           422
+*rex_prefix                                                        53795
+*rexw_prefix                                                       47882
+*rexr_prefix                                                        8723
+*rexx_prefix                                                         198
+*rexb_prefix                                                       12871
+*loadop                                                            15711
+*one-memops                                                        36873
+*two-memops                                                           40
+*cond-branch-forward                                               11037
+*cond-branch-backward                                               5715
+*disp_only                                                            34
+*index_disp                                                            5
+*base_only                                                         17425
+*base_disp                                                         18003
+*base_index                                                          799
+*base_index_disp                                                     647
+*scale_1                                                           37473
+*scale_2                                                             628
+*scale_4                                                             334
+*scale_8                                                            1013
+*memdisp8                                                          12728
+*memdisp32                                                          7369
+*elements_i1_128                                                      26
+*elements_i8_16                                                       39
+*elements_i32_1                                                       24
+*elements_i32_4                                                       21
+*convert_i32_1                                                         3
+*convert_i64_1                                                         1
+*dataxfer_i32_1                                                        7
+*dataxfer_i32_4                                                       35
+ADD                                                                 9829
+AND                                                                 1506
+BSF                                                                    7
+BSR                                                                    2
+BT                                                                    92
+CALL_NEAR                                                            761
+CDQE                                                                   3
+CMOVB                                                                 91
+CMOVBE                                                                38
+CMOVNBE                                                                5
+CMOVNZ                                                                19
+CMOVZ                                                                 95
+CMP                                                                 9379
+CMPXCHG                                                                3
+CPUID                                                                 16
+CQO                                                                    1
+DEC                                                                   37
+DIV                                                                   92
+IDIV                                                                   1
+IMUL                                                                  22
+INC                                                                 2867
+JB                                                                    54
+JBE                                                                  234
+JLE                                                                   20
+JMP                                                                  593
+JNB                                                                  388
+JNBE                                                                1662
+JNLE                                                                 103
+JNS                                                                   11
+JNZ                                                                 8050
+JS                                                                    15
+JZ                                                                  6215
+LEA                                                                 2535
+MOV                                                                28463
+MOVD                                                                   7
+MOVDQA                                                                15
+MOVDQU                                                                20
+MOVSX                                                                104
+MOVSXD                                                               147
+MOVZX                                                               2539
+MUL                                                                    4
+NEG                                                                   86
+NOP                                                                  470
+NOT                                                                    8
+OR                                                                   305
+PCMPEQB                                                               39
+PMOVMSKB                                                              24
+POP                                                                 2038
+POR                                                                   15
+PSHUFD                                                                 7
+PUNPCKLBW                                                              7
+PUNPCKLWD                                                              7
+PUSH                                                                2054
+PXOR                                                                  11
+RDTSC                                                                 19
+REP_STOSB                                                           2134
+REP_STOSQ                                                            312
+RET_NEAR                                                             757
+ROL                                                                   12
+ROR                                                                    1
+SAR                                                                  106
+SBB                                                                    4
+SETBE                                                                 85
+SETNZ                                                                 19
+SETZ                                                                 350
+SHL                                                                 1395
+SHR                                                                 1266
+SUB                                                                  870
+SYSCALL                                                               40
+TEST                                                                7342
+XCHG                                                                  10
+XGETBV                                                                 1
+XOR                                                                 1141
+*total                                                             96980
+
+# END_GLOBAL_DYNAMIC_STATS

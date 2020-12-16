@@ -1,0 +1,147 @@
+# Mix output version 2
+# FINI: end of program
+# EMIT_DYNAMIC_STATS FOR TID 1, ins = 100001502
+Dynamic Instruction Count = 100001502, Dyn BBL Count = 9091075
+RAWdep[ 0] = 0
+RAWdep[ 1] = 54546244
+RAWdep[ 2] = 53
+RAWdep[ 3] = 9091043
+RAWdep[ 4] = 9091034
+RAWdep[ 5] = 9091031
+RAWdep[ 6] = 9091028
+RAWdep[ 7] = 9091026
+RAWdep[ 8] = 9091027
+RAWdep[ 9] = 9091021
+RAWdep[ 10] = 9091023
+RAWdep[ 11] = 18182032
+RAWdep[ 12] = 5
+RAWdep[ 13] = 7
+RAWdep[ 14] = 5
+RAWdep[ 15] = 6
+RAWdep[ 16] = 7
+RAWdep[ 17] = 7
+RAWdep[ 18] = 6
+RAWdep[ 19] = 3
+RAWdep[ 20] = 4
+RAWdep[ 21] = 7
+RAWdep[ 22] = 3
+RAWdep[ 23] = 3
+RAWdep[ 24] = 2
+RAWdep[ 25] = 2
+RAWdep[ 26] = 4
+RAWdep[ 27] = 4
+RAWdep[ 28] = 2
+RAWdep[ 29] = 6
+RAWdep[ 30] = 0
+RAWdep[ 31] = 3
+RAWdep[ 32] = 4
+RAWdep[ 33] = 45455122
+
+WAWdep[ 0] = 0
+WAWdep[ 1] = 9091084
+WAWdep[ 2] = 27273106
+WAWdep[ 3] = 54
+WAWdep[ 4] = 26
+WAWdep[ 5] = 9091024
+WAWdep[ 6] = 17
+WAWdep[ 7] = 6
+WAWdep[ 8] = 6
+WAWdep[ 9] = 10
+WAWdep[ 10] = 9091020
+WAWdep[ 11] = 18182031
+WAWdep[ 12] = 2
+WAWdep[ 13] = 5
+WAWdep[ 14] = 1
+WAWdep[ 15] = 2
+WAWdep[ 16] = 3
+WAWdep[ 17] = 5
+WAWdep[ 18] = 1
+WAWdep[ 19] = 6
+WAWdep[ 20] = 0
+WAWdep[ 21] = 1
+WAWdep[ 22] = 0
+WAWdep[ 23] = 2
+WAWdep[ 24] = 2
+WAWdep[ 25] = 2
+WAWdep[ 26] = 1
+WAWdep[ 27] = 1
+WAWdep[ 28] = 0
+WAWdep[ 29] = 3
+WAWdep[ 30] = 0
+WAWdep[ 31] = 4
+WAWdep[ 32] = 0
+WAWdep[ 33] = 52
+
+WARdep[ 0] = 18182172
+WARdep[ 1] = 27273084
+WARdep[ 2] = 32
+WARdep[ 3] = 19
+WARdep[ 4] = 9091019
+WARdep[ 5] = 11
+WARdep[ 6] = 11
+WARdep[ 7] = 8
+WARdep[ 8] = 5
+WARdep[ 9] = 9091017
+WARdep[ 10] = 9091020
+WARdep[ 11] = 3
+WARdep[ 12] = 3
+WARdep[ 13] = 3
+WARdep[ 14] = 3
+WARdep[ 15] = 2
+WARdep[ 16] = 2
+WARdep[ 17] = 2
+WARdep[ 18] = 2
+WARdep[ 19] = 2
+WARdep[ 20] = 1
+WARdep[ 21] = 1
+WARdep[ 22] = 3
+WARdep[ 23] = 3
+WARdep[ 24] = 1
+WARdep[ 25] = 4
+WARdep[ 26] = 1
+WARdep[ 27] = 0
+WARdep[ 28] = 1
+WARdep[ 29] = 0
+WARdep[ 30] = 6
+WARdep[ 31] = 0
+WARdep[ 32] = 0
+WARdep[ 33] = 36
+
+
+		"0": "0",
+		"1": "54546244",
+		"2": "53",
+		"3": "9091043",
+		"4": "9091034",
+		"5": "9091031",
+		"6": "9091028",
+		"7": "9091026",
+		"8": "9091027",
+		"9": "9091021",
+		"10": "9091023",
+		"11": "18182032",
+		"12": "5",
+		"13": "7",
+		"14": "5",
+		"15": "6",
+		"16": "7",
+		"17": "7",
+		"18": "6",
+		"19": "3",
+		"20": "4",
+		"21": "7",
+		"22": "3",
+		"23": "3",
+		"24": "2",
+		"25": "2",
+		"26": "4",
+		"27": "4",
+		"28": "2",
+		"29": "6",
+		"30": "0",
+		"31": "3",
+		"32": "4",
+		"33": "45455122",
+
+
+# END_DYNAMIC_STATS

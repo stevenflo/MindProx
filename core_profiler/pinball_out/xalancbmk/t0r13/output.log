@@ -1,0 +1,74 @@
+Block 0x0: Count: 458929, Running Total: 458929
+Block 0x1: Count: 517634, Running Total: 976563
+Block 0x2: Count: 100740, Running Total: 1077303
+Block 0x3: Count: 993787, Running Total: 2071090
+Block 0x4: Count: 113391, Running Total: 2184481
+Block 0x5: Count: 887348, Running Total: 3071829
+Block 0x6: Count: 103394, Running Total: 3175223
+Block 0x7: Count: 993787, Running Total: 4169010
+Block 0x8: Count: 512076, Running Total: 4681086
+Block 0x9: Count: 397044, Running Total: 5078130
+Block 0x10: Count: 113160, Running Total: 5191290
+Block 0x11: Count: 106439, Running Total: 5297729
+Block 0x12: Count: 993787, Running Total: 6291516
+Block 0x13: Count: 540731, Running Total: 6832247
+Block 0x14: Count: 113391, Running Total: 6945638
+Block 0x15: Count: 106438, Running Total: 7052076
+Block 0x16: Count: 396956, Running Total: 7449032
+Block 0x17: Count: 113160, Running Total: 7562192
+Block 0x18: Count: 86424, Running Total: 7648616
+Block 0x19: Count: 111382, Running Total: 7759998
+Load metaop: *mem-read-1
+Load metaop: *mem-read-2
+Load metaop: *mem-read-4
+Load metaop: *mem-read-8
+Load metaop: *mem-read-16
+Store metaop: *mem-write-1
+Store metaop: *mem-write-2
+Store metaop: *mem-write-4
+Store metaop: *mem-write-8
+Store metaop: *mem-write-16
+Xfer metaop: *category-DATAXFER
+Unrecognized opcode CMOVB, classifying as "other"
+Unrecognized opcode CMOVBE, classifying as "other"
+Unrecognized opcode CMOVNB, classifying as "other"
+Unrecognized opcode CMOVNBE, classifying as "other"
+Unrecognized opcode CMOVNZ, classifying as "other"
+Unrecognized opcode CMOVZ, classifying as "other"
+Unrecognized opcode LEAVE, classifying as "other"
+Unrecognized opcode NOP, classifying as "other"
+Unrecognized opcode SETNBE, classifying as "other"
+Unrecognized opcode SETNL, classifying as "other"
+Unrecognized opcode SETNZ, classifying as "other"
+Total metaop: *total
+
+Done parsing file
+
+"Other" ratio: 28.3623217852%
+Sum category count: 147922985
+Static BBL count: 26
+
+# FINI: end of program
+Dynamic Instruction Count = 100001499, Dyn BBL Count = 7759998
+<DynInsCount> 100001499
+<BBLCount> 7759998
+<TotInsCount> 100001499
+<IntCount> 36793297
+<IntMulCount> 976588
+<IntDivCount> 0
+<FPCount> 0
+<FPMulCount> 0
+<FPDivCount> 0
+<LdCount> 28291565
+<StCount> 15631980
+<Br/CallCount> 14169669
+<CondBrCount> 10105493
+<OtherCount> 41954393
+<SysCallCount> 0
+
+# END_DYNAMIC_STATS
+
+
+Saving to file ./pinball_out/xalancbmk/t0r13/imix_new.out
+
+

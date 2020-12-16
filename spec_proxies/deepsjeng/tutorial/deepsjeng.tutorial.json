@@ -1,0 +1,4628 @@
+{
+	"overall":
+	{
+		"instruction_mix":
+		{
+			"integer_alu": "39998585",
+			"integer_mul": "1141465",
+			"integer_div": "45921",
+			"fp_alu": "0",
+			"fp_mul": "0",
+			"fp_div": "0",
+			"load": "25868150",
+			"store": "12101595",
+			"branch": "14435802",
+			"other": "38484952",
+			"total": "99999996"
+		},
+		"branch_taken": "9159748",
+		"branch_transitions": "1591023",
+		"local_branch_bins":
+		[
+			{"encountered": 187557, "taken": 104062, "transitions": 60499,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.465591793428},
+					{"lookback": 3, "correlation": 0.290509018592},
+					{"lookback": 15, "correlation": -0.249561466647},
+					{"lookback": 4, "correlation": 0.24004969156},
+					{"lookback": 6, "correlation": 0.207270323155},
+					{"lookback": 5, "correlation": 0.180185223692}
+				]
+			},
+			{"encountered": 144257, "taken": 60762, "transitions": 62964,
+				"correlations": [
+					{"lookback": 5, "correlation": 0.370900545554},
+					{"lookback": 8, "correlation": 0.210007140035},
+					{"lookback": 42, "correlation": 0.208246393589},
+					{"lookback": 43, "correlation": 0.202021392376},
+					{"lookback": 40, "correlation": 0.201411369986},
+					{"lookback": 41, "correlation": 0.19790374124},
+					{"lookback": 39, "correlation": 0.173558302197}
+				]
+			},
+			{"encountered": 140250, "taken": 116650, "transitions": 39109,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.442281639929},
+					{"lookback": 2, "correlation": 0.413162210339},
+					{"lookback": 3, "correlation": 0.348320855615}
+				]
+			},
+			{"encountered": 130088, "taken": 129998, "transitions": 104,
+				"correlations": [
+					{"lookback": 5, "correlation": -0.736424574134},
+					{"lookback": 14, "correlation": -0.709765697067},
+					{"lookback": 3, "correlation": -0.683045323166},
+					{"lookback": 8, "correlation": 0.654679908985}
+				]
+			},
+			{"encountered": 109360, "taken": 104181, "transitions": 10273,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.812106803219},
+					{"lookback": 2, "correlation": 0.777523774689},
+					{"lookback": 3, "correlation": 0.741971470373},
+					{"lookback": 4, "correlation": 0.692520117045},
+					{"lookback": 5, "correlation": 0.661174103877},
+					{"lookback": 7, "correlation": 0.610680321873},
+					{"lookback": 6, "correlation": 0.606144842721},
+					{"lookback": 8, "correlation": 0.575950987564},
+					{"lookback": 9, "correlation": 0.516989758595},
+					{"lookback": 10, "correlation": 0.483467446964},
+					{"lookback": 11, "correlation": 0.410405998537}
+				]
+			},
+			{"encountered": 92198, "taken": 53047, "transitions": 41885,
+				"correlations": [
+					{"lookback": 6, "correlation": -0.269463545847},
+					{"lookback": 3, "correlation": 0.258357014252},
+					{"lookback": 2, "correlation": 0.2530206729},
+					{"lookback": 1, "correlation": 0.24870387644},
+					{"lookback": 5, "correlation": -0.248508644439},
+					{"lookback": 9, "correlation": 0.182780537539},
+					{"lookback": 19, "correlation": -0.152107420985}
+				]
+			},
+			{"encountered": 92198, "taken": 21438, "transitions": 23580,
+				"correlations": [
+					{"lookback": 13, "correlation": -0.42415236773},
+					{"lookback": 8, "correlation": 0.361916744398},
+					{"lookback": 5, "correlation": -0.307165014425},
+					{"lookback": 7, "correlation": 0.279767456995},
+					{"lookback": 18, "correlation": 0.265884292501}
+				]
+			},
+			{"encountered": 92198, "taken": 29694, "transitions": 37996,
+				"correlations": [
+					{"lookback": 9, "correlation": 0.362393978177},
+					{"lookback": 3, "correlation": -0.334107030521},
+					{"lookback": 7, "correlation": 0.332002863403},
+					{"lookback": 4, "correlation": -0.29313000282},
+					{"lookback": 14, "correlation": -0.22692466214},
+					{"lookback": 5, "correlation": -0.21694613766}
+				]
+			},
+			{"encountered": 92198, "taken": 72836, "transitions": 28158,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.435822902883},
+					{"lookback": 2, "correlation": -0.403240851212},
+					{"lookback": 7, "correlation": 0.38313195514},
+					{"lookback": 10, "correlation": -0.339052907872},
+					{"lookback": 15, "correlation": 0.329313000282}
+				]
+			},
+			{"encountered": 92198, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.579990889173},
+					{"lookback": 3, "correlation": 0.534957374347},
+					{"lookback": 8, "correlation": -0.475324844357},
+					{"lookback": 11, "correlation": 0.456712726957}
+				]
+			},
+			{"encountered": 92198, "taken": 21396, "transitions": 31356,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.535868457016},
+					{"lookback": 5, "correlation": -0.431592876201},
+					{"lookback": 9, "correlation": -0.276665437428}
+				]
+			},
+			{"encountered": 92197, "taken": 92197, "transitions": 0,
+				"correlations": [
+					{"lookback": 9, "correlation": -0.621354274},
+					{"lookback": 10, "correlation": -0.531893662484},
+					{"lookback": 5, "correlation": -0.526383721813},
+					{"lookback": 4, "correlation": -0.461218911678},
+					{"lookback": 6, "correlation": -0.450719654653},
+					{"lookback": 7, "correlation": -0.443582762997},
+					{"lookback": 21, "correlation": -0.384969142163}
+				]
+			},
+			{"encountered": 85981, "taken": 74699, "transitions": 11400,
+				"correlations": [
+					{"lookback": 3, "correlation": -0.7403612426},
+					{"lookback": 1, "correlation": 0.630964980635},
+					{"lookback": 2, "correlation": -0.630871936823},
+					{"lookback": 4, "correlation": -0.465649387655}
+				]
+			},
+			{"encountered": 85981, "taken": 63687, "transitions": 19378,
+				"correlations": [
+					{"lookback": 4, "correlation": -0.493888184599},
+					{"lookback": 2, "correlation": 0.436642979263},
+					{"lookback": 3, "correlation": -0.400076761145},
+					{"lookback": 12, "correlation": -0.351391586513},
+					{"lookback": 1, "correlation": 0.285190914272},
+					{"lookback": 8, "correlation": 0.271699561531}
+				]
+			},
+			{"encountered": 85981, "taken": 26773, "transitions": 39357,
+				"correlations": [
+					{"lookback": 3, "correlation": -0.450762377735},
+					{"lookback": 2, "correlation": -0.42561728754},
+					{"lookback": 1, "correlation": -0.385561926472},
+					{"lookback": 5, "correlation": 0.372675358509},
+					{"lookback": 4, "correlation": 0.278073062653}
+				]
+			},
+			{"encountered": 85981, "taken": 43502, "transitions": 45720,
+				"correlations": [
+					{"lookback": 10, "correlation": 0.235063560554},
+					{"lookback": 20, "correlation": 0.228527232761},
+					{"lookback": 13, "correlation": 0.1912399251},
+					{"lookback": 12, "correlation": 0.172189204592},
+					{"lookback": 4, "correlation": 0.143554971447},
+					{"lookback": 5, "correlation": 0.130598620625}
+				]
+			},
+			{"encountered": 80837, "taken": 80837, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.974318690699},
+					{"lookback": 12, "correlation": -0.903039449757},
+					{"lookback": 6, "correlation": 0.844427675446}
+				]
+			},
+			{"encountered": 80837, "taken": 80837, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -0.974318690699}
+				]
+			},
+			{"encountered": 80837, "taken": 79799, "transitions": 2076,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.974318690699},
+					{"lookback": 2, "correlation": 0.974318690699},
+					{"lookback": 3, "correlation": 0.974318690699},
+					{"lookback": 4, "correlation": -0.948637381397}
+				]
+			},
+			{"encountered": 79799, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": -1.0},
+					{"lookback": 4, "correlation": -1.0}
+				]
+			},
+			{"encountered": 79799, "taken": 71125, "transitions": 12758,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.782603792027},
+					{"lookback": 2, "correlation": 0.782603792027},
+					{"lookback": 3, "correlation": 0.782603792027},
+					{"lookback": 4, "correlation": 0.782603792027},
+					{"lookback": 5, "correlation": 0.782603792027}
+				]
+			},
+			{"encountered": 79799, "taken": 2937, "transitions": 5873,
+				"correlations": [
+					{"lookback": 11, "correlation": 0.872454542037},
+					{"lookback": 5, "correlation": -0.840749884084}
+				]
+			},
+			{"encountered": 76606, "taken": 73785, "transitions": 5641,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.852700832833},
+					{"lookback": 2, "correlation": 0.852700832833},
+					{"lookback": 3, "correlation": 0.850899407357},
+					{"lookback": 4, "correlation": 0.777484792314},
+					{"lookback": 5, "correlation": 0.705767172284},
+					{"lookback": 6, "correlation": 0.634101767486},
+					{"lookback": 7, "correlation": 0.633449077096},
+					{"lookback": 8, "correlation": 0.585985431951},
+					{"lookback": 9, "correlation": 0.53831292588},
+					{"lookback": 10, "correlation": 0.518392815184},
+					{"lookback": 11, "correlation": 0.499830300499}
+				]
+			},
+			{"encountered": 73801, "taken": 8917, "transitions": 17164,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.758350157857},
+					{"lookback": 14, "correlation": 0.572065419168},
+					{"lookback": 4, "correlation": -0.464343301581},
+					{"lookback": 3, "correlation": 0.413287082831},
+					{"lookback": 21, "correlation": 0.374344521077}
+				]
+			},
+			{"encountered": 71125, "taken": 1440, "transitions": 2878,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.959507908612}
+				]
+			},
+			{"encountered": 70802, "taken": 42078, "transitions": 22142,
+				"correlations": [
+					{"lookback": 19, "correlation": -0.277252055027},
+					{"lookback": 13, "correlation": -0.262563204429},
+					{"lookback": 17, "correlation": -0.238100618627},
+					{"lookback": 25, "correlation": 0.209316121014}
+				]
+			},
+			{"encountered": 70801, "taken": 28322, "transitions": 27513,
+				"correlations": [
+					{"lookback": 7, "correlation": 0.692970438271},
+					{"lookback": 13, "correlation": 0.490628663437},
+					{"lookback": 11, "correlation": -0.477690993065},
+					{"lookback": 4, "correlation": -0.401901103092},
+					{"lookback": 3, "correlation": -0.36760780215},
+					{"lookback": 9, "correlation": -0.348286041158},
+					{"lookback": 14, "correlation": 0.339161876245},
+					{"lookback": 2, "correlation": -0.248795920962}
+				]
+			},
+			{"encountered": 69685, "taken": 1254, "transitions": 2508,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.964009471192},
+					{"lookback": 2, "correlation": -0.964009471192}
+				]
+			},
+			{"encountered": 68431, "taken": 854, "transitions": 1708,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.975040551797}
+				]
+			},
+			{"encountered": 67577, "taken": 953, "transitions": 1906,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.971795137399}
+				]
+			},
+			{"encountered": 64884, "taken": 7194, "transitions": 13578,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.778250416127},
+					{"lookback": 3, "correlation": 0.778250416127},
+					{"lookback": 4, "correlation": 0.548887244929},
+					{"lookback": 5, "correlation": -0.473552801923}
+				]
+			},
+			{"encountered": 59208, "taken": 27485, "transitions": 43160,
+				"correlations": [
+					{"lookback": 11, "correlation": -0.477807053101},
+					{"lookback": 9, "correlation": 0.409235238481},
+					{"lookback": 26, "correlation": -0.343196865288},
+					{"lookback": 17, "correlation": -0.276145115525},
+					{"lookback": 22, "correlation": 0.275503310363},
+					{"lookback": 7, "correlation": 0.251148493447},
+					{"lookback": 36, "correlation": 0.229056884205},
+					{"lookback": 43, "correlation": 0.227266585597},
+					{"lookback": 24, "correlation": -0.207201729496},
+					{"lookback": 12, "correlation": -0.203688690717}
+				]
+			},
+			{"encountered": 57690, "taken": 7021, "transitions": 12666,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.756595597157},
+					{"lookback": 2, "correlation": 0.756595597157},
+					{"lookback": 4, "correlation": 0.756595597157},
+					{"lookback": 6, "correlation": -0.604576183047},
+					{"lookback": 5, "correlation": 0.452487432831}
+				]
+			},
+			{"encountered": 56209, "taken": 5316, "transitions": 9420,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.810848796456},
+					{"lookback": 6, "correlation": 0.587112384138},
+					{"lookback": 4, "correlation": -0.574018395631},
+					{"lookback": 13, "correlation": 0.472931381096},
+					{"lookback": 19, "correlation": -0.441406180505}
+				]
+			},
+			{"encountered": 55381, "taken": 52939, "transitions": 4883,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.823621819758}
+				]
+			},
+			{"encountered": 50893, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 5, "correlation": -0.716856935138},
+					{"lookback": 7, "correlation": 0.716149568703},
+					{"lookback": 14, "correlation": 0.555027213959},
+					{"lookback": 6, "correlation": -0.434146149765},
+					{"lookback": 20, "correlation": -0.432888609435}
+				]
+			},
+			{"encountered": 50893, "taken": 11732, "transitions": 18125,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.53895427662},
+					{"lookback": 2, "correlation": 0.53895427662},
+					{"lookback": 4, "correlation": 0.53895427662},
+					{"lookback": 16, "correlation": 0.415479535496},
+					{"lookback": 14, "correlation": 0.404908337099},
+					{"lookback": 6, "correlation": -0.395712573438},
+					{"lookback": 8, "correlation": 0.389975045684},
+					{"lookback": 12, "correlation": -0.357161102706}
+				]
+			},
+			{"encountered": 50669, "taken": 6898, "transitions": 10770,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.727723065385},
+					{"lookback": 2, "correlation": 0.727723065385},
+					{"lookback": 3, "correlation": 0.727723065385},
+					{"lookback": 5, "correlation": 0.727723065385},
+					{"lookback": 7, "correlation": -0.504430717006},
+					{"lookback": 6, "correlation": 0.468590262291},
+					{"lookback": 17, "correlation": 0.444946614301}
+				]
+			},
+			{"encountered": 47366, "taken": 35075, "transitions": 10946,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 5, "correlation": -0.500147785331},
+					{"lookback": 12, "correlation": -0.497276527467},
+					{"lookback": 2, "correlation": 0.481020141029},
+					{"lookback": 6, "correlation": -0.481020141029},
+					{"lookback": 4, "correlation": -0.480935692269},
+					{"lookback": 8, "correlation": -0.480006755901},
+					{"lookback": 3, "correlation": -0.478613351349},
+					{"lookback": 10, "correlation": -0.427775197399},
+					{"lookback": 20, "correlation": 0.386733099692}
+				]
+			},
+			{"encountered": 47366, "taken": 47358, "transitions": 12,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.847021069966},
+					{"lookback": 2, "correlation": -0.58273867331},
+					{"lookback": 4, "correlation": 0.515728581683},
+					{"lookback": 6, "correlation": 0.327830089093},
+					{"lookback": 5, "correlation": 0.266689186336},
+					{"lookback": 3, "correlation": 0.247561542034}
+				]
+			},
+			{"encountered": 47366, "taken": 3698, "transitions": 6563,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.843516446396},
+					{"lookback": 2, "correlation": -0.695773339526},
+					{"lookback": 3, "correlation": 0.465354895917},
+					{"lookback": 5, "correlation": -0.395135751383},
+					{"lookback": 7, "correlation": -0.330110205633},
+					{"lookback": 6, "correlation": -0.258159861504},
+					{"lookback": 13, "correlation": -0.237892158933}
+				]
+			},
+			{"encountered": 47366, "taken": 3698, "transitions": 6563,
+				"correlations": [
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 1, "correlation": -0.832242536841},
+					{"lookback": 2, "correlation": -0.736815437233},
+					{"lookback": 10, "correlation": -0.437486804881},
+					{"lookback": 4, "correlation": -0.37820377486},
+					{"lookback": 7, "correlation": -0.329434615547}
+				]
+			},
+			{"encountered": 47366, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.843854241439},
+					{"lookback": 4, "correlation": 0.843854241439},
+					{"lookback": 2, "correlation": -0.825908879787},
+					{"lookback": 3, "correlation": -0.681839294008},
+					{"lookback": 11, "correlation": -0.523371194528},
+					{"lookback": 8, "correlation": -0.473081957522},
+					{"lookback": 5, "correlation": -0.375754760799},
+					{"lookback": 6, "correlation": -0.369801123169},
+					{"lookback": 10, "correlation": -0.306337879492}
+				]
+			},
+			{"encountered": 47366, "taken": 35075, "transitions": 10946,
+				"correlations": [
+					{"lookback": 4, "correlation": 0.701473630874},
+					{"lookback": 1, "correlation": -0.481020141029},
+					{"lookback": 2, "correlation": -0.438289068108},
+					{"lookback": 5, "correlation": -0.438289068108},
+					{"lookback": 3, "correlation": 0.410632098974},
+					{"lookback": 12, "correlation": 0.394882405101},
+					{"lookback": 7, "correlation": 0.366803192163},
+					{"lookback": 6, "correlation": 0.339399569311}
+				]
+			},
+			{"encountered": 47366, "taken": 1343, "transitions": 2206,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.94329265718},
+					{"lookback": 3, "correlation": 0.900561584259},
+					{"lookback": 6, "correlation": 0.900561584259},
+					{"lookback": 4, "correlation": -0.827133386818},
+					{"lookback": 5, "correlation": -0.738546636828},
+					{"lookback": 1, "correlation": -0.537727483849},
+					{"lookback": 13, "correlation": -0.505763627919},
+					{"lookback": 10, "correlation": -0.419414770088},
+					{"lookback": 7, "correlation": -0.376472575265}
+				]
+			},
+			{"encountered": 47366, "taken": 1293, "transitions": 1538,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.871426761812},
+					{"lookback": 5, "correlation": 0.847738884432},
+					{"lookback": 13, "correlation": -0.54490562851},
+					{"lookback": 6, "correlation": 0.533505045813},
+					{"lookback": 1, "correlation": 0.51066165604},
+					{"lookback": 10, "correlation": -0.423426086222}
+				]
+			},
+			{"encountered": 47366, "taken": 4038, "transitions": 4798,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.775324072119},
+					{"lookback": 1, "correlation": 0.731959633492},
+					{"lookback": 4, "correlation": 0.701346957733},
+					{"lookback": 7, "correlation": 0.677659080353},
+					{"lookback": 15, "correlation": -0.535025123506}
+				]
+			},
+			{"encountered": 47366, "taken": 22, "transitions": 30,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.998057678504},
+					{"lookback": 4, "correlation": 0.944897183634},
+					{"lookback": 3, "correlation": 0.900519359878},
+					{"lookback": 6, "correlation": 0.872777941984},
+					{"lookback": 9, "correlation": 0.847232191868},
+					{"lookback": 1, "correlation": 0.816323945446},
+					{"lookback": 17, "correlation": -0.60051513744}
+				]
+			},
+			{"encountered": 47366, "taken": 21, "transitions": 16,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.999113288012},
+					{"lookback": 4, "correlation": 0.998099902884},
+					{"lookback": 1, "correlation": 0.979310053625},
+					{"lookback": 6, "correlation": 0.944010471646},
+					{"lookback": 5, "correlation": 0.900561584259},
+					{"lookback": 8, "correlation": 0.870962293628},
+					{"lookback": 11, "correlation": 0.847274416248},
+					{"lookback": 3, "correlation": 0.816366169826},
+					{"lookback": 19, "correlation": -0.599586201072}
+				]
+			},
+			{"encountered": 47366, "taken": 47366, "transitions": 0,
+				"correlations": [
+					{"lookback": 4, "correlation": -1.0},
+					{"lookback": 2, "correlation": -0.999915551239},
+					{"lookback": 6, "correlation": -0.998986614871},
+					{"lookback": 1, "correlation": -0.996664273952},
+					{"lookback": 3, "correlation": -0.980112316852},
+					{"lookback": 8, "correlation": -0.944897183634},
+					{"lookback": 7, "correlation": -0.901448296246},
+					{"lookback": 10, "correlation": -0.871849005616},
+					{"lookback": 13, "correlation": -0.848161128235},
+					{"lookback": 5, "correlation": -0.817252881814},
+					{"lookback": 21, "correlation": 0.599586201072}
+				]
+			},
+			{"encountered": 47366, "taken": 35075, "transitions": 10946,
+				"correlations": [
+					{"lookback": 4, "correlation": -0.500147785331},
+					{"lookback": 11, "correlation": -0.497276527467},
+					{"lookback": 1, "correlation": 0.481020141029},
+					{"lookback": 5, "correlation": -0.481020141029},
+					{"lookback": 3, "correlation": -0.480935692269},
+					{"lookback": 7, "correlation": -0.480006755901},
+					{"lookback": 2, "correlation": -0.478613351349},
+					{"lookback": 9, "correlation": -0.427775197399},
+					{"lookback": 19, "correlation": 0.386733099692},
+					{"lookback": 8, "correlation": -0.384579656294}
+				]
+			},
+			{"encountered": 47363, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 13, "correlation": 0.750987057408},
+					{"lookback": 14, "correlation": 0.578573992357},
+					{"lookback": 12, "correlation": 0.486603466841},
+					{"lookback": 5, "correlation": 0.466672296941},
+					{"lookback": 19, "correlation": 0.463589721935},
+					{"lookback": 18, "correlation": 0.4602537846},
+					{"lookback": 22, "correlation": 0.44171610751},
+					{"lookback": 11, "correlation": 0.439351392437}
+				]
+			},
+			{"encountered": 47363, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 14, "correlation": 0.750987057408},
+					{"lookback": 15, "correlation": 0.578573992357},
+					{"lookback": 13, "correlation": 0.486603466841},
+					{"lookback": 6, "correlation": 0.466672296941},
+					{"lookback": 20, "correlation": 0.463589721935}
+				]
+			},
+			{"encountered": 47363, "taken": 32582, "transitions": 10580,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.375841901907},
+					{"lookback": 2, "correlation": -0.375841901907},
+					{"lookback": 24, "correlation": -0.346494098769},
+					{"lookback": 20, "correlation": -0.343833794312},
+					{"lookback": 15, "correlation": -0.320651141186}
+				]
+			},
+			{"encountered": 47363, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 16, "correlation": 0.666490720605},
+					{"lookback": 1, "correlation": -0.617085066402},
+					{"lookback": 17, "correlation": 0.616578341744}
+				]
+			},
+			{"encountered": 47363, "taken": 35074, "transitions": 11644,
+				"correlations": [
+					{"lookback": 16, "correlation": -0.507505859004},
+					{"lookback": 17, "correlation": -0.482422988409},
+					{"lookback": 1, "correlation": -0.481071722653},
+					{"lookback": 3, "correlation": -0.481071722653},
+					{"lookback": 4, "correlation": -0.481071722653},
+					{"lookback": 22, "correlation": -0.401938221819},
+					{"lookback": 10, "correlation": -0.33775309841}
+				]
+			},
+			{"encountered": 47363, "taken": 47321, "transitions": 84,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.998226463695},
+					{"lookback": 4, "correlation": -0.998226463695},
+					{"lookback": 5, "correlation": -0.998226463695},
+					{"lookback": 18, "correlation": -0.6647171843},
+					{"lookback": 3, "correlation": 0.61767624517},
+					{"lookback": 19, "correlation": -0.615142621878}
+				]
+			},
+			{"encountered": 47345, "taken": 58, "transitions": 108,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.997549899673},
+					{"lookback": 3, "correlation": 0.997549899673},
+					{"lookback": 5, "correlation": 0.996536065054},
+					{"lookback": 2, "correlation": 0.97765339529},
+					{"lookback": 7, "correlation": 0.942422642306},
+					{"lookback": 6, "correlation": 0.89895448305},
+					{"lookback": 9, "correlation": 0.869342063576},
+					{"lookback": 12, "correlation": 0.845643679375},
+					{"lookback": 4, "correlation": 0.814721723519},
+					{"lookback": 20, "correlation": -0.597972330764}
+				]
+			},
+			{"encountered": 47344, "taken": 451, "transitions": 902,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.98094795539},
+					{"lookback": 3, "correlation": 0.979934099358},
+					{"lookback": 5, "correlation": 0.926748901656},
+					{"lookback": 7, "correlation": 0.890757012504},
+					{"lookback": 4, "correlation": 0.882350456235},
+					{"lookback": 10, "correlation": 0.829038526529},
+					{"lookback": 2, "correlation": 0.79811591754},
+					{"lookback": 18, "correlation": -0.583643122677}
+				]
+			},
+			{"encountered": 47321, "taken": 1710, "transitions": 2124,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.927727647345},
+					{"lookback": 3, "correlation": 0.927727647345},
+					{"lookback": 5, "correlation": 0.927727647345},
+					{"lookback": 6, "correlation": 0.927727647345},
+					{"lookback": 19, "correlation": 0.637370300712}
+				]
+			},
+			{"encountered": 46073, "taken": 1065, "transitions": 2104,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.953769018731},
+					{"lookback": 3, "correlation": 0.877715798841},
+					{"lookback": 6, "correlation": 0.853363141102},
+					{"lookback": 7, "correlation": 0.557788726586},
+					{"lookback": 14, "correlation": -0.547283658542},
+					{"lookback": 2, "correlation": 0.534304256289}
+				]
+			},
+			{"encountered": 46023, "taken": 2355, "transitions": 4565,
+				"correlations": [
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 7, "correlation": 1.0},
+					{"lookback": 1, "correlation": 0.897659865719},
+					{"lookback": 3, "correlation": 0.897659865719},
+					{"lookback": 5, "correlation": -0.855898137888},
+					{"lookback": 6, "correlation": -0.729135432284},
+					{"lookback": 14, "correlation": -0.45931382135},
+					{"lookback": 2, "correlation": -0.421897746779},
+					{"lookback": 8, "correlation": -0.388870782},
+					{"lookback": 11, "correlation": -0.36666449384}
+				]
+			},
+			{"encountered": 45611, "taken": 34676, "transitions": 11299,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.520510403192},
+					{"lookback": 2, "correlation": 0.520510403192},
+					{"lookback": 4, "correlation": -0.520510403192},
+					{"lookback": 6, "correlation": -0.520510403192},
+					{"lookback": 7, "correlation": -0.520510403192},
+					{"lookback": 37, "correlation": -0.446756264936}
+				]
+			},
+			{"encountered": 44477, "taken": 11655, "transitions": 23310,
+				"correlations": [
+					{"lookback": 25, "correlation": 0.384176091013},
+					{"lookback": 2, "correlation": -0.369606763046},
+					{"lookback": 7, "correlation": 0.334442520853}
+				]
+			},
+			{"encountered": 43771, "taken": 7123, "transitions": 10348,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.674533366841},
+					{"lookback": 2, "correlation": 0.674533366841},
+					{"lookback": 3, "correlation": 0.674533366841},
+					{"lookback": 4, "correlation": 0.674533366841},
+					{"lookback": 6, "correlation": 0.674533366841},
+					{"lookback": 8, "correlation": -0.589636974252},
+					{"lookback": 18, "correlation": 0.461789769482},
+					{"lookback": 7, "correlation": 0.45109775879}
+				]
+			},
+			{"encountered": 43668, "taken": 30762, "transitions": 9745,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.409269945956},
+					{"lookback": 1, "correlation": -0.40890354493},
+					{"lookback": 8, "correlation": 0.391270495557},
+					{"lookback": 3, "correlation": 0.388888888889},
+					{"lookback": 7, "correlation": 0.290693413942}
+				]
+			},
+			{"encountered": 43668, "taken": 12646, "transitions": 12293,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.420811578272},
+					{"lookback": 2, "correlation": 0.420811578272},
+					{"lookback": 4, "correlation": 0.420811578272},
+					{"lookback": 5, "correlation": 0.420811578272},
+					{"lookback": 8, "correlation": 0.420811578272},
+					{"lookback": 12, "correlation": -0.373866446826},
+					{"lookback": 6, "correlation": -0.321104699093},
+					{"lookback": 14, "correlation": -0.211733992855},
+					{"lookback": 7, "correlation": -0.19808555464},
+					{"lookback": 15, "correlation": -0.195108546304}
+				]
+			},
+			{"encountered": 43571, "taken": 9333, "transitions": 15135,
+				"correlations": [
+					{"lookback": 4, "correlation": 0.524224828441},
+					{"lookback": 1, "correlation": 0.512887012003},
+					{"lookback": 9, "correlation": 0.457391384178},
+					{"lookback": 10, "correlation": 0.387161185192},
+					{"lookback": 7, "correlation": -0.360767482959},
+					{"lookback": 6, "correlation": -0.357049413601}
+				]
+			},
+			{"encountered": 43571, "taken": 42689, "transitions": 1732,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.959514355879},
+					{"lookback": 1, "correlation": 0.956117601157},
+					{"lookback": 3, "correlation": -0.812673567281},
+					{"lookback": 6, "correlation": -0.781735558055},
+					{"lookback": 11, "correlation": -0.620160198297}
+				]
+			},
+			{"encountered": 43328, "taken": 290, "transitions": 560,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.986613737075},
+					{"lookback": 3, "correlation": 0.927391063516},
+					{"lookback": 2, "correlation": 0.879431314623},
+					{"lookback": 5, "correlation": 0.84651957164},
+					{"lookback": 8, "correlation": 0.820624076809},
+					{"lookback": 16, "correlation": -0.591118906942}
+				]
+			},
+			{"encountered": 42689, "taken": 22590, "transitions": 7419,
+				"correlations": [
+					{"lookback": 8, "correlation": 0.622713111106},
+					{"lookback": 5, "correlation": -0.582281149711},
+					{"lookback": 11, "correlation": 0.574457120101},
+					{"lookback": 6, "correlation": -0.505212115533},
+					{"lookback": 10, "correlation": 0.379980791305},
+					{"lookback": 9, "correlation": 0.355243739605}
+				]
+			},
+			{"encountered": 39161, "taken": 23460, "transitions": 18131,
+				"correlations": [
+					{"lookback": 7, "correlation": 0.328209187712},
+					{"lookback": 12, "correlation": 0.26452337785},
+					{"lookback": 22, "correlation": 0.262786956411},
+					{"lookback": 17, "correlation": -0.256811623809},
+					{"lookback": 11, "correlation": 0.248027374173},
+					{"lookback": 19, "correlation": 0.23740456066},
+					{"lookback": 13, "correlation": 0.229233165649}
+				]
+			},
+			{"encountered": 36648, "taken": 35158, "transitions": 2358,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.918685876446},
+					{"lookback": 2, "correlation": -0.918685876446},
+					{"lookback": 3, "correlation": -0.918685876446},
+					{"lookback": 4, "correlation": -0.918685876446},
+					{"lookback": 5, "correlation": -0.918685876446},
+					{"lookback": 7, "correlation": -0.918685876446},
+					{"lookback": 9, "correlation": 0.709452084698},
+					{"lookback": 8, "correlation": -0.596703776468},
+					{"lookback": 19, "correlation": -0.59544859201}
+				]
+			},
+			{"encountered": 35075, "taken": 3, "transitions": 6,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.99982893799},
+					{"lookback": 2, "correlation": -0.99982893799},
+					{"lookback": 3, "correlation": -0.99982893799},
+					{"lookback": 7, "correlation": 0.99982893799},
+					{"lookback": 5, "correlation": 0.99971489665},
+					{"lookback": 6, "correlation": 0.99931575196},
+					{"lookback": 9, "correlation": 0.99846044191},
+					{"lookback": 4, "correlation": 0.995951532431},
+					{"lookback": 11, "correlation": 0.926671418389},
+					{"lookback": 13, "correlation": 0.924276550249},
+					{"lookback": 10, "correlation": 0.868168210976},
+					{"lookback": 16, "correlation": 0.794896650036}
+				]
+			},
+			{"encountered": 35072, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": -1.0},
+					{"lookback": 4, "correlation": -1.0},
+					{"lookback": 8, "correlation": 1.0},
+					{"lookback": 6, "correlation": 0.999885948905},
+					{"lookback": 7, "correlation": 0.999486770073},
+					{"lookback": 10, "correlation": 0.998631386861},
+					{"lookback": 5, "correlation": 0.996122262774},
+					{"lookback": 12, "correlation": 0.926836222628},
+					{"lookback": 14, "correlation": 0.924441149635},
+					{"lookback": 11, "correlation": 0.868328010949}
+				]
+			},
+			{"encountered": 35072, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": -1.0},
+					{"lookback": 4, "correlation": -1.0},
+					{"lookback": 5, "correlation": -1.0},
+					{"lookback": 9, "correlation": 1.0},
+					{"lookback": 7, "correlation": 0.999885948905},
+					{"lookback": 8, "correlation": 0.999486770073},
+					{"lookback": 11, "correlation": 0.998631386861},
+					{"lookback": 6, "correlation": 0.996122262774},
+					{"lookback": 13, "correlation": 0.926836222628},
+					{"lookback": 15, "correlation": 0.924441149635},
+					{"lookback": 12, "correlation": 0.868328010949}
+				]
+			},
+			{"encountered": 35072, "taken": 4049, "transitions": 2692,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.769103558394},
+					{"lookback": 2, "correlation": 0.769103558394},
+					{"lookback": 3, "correlation": 0.769103558394},
+					{"lookback": 4, "correlation": -0.769103558394},
+					{"lookback": 5, "correlation": -0.769103558394},
+					{"lookback": 6, "correlation": -0.769103558394},
+					{"lookback": 10, "correlation": 0.769103558394},
+					{"lookback": 8, "correlation": 0.768989507299},
+					{"lookback": 9, "correlation": 0.768704379562},
+					{"lookback": 12, "correlation": 0.76784899635},
+					{"lookback": 7, "correlation": 0.765225821168},
+					{"lookback": 14, "correlation": 0.706888686131},
+					{"lookback": 16, "correlation": 0.704721715328},
+					{"lookback": 13, "correlation": 0.657048357664}
+				]
+			},
+			{"encountered": 32823, "taken": 30232, "transitions": 3226,
+				"correlations": [
+					{"lookback": 3, "correlation": -0.842122901624},
+					{"lookback": 4, "correlation": -0.616914968163},
+					{"lookback": 1, "correlation": 0.592846479603},
+					{"lookback": 5, "correlation": -0.432653931694},
+					{"lookback": 2, "correlation": 0.394144349998}
+				]
+			},
+			{"encountered": 32823, "taken": 23545, "transitions": 17576,
+				"correlations": [
+					{"lookback": 6, "correlation": -0.679066508241},
+					{"lookback": 4, "correlation": -0.460743990494},
+					{"lookback": 1, "correlation": 0.389086920757},
+					{"lookback": 10, "correlation": 0.370989854675}
+				]
+			},
+			{"encountered": 32823, "taken": 27872, "transitions": 1114,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.698321299089},
+					{"lookback": 3, "correlation": -0.62313012217},
+					{"lookback": 28, "correlation": -0.361849922311},
+					{"lookback": 6, "correlation": 0.359717271426}
+				]
+			},
+			{"encountered": 32822, "taken": 10679, "transitions": 21355,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.349277923344},
+					{"lookback": 6, "correlation": -0.331424044848},
+					{"lookback": 9, "correlation": -0.306075193468}
+				]
+			},
+			{"encountered": 32640, "taken": 11655, "transitions": 22937,
+				"correlations": [
+					{"lookback": 15, "correlation": 0.558455882353},
+					{"lookback": 4, "correlation": -0.486151960784},
+					{"lookback": 2, "correlation": 0.352022058824},
+					{"lookback": 16, "correlation": -0.315318627451},
+					{"lookback": 25, "correlation": 0.314338235294},
+					{"lookback": 5, "correlation": -0.272058823529},
+					{"lookback": 3, "correlation": -0.242340686275}
+				]
+			},
+			{"encountered": 31744, "taken": 26886, "transitions": 8743,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.449092741935},
+					{"lookback": 10, "correlation": 0.349924395161},
+					{"lookback": 9, "correlation": 0.308908770161},
+					{"lookback": 2, "correlation": 0.305443548387},
+					{"lookback": 8, "correlation": 0.284274193548},
+					{"lookback": 11, "correlation": 0.261907762097}
+				]
+			},
+			{"encountered": 31638, "taken": 11655, "transitions": 22895,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.540995006005},
+					{"lookback": 8, "correlation": -0.408369682028},
+					{"lookback": 12, "correlation": -0.354952904735},
+					{"lookback": 10, "correlation": -0.338137682534}
+				]
+			},
+			{"encountered": 31182, "taken": 15057, "transitions": 8143,
+				"correlations": [
+					{"lookback": 27, "correlation": -0.123596946957},
+					{"lookback": 61, "correlation": -0.121031364249},
+					{"lookback": 71, "correlation": -0.109486242063}
+				]
+			},
+			{"encountered": 31011, "taken": 11655, "transitions": 23165,
+				"correlations": [
+					{"lookback": 13, "correlation": 0.548160330205},
+					{"lookback": 9, "correlation": 0.530102221792},
+					{"lookback": 2, "correlation": -0.38002644223},
+					{"lookback": 7, "correlation": -0.304891812583}
+				]
+			},
+			{"encountered": 30762, "taken": 30762, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 0.86990442754}
+				]
+			},
+			{"encountered": 29378, "taken": 18152, "transitions": 10920,
+				"correlations": [
+					{"lookback": 10, "correlation": 0.993532575397},
+					{"lookback": 2, "correlation": -0.976921505889},
+					{"lookback": 8, "correlation": -0.804888011437},
+					{"lookback": 11, "correlation": 0.430526244128},
+					{"lookback": 9, "correlation": 0.372251344544}
+				]
+			},
+			{"encountered": 29078, "taken": 29078, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.805970149254},
+					{"lookback": 14, "correlation": 0.802324781622},
+					{"lookback": 5, "correlation": 0.501410000688},
+					{"lookback": 17, "correlation": 0.480569502717},
+					{"lookback": 8, "correlation": 0.477130476649}
+				]
+			},
+			{"encountered": 29078, "taken": 3105, "transitions": 5227,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.786436481189},
+					{"lookback": 2, "correlation": -0.628447623633},
+					{"lookback": 15, "correlation": -0.627140793727}
+				]
+			},
+			{"encountered": 29078, "taken": 24400, "transitions": 4405,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.660361785542},
+					{"lookback": 1, "correlation": -0.528096842974},
+					{"lookback": 2, "correlation": 0.528096842974},
+					{"lookback": 16, "correlation": 0.49136804457}
+				]
+			},
+			{"encountered": 29078, "taken": 518, "transitions": 994,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.942293142582},
+					{"lookback": 2, "correlation": 0.936928261916},
+					{"lookback": 3, "correlation": -0.81539308068},
+					{"lookback": 4, "correlation": 0.722883279455},
+					{"lookback": 19, "correlation": -0.713185225944},
+					{"lookback": 6, "correlation": -0.613109567371},
+					{"lookback": 5, "correlation": -0.550037829287},
+					{"lookback": 22, "correlation": -0.480913405324},
+					{"lookback": 13, "correlation": -0.427333379187}
+				]
+			},
+			{"encountered": 28873, "taken": 24400, "transitions": 4211,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.983375471894},
+					{"lookback": 4, "correlation": -0.967582170194},
+					{"lookback": 5, "correlation": 0.966820212655},
+					{"lookback": 1, "correlation": 0.964118726838},
+					{"lookback": 7, "correlation": 0.750424271811},
+					{"lookback": 8, "correlation": 0.743843729436},
+					{"lookback": 2, "correlation": -0.724032833443},
+					{"lookback": 6, "correlation": -0.615904131888},
+					{"lookback": 21, "correlation": 0.52675509992}
+				]
+			},
+			{"encountered": 28679, "taken": 78, "transitions": 66,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.827678789358},
+					{"lookback": 2, "correlation": 0.779490219324},
+					{"lookback": 17, "correlation": -0.735067470972},
+					{"lookback": 4, "correlation": -0.603472924439},
+					{"lookback": 3, "correlation": -0.522298545974},
+					{"lookback": 20, "correlation": -0.50095888978},
+					{"lookback": 11, "correlation": -0.464695421737}
+				]
+			},
+			{"encountered": 28601, "taken": 28252, "transitions": 192,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.975595258907},
+					{"lookback": 2, "correlation": 0.810915702248},
+					{"lookback": 3, "correlation": -0.75979860844},
+					{"lookback": 18, "correlation": 0.734344952974},
+					{"lookback": 5, "correlation": 0.587776651166},
+					{"lookback": 4, "correlation": 0.515471487011},
+					{"lookback": 21, "correlation": 0.506101185273},
+					{"lookback": 12, "correlation": 0.450998216846}
+				]
+			},
+			{"encountered": 28560, "taken": 24400, "transitions": 3895,
+				"correlations": [
+					{"lookback": 4, "correlation": 0.878221288515},
+					{"lookback": 6, "correlation": 0.796918767507},
+					{"lookback": 3, "correlation": -0.73662464986},
+					{"lookback": 1, "correlation": -0.708683473389},
+					{"lookback": 2, "correlation": 0.699579831933},
+					{"lookback": 7, "correlation": 0.675980392157},
+					{"lookback": 5, "correlation": -0.580042016807},
+					{"lookback": 20, "correlation": 0.538585434174}
+				]
+			},
+			{"encountered": 28196, "taken": 27283, "transitions": 1825,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.870478081997}
+				]
+			},
+			{"encountered": 27682, "taken": 4082, "transitions": 6739,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.673361751319},
+					{"lookback": 11, "correlation": 0.609132288129},
+					{"lookback": 4, "correlation": -0.568239289069}
+				]
+			},
+			{"encountered": 27214, "taken": 26257, "transitions": 1888,
+				"correlations": [
+					{"lookback": 13, "correlation": 0.752627324171}
+				]
+			},
+			{"encountered": 26544, "taken": 13045, "transitions": 3982,
+				"correlations": [
+					{"lookback": 5, "correlation": 0.368444846293},
+					{"lookback": 8, "correlation": 0.324894514768},
+					{"lookback": 7, "correlation": 0.312613019892},
+					{"lookback": 6, "correlation": 0.282172995781},
+					{"lookback": 11, "correlation": 0.252411091019},
+					{"lookback": 35, "correlation": -0.23869801085}
+				]
+			},
+			{"encountered": 24400, "taken": 11156, "transitions": 1368,
+				"correlations": [
+					{"lookback": 19, "correlation": 0.449098360656},
+					{"lookback": 14, "correlation": 0.436475409836},
+					{"lookback": 16, "correlation": 0.384262295082},
+					{"lookback": 18, "correlation": -0.339262295082},
+					{"lookback": 13, "correlation": 0.308524590164},
+					{"lookback": 10, "correlation": -0.286639344262}
+				]
+			},
+			{"encountered": 23708, "taken": 22565, "transitions": 1214,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.903576851696},
+					{"lookback": 1, "correlation": -0.903408132276},
+					{"lookback": 8, "correlation": -0.871435802261},
+					{"lookback": 4, "correlation": -0.86333727012},
+					{"lookback": 9, "correlation": -0.700101231652},
+					{"lookback": 32, "correlation": -0.67521511726},
+					{"lookback": 30, "correlation": -0.666019908892},
+					{"lookback": 24, "correlation": -0.657668297621},
+					{"lookback": 3, "correlation": -0.646870254766},
+					{"lookback": 31, "correlation": -0.646532815927}
+				]
+			},
+			{"encountered": 23660, "taken": 12567, "transitions": 15086,
+				"correlations": [
+					{"lookback": 9, "correlation": -0.282586644125},
+					{"lookback": 13, "correlation": -0.262383770076},
+					{"lookback": 18, "correlation": -0.259340659341},
+					{"lookback": 28, "correlation": -0.209298393914},
+					{"lookback": 17, "correlation": -0.200845308538},
+					{"lookback": 56, "correlation": 0.185122569738},
+					{"lookback": 57, "correlation": 0.168469991547},
+					{"lookback": 53, "correlation": 0.160524091293}
+				]
+			},
+			{"encountered": 23660, "taken": 10018, "transitions": 4072,
+				"correlations": [
+					{"lookback": 13, "correlation": 0.248605240913},
+					{"lookback": 5, "correlation": 0.231191885038},
+					{"lookback": 12, "correlation": 0.222485207101},
+					{"lookback": 19, "correlation": 0.198562975486}
+				]
+			},
+			{"encountered": 23600, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -0.657203389831},
+					{"lookback": 3, "correlation": -0.519661016949},
+					{"lookback": 4, "correlation": -0.443898305085},
+					{"lookback": 6, "correlation": -0.327288135593}
+				]
+			},
+			{"encountered": 23545, "taken": 726, "transitions": 1300,
+				"correlations": [
+					{"lookback": 6, "correlation": 0.95328095137},
+					{"lookback": 1, "correlation": -0.938330855808},
+					{"lookback": 7, "correlation": 0.883372265874},
+					{"lookback": 16, "correlation": -0.76963261839},
+					{"lookback": 9, "correlation": -0.663792737312}
+				]
+			},
+			{"encountered": 22819, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 7, "correlation": 0.965029142381},
+					{"lookback": 8, "correlation": 0.881239318112},
+					{"lookback": 17, "correlation": -0.771769139752}
+				]
+			},
+			{"encountered": 22819, "taken": 1875, "transitions": 3630,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.83566326307},
+					{"lookback": 2, "correlation": 0.83566326307},
+					{"lookback": 3, "correlation": -0.83566326307},
+					{"lookback": 8, "correlation": 0.802445330646},
+					{"lookback": 9, "correlation": 0.730750690214},
+					{"lookback": 18, "correlation": -0.615320566195}
+				]
+			},
+			{"encountered": 22728, "taken": 12942, "transitions": 1861,
+				"correlations": [
+					{"lookback": 11, "correlation": 0.151531151003},
+					{"lookback": 24, "correlation": 0.149771207321},
+					{"lookback": 3, "correlation": 0.148715241112},
+					{"lookback": 1, "correlation": 0.139299542415}
+				]
+			},
+			{"encountered": 22728, "taken": 18050, "transitions": 4319,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.785374868004},
+					{"lookback": 3, "correlation": 0.780183034143},
+					{"lookback": 4, "correlation": 0.542678634284},
+					{"lookback": 5, "correlation": 0.49419218585}
+				]
+			},
+			{"encountered": 22728, "taken": 18857, "transitions": 3434,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.997712073214},
+					{"lookback": 18, "correlation": -0.723248856037},
+					{"lookback": 10, "correlation": 0.71084125308},
+					{"lookback": 6, "correlation": -0.695441745864},
+					{"lookback": 17, "correlation": -0.684354100669},
+					{"lookback": 5, "correlation": -0.668690601901},
+					{"lookback": 14, "correlation": -0.668162618796},
+					{"lookback": 12, "correlation": -0.66587469201},
+					{"lookback": 20, "correlation": -0.665082717353},
+					{"lookback": 13, "correlation": -0.650299190426},
+					{"lookback": 16, "correlation": -0.637363604365},
+					{"lookback": 3, "correlation": -0.616772263288}
+				]
+			},
+			{"encountered": 22590, "taken": 22550, "transitions": 68,
+				"correlations": [
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 1, "correlation": 0.996458610004},
+					{"lookback": 2, "correlation": 0.996458610004},
+					{"lookback": 4, "correlation": -0.996458610004}
+				]
+			},
+			{"encountered": 22550, "taken": 547, "transitions": 1092,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.951485587583},
+					{"lookback": 2, "correlation": -0.951485587583},
+					{"lookback": 3, "correlation": -0.951485587583},
+					{"lookback": 4, "correlation": -0.951485587583},
+					{"lookback": 5, "correlation": 0.951485587583}
+				]
+			},
+			{"encountered": 22395, "taken": 2380, "transitions": 2588,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.787452556374},
+					{"lookback": 5, "correlation": 0.787452556374},
+					{"lookback": 8, "correlation": -0.787452556374},
+					{"lookback": 12, "correlation": 0.787363250726},
+					{"lookback": 11, "correlation": 0.786827416834},
+					{"lookback": 16, "correlation": 0.78647019424},
+					{"lookback": 4, "correlation": 0.784773386917},
+					{"lookback": 7, "correlation": -0.784773386917},
+					{"lookback": 10, "correlation": 0.783701719134},
+					{"lookback": 3, "correlation": 0.774413931681},
+					{"lookback": 15, "correlation": 0.741460147354},
+					{"lookback": 14, "correlation": 0.733244027685},
+					{"lookback": 18, "correlation": 0.728242911364},
+					{"lookback": 13, "correlation": 0.693592319714}
+				]
+			},
+			{"encountered": 22143, "taken": 90, "transitions": 180,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.991871020187},
+					{"lookback": 2, "correlation": 0.991871020187},
+					{"lookback": 4, "correlation": -0.692724563067}
+				]
+			},
+			{"encountered": 22053, "taken": 10955, "transitions": 19070,
+				"correlations": [
+					{"lookback": 12, "correlation": 0.820069831769},
+					{"lookback": 11, "correlation": 0.654106017322},
+					{"lookback": 19, "correlation": 0.547907314198},
+					{"lookback": 20, "correlation": 0.525688114996},
+					{"lookback": 13, "correlation": 0.508456899288},
+					{"lookback": 37, "correlation": -0.488051512266},
+					{"lookback": 38, "correlation": -0.46347435723},
+					{"lookback": 14, "correlation": 0.412596925588}
+				]
+			},
+			{"encountered": 22003, "taken": 302, "transitions": 602,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.972549197837},
+					{"lookback": 2, "correlation": -0.972549197837},
+					{"lookback": 3, "correlation": -0.972549197837},
+					{"lookback": 4, "correlation": -0.972549197837},
+					{"lookback": 5, "correlation": -0.972549197837},
+					{"lookback": 6, "correlation": 0.972549197837}
+				]
+			},
+			{"encountered": 21701, "taken": 334, "transitions": 666,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.969218008387},
+					{"lookback": 2, "correlation": 0.969218008387},
+					{"lookback": 3, "correlation": -0.969218008387},
+					{"lookback": 4, "correlation": -0.969218008387},
+					{"lookback": 5, "correlation": -0.969218008387},
+					{"lookback": 6, "correlation": -0.969218008387},
+					{"lookback": 7, "correlation": 0.969218008387}
+				]
+			},
+			{"encountered": 21367, "taken": 328, "transitions": 652,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.969298450882},
+					{"lookback": 2, "correlation": 0.969298450882},
+					{"lookback": 3, "correlation": 0.969298450882},
+					{"lookback": 4, "correlation": -0.969298450882},
+					{"lookback": 5, "correlation": -0.969298450882},
+					{"lookback": 6, "correlation": -0.969298450882},
+					{"lookback": 7, "correlation": -0.969298450882},
+					{"lookback": 8, "correlation": 0.969298450882}
+				]
+			},
+			{"encountered": 20985, "taken": 20951, "transitions": 68,
+				"correlations": [
+					{"lookback": 3, "correlation": -0.996759590183},
+					{"lookback": 5, "correlation": -0.995234691446},
+					{"lookback": 4, "correlation": -0.879056468906},
+					{"lookback": 1, "correlation": 0.829878484632},
+					{"lookback": 10, "correlation": 0.770216821539}
+				]
+			},
+			{"encountered": 20985, "taken": 20709, "transitions": 498,
+				"correlations": [
+					{"lookback": 4, "correlation": -0.973028353586},
+					{"lookback": 6, "correlation": -0.972361210388},
+					{"lookback": 1, "correlation": 0.971026923993},
+					{"lookback": 5, "correlation": -0.863045032166},
+					{"lookback": 2, "correlation": 0.819680724327},
+					{"lookback": 11, "correlation": 0.762687634024}
+				]
+			},
+			{"encountered": 20985, "taken": 209, "transitions": 418,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.980081010245},
+					{"lookback": 6, "correlation": -0.826256850131},
+					{"lookback": 26, "correlation": 0.503168930188},
+					{"lookback": 18, "correlation": 0.497831784608},
+					{"lookback": 16, "correlation": 0.494019537765}
+				]
+			},
+			{"encountered": 20985, "taken": 18002, "transitions": 1104,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.715701691685},
+					{"lookback": 4, "correlation": -0.714748629974},
+					{"lookback": 3, "correlation": -0.708363116512},
+					{"lookback": 9, "correlation": 0.667667381463}
+				]
+			},
+			{"encountered": 20943, "taken": 2659, "transitions": 4092,
+				"correlations": [
+					{"lookback": 10, "correlation": 0.833166213054},
+					{"lookback": 7, "correlation": 0.803562049372},
+					{"lookback": 1, "correlation": -0.746072673447},
+					{"lookback": 8, "correlation": 0.693931146445},
+					{"lookback": 2, "correlation": -0.683235448599},
+					{"lookback": 24, "correlation": 0.683044453994},
+					{"lookback": 19, "correlation": -0.673781215681},
+					{"lookback": 6, "correlation": 0.647137468367},
+					{"lookback": 16, "correlation": 0.643604068185}
+				]
+			},
+			{"encountered": 20781, "taken": 1384, "transitions": 1568,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.86680140513},
+					{"lookback": 6, "correlation": 0.86680140513},
+					{"lookback": 9, "correlation": -0.86680140513},
+					{"lookback": 13, "correlation": 0.86670516337},
+					{"lookback": 12, "correlation": 0.866127712815},
+					{"lookback": 5, "correlation": 0.864491602907},
+					{"lookback": 8, "correlation": -0.860353207257},
+					{"lookback": 11, "correlation": 0.859102064386},
+					{"lookback": 4, "correlation": 0.849766613734},
+					{"lookback": 17, "correlation": 0.833597998171},
+					{"lookback": 15, "correlation": 0.802993118714},
+					{"lookback": 2, "correlation": 0.796929887878},
+					{"lookback": 16, "correlation": 0.781242481113},
+					{"lookback": 19, "correlation": 0.780953755835},
+					{"lookback": 14, "correlation": 0.762860305086}
+				]
+			},
+			{"encountered": 20776, "taken": 2, "transitions": 4,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.999807470158},
+					{"lookback": 2, "correlation": 0.999807470158},
+					{"lookback": 7, "correlation": -0.842606854062}
+				]
+			},
+			{"encountered": 20774, "taken": 8354, "transitions": 16549,
+				"correlations": [
+					{"lookback": 5, "correlation": 0.770867430442},
+					{"lookback": 6, "correlation": -0.753730624819},
+					{"lookback": 4, "correlation": -0.702801578897},
+					{"lookback": 9, "correlation": 0.457687493983}
+				]
+			},
+			{"encountered": 20709, "taken": 10822, "transitions": 12032,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.833212612874},
+					{"lookback": 8, "correlation": -0.76387078082},
+					{"lookback": 14, "correlation": 0.708918827563},
+					{"lookback": 9, "correlation": -0.675117098846},
+					{"lookback": 10, "correlation": -0.586266840504},
+					{"lookback": 15, "correlation": -0.557390506543},
+					{"lookback": 26, "correlation": 0.426915833695}
+				]
+			},
+			{"encountered": 20308, "taken": 16669, "transitions": 1588,
+				"correlations": [
+					{"lookback": 10, "correlation": -0.598089422888},
+					{"lookback": 4, "correlation": -0.577013984637},
+					{"lookback": 7, "correlation": -0.504628717747},
+					{"lookback": 9, "correlation": -0.502757533977},
+					{"lookback": 11, "correlation": -0.492416781564},
+					{"lookback": 26, "correlation": -0.465038408509}
+				]
+			},
+			{"encountered": 19983, "taken": 11151, "transitions": 14677,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.775208927588},
+					{"lookback": 2, "correlation": 0.69734274133},
+					{"lookback": 5, "correlation": 0.521393184207},
+					{"lookback": 4, "correlation": -0.495270980333},
+					{"lookback": 9, "correlation": -0.388580293249},
+					{"lookback": 8, "correlation": -0.385277485863},
+					{"lookback": 3, "correlation": -0.361056898364},
+					{"lookback": 7, "correlation": -0.346644647951}
+				]
+			},
+			{"encountered": 19582, "taken": 16415, "transitions": 6331,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.353283627821},
+					{"lookback": 8, "correlation": 0.335307935859}
+				]
+			},
+			{"encountered": 19494, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 8, "correlation": 1.0},
+					{"lookback": 2, "correlation": 0.975069252078},
+					{"lookback": 9, "correlation": 0.859546527137},
+					{"lookback": 22, "correlation": 0.799015081564},
+					{"lookback": 14, "correlation": 0.796757976813},
+					{"lookback": 24, "correlation": 0.724838411819}
+				]
+			},
+			{"encountered": 19494, "taken": 3820, "transitions": 6634,
+				"correlations": [
+					{"lookback": 25, "correlation": 0.7162203755},
+					{"lookback": 15, "correlation": 0.618036318867},
+					{"lookback": 1, "correlation": 0.608084538832},
+					{"lookback": 2, "correlation": -0.608084538832},
+					{"lookback": 9, "correlation": 0.608084538832},
+					{"lookback": 26, "correlation": 0.601313224582},
+					{"lookback": 3, "correlation": 0.590540679183},
+					{"lookback": 23, "correlation": 0.584179747615},
+					{"lookback": 28, "correlation": 0.540166204986}
+				]
+			},
+			{"encountered": 19493, "taken": 9823, "transitions": 5026,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.9899451085},
+					{"lookback": 10, "correlation": 0.800338583081},
+					{"lookback": 8, "correlation": -0.44985379367},
+					{"lookback": 7, "correlation": -0.432719437747},
+					{"lookback": 20, "correlation": -0.401528753912},
+					{"lookback": 36, "correlation": -0.373621299954},
+					{"lookback": 37, "correlation": -0.371056276612},
+					{"lookback": 29, "correlation": -0.36849125327},
+					{"lookback": 23, "correlation": -0.364900220592}
+				]
+			},
+			{"encountered": 19356, "taken": 11087, "transitions": 12100,
+				"correlations": [
+					{"lookback": 5, "correlation": 0.901942550114},
+					{"lookback": 8, "correlation": -0.725253151478},
+					{"lookback": 9, "correlation": -0.679892539781},
+					{"lookback": 10, "correlation": 0.583591651168},
+					{"lookback": 15, "correlation": 0.525418474892},
+					{"lookback": 14, "correlation": -0.479127918992},
+					{"lookback": 7, "correlation": 0.448026451746},
+					{"lookback": 11, "correlation": -0.408865468072}
+				]
+			},
+			{"encountered": 18920, "taken": 10060, "transitions": 13657,
+				"correlations": [
+					{"lookback": 9, "correlation": -0.255496828753},
+					{"lookback": 10, "correlation": -0.235729386892},
+					{"lookback": 11, "correlation": 0.17156448203},
+					{"lookback": 29, "correlation": -0.161522198732},
+					{"lookback": 8, "correlation": 0.125898520085}
+				]
+			},
+			{"encountered": 18920, "taken": 6316, "transitions": 2960,
+				"correlations": [
+					{"lookback": 8, "correlation": 0.426321353066},
+					{"lookback": 24, "correlation": 0.333298097252},
+					{"lookback": 18, "correlation": 0.328646934461},
+					{"lookback": 2, "correlation": -0.314904862579},
+					{"lookback": 21, "correlation": 0.313636363636},
+					{"lookback": 26, "correlation": 0.293023255814},
+					{"lookback": 41, "correlation": 0.292071881607},
+					{"lookback": 28, "correlation": 0.2911205074}
+				]
+			},
+			{"encountered": 18920, "taken": 6671, "transitions": 2670,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 3, "correlation": 0.802325581395},
+					{"lookback": 2, "correlation": 0.693974630021},
+					{"lookback": 10, "correlation": 0.674947145877},
+					{"lookback": 4, "correlation": 0.613742071882},
+					{"lookback": 12, "correlation": -0.599577167019},
+					{"lookback": 5, "correlation": 0.596088794926},
+					{"lookback": 8, "correlation": 0.577695560254},
+					{"lookback": 9, "correlation": 0.547040169133},
+					{"lookback": 7, "correlation": 0.50665961945},
+					{"lookback": 6, "correlation": -0.450951374207}
+				]
+			},
+			{"encountered": 18857, "taken": 17808, "transitions": 2076,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.937848014},
+					{"lookback": 15, "correlation": -0.934135864666},
+					{"lookback": 3, "correlation": -0.896802248502},
+					{"lookback": 23, "correlation": -0.874635413905},
+					{"lookback": 27, "correlation": -0.866468685369},
+					{"lookback": 22, "correlation": -0.865938378321},
+					{"lookback": 26, "correlation": -0.854059500451},
+					{"lookback": 12, "correlation": -0.841862438352},
+					{"lookback": 25, "correlation": -0.829665376253}
+				]
+			},
+			{"encountered": 18857, "taken": 2311, "transitions": 1958,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.86615050114},
+					{"lookback": 3, "correlation": 0.805695497693},
+					{"lookback": 16, "correlation": 0.803468208092},
+					{"lookback": 4, "correlation": 0.763164872461},
+					{"lookback": 27, "correlation": 0.747573845256},
+					{"lookback": 28, "correlation": 0.743861695922},
+					{"lookback": 24, "correlation": 0.741634406321},
+					{"lookback": 23, "correlation": 0.736543458663}
+				]
+			},
+			{"encountered": 18439, "taken": 9960, "transitions": 6902,
+				"correlations": [
+					{"lookback": 19, "correlation": -0.646293182927},
+					{"lookback": 2, "correlation": 0.636205867997},
+					{"lookback": 3, "correlation": 0.611801073811},
+					{"lookback": 9, "correlation": -0.565269266229},
+					{"lookback": 1, "correlation": 0.564726937469},
+					{"lookback": 5, "correlation": 0.4181897066},
+					{"lookback": 18, "correlation": -0.371983296274}
+				]
+			},
+			{"encountered": 18288, "taken": 9182, "transitions": 9202,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.296916010499},
+					{"lookback": 4, "correlation": 0.295384951881},
+					{"lookback": 9, "correlation": 0.241360454943},
+					{"lookback": 3, "correlation": -0.208552055993},
+					{"lookback": 5, "correlation": -0.205489938758},
+					{"lookback": 14, "correlation": 0.183180227472},
+					{"lookback": 16, "correlation": 0.158464566929}
+				]
+			},
+			{"encountered": 18288, "taken": 8889, "transitions": 13825,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.220144356955},
+					{"lookback": 8, "correlation": 0.198381452318},
+					{"lookback": 14, "correlation": -0.193022747157},
+					{"lookback": 5, "correlation": 0.179352580927},
+					{"lookback": 16, "correlation": -0.178587051619},
+					{"lookback": 15, "correlation": -0.17782152231},
+					{"lookback": 7, "correlation": 0.17115048119},
+					{"lookback": 9, "correlation": 0.151793525809},
+					{"lookback": 30, "correlation": 0.148403324584},
+					{"lookback": 17, "correlation": -0.13823272091},
+					{"lookback": 4, "correlation": -0.132108486439}
+				]
+			},
+			{"encountered": 18152, "taken": 8, "transitions": 16,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.999118554429},
+					{"lookback": 2, "correlation": -0.999118554429},
+					{"lookback": 9, "correlation": 0.999118554429},
+					{"lookback": 12, "correlation": -0.999118554429},
+					{"lookback": 16, "correlation": 0.999008373733},
+					{"lookback": 15, "correlation": 0.998347289555},
+					{"lookback": 8, "correlation": 0.996364037021},
+					{"lookback": 3, "correlation": 0.99217717056},
+					{"lookback": 4, "correlation": 0.99217717056},
+					{"lookback": 11, "correlation": -0.991626267078},
+					{"lookback": 14, "correlation": 0.990193918026},
+					{"lookback": 7, "correlation": 0.979836932569},
+					{"lookback": 20, "correlation": 0.964962538563},
+					{"lookback": 19, "correlation": 0.930365799912},
+					{"lookback": 18, "correlation": 0.925407668576},
+					{"lookback": 5, "correlation": 0.92199206699}
+				]
+			},
+			{"encountered": 18144, "taken": 11, "transitions": 22,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.998787477954},
+					{"lookback": 2, "correlation": -0.998787477954},
+					{"lookback": 3, "correlation": -0.998787477954},
+					{"lookback": 10, "correlation": 0.998787477954},
+					{"lookback": 13, "correlation": -0.998787477954},
+					{"lookback": 17, "correlation": 0.998677248677},
+					{"lookback": 16, "correlation": 0.998015873016},
+					{"lookback": 9, "correlation": 0.996031746032},
+					{"lookback": 4, "correlation": 0.99184303351},
+					{"lookback": 5, "correlation": 0.99184303351},
+					{"lookback": 12, "correlation": -0.991291887125},
+					{"lookback": 15, "correlation": 0.989858906526},
+					{"lookback": 8, "correlation": 0.979497354497},
+					{"lookback": 21, "correlation": 0.964616402116},
+					{"lookback": 20, "correlation": 0.930004409171}
+				]
+			},
+			{"encountered": 18133, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": -1.0},
+					{"lookback": 4, "correlation": -1.0},
+					{"lookback": 11, "correlation": 1.0},
+					{"lookback": 14, "correlation": -1.0},
+					{"lookback": 18, "correlation": 0.999889703855},
+					{"lookback": 17, "correlation": 0.999227926984},
+					{"lookback": 10, "correlation": 0.997242596371},
+					{"lookback": 5, "correlation": 0.993051342856},
+					{"lookback": 6, "correlation": 0.993051342856},
+					{"lookback": 13, "correlation": -0.99249986213},
+					{"lookback": 16, "correlation": 0.991066012243},
+					{"lookback": 9, "correlation": 0.980698174599},
+					{"lookback": 22, "correlation": 0.965808195004}
+				]
+			},
+			{"encountered": 18133, "taken": 174, "transitions": 272,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.980808470744},
+					{"lookback": 2, "correlation": 0.980808470744},
+					{"lookback": 3, "correlation": 0.980808470744},
+					{"lookback": 4, "correlation": -0.980808470744},
+					{"lookback": 5, "correlation": -0.980808470744},
+					{"lookback": 12, "correlation": 0.980808470744},
+					{"lookback": 15, "correlation": -0.980808470744},
+					{"lookback": 19, "correlation": 0.980698174599},
+					{"lookback": 18, "correlation": 0.980036397728},
+					{"lookback": 11, "correlation": 0.978051067115},
+					{"lookback": 6, "correlation": 0.9738598136},
+					{"lookback": 7, "correlation": 0.9738598136},
+					{"lookback": 14, "correlation": -0.973308332874},
+					{"lookback": 17, "correlation": 0.973198036729},
+					{"lookback": 10, "correlation": 0.961506645343},
+					{"lookback": 23, "correlation": 0.947057850328}
+				]
+			},
+			{"encountered": 18026, "taken": 3030, "transitions": 2584,
+				"correlations": [
+					{"lookback": 19, "correlation": 0.664484633307}
+				]
+			},
+			{"encountered": 17983, "taken": 4, "transitions": 8,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.999555135406},
+					{"lookback": 5, "correlation": 0.999555135406},
+					{"lookback": 14, "correlation": 0.999443919257},
+					{"lookback": 21, "correlation": 0.999443919257},
+					{"lookback": 4, "correlation": 0.999332703108},
+					{"lookback": 7, "correlation": -0.999332703108},
+					{"lookback": 17, "correlation": -0.997998109325},
+					{"lookback": 20, "correlation": 0.997775677028},
+					{"lookback": 13, "correlation": 0.993994327976},
+					{"lookback": 9, "correlation": 0.992326085748},
+					{"lookback": 3, "correlation": 0.99210365345},
+					{"lookback": 25, "correlation": 0.962520157927}
+				]
+			},
+			{"encountered": 17979, "taken": 445, "transitions": 584,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.950497802992},
+					{"lookback": 2, "correlation": 0.950497802992},
+					{"lookback": 6, "correlation": 0.950497802992},
+					{"lookback": 15, "correlation": 0.9503865621},
+					{"lookback": 22, "correlation": 0.9503865621},
+					{"lookback": 5, "correlation": 0.950275321208},
+					{"lookback": 8, "correlation": -0.950275321208},
+					{"lookback": 18, "correlation": -0.948940430502},
+					{"lookback": 21, "correlation": 0.948717948718},
+					{"lookback": 14, "correlation": 0.944935758385},
+					{"lookback": 10, "correlation": 0.94415707214},
+					{"lookback": 4, "correlation": 0.943267145003}
+				]
+			},
+			{"encountered": 17003, "taken": 16111, "transitions": 1783,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.790154678586},
+					{"lookback": 2, "correlation": 0.686643533494},
+					{"lookback": 41, "correlation": 0.619596541787}
+				]
+			},
+			{"encountered": 16546, "taken": 16546, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 17, "correlation": -0.988637737217},
+					{"lookback": 25, "correlation": -0.983560981506},
+					{"lookback": 29, "correlation": -0.98102260365},
+					{"lookback": 5, "correlation": -0.980055602563},
+					{"lookback": 24, "correlation": -0.976187598211},
+					{"lookback": 28, "correlation": -0.975341472259},
+					{"lookback": 14, "correlation": -0.948386316935},
+					{"lookback": 4, "correlation": -0.94101293364},
+					{"lookback": 27, "correlation": -0.933397800073}
+				]
+			},
+			{"encountered": 16546, "taken": 8608, "transitions": 915,
+				"correlations": [
+					{"lookback": 83, "correlation": 0.199927474918}
+				]
+			},
+			{"encountered": 16143, "taken": 10205, "transitions": 11395,
+				"correlations": [
+					{"lookback": 17, "correlation": -0.53911912284},
+					{"lookback": 32, "correlation": -0.456234900576},
+					{"lookback": 19, "correlation": -0.348076565694},
+					{"lookback": 28, "correlation": 0.343368642755},
+					{"lookback": 9, "correlation": -0.29715666233},
+					{"lookback": 35, "correlation": -0.292448739392}
+				]
+			},
+			{"encountered": 16143, "taken": 16095, "transitions": 94,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.994053149972},
+					{"lookback": 11, "correlation": -0.797311528217},
+					{"lookback": 12, "correlation": -0.705754816329},
+					{"lookback": 6, "correlation": -0.700799107972},
+					{"lookback": 7, "correlation": -0.692374403766},
+					{"lookback": 10, "correlation": -0.655702161928},
+					{"lookback": 5, "correlation": -0.641454500403}
+				]
+			},
+			{"encountered": 16095, "taken": 16029, "transitions": 112,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.991798695247},
+					{"lookback": 2, "correlation": -0.991798695247},
+					{"lookback": 12, "correlation": -0.797701149425},
+					{"lookback": 13, "correlation": -0.705125815471},
+					{"lookback": 7, "correlation": -0.69468779124},
+					{"lookback": 8, "correlation": -0.686983535259},
+					{"lookback": 11, "correlation": -0.653308480895}
+				]
+			},
+			{"encountered": 15701, "taken": 9418, "transitions": 4098,
+				"correlations": [
+					{"lookback": 25, "correlation": -0.273804216292},
+					{"lookback": 15, "correlation": 0.251512642507},
+					{"lookback": 21, "correlation": 0.236736513598}
+				]
+			},
+			{"encountered": 15057, "taken": 8787, "transitions": 3159,
+				"correlations": [
+					{"lookback": 27, "correlation": -0.291093843395},
+					{"lookback": 25, "correlation": 0.289499900379}
+				]
+			},
+			{"encountered": 15018, "taken": 48, "transitions": 96,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.99347449727},
+					{"lookback": 9, "correlation": 0.952723398588},
+					{"lookback": 8, "correlation": 0.880543347982},
+					{"lookback": 5, "correlation": 0.871221201225},
+					{"lookback": 1, "correlation": -0.865228392596},
+					{"lookback": 3, "correlation": -0.865228392596},
+					{"lookback": 10, "correlation": 0.732987082168}
+				]
+			},
+			{"encountered": 14970, "taken": 14970, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 3, "correlation": -0.999866399466},
+					{"lookback": 10, "correlation": -0.958984635939},
+					{"lookback": 9, "correlation": -0.886573146293},
+					{"lookback": 6, "correlation": -0.877221108884},
+					{"lookback": 2, "correlation": 0.871209084836},
+					{"lookback": 4, "correlation": 0.871209084836},
+					{"lookback": 11, "correlation": -0.732264529058}
+				]
+			},
+			{"encountered": 14970, "taken": 2582, "transitions": 3198,
+				"correlations": [
+					{"lookback": 15, "correlation": 0.684836339345},
+					{"lookback": 6, "correlation": -0.655177020708},
+					{"lookback": 3, "correlation": 0.655043420174},
+					{"lookback": 9, "correlation": 0.607615230461},
+					{"lookback": 1, "correlation": 0.60668002672},
+					{"lookback": 16, "correlation": 0.606012024048},
+					{"lookback": 2, "correlation": 0.605878423514},
+					{"lookback": 7, "correlation": 0.580093520374},
+					{"lookback": 8, "correlation": -0.544555778223},
+					{"lookback": 10, "correlation": -0.543754175017}
+				]
+			},
+			{"encountered": 14784, "taken": 9069, "transitions": 7928,
+				"correlations": [
+					{"lookback": 7, "correlation": -0.343885281385},
+					{"lookback": 10, "correlation": 0.308170995671},
+					{"lookback": 5, "correlation": 0.251217532468},
+					{"lookback": 11, "correlation": 0.240800865801},
+					{"lookback": 2, "correlation": -0.226866883117},
+					{"lookback": 4, "correlation": 0.225784632035},
+					{"lookback": 8, "correlation": 0.221185064935},
+					{"lookback": 17, "correlation": 0.206845238095}
+				]
+			},
+			{"encountered": 14784, "taken": 12481, "transitions": 3264,
+				"correlations": [
+					{"lookback": 3, "correlation": -0.688446969697},
+					{"lookback": 5, "correlation": 0.687364718615},
+					{"lookback": 6, "correlation": 0.561282467532},
+					{"lookback": 2, "correlation": -0.462527056277},
+					{"lookback": 4, "correlation": -0.462527056277},
+					{"lookback": 7, "correlation": -0.431141774892},
+					{"lookback": 9, "correlation": 0.365936147186}
+				]
+			},
+			{"encountered": 14781, "taken": 5713, "transitions": 7738,
+				"correlations": [
+					{"lookback": 12, "correlation": -0.346593599892},
+					{"lookback": 21, "correlation": 0.314119477708},
+					{"lookback": 20, "correlation": 0.282457208579},
+					{"lookback": 11, "correlation": -0.267302618226}
+				]
+			},
+			{"encountered": 13642, "taken": 568, "transitions": 638,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.916727752529},
+					{"lookback": 3, "correlation": -0.916727752529},
+					{"lookback": 4, "correlation": 0.916727752529},
+					{"lookback": 7, "correlation": -0.778624835068},
+					{"lookback": 29, "correlation": 0.724820407565},
+					{"lookback": 12, "correlation": 0.696525436153}
+				]
+			},
+			{"encountered": 13499, "taken": 9373, "transitions": 2615,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.530039262168},
+					{"lookback": 1, "correlation": -0.388695458923},
+					{"lookback": 3, "correlation": -0.388695458923}
+				]
+			},
+			{"encountered": 13244, "taken": 6781, "transitions": 4606,
+				"correlations": [
+					{"lookback": 16, "correlation": 0.256720024162},
+					{"lookback": 11, "correlation": -0.238900634249},
+					{"lookback": 24, "correlation": 0.214738749622},
+					{"lookback": 17, "correlation": 0.200543642404},
+					{"lookback": 31, "correlation": 0.194805194805},
+					{"lookback": 14, "correlation": 0.1926910299},
+					{"lookback": 29, "correlation": 0.170190274841}
+				]
+			},
+			{"encountered": 13074, "taken": 21, "transitions": 34,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.99678751721},
+					{"lookback": 2, "correlation": 0.99678751721},
+					{"lookback": 4, "correlation": -0.99678751721},
+					{"lookback": 5, "correlation": 0.99678751721},
+					{"lookback": 8, "correlation": -0.851613890164},
+					{"lookback": 30, "correlation": 0.780327367294}
+				]
+			},
+			{"encountered": 13053, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 5, "correlation": -1.0},
+					{"lookback": 6, "correlation": 1.0},
+					{"lookback": 9, "correlation": -0.854439592431}
+				]
+			},
+			{"encountered": 12942, "taken": 4793, "transitions": 997,
+				"correlations": [
+					{"lookback": 5, "correlation": 0.371812702828}
+				]
+			},
+			{"encountered": 12906, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": -0.998760266543},
+					{"lookback": 4, "correlation": -0.757632109097}
+				]
+			},
+			{"encountered": 12646, "taken": 1710, "transitions": 1192,
+				"correlations": [
+					{"lookback": 4, "correlation": -1.0},
+					{"lookback": 8, "correlation": -0.743159892456},
+					{"lookback": 7, "correlation": -0.730982128736},
+					{"lookback": 1, "correlation": -0.729558753756},
+					{"lookback": 2, "correlation": 0.729558753756},
+					{"lookback": 3, "correlation": 0.729558753756},
+					{"lookback": 5, "correlation": 0.729558753756},
+					{"lookback": 6, "correlation": 0.729558753756},
+					{"lookback": 9, "correlation": 0.729558753756},
+					{"lookback": 10, "correlation": -0.54831567294},
+					{"lookback": 16, "correlation": -0.504032895777},
+					{"lookback": 11, "correlation": -0.447256049344}
+				]
+			},
+			{"encountered": 12640, "taken": 10011, "transitions": 5233,
+				"correlations": [
+					{"lookback": 47, "correlation": -0.485917721519},
+					{"lookback": 46, "correlation": -0.48164556962},
+					{"lookback": 43, "correlation": -0.466297468354},
+					{"lookback": 42, "correlation": -0.460284810127},
+					{"lookback": 45, "correlation": -0.456487341772},
+					{"lookback": 48, "correlation": -0.453639240506},
+					{"lookback": 44, "correlation": -0.451265822785},
+					{"lookback": 13, "correlation": -0.444936708861},
+					{"lookback": 41, "correlation": -0.438132911392},
+					{"lookback": 12, "correlation": -0.435443037975}
+				]
+			},
+			{"encountered": 12604, "taken": 1492, "transitions": 2383,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.76324976198},
+					{"lookback": 3, "correlation": -0.574103459219},
+					{"lookback": 25, "correlation": 0.56315455411},
+					{"lookback": 9, "correlation": 0.482703903523},
+					{"lookback": 12, "correlation": 0.481434465249},
+					{"lookback": 7, "correlation": 0.459377975246}
+				]
+			},
+			{"encountered": 12604, "taken": 346, "transitions": 467,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.945096794668},
+					{"lookback": 1, "correlation": 0.818152967312},
+					{"lookback": 4, "correlation": -0.707077118375},
+					{"lookback": 26, "correlation": 0.688194224056},
+					{"lookback": 10, "correlation": 0.594731831165},
+					{"lookback": 13, "correlation": 0.586163122818}
+				]
+			},
+			{"encountered": 12412, "taken": 3460, "transitions": 6919,
+				"correlations": [
+					{"lookback": 35, "correlation": 0.415082178537},
+					{"lookback": 36, "correlation": 0.398968739929},
+					{"lookback": 34, "correlation": 0.392201095714},
+					{"lookback": 37, "correlation": 0.377215597809},
+					{"lookback": 28, "correlation": 0.343699645504},
+					{"lookback": 33, "correlation": 0.337254270061},
+					{"lookback": 6, "correlation": -0.336287463745}
+				]
+			},
+			{"encountered": 12388, "taken": 2942, "transitions": 1948,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.999838553439},
+					{"lookback": 2, "correlation": 0.998869874072},
+					{"lookback": 8, "correlation": 0.877946399742},
+					{"lookback": 13, "correlation": 0.846787213432},
+					{"lookback": 17, "correlation": 0.685986438489},
+					{"lookback": 5, "correlation": 0.678559896674}
+				]
+			},
+			{"encountered": 12291, "taken": 12265, "transitions": 24,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.995769262062},
+					{"lookback": 2, "correlation": -0.995769262062},
+					{"lookback": 3, "correlation": 0.995769262062},
+					{"lookback": 5, "correlation": -0.995769262062},
+					{"lookback": 7, "correlation": -0.995769262062},
+					{"lookback": 9, "correlation": -0.995769262062},
+					{"lookback": 15, "correlation": -0.995769262062},
+					{"lookback": 16, "correlation": -0.995769262062},
+					{"lookback": 4, "correlation": -0.993979334472},
+					{"lookback": 11, "correlation": -0.992189406883},
+					{"lookback": 10, "correlation": -0.991701244813},
+					{"lookback": 8, "correlation": -0.97429013099},
+					{"lookback": 6, "correlation": -0.920592303311}
+				]
+			},
+			{"encountered": 12273, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 20, "correlation": 0.934490344659},
+					{"lookback": 7, "correlation": 0.890654281757},
+					{"lookback": 10, "correlation": -0.875662022325},
+					{"lookback": 6, "correlation": 0.845188625438},
+					{"lookback": 13, "correlation": 0.799560009778}
+				]
+			},
+			{"encountered": 12273, "taken": 12273, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 21, "correlation": -0.934490344659},
+					{"lookback": 8, "correlation": -0.890654281757},
+					{"lookback": 11, "correlation": 0.875662022325},
+					{"lookback": 7, "correlation": -0.845188625438},
+					{"lookback": 14, "correlation": -0.799560009778}
+				]
+			},
+			{"encountered": 12273, "taken": 1796, "transitions": 3456,
+				"correlations": [
+					{"lookback": 22, "correlation": 0.713517477389},
+					{"lookback": 1, "correlation": -0.707325022407},
+					{"lookback": 2, "correlation": 0.707325022407},
+					{"lookback": 12, "correlation": -0.614601157011},
+					{"lookback": 9, "correlation": 0.614275238328},
+					{"lookback": 8, "correlation": 0.605312474538}
+				]
+			},
+			{"encountered": 12265, "taken": 7, "transitions": 12,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.998858540563},
+					{"lookback": 2, "correlation": 0.998858540563},
+					{"lookback": 3, "correlation": 0.998858540563},
+					{"lookback": 4, "correlation": -0.998858540563},
+					{"lookback": 6, "correlation": 0.998858540563},
+					{"lookback": 8, "correlation": 0.998858540563},
+					{"lookback": 10, "correlation": 0.998858540563},
+					{"lookback": 16, "correlation": 0.998858540563},
+					{"lookback": 17, "correlation": 0.998858540563},
+					{"lookback": 5, "correlation": 0.997064818589},
+					{"lookback": 12, "correlation": 0.995271096616},
+					{"lookback": 11, "correlation": 0.994781899715},
+					{"lookback": 9, "correlation": 0.976844679984},
+					{"lookback": 7, "correlation": 0.923522217693}
+				]
+			},
+			{"encountered": 12258, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 5, "correlation": -1.0},
+					{"lookback": 7, "correlation": 1.0},
+					{"lookback": 9, "correlation": 1.0},
+					{"lookback": 11, "correlation": 1.0},
+					{"lookback": 17, "correlation": 1.0},
+					{"lookback": 18, "correlation": 1.0},
+					{"lookback": 6, "correlation": 0.998205253712},
+					{"lookback": 13, "correlation": 0.996410507424},
+					{"lookback": 12, "correlation": 0.995921031163},
+					{"lookback": 10, "correlation": 0.977810409528},
+					{"lookback": 8, "correlation": 0.924620655898}
+				]
+			},
+			{"encountered": 12258, "taken": 679, "transitions": 328,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.889215206396},
+					{"lookback": 2, "correlation": 0.889215206396},
+					{"lookback": 3, "correlation": -0.889215206396},
+					{"lookback": 4, "correlation": 0.889215206396},
+					{"lookback": 5, "correlation": 0.889215206396},
+					{"lookback": 6, "correlation": -0.889215206396},
+					{"lookback": 8, "correlation": 0.889215206396},
+					{"lookback": 10, "correlation": 0.889215206396},
+					{"lookback": 12, "correlation": 0.889215206396},
+					{"lookback": 18, "correlation": 0.889215206396},
+					{"lookback": 19, "correlation": 0.889215206396},
+					{"lookback": 7, "correlation": 0.887746777615},
+					{"lookback": 14, "correlation": 0.887257301354},
+					{"lookback": 13, "correlation": 0.885136237559},
+					{"lookback": 11, "correlation": 0.868330885952},
+					{"lookback": 9, "correlation": 0.842225485397},
+					{"lookback": 27, "correlation": -0.688366780878}
+				]
+			},
+			{"encountered": 12258, "taken": 50, "transitions": 98,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.991842062327},
+					{"lookback": 3, "correlation": 0.991842062327},
+					{"lookback": 2, "correlation": 0.8211780062},
+					{"lookback": 5, "correlation": -0.737967041932},
+					{"lookback": 27, "correlation": 0.716756403981}
+				]
+			},
+			{"encountered": 12258, "taken": 11151, "transitions": 1996,
+				"correlations": [
+					{"lookback": 3, "correlation": -0.993636808615},
+					{"lookback": 2, "correlation": -0.819383259912},
+					{"lookback": 4, "correlation": -0.819383259912},
+					{"lookback": 1, "correlation": -0.814814814815},
+					{"lookback": 6, "correlation": 0.610540055474},
+					{"lookback": 28, "correlation": -0.596508402676}
+				]
+			},
+			{"encountered": 12258, "taken": 9, "transitions": 16,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.998531571219},
+					{"lookback": 5, "correlation": 0.998531571219},
+					{"lookback": 2, "correlation": 0.993310491108},
+					{"lookback": 1, "correlation": -0.818893783651},
+					{"lookback": 4, "correlation": 0.814488497308},
+					{"lookback": 7, "correlation": -0.743351280796},
+					{"lookback": 29, "correlation": 0.721161690325}
+				]
+			},
+			{"encountered": 12249, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 6, "correlation": 1.0},
+					{"lookback": 3, "correlation": 0.993305575965},
+					{"lookback": 2, "correlation": -0.81974038697},
+					{"lookback": 5, "correlation": 0.814352192016},
+					{"lookback": 8, "correlation": -0.7438158217},
+					{"lookback": 30, "correlation": 0.721936484611}
+				]
+			},
+			{"encountered": 12249, "taken": 41, "transitions": 82,
+				"correlations": [
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 1, "correlation": 0.993305575965},
+					{"lookback": 2, "correlation": 0.993305575965},
+					{"lookback": 5, "correlation": 0.993305575965},
+					{"lookback": 7, "correlation": 0.993305575965},
+					{"lookback": 6, "correlation": 0.82104661605},
+					{"lookback": 3, "correlation": -0.815658421096},
+					{"lookback": 9, "correlation": -0.738427626745}
+				]
+			},
+			{"encountered": 12249, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 6, "correlation": 1.0},
+					{"lookback": 8, "correlation": 1.0},
+					{"lookback": 1, "correlation": 0.993305575965},
+					{"lookback": 5, "correlation": 0.993305575965},
+					{"lookback": 4, "correlation": -0.81974038697},
+					{"lookback": 7, "correlation": 0.814352192016},
+					{"lookback": 10, "correlation": -0.7438158217}
+				]
+			},
+			{"encountered": 12249, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 7, "correlation": 1.0},
+					{"lookback": 9, "correlation": 1.0},
+					{"lookback": 2, "correlation": 0.993305575965},
+					{"lookback": 6, "correlation": 0.993305575965},
+					{"lookback": 5, "correlation": -0.81974038697},
+					{"lookback": 8, "correlation": 0.814352192016},
+					{"lookback": 11, "correlation": -0.7438158217}
+				]
+			},
+			{"encountered": 12108, "taken": 11749, "transitions": 717,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.881400726792},
+					{"lookback": 2, "correlation": 0.822101090188},
+					{"lookback": 3, "correlation": 0.796993723158},
+					{"lookback": 4, "correlation": 0.737694086554},
+					{"lookback": 5, "correlation": 0.712586719524},
+					{"lookback": 6, "correlation": 0.657086223984},
+					{"lookback": 7, "correlation": 0.653782623059},
+					{"lookback": 8, "correlation": 0.615130492237},
+					{"lookback": 9, "correlation": 0.584076643541},
+					{"lookback": 10, "correlation": 0.549058473736},
+					{"lookback": 11, "correlation": 0.493062438057}
+				]
+			},
+			{"encountered": 11658, "taken": 2731, "transitions": 1796,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.531480528393},
+					{"lookback": 6, "correlation": 0.531480528393},
+					{"lookback": 9, "correlation": 0.531480528393},
+					{"lookback": 11, "correlation": 0.531480528393},
+					{"lookback": 13, "correlation": 0.531480528393},
+					{"lookback": 20, "correlation": 0.531480528393},
+					{"lookback": 15, "correlation": 0.530622748327},
+					{"lookback": 19, "correlation": 0.528392520158},
+					{"lookback": 14, "correlation": 0.527877852119},
+					{"lookback": 1, "correlation": 0.518956939441},
+					{"lookback": 2, "correlation": 0.518956939441},
+					{"lookback": 4, "correlation": -0.518956939441},
+					{"lookback": 5, "correlation": 0.518956939441},
+					{"lookback": 7, "correlation": -0.518956939441},
+					{"lookback": 8, "correlation": 0.518270715389},
+					{"lookback": 12, "correlation": 0.516383599245}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 17, "correlation": 0.997769197769},
+					{"lookback": 14, "correlation": 0.997425997426},
+					{"lookback": 4, "correlation": 0.994508794509},
+					{"lookback": 15, "correlation": 0.993479193479},
+					{"lookback": 16, "correlation": 0.989360789361},
+					{"lookback": 19, "correlation": 0.989189189189},
+					{"lookback": 18, "correlation": 0.988845988846},
+					{"lookback": 10, "correlation": 0.981295581296},
+					{"lookback": 13, "correlation": 0.981295581296},
+					{"lookback": 20, "correlation": 0.981295581296},
+					{"lookback": 8, "correlation": 0.974431574432},
+					{"lookback": 11, "correlation": 0.972543972544},
+					{"lookback": 7, "correlation": 0.96996996997},
+					{"lookback": 3, "correlation": 0.967224367224},
+					{"lookback": 1, "correlation": -0.964478764479}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 18, "correlation": 0.997769197769},
+					{"lookback": 15, "correlation": 0.997425997426},
+					{"lookback": 5, "correlation": 0.994508794509},
+					{"lookback": 16, "correlation": 0.993479193479},
+					{"lookback": 17, "correlation": 0.989360789361},
+					{"lookback": 20, "correlation": 0.989189189189},
+					{"lookback": 19, "correlation": 0.988845988846},
+					{"lookback": 11, "correlation": 0.981295581296},
+					{"lookback": 14, "correlation": 0.981295581296},
+					{"lookback": 21, "correlation": 0.981295581296},
+					{"lookback": 9, "correlation": 0.974431574432},
+					{"lookback": 12, "correlation": 0.972543972544},
+					{"lookback": 8, "correlation": 0.96996996997},
+					{"lookback": 4, "correlation": 0.967224367224},
+					{"lookback": 2, "correlation": -0.964478764479}
+				]
+			},
+			{"encountered": 11655, "taken": 95, "transitions": 92,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.983697983698},
+					{"lookback": 2, "correlation": 0.983697983698},
+					{"lookback": 19, "correlation": 0.982153582154},
+					{"lookback": 16, "correlation": 0.981467181467},
+					{"lookback": 17, "correlation": 0.97854997855},
+					{"lookback": 6, "correlation": 0.978206778207},
+					{"lookback": 20, "correlation": 0.973573573574},
+					{"lookback": 21, "correlation": 0.973573573574},
+					{"lookback": 18, "correlation": 0.973401973402},
+					{"lookback": 12, "correlation": 0.971171171171},
+					{"lookback": 15, "correlation": 0.968425568426},
+					{"lookback": 22, "correlation": 0.964993564994},
+					{"lookback": 10, "correlation": 0.960531960532},
+					{"lookback": 13, "correlation": 0.958644358644},
+					{"lookback": 9, "correlation": 0.9570999571},
+					{"lookback": 3, "correlation": -0.955040755041}
+				]
+			},
+			{"encountered": 11655, "taken": 8, "transitions": 14,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.998627198627},
+					{"lookback": 20, "correlation": 0.996053196053},
+					{"lookback": 18, "correlation": 0.99244959245},
+					{"lookback": 17, "correlation": 0.988674388674},
+					{"lookback": 19, "correlation": 0.987987987988},
+					{"lookback": 21, "correlation": 0.987816387816},
+					{"lookback": 22, "correlation": 0.987816387816},
+					{"lookback": 1, "correlation": 0.983697983698},
+					{"lookback": 3, "correlation": 0.983697983698},
+					{"lookback": 7, "correlation": 0.983354783355},
+					{"lookback": 13, "correlation": 0.982153582154},
+					{"lookback": 16, "correlation": 0.980780780781}
+				]
+			},
+			{"encountered": 11655, "taken": 11655, "transitions": 0,
+				"correlations": [
+					{"lookback": 3, "correlation": -0.999313599314},
+					{"lookback": 1, "correlation": -0.998627198627},
+					{"lookback": 21, "correlation": -0.997425997426}
+				]
+			},
+			{"encountered": 11655, "taken": 2703, "transitions": 640,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.536164736165},
+					{"lookback": 2, "correlation": -0.536164736165},
+					{"lookback": 31, "correlation": 0.508365508366},
+					{"lookback": 32, "correlation": 0.497383097383},
+					{"lookback": 35, "correlation": 0.489146289146},
+					{"lookback": 30, "correlation": 0.47885027885},
+					{"lookback": 34, "correlation": 0.478507078507},
+					{"lookback": 33, "correlation": 0.469755469755},
+					{"lookback": 3, "correlation": -0.461518661519},
+					{"lookback": 4, "correlation": -0.430287430287}
+				]
+			},
+			{"encountered": 11655, "taken": 4506, "transitions": 947,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.526211926212},
+					{"lookback": 4, "correlation": -0.370227370227},
+					{"lookback": 7, "correlation": -0.330072930073},
+					{"lookback": 2, "correlation": -0.28682968683},
+					{"lookback": 37, "correlation": 0.286314886315},
+					{"lookback": 18, "correlation": 0.275675675676},
+					{"lookback": 6, "correlation": -0.250622050622}
+				]
+			},
+			{"encountered": 11655, "taken": 5591, "transitions": 744,
+				"correlations": [
+					{"lookback": 17, "correlation": -0.326640926641},
+					{"lookback": 23, "correlation": 0.183011583012},
+					{"lookback": 25, "correlation": -0.180265980266},
+					{"lookback": 20, "correlation": -0.172887172887}
+				]
+			},
+			{"encountered": 11655, "taken": 6068, "transitions": 1637,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.645645645646},
+					{"lookback": 2, "correlation": 0.645645645646},
+					{"lookback": 4, "correlation": -0.433033033033},
+					{"lookback": 19, "correlation": -0.382239382239},
+					{"lookback": 9, "correlation": -0.285628485628},
+					{"lookback": 17, "correlation": -0.27293007293}
+				]
+			},
+			{"encountered": 11655, "taken": 11655, "transitions": 0,
+				"correlations": [
+					{"lookback": 7, "correlation": -0.835435435435},
+					{"lookback": 8, "correlation": -0.651994851995}
+				]
+			},
+			{"encountered": 11655, "taken": 1038, "transitions": 322,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.821879021879},
+					{"lookback": 8, "correlation": 0.696096096096}
+				]
+			},
+			{"encountered": 11655, "taken": 6068, "transitions": 1637,
+				"correlations": [
+					{"lookback": 11, "correlation": 0.722522522523},
+					{"lookback": 13, "correlation": 0.620248820249},
+					{"lookback": 12, "correlation": 0.619390819391},
+					{"lookback": 10, "correlation": 0.599485199485},
+					{"lookback": 15, "correlation": -0.547318747319}
+				]
+			},
+			{"encountered": 11655, "taken": 5591, "transitions": 744,
+				"correlations": [
+					{"lookback": 12, "correlation": 0.673788073788},
+					{"lookback": 3, "correlation": -0.52706992707},
+					{"lookback": 8, "correlation": -0.410553410553},
+					{"lookback": 22, "correlation": 0.399570999571},
+					{"lookback": 13, "correlation": 0.394937794938},
+					{"lookback": 15, "correlation": -0.380523380523},
+					{"lookback": 6, "correlation": 0.379493779494}
+				]
+			},
+			{"encountered": 11655, "taken": 5591, "transitions": 744,
+				"correlations": [
+					{"lookback": 7, "correlation": 0.912655512656},
+					{"lookback": 5, "correlation": -0.82308022308},
+					{"lookback": 4, "correlation": -0.780008580009},
+					{"lookback": 21, "correlation": -0.613384813385},
+					{"lookback": 22, "correlation": -0.57854997855},
+					{"lookback": 10, "correlation": -0.572543972544},
+					{"lookback": 28, "correlation": 0.435607035607}
+				]
+			},
+			{"encountered": 11655, "taken": 7767, "transitions": 1252,
+				"correlations": [
+					{"lookback": 8, "correlation": 0.353582153582},
+					{"lookback": 17, "correlation": -0.336250536251},
+					{"lookback": 4, "correlation": 0.332818532819},
+					{"lookback": 1, "correlation": 0.332646932647},
+					{"lookback": 3, "correlation": 0.327155727156},
+					{"lookback": 2, "correlation": 0.326984126984},
+					{"lookback": 5, "correlation": -0.326984126984},
+					{"lookback": 6, "correlation": 0.326984126984},
+					{"lookback": 16, "correlation": -0.311883311883},
+					{"lookback": 9, "correlation": -0.308108108108}
+				]
+			},
+			{"encountered": 11655, "taken": 9942, "transitions": 440,
+				"correlations": [
+					{"lookback": 6, "correlation": 0.705877305877},
+					{"lookback": 3, "correlation": 0.700386100386},
+					{"lookback": 10, "correlation": 0.695752895753},
+					{"lookback": 4, "correlation": 0.686658086658},
+					{"lookback": 8, "correlation": 0.686658086658},
+					{"lookback": 5, "correlation": 0.684427284427},
+					{"lookback": 19, "correlation": -0.683569283569},
+					{"lookback": 7, "correlation": -0.678936078936}
+				]
+			},
+			{"encountered": 11655, "taken": 6360, "transitions": 1223,
+				"correlations": [
+					{"lookback": 11, "correlation": 0.266237666238},
+					{"lookback": 14, "correlation": -0.192621192621},
+					{"lookback": 5, "correlation": 0.186958386958},
+					{"lookback": 27, "correlation": -0.167910767911},
+					{"lookback": 6, "correlation": 0.159502359502},
+					{"lookback": 13, "correlation": 0.156756756757}
+				]
+			},
+			{"encountered": 11655, "taken": 10, "transitions": 12,
+				"correlations": [
+					{"lookback": 9, "correlation": -0.864435864436},
+					{"lookback": 10, "correlation": -0.842814242814},
+					{"lookback": 13, "correlation": -0.794937794938},
+					{"lookback": 29, "correlation": 0.773830973831},
+					{"lookback": 14, "correlation": -0.762162162162},
+					{"lookback": 4, "correlation": -0.653539253539}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 11, "correlation": -0.864950664951},
+					{"lookback": 12, "correlation": -0.847619047619},
+					{"lookback": 1, "correlation": 0.807636207636},
+					{"lookback": 2, "correlation": 0.807636207636},
+					{"lookback": 16, "correlation": -0.774345774346},
+					{"lookback": 15, "correlation": -0.765079365079},
+					{"lookback": 31, "correlation": 0.757700557701}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 12, "correlation": -0.864950664951},
+					{"lookback": 13, "correlation": -0.847619047619},
+					{"lookback": 2, "correlation": 0.807636207636},
+					{"lookback": 3, "correlation": 0.807636207636},
+					{"lookback": 17, "correlation": -0.774345774346},
+					{"lookback": 16, "correlation": -0.765079365079},
+					{"lookback": 32, "correlation": 0.757700557701}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 13, "correlation": -0.864950664951},
+					{"lookback": 14, "correlation": -0.847619047619},
+					{"lookback": 3, "correlation": 0.807636207636},
+					{"lookback": 4, "correlation": 0.807636207636},
+					{"lookback": 18, "correlation": -0.774345774346},
+					{"lookback": 17, "correlation": -0.765079365079},
+					{"lookback": 33, "correlation": 0.757700557701}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 14, "correlation": -0.864950664951},
+					{"lookback": 15, "correlation": -0.847619047619},
+					{"lookback": 4, "correlation": 0.807636207636},
+					{"lookback": 5, "correlation": 0.807636207636},
+					{"lookback": 19, "correlation": -0.774345774346},
+					{"lookback": 18, "correlation": -0.765079365079},
+					{"lookback": 34, "correlation": 0.757700557701}
+				]
+			},
+			{"encountered": 11655, "taken": 51, "transitions": 60,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.991248391248},
+					{"lookback": 2, "correlation": 0.991248391248},
+					{"lookback": 3, "correlation": 0.991248391248},
+					{"lookback": 4, "correlation": 0.991248391248},
+					{"lookback": 15, "correlation": -0.856199056199},
+					{"lookback": 16, "correlation": -0.838867438867},
+					{"lookback": 5, "correlation": 0.798884598885},
+					{"lookback": 6, "correlation": 0.798884598885},
+					{"lookback": 20, "correlation": -0.767996567997},
+					{"lookback": 19, "correlation": -0.758386958387}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 5, "correlation": 1.0},
+					{"lookback": 6, "correlation": 1.0},
+					{"lookback": 1, "correlation": 0.990218790219},
+					{"lookback": 2, "correlation": 0.990218790219},
+					{"lookback": 17, "correlation": -0.863921063921},
+					{"lookback": 18, "correlation": -0.847619047619},
+					{"lookback": 7, "correlation": 0.807636207636},
+					{"lookback": 8, "correlation": 0.807636207636},
+					{"lookback": 22, "correlation": -0.773659373659},
+					{"lookback": 21, "correlation": -0.765079365079}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 5, "correlation": 1.0},
+					{"lookback": 6, "correlation": 1.0},
+					{"lookback": 7, "correlation": 1.0},
+					{"lookback": 2, "correlation": 0.990218790219},
+					{"lookback": 3, "correlation": 0.990218790219},
+					{"lookback": 18, "correlation": -0.863921063921},
+					{"lookback": 19, "correlation": -0.847619047619}
+				]
+			},
+			{"encountered": 11655, "taken": 1, "transitions": 2,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.999828399828},
+					{"lookback": 2, "correlation": 0.999828399828},
+					{"lookback": 5, "correlation": 0.999828399828},
+					{"lookback": 6, "correlation": 0.999828399828},
+					{"lookback": 7, "correlation": 0.999828399828},
+					{"lookback": 8, "correlation": 0.999828399828},
+					{"lookback": 3, "correlation": 0.990047190047},
+					{"lookback": 4, "correlation": 0.990047190047},
+					{"lookback": 19, "correlation": -0.863749463749},
+					{"lookback": 20, "correlation": -0.847447447447}
+				]
+			},
+			{"encountered": 11655, "taken": 1267, "transitions": 597,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.782582582583},
+					{"lookback": 7, "correlation": 0.782582582583},
+					{"lookback": 8, "correlation": 0.782582582583},
+					{"lookback": 9, "correlation": 0.782582582583},
+					{"lookback": 10, "correlation": 0.782582582583},
+					{"lookback": 2, "correlation": 0.782410982411},
+					{"lookback": 4, "correlation": 0.782410982411},
+					{"lookback": 1, "correlation": 0.782239382239},
+					{"lookback": 5, "correlation": 0.777262977263},
+					{"lookback": 6, "correlation": 0.777262977263},
+					{"lookback": 21, "correlation": -0.657142857143},
+					{"lookback": 22, "correlation": -0.639811239811},
+					{"lookback": 26, "correlation": -0.610124410124}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 5, "correlation": 1.0},
+					{"lookback": 12, "correlation": 1.0},
+					{"lookback": 6, "correlation": 0.999828399828},
+					{"lookback": 3, "correlation": 0.99897039897},
+					{"lookback": 9, "correlation": 0.997769197769},
+					{"lookback": 11, "correlation": 0.996911196911},
+					{"lookback": 7, "correlation": 0.995538395538},
+					{"lookback": 8, "correlation": 0.995538395538},
+					{"lookback": 10, "correlation": 0.99468039468},
+					{"lookback": 13, "correlation": 0.882625482625},
+					{"lookback": 14, "correlation": 0.882625482625},
+					{"lookback": 27, "correlation": -0.759588159588},
+					{"lookback": 28, "correlation": -0.684084084084},
+					{"lookback": 24, "correlation": -0.623680823681}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 6, "correlation": 1.0},
+					{"lookback": 13, "correlation": 1.0},
+					{"lookback": 7, "correlation": 0.999828399828},
+					{"lookback": 4, "correlation": 0.99897039897},
+					{"lookback": 10, "correlation": 0.997769197769},
+					{"lookback": 12, "correlation": 0.996911196911},
+					{"lookback": 8, "correlation": 0.995538395538},
+					{"lookback": 9, "correlation": 0.995538395538},
+					{"lookback": 11, "correlation": 0.99468039468},
+					{"lookback": 14, "correlation": 0.882625482625},
+					{"lookback": 15, "correlation": 0.882625482625},
+					{"lookback": 28, "correlation": -0.759588159588},
+					{"lookback": 29, "correlation": -0.684084084084},
+					{"lookback": 25, "correlation": -0.623680823681}
+				]
+			},
+			{"encountered": 11655, "taken": 201, "transitions": 216,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.965508365508},
+					{"lookback": 2, "correlation": 0.965508365508},
+					{"lookback": 4, "correlation": 0.965508365508},
+					{"lookback": 7, "correlation": 0.965508365508},
+					{"lookback": 14, "correlation": 0.965508365508},
+					{"lookback": 8, "correlation": 0.965336765337},
+					{"lookback": 5, "correlation": 0.964478764479},
+					{"lookback": 11, "correlation": 0.963620763621},
+					{"lookback": 13, "correlation": 0.96241956242},
+					{"lookback": 9, "correlation": 0.961046761047},
+					{"lookback": 10, "correlation": 0.961046761047},
+					{"lookback": 12, "correlation": 0.960531960532},
+					{"lookback": 15, "correlation": 0.851909051909},
+					{"lookback": 16, "correlation": 0.851909051909},
+					{"lookback": 29, "correlation": -0.733333333333},
+					{"lookback": 30, "correlation": -0.65577005577},
+					{"lookback": 26, "correlation": -0.615958815959}
+				]
+			},
+			{"encountered": 11655, "taken": 11655, "transitions": 0,
+				"correlations": [
+					{"lookback": 29, "correlation": -0.958472758473},
+					{"lookback": 30, "correlation": -0.929987129987},
+					{"lookback": 28, "correlation": -0.921063921064},
+					{"lookback": 32, "correlation": -0.90664950665},
+					{"lookback": 31, "correlation": -0.882453882454},
+					{"lookback": 33, "correlation": -0.800600600601},
+					{"lookback": 27, "correlation": -0.757014157014}
+				]
+			},
+			{"encountered": 11655, "taken": 11255, "transitions": 362,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.93135993136},
+					{"lookback": 3, "correlation": -0.93135993136},
+					{"lookback": 6, "correlation": -0.93135993136},
+					{"lookback": 9, "correlation": -0.93135993136},
+					{"lookback": 12, "correlation": -0.931188331188},
+					{"lookback": 13, "correlation": -0.931016731017},
+					{"lookback": 16, "correlation": -0.929815529816},
+					{"lookback": 15, "correlation": -0.927584727585},
+					{"lookback": 14, "correlation": -0.927413127413},
+					{"lookback": 18, "correlation": -0.92706992707},
+					{"lookback": 17, "correlation": -0.925697125697},
+					{"lookback": 19, "correlation": -0.913856713857},
+					{"lookback": 10, "correlation": -0.909223509224},
+					{"lookback": 7, "correlation": -0.909051909052}
+				]
+			},
+			{"encountered": 11655, "taken": 11655, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 30, "correlation": -0.958472758473},
+					{"lookback": 31, "correlation": -0.929987129987},
+					{"lookback": 29, "correlation": -0.921063921064},
+					{"lookback": 33, "correlation": -0.90664950665},
+					{"lookback": 32, "correlation": -0.882453882454},
+					{"lookback": 34, "correlation": -0.800600600601}
+				]
+			},
+			{"encountered": 11655, "taken": 11615, "transitions": 76,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.907335907336},
+					{"lookback": 4, "correlation": 0.899099099099},
+					{"lookback": 5, "correlation": 0.833376233376},
+					{"lookback": 1, "correlation": -0.816731016731},
+					{"lookback": 2, "correlation": -0.816731016731}
+				]
+			},
+			{"encountered": 11655, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 3, "correlation": -0.946975546976},
+					{"lookback": 12, "correlation": 0.930673530674},
+					{"lookback": 11, "correlation": 0.893436293436},
+					{"lookback": 17, "correlation": 0.78876018876},
+					{"lookback": 18, "correlation": 0.783268983269},
+					{"lookback": 6, "correlation": -0.755126555127},
+					{"lookback": 10, "correlation": 0.748434148434},
+					{"lookback": 13, "correlation": 0.74688974689},
+					{"lookback": 24, "correlation": 0.741913341913}
+				]
+			},
+			{"encountered": 11654, "taken": 1, "transitions": 2,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.999828385104},
+					{"lookback": 2, "correlation": 0.999828385104},
+					{"lookback": 3, "correlation": 0.999828385104},
+					{"lookback": 6, "correlation": 0.999828385104},
+					{"lookback": 7, "correlation": 0.999828385104},
+					{"lookback": 8, "correlation": 0.999828385104},
+					{"lookback": 9, "correlation": 0.999828385104},
+					{"lookback": 4, "correlation": 0.990046336022},
+					{"lookback": 5, "correlation": 0.990046336022},
+					{"lookback": 20, "correlation": -0.863737772439},
+					{"lookback": 21, "correlation": -0.847434357302}
+				]
+			},
+			{"encountered": 11648, "taken": 11609, "transitions": 48,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.993303571429},
+					{"lookback": 7, "correlation": 0.979052197802},
+					{"lookback": 5, "correlation": 0.944196428571},
+					{"lookback": 6, "correlation": 0.93904532967},
+					{"lookback": 20, "correlation": -0.926510989011},
+					{"lookback": 19, "correlation": -0.862465659341},
+					{"lookback": 11, "correlation": 0.856971153846},
+					{"lookback": 4, "correlation": 0.843578296703}
+				]
+			},
+			{"encountered": 11645, "taken": 1111, "transitions": 695,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.809188492915},
+					{"lookback": 10, "correlation": -0.768656075569},
+					{"lookback": 11, "correlation": -0.755603263203},
+					{"lookback": 5, "correlation": -0.731730356376},
+					{"lookback": 30, "correlation": 0.629712322885},
+					{"lookback": 14, "correlation": -0.617003005582},
+					{"lookback": 15, "correlation": -0.605152425934}
+				]
+			},
+			{"encountered": 11616, "taken": 5475, "transitions": 1732,
+				"correlations": [
+					{"lookback": 32, "correlation": 0.123622589532},
+					{"lookback": 13, "correlation": -0.120351239669},
+					{"lookback": 9, "correlation": -0.116391184573}
+				]
+			},
+			{"encountered": 11604, "taken": 6, "transitions": 4,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.998965873837},
+					{"lookback": 2, "correlation": 0.998965873837},
+					{"lookback": 3, "correlation": 0.998965873837},
+					{"lookback": 4, "correlation": 0.998965873837},
+					{"lookback": 5, "correlation": 0.998965873837},
+					{"lookback": 16, "correlation": -0.863322992072},
+					{"lookback": 17, "correlation": -0.845915201655},
+					{"lookback": 6, "correlation": 0.805756635643},
+					{"lookback": 7, "correlation": 0.805756635643},
+					{"lookback": 21, "correlation": -0.773526370217},
+					{"lookback": 20, "correlation": -0.765425715271}
+				]
+			},
+			{"encountered": 11480, "taken": 14, "transitions": 6,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.99756097561},
+					{"lookback": 21, "correlation": 0.997386759582},
+					{"lookback": 4, "correlation": 0.997212543554},
+					{"lookback": 7, "correlation": 0.997212543554},
+					{"lookback": 10, "correlation": 0.99668989547},
+					{"lookback": 12, "correlation": 0.995818815331},
+					{"lookback": 16, "correlation": 0.995296167247},
+					{"lookback": 14, "correlation": 0.993728222997},
+					{"lookback": 15, "correlation": 0.993554006969},
+					{"lookback": 3, "correlation": 0.983972125436},
+					{"lookback": 13, "correlation": 0.978397212544},
+					{"lookback": 11, "correlation": 0.934843205575},
+					{"lookback": 20, "correlation": 0.927177700348}
+				]
+			},
+			{"encountered": 11466, "taken": 11127, "transitions": 488,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.940868655154},
+					{"lookback": 2, "correlation": -0.940868655154},
+					{"lookback": 22, "correlation": -0.940694226409},
+					{"lookback": 5, "correlation": -0.940519797663},
+					{"lookback": 8, "correlation": -0.940519797663},
+					{"lookback": 13, "correlation": -0.940519797663},
+					{"lookback": 11, "correlation": -0.939996511425},
+					{"lookback": 17, "correlation": -0.938601081458},
+					{"lookback": 12, "correlation": -0.938077795221},
+					{"lookback": 15, "correlation": -0.937031222746},
+					{"lookback": 16, "correlation": -0.936856794},
+					{"lookback": 4, "correlation": -0.927263212977},
+					{"lookback": 14, "correlation": -0.923425780569},
+					{"lookback": 21, "correlation": -0.871794871795}
+				]
+			},
+			{"encountered": 11454, "taken": 9594, "transitions": 556,
+				"correlations": [
+					{"lookback": 6, "correlation": -0.675571852628},
+					{"lookback": 9, "correlation": -0.675397241138},
+					{"lookback": 1, "correlation": -0.675222629649},
+					{"lookback": 2, "correlation": -0.675222629649},
+					{"lookback": 3, "correlation": -0.675222629649},
+					{"lookback": 5, "correlation": -0.675222629649},
+					{"lookback": 8, "correlation": -0.675222629649},
+					{"lookback": 15, "correlation": -0.675222629649},
+					{"lookback": 12, "correlation": -0.673825737734},
+					{"lookback": 14, "correlation": -0.672079622839},
+					{"lookback": 10, "correlation": -0.671031953903},
+					{"lookback": 11, "correlation": -0.671031953903},
+					{"lookback": 13, "correlation": -0.670682730924},
+					{"lookback": 31, "correlation": 0.613933996857}
+				]
+			},
+			{"encountered": 11226, "taken": 1, "transitions": 2,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.999821842152},
+					{"lookback": 4, "correlation": 0.999821842152},
+					{"lookback": 8, "correlation": 0.998752895065},
+					{"lookback": 14, "correlation": 0.998218421521},
+					{"lookback": 20, "correlation": 0.997327632282},
+					{"lookback": 2, "correlation": -0.995367895956},
+					{"lookback": 5, "correlation": 0.995367895956},
+					{"lookback": 11, "correlation": 0.99501158026},
+					{"lookback": 25, "correlation": 0.99501158026},
+					{"lookback": 19, "correlation": 0.992695528238},
+					{"lookback": 18, "correlation": 0.991982896847},
+					{"lookback": 7, "correlation": 0.988597897737},
+					{"lookback": 17, "correlation": 0.979333689649},
+					{"lookback": 16, "correlation": 0.9709602708},
+					{"lookback": 15, "correlation": 0.970069481561},
+					{"lookback": 3, "correlation": -0.950650276145}
+				]
+			},
+			{"encountered": 11225, "taken": 11225, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 5, "correlation": -1.0},
+					{"lookback": 9, "correlation": -0.998930957684},
+					{"lookback": 15, "correlation": -0.998396436526},
+					{"lookback": 21, "correlation": -0.997505567929},
+					{"lookback": 3, "correlation": 0.995545657016},
+					{"lookback": 6, "correlation": -0.995545657016},
+					{"lookback": 12, "correlation": -0.995189309577},
+					{"lookback": 26, "correlation": -0.995189309577},
+					{"lookback": 20, "correlation": -0.992873051225},
+					{"lookback": 19, "correlation": -0.992160356347},
+					{"lookback": 8, "correlation": -0.988775055679},
+					{"lookback": 18, "correlation": -0.979510022272},
+					{"lookback": 17, "correlation": -0.971135857461},
+					{"lookback": 16, "correlation": -0.970244988864},
+					{"lookback": 4, "correlation": 0.950824053452}
+				]
+			},
+			{"encountered": 11225, "taken": 11225, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": -1.0},
+					{"lookback": 6, "correlation": -1.0},
+					{"lookback": 10, "correlation": -0.998930957684},
+					{"lookback": 16, "correlation": -0.998396436526},
+					{"lookback": 22, "correlation": -0.997505567929},
+					{"lookback": 4, "correlation": 0.995545657016},
+					{"lookback": 7, "correlation": -0.995545657016},
+					{"lookback": 13, "correlation": -0.995189309577},
+					{"lookback": 27, "correlation": -0.995189309577},
+					{"lookback": 21, "correlation": -0.992873051225},
+					{"lookback": 20, "correlation": -0.992160356347},
+					{"lookback": 9, "correlation": -0.988775055679},
+					{"lookback": 19, "correlation": -0.979510022272},
+					{"lookback": 18, "correlation": -0.971135857461},
+					{"lookback": 17, "correlation": -0.970244988864},
+					{"lookback": 5, "correlation": 0.950824053452}
+				]
+			},
+			{"encountered": 11225, "taken": 824, "transitions": 1156,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.853184855234},
+					{"lookback": 2, "correlation": -0.853184855234},
+					{"lookback": 3, "correlation": 0.853184855234},
+					{"lookback": 4, "correlation": 0.853184855234},
+					{"lookback": 7, "correlation": 0.853184855234},
+					{"lookback": 11, "correlation": 0.852115812918},
+					{"lookback": 5, "correlation": -0.851581291759},
+					{"lookback": 8, "correlation": 0.851581291759},
+					{"lookback": 17, "correlation": 0.851581291759},
+					{"lookback": 23, "correlation": 0.851046770601},
+					{"lookback": 22, "correlation": 0.850690423163},
+					{"lookback": 14, "correlation": 0.850512249443},
+					{"lookback": 28, "correlation": 0.850512249443},
+					{"lookback": 21, "correlation": 0.847483296214},
+					{"lookback": 10, "correlation": 0.845167037862}
+				]
+			},
+			{"encountered": 11013, "taken": 1680, "transitions": 3003,
+				"correlations": [
+					{"lookback": 6, "correlation": 0.419413420503},
+					{"lookback": 3, "correlation": 0.415781349314},
+					{"lookback": 1, "correlation": 0.414691727958}
+				]
+			},
+			{"encountered": 11013, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": 0.916643966222},
+					{"lookback": 5, "correlation": 0.785344592754},
+					{"lookback": 7, "correlation": -0.734677199673},
+					{"lookback": 10, "correlation": 0.616271678925}
+				]
+			},
+			{"encountered": 10936, "taken": 10936, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": -1.0},
+					{"lookback": 4, "correlation": -1.0},
+					{"lookback": 5, "correlation": 1.0},
+					{"lookback": 6, "correlation": -1.0},
+					{"lookback": 7, "correlation": -1.0},
+					{"lookback": 9, "correlation": 1.0},
+					{"lookback": 10, "correlation": -1.0},
+					{"lookback": 8, "correlation": 0.999817117776},
+					{"lookback": 11, "correlation": 0.774689100219},
+					{"lookback": 12, "correlation": 0.624359912217},
+					{"lookback": 17, "correlation": 0.616861741039}
+				]
+			},
+			{"encountered": 10935, "taken": 10935, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 5, "correlation": -1.0},
+					{"lookback": 7, "correlation": -1.0},
+					{"lookback": 8, "correlation": -1.0},
+					{"lookback": 21, "correlation": -0.863191586648},
+					{"lookback": 22, "correlation": -0.795153177869},
+					{"lookback": 6, "correlation": 0.774668495656}
+				]
+			},
+			{"encountered": 10685, "taken": 1579, "transitions": 3000,
+				"correlations": [
+					{"lookback": 12, "correlation": -0.449508656996},
+					{"lookback": 1, "correlation": 0.438465138044}
+				]
+			},
+			{"encountered": 10617, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": -0.999623245738},
+					{"lookback": 4, "correlation": -0.89808797212},
+					{"lookback": 6, "correlation": 0.793727041537}
+				]
+			},
+			{"encountered": 10607, "taken": 10607, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 3, "correlation": 0.945696238333},
+					{"lookback": 7, "correlation": 0.917035919676},
+					{"lookback": 4, "correlation": -0.890449703026},
+					{"lookback": 37, "correlation": -0.80955972471}
+				]
+			},
+			{"encountered": 10607, "taken": 3144, "transitions": 5184,
+				"correlations": [
+					{"lookback": 13, "correlation": 0.417931554634},
+					{"lookback": 1, "correlation": -0.407183935137},
+					{"lookback": 2, "correlation": -0.407183935137},
+					{"lookback": 4, "correlation": -0.403035731121},
+					{"lookback": 8, "correlation": -0.380032054304},
+					{"lookback": 5, "correlation": 0.357971151127},
+					{"lookback": 3, "correlation": -0.321014424437}
+				]
+			},
+			{"encountered": 10607, "taken": 3338, "transitions": 3682,
+				"correlations": [
+					{"lookback": 8, "correlation": 0.506175167342},
+					{"lookback": 7, "correlation": -0.504855284246},
+					{"lookback": 9, "correlation": -0.400584519657},
+					{"lookback": 3, "correlation": -0.370604317903},
+					{"lookback": 5, "correlation": -0.356085603847},
+					{"lookback": 11, "correlation": 0.329687941925}
+				]
+			},
+			{"encountered": 10477, "taken": 2477, "transitions": 2322,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.527154719863},
+					{"lookback": 2, "correlation": -0.527154719863},
+					{"lookback": 3, "correlation": 0.527154719863},
+					{"lookback": 23, "correlation": 0.493557316026},
+					{"lookback": 10, "correlation": 0.457860074449}
+				]
+			},
+			{"encountered": 10455, "taken": 4278, "transitions": 2055,
+				"correlations": [
+					{"lookback": 18, "correlation": 0.182974653276},
+					{"lookback": 7, "correlation": -0.182209469154},
+					{"lookback": 2, "correlation": -0.181635581062},
+					{"lookback": 3, "correlation": -0.181635581062}
+				]
+			},
+			{"encountered": 10388, "taken": 3863, "transitions": 843,
+				"correlations": [
+					{"lookback": 19, "correlation": 0.382749326146}
+				]
+			},
+			{"encountered": 10362, "taken": 5937, "transitions": 6085,
+				"correlations": [
+					{"lookback": 9, "correlation": 0.237405906196},
+					{"lookback": 12, "correlation": -0.210770121598},
+					{"lookback": 3, "correlation": -0.184327349932},
+					{"lookback": 1, "correlation": -0.174676703339},
+					{"lookback": 32, "correlation": 0.127388535032}
+				]
+			},
+			{"encountered": 10205, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 10, "correlation": 0.898285154336},
+					{"lookback": 18, "correlation": 0.852033317001},
+					{"lookback": 7, "correlation": 0.754434100931},
+					{"lookback": 20, "correlation": 0.726996570309},
+					{"lookback": 36, "correlation": 0.711709946105}
+				]
+			},
+			{"encountered": 10012, "taken": 9726, "transitions": 571,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.885737115461},
+					{"lookback": 2, "correlation": 0.828605673192},
+					{"lookback": 3, "correlation": 0.790651218538},
+					{"lookback": 4, "correlation": 0.734318817419},
+					{"lookback": 5, "correlation": 0.696364362765},
+					{"lookback": 6, "correlation": 0.65761086696},
+					{"lookback": 7, "correlation": 0.613863363963},
+					{"lookback": 8, "correlation": 0.573312025569},
+					{"lookback": 9, "correlation": 0.525769077107},
+					{"lookback": 10, "correlation": 0.480823012385}
+				]
+			},
+			{"encountered": 9941, "taken": 3505, "transitions": 3904,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.289206317272}
+				]
+			},
+			{"encountered": 9941, "taken": 2429, "transitions": 4543,
+				"correlations": [
+					{"lookback": 74, "correlation": 0.330449652952},
+					{"lookback": 75, "correlation": 0.31395231868}
+				]
+			},
+			{"encountered": 9887, "taken": 30, "transitions": 38,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.993931425104},
+					{"lookback": 2, "correlation": -0.993931425104},
+					{"lookback": 7, "correlation": 0.764539294022},
+					{"lookback": 5, "correlation": -0.760089005765},
+					{"lookback": 6, "correlation": 0.750379285931},
+					{"lookback": 15, "correlation": 0.704258116719},
+					{"lookback": 14, "correlation": 0.68544553454},
+					{"lookback": 3, "correlation": -0.644583796905}
+				]
+			},
+			{"encountered": 9857, "taken": 743, "transitions": 1114,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.849244191945},
+					{"lookback": 2, "correlation": 0.849244191945},
+					{"lookback": 3, "correlation": -0.849244191945},
+					{"lookback": 16, "correlation": 0.766866186466},
+					{"lookback": 14, "correlation": 0.65263264685},
+					{"lookback": 10, "correlation": -0.634980217105},
+					{"lookback": 8, "correlation": 0.632545399209},
+					{"lookback": 6, "correlation": -0.632139596226},
+					{"lookback": 7, "correlation": 0.625443847012}
+				]
+			},
+			{"encountered": 9824, "taken": 143, "transitions": 94,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.97088762215},
+					{"lookback": 4, "correlation": 0.970073289902},
+					{"lookback": 5, "correlation": 0.968037459283},
+					{"lookback": 3, "correlation": 0.946661237785},
+					{"lookback": 8, "correlation": 0.936074918567},
+					{"lookback": 20, "correlation": 0.934853420195},
+					{"lookback": 19, "correlation": 0.83835504886},
+					{"lookback": 12, "correlation": 0.83733713355},
+					{"lookback": 18, "correlation": 0.803338762215},
+					{"lookback": 16, "correlation": 0.799267100977},
+					{"lookback": 27, "correlation": 0.798656351792}
+				]
+			},
+			{"encountered": 9810, "taken": 5075, "transitions": 6628,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.472375127421},
+					{"lookback": 5, "correlation": 0.328440366972},
+					{"lookback": 1, "correlation": 0.198165137615},
+					{"lookback": 3, "correlation": -0.183282364934},
+					{"lookback": 6, "correlation": -0.182059123344},
+					{"lookback": 11, "correlation": 0.14373088685}
+				]
+			},
+			{"encountered": 9795, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 6, "correlation": 1.0},
+					{"lookback": 9, "correlation": 1.0},
+					{"lookback": 10, "correlation": 1.0},
+					{"lookback": 13, "correlation": 0.9977539561},
+					{"lookback": 16, "correlation": 0.9977539561},
+					{"lookback": 15, "correlation": 0.996324655436},
+					{"lookback": 11, "correlation": 0.994895354773},
+					{"lookback": 12, "correlation": 0.994691168964},
+					{"lookback": 14, "correlation": 0.994282797346},
+					{"lookback": 4, "correlation": 0.972639101582},
+					{"lookback": 7, "correlation": 0.972230729964}
+				]
+			},
+			{"encountered": 9795, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 7, "correlation": 1.0},
+					{"lookback": 10, "correlation": 1.0},
+					{"lookback": 11, "correlation": 1.0},
+					{"lookback": 14, "correlation": 0.9977539561},
+					{"lookback": 17, "correlation": 0.9977539561},
+					{"lookback": 16, "correlation": 0.996324655436},
+					{"lookback": 12, "correlation": 0.994895354773},
+					{"lookback": 13, "correlation": 0.994691168964},
+					{"lookback": 15, "correlation": 0.994282797346},
+					{"lookback": 5, "correlation": 0.972639101582},
+					{"lookback": 8, "correlation": 0.972230729964}
+				]
+			},
+			{"encountered": 9795, "taken": 9795, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": -1.0},
+					{"lookback": 5, "correlation": -1.0},
+					{"lookback": 8, "correlation": -1.0},
+					{"lookback": 11, "correlation": -1.0},
+					{"lookback": 12, "correlation": -1.0},
+					{"lookback": 15, "correlation": -0.9977539561},
+					{"lookback": 18, "correlation": -0.9977539561},
+					{"lookback": 17, "correlation": -0.996324655436},
+					{"lookback": 13, "correlation": -0.994895354773},
+					{"lookback": 14, "correlation": -0.994691168964},
+					{"lookback": 16, "correlation": -0.994282797346},
+					{"lookback": 6, "correlation": -0.972639101582},
+					{"lookback": 9, "correlation": -0.972230729964}
+				]
+			},
+			{"encountered": 9681, "taken": 32, "transitions": 58,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.993389112695},
+					{"lookback": 2, "correlation": -0.993389112695},
+					{"lookback": 5, "correlation": 0.992562751782},
+					{"lookback": 6, "correlation": 0.990496849499},
+					{"lookback": 4, "correlation": 0.968804875529},
+					{"lookback": 9, "correlation": 0.958062183659},
+					{"lookback": 21, "correlation": 0.956616052061},
+					{"lookback": 20, "correlation": 0.858898874083},
+					{"lookback": 13, "correlation": 0.853940708604}
+				]
+			},
+			{"encountered": 9681, "taken": 9681, "transitions": 0,
+				"correlations": [
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 6, "correlation": -0.999173639087},
+					{"lookback": 7, "correlation": -0.997107736804},
+					{"lookback": 1, "correlation": -0.993389112695},
+					{"lookback": 5, "correlation": -0.975415762834},
+					{"lookback": 10, "correlation": -0.964673070964},
+					{"lookback": 22, "correlation": -0.963226939366},
+					{"lookback": 21, "correlation": -0.865509761388},
+					{"lookback": 14, "correlation": -0.858485693627}
+				]
+			},
+			{"encountered": 9681, "taken": 1, "transitions": 2,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.999793409772},
+					{"lookback": 3, "correlation": 0.999793409772},
+					{"lookback": 4, "correlation": -0.999793409772},
+					{"lookback": 7, "correlation": 0.998967048859},
+					{"lookback": 8, "correlation": 0.996901146576},
+					{"lookback": 2, "correlation": 0.993182522467},
+					{"lookback": 6, "correlation": 0.975209172606},
+					{"lookback": 11, "correlation": 0.964466480735},
+					{"lookback": 23, "correlation": 0.963020349137}
+				]
+			},
+			{"encountered": 9551, "taken": 5508, "transitions": 7077,
+				"correlations": [
+					{"lookback": 3, "correlation": 0.517746832792},
+					{"lookback": 5, "correlation": 0.500366453774},
+					{"lookback": 18, "correlation": -0.373468746728},
+					{"lookback": 50, "correlation": -0.318814783792},
+					{"lookback": 51, "correlation": -0.303947230656},
+					{"lookback": 4, "correlation": 0.283007014972}
+				]
+			},
+			{"encountered": 9551, "taken": 7851, "transitions": 2641,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.644016333368},
+					{"lookback": 3, "correlation": 0.633546225526},
+					{"lookback": 8, "correlation": -0.580567479845},
+					{"lookback": 2, "correlation": 0.510417757303}
+				]
+			},
+			{"encountered": 9551, "taken": 5508, "transitions": 7077,
+				"correlations": [
+					{"lookback": 5, "correlation": 0.760443932573},
+					{"lookback": 12, "correlation": 0.456182598681},
+					{"lookback": 10, "correlation": 0.397549994765},
+					{"lookback": 8, "correlation": 0.357972987122},
+					{"lookback": 9, "correlation": 0.346874672809}
+				]
+			},
+			{"encountered": 9551, "taken": 4671, "transitions": 6397,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.868495445503},
+					{"lookback": 6, "correlation": -0.674589048267},
+					{"lookback": 13, "correlation": -0.493037378285},
+					{"lookback": 10, "correlation": -0.433148361428},
+					{"lookback": 11, "correlation": -0.363626845357},
+					{"lookback": 8, "correlation": 0.358810595749}
+				]
+			},
+			{"encountered": 9551, "taken": 5508, "transitions": 7077,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.92440582138},
+					{"lookback": 7, "correlation": 0.918123756675},
+					{"lookback": 1, "correlation": -0.868495445503},
+					{"lookback": 3, "correlation": -0.847555229819},
+					{"lookback": 12, "correlation": 0.666631766307},
+					{"lookback": 14, "correlation": 0.496387812794},
+					{"lookback": 19, "correlation": 0.44759711025},
+					{"lookback": 8, "correlation": 0.438802219663}
+				]
+			},
+			{"encountered": 9551, "taken": 152, "transitions": 248,
+				"correlations": [
+					{"lookback": 5, "correlation": -0.867657836876},
+					{"lookback": 10, "correlation": -0.712909642969},
+					{"lookback": 7, "correlation": -0.659512092975}
+				]
+			},
+			{"encountered": 9551, "taken": 5508, "transitions": 7077,
+				"correlations": [
+					{"lookback": 4, "correlation": 0.364255051827},
+					{"lookback": 19, "correlation": 0.342686629672},
+					{"lookback": 20, "correlation": 0.311276306146},
+					{"lookback": 15, "correlation": 0.308554078107},
+					{"lookback": 23, "correlation": 0.301434404774},
+					{"lookback": 16, "correlation": 0.292848916344},
+					{"lookback": 24, "correlation": 0.262695005759},
+					{"lookback": 26, "correlation": 0.247408648309}
+				]
+			},
+			{"encountered": 9551, "taken": 2039, "transitions": 2126,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.55837085122},
+					{"lookback": 15, "correlation": -0.319442990263}
+				]
+			},
+			{"encountered": 9547, "taken": 2591, "transitions": 1845,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.999790510108},
+					{"lookback": 3, "correlation": 0.969833455536},
+					{"lookback": 6, "correlation": -0.646171572222},
+					{"lookback": 4, "correlation": 0.549596731958},
+					{"lookback": 2, "correlation": -0.486959254216}
+				]
+			},
+			{"encountered": 9446, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 5, "correlation": 1.0},
+					{"lookback": 6, "correlation": 1.0},
+					{"lookback": 8, "correlation": -1.0},
+					{"lookback": 9, "correlation": 1.0},
+					{"lookback": 11, "correlation": 0.999788270167},
+					{"lookback": 18, "correlation": 0.972051662079}
+				]
+			},
+			{"encountered": 9446, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 5, "correlation": 1.0},
+					{"lookback": 6, "correlation": 1.0},
+					{"lookback": 7, "correlation": 1.0},
+					{"lookback": 9, "correlation": -1.0},
+					{"lookback": 10, "correlation": 1.0},
+					{"lookback": 12, "correlation": 0.999788270167},
+					{"lookback": 19, "correlation": 0.972051662079}
+				]
+			},
+			{"encountered": 9418, "taken": 547, "transitions": 866,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.88383945636},
+					{"lookback": 2, "correlation": 0.88383945636},
+					{"lookback": 3, "correlation": 0.88383945636},
+					{"lookback": 4, "correlation": 0.88383945636},
+					{"lookback": 5, "correlation": 0.88383945636},
+					{"lookback": 7, "correlation": 0.88383945636}
+				]
+			},
+			{"encountered": 9373, "taken": 6955, "transitions": 3269,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.484049930652},
+					{"lookback": 2, "correlation": -0.484049930652},
+					{"lookback": 3, "correlation": -0.484049930652},
+					{"lookback": 4, "correlation": -0.484049930652},
+					{"lookback": 5, "correlation": 0.342793129201}
+				]
+			},
+			{"encountered": 9186, "taken": 4544, "transitions": 969,
+				"correlations": [
+					{"lookback": 43, "correlation": 0.265186152841}
+				]
+			},
+			{"encountered": 9114, "taken": 349, "transitions": 524,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.923414527101},
+					{"lookback": 3, "correlation": -0.588106210226},
+					{"lookback": 2, "correlation": 0.53412332675},
+					{"lookback": 4, "correlation": -0.446785165679}
+				]
+			},
+			{"encountered": 8906, "taken": 463, "transitions": 604,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.896025151583},
+					{"lookback": 4, "correlation": -0.896025151583},
+					{"lookback": 6, "correlation": 0.892207500561},
+					{"lookback": 25, "correlation": 0.892207500561},
+					{"lookback": 13, "correlation": 0.891309229733},
+					{"lookback": 24, "correlation": 0.88996182349},
+					{"lookback": 10, "correlation": 0.889512688075},
+					{"lookback": 23, "correlation": 0.887940714125},
+					{"lookback": 20, "correlation": 0.867280485066},
+					{"lookback": 21, "correlation": 0.864810240287},
+					{"lookback": 8, "correlation": -0.864136537166},
+					{"lookback": 22, "correlation": 0.862339995509},
+					{"lookback": 30, "correlation": 0.842578037278}
+				]
+			},
+			{"encountered": 8832, "taken": 1115, "transitions": 705,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.747509057971},
+					{"lookback": 3, "correlation": 0.747509057971},
+					{"lookback": 5, "correlation": 0.734375},
+					{"lookback": 2, "correlation": 0.729846014493},
+					{"lookback": 45, "correlation": 0.635643115942}
+				]
+			},
+			{"encountered": 8769, "taken": 79, "transitions": 158,
+				"correlations": [
+					{"lookback": 5, "correlation": 0.964420116319},
+					{"lookback": 1, "correlation": 0.955753221576},
+					{"lookback": 27, "correlation": 0.944349412704},
+					{"lookback": 16, "correlation": 0.936138670316},
+					{"lookback": 24, "correlation": 0.917208347588},
+					{"lookback": 23, "correlation": 0.912874900217},
+					{"lookback": 29, "correlation": 0.861557760292},
+					{"lookback": 28, "correlation": 0.844680123161},
+					{"lookback": 6, "correlation": 0.828258638385},
+					{"lookback": 21, "correlation": 0.827574409853},
+					{"lookback": 30, "correlation": 0.823240962481}
+				]
+			},
+			{"encountered": 8690, "taken": 8690, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 6, "correlation": -0.982278481013},
+					{"lookback": 2, "correlation": -0.973532796318},
+					{"lookback": 28, "correlation": -0.950517836594},
+					{"lookback": 17, "correlation": -0.94085155351},
+					{"lookback": 25, "correlation": -0.921749136939},
+					{"lookback": 24, "correlation": -0.914844649022},
+					{"lookback": 30, "correlation": -0.866973532796},
+					{"lookback": 29, "correlation": -0.848101265823}
+				]
+			},
+			{"encountered": 8690, "taken": 1, "transitions": 2,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.999769850403},
+					{"lookback": 2, "correlation": 0.999769850403},
+					{"lookback": 7, "correlation": 0.982048331415},
+					{"lookback": 3, "correlation": 0.97330264672},
+					{"lookback": 29, "correlation": 0.950287686997},
+					{"lookback": 18, "correlation": 0.940621403913},
+					{"lookback": 26, "correlation": 0.921518987342},
+					{"lookback": 25, "correlation": 0.914614499425}
+				]
+			},
+			{"encountered": 8690, "taken": 8690, "transitions": 0,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.999769850403},
+					{"lookback": 9, "correlation": -0.982278481013},
+					{"lookback": 1, "correlation": 0.969850402762},
+					{"lookback": 3, "correlation": 0.969850402762},
+					{"lookback": 4, "correlation": -0.969850402762},
+					{"lookback": 31, "correlation": -0.948216340621},
+					{"lookback": 5, "correlation": -0.947065592635},
+					{"lookback": 20, "correlation": -0.938550057537},
+					{"lookback": 28, "correlation": -0.920368239356},
+					{"lookback": 27, "correlation": -0.913233601841}
+				]
+			},
+			{"encountered": 8690, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 3, "correlation": 0.999769850403},
+					{"lookback": 10, "correlation": 0.982278481013},
+					{"lookback": 2, "correlation": -0.969850402762},
+					{"lookback": 4, "correlation": -0.969850402762},
+					{"lookback": 5, "correlation": 0.969850402762},
+					{"lookback": 32, "correlation": 0.948216340621},
+					{"lookback": 6, "correlation": 0.947065592635},
+					{"lookback": 21, "correlation": 0.938550057537}
+				]
+			},
+			{"encountered": 8690, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 4, "correlation": 0.999769850403},
+					{"lookback": 11, "correlation": 0.982278481013},
+					{"lookback": 3, "correlation": -0.969850402762},
+					{"lookback": 5, "correlation": -0.969850402762},
+					{"lookback": 6, "correlation": 0.969850402762},
+					{"lookback": 33, "correlation": 0.948216340621},
+					{"lookback": 7, "correlation": 0.947065592635}
+				]
+			},
+			{"encountered": 8690, "taken": 8690, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 5, "correlation": -0.999769850403},
+					{"lookback": 12, "correlation": -0.982278481013},
+					{"lookback": 4, "correlation": 0.969850402762},
+					{"lookback": 6, "correlation": 0.969850402762},
+					{"lookback": 7, "correlation": -0.969850402762}
+				]
+			},
+			{"encountered": 8690, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 6, "correlation": -0.998388952819},
+					{"lookback": 4, "correlation": 0.923590333717},
+					{"lookback": 39, "correlation": 0.91001150748},
+					{"lookback": 42, "correlation": 0.868814729574},
+					{"lookback": 12, "correlation": -0.859838895282},
+					{"lookback": 43, "correlation": 0.853624856157}
+				]
+			},
+			{"encountered": 8674, "taken": 7592, "transitions": 1940,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.750518791792},
+					{"lookback": 2, "correlation": -0.750518791792},
+					{"lookback": 3, "correlation": 0.750518791792},
+					{"lookback": 4, "correlation": 0.750518791792},
+					{"lookback": 5, "correlation": 0.750518791792},
+					{"lookback": 6, "correlation": 0.750518791792}
+				]
+			},
+			{"encountered": 8637, "taken": 8387, "transitions": 338,
+				"correlations": [
+					{"lookback": 25, "correlation": -0.940951719347},
+					{"lookback": 26, "correlation": -0.940025471807},
+					{"lookback": 24, "correlation": -0.936552043534},
+					{"lookback": 14, "correlation": -0.929836748871},
+					{"lookback": 11, "correlation": -0.928910501331},
+					{"lookback": 5, "correlation": 0.928678939447},
+					{"lookback": 7, "correlation": -0.925205511173},
+					{"lookback": 22, "correlation": -0.908764617344},
+					{"lookback": 23, "correlation": -0.907375246035},
+					{"lookback": 21, "correlation": -0.902512446451},
+					{"lookback": 1, "correlation": -0.897186523098},
+					{"lookback": 2, "correlation": -0.897186523098},
+					{"lookback": 9, "correlation": 0.896723399328},
+					{"lookback": 31, "correlation": -0.889776542781}
+				]
+			},
+			{"encountered": 8479, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 24, "correlation": 0.980893973346},
+					{"lookback": 28, "correlation": 0.966505484137},
+					{"lookback": 26, "correlation": 0.946455949994},
+					{"lookback": 16, "correlation": 0.94291779691},
+					{"lookback": 23, "correlation": 0.942210166293},
+					{"lookback": 4, "correlation": 0.941738412549},
+					{"lookback": 25, "correlation": 0.9200377403},
+					{"lookback": 13, "correlation": 0.916027833471},
+					{"lookback": 27, "correlation": 0.912017926642},
+					{"lookback": 3, "correlation": 0.867673074655}
+				]
+			},
+			{"encountered": 8479, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 25, "correlation": 0.980893973346},
+					{"lookback": 29, "correlation": 0.966505484137},
+					{"lookback": 27, "correlation": 0.946455949994},
+					{"lookback": 17, "correlation": 0.94291779691},
+					{"lookback": 24, "correlation": 0.942210166293},
+					{"lookback": 5, "correlation": 0.941738412549},
+					{"lookback": 26, "correlation": 0.9200377403},
+					{"lookback": 14, "correlation": 0.916027833471},
+					{"lookback": 28, "correlation": 0.912017926642}
+				]
+			},
+			{"encountered": 8479, "taken": 2641, "transitions": 3932,
+				"correlations": [
+					{"lookback": 9, "correlation": 0.97924283524},
+					{"lookback": 4, "correlation": 0.926406415851},
+					{"lookback": 8, "correlation": 0.829932775091},
+					{"lookback": 21, "correlation": -0.811534379054},
+					{"lookback": 19, "correlation": 0.771435310768},
+					{"lookback": 13, "correlation": 0.690765420451},
+					{"lookback": 11, "correlation": -0.684868498644},
+					{"lookback": 22, "correlation": -0.573298738059}
+				]
+			},
+			{"encountered": 8479, "taken": 5253, "transitions": 2497,
+				"correlations": [
+					{"lookback": 32, "correlation": -0.367849982309},
+					{"lookback": 33, "correlation": -0.29425639816},
+					{"lookback": 41, "correlation": -0.28387781578}
+				]
+			},
+			{"encountered": 8269, "taken": 2666, "transitions": 1736,
+				"correlations": [
+					{"lookback": 4, "correlation": 0.397750634901},
+					{"lookback": 6, "correlation": 0.397750634901},
+					{"lookback": 9, "correlation": 0.37646631999}
+				]
+			},
+			{"encountered": 8174, "taken": 1063, "transitions": 1894,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.739907022266},
+					{"lookback": 5, "correlation": 0.739907022266},
+					{"lookback": 7, "correlation": -0.702960606802},
+					{"lookback": 13, "correlation": -0.681184242721},
+					{"lookback": 40, "correlation": 0.6515781747}
+				]
+			},
+			{"encountered": 8000, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": -1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 24, "correlation": 0.95525},
+					{"lookback": 11, "correlation": 0.877},
+					{"lookback": 14, "correlation": -0.835}
+				]
+			},
+			{"encountered": 8000, "taken": 607, "transitions": 469,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.84825},
+					{"lookback": 2, "correlation": 0.84825},
+					{"lookback": 3, "correlation": 0.84825},
+					{"lookback": 4, "correlation": -0.84825},
+					{"lookback": 5, "correlation": 0.84825},
+					{"lookback": 25, "correlation": 0.813}
+				]
+			},
+			{"encountered": 7967, "taken": 1531, "transitions": 2780,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.461528806326},
+					{"lookback": 4, "correlation": 0.409313417849}
+				]
+			},
+			{"encountered": 7942, "taken": 4321, "transitions": 1805,
+				"correlations": [
+					{"lookback": 57, "correlation": -0.120120876354}
+				]
+			},
+			{"encountered": 7942, "taken": 2758, "transitions": 3126,
+				"correlations": [
+					{"lookback": 8, "correlation": 0.57013346764},
+					{"lookback": 2, "correlation": 0.552757491816},
+					{"lookback": 12, "correlation": -0.477461596575},
+					{"lookback": 5, "correlation": -0.453538151599},
+					{"lookback": 1, "correlation": 0.436665827248}
+				]
+			},
+			{"encountered": 7939, "taken": 790, "transitions": 1580,
+				"correlations": [
+					{"lookback": 38, "correlation": 0.701725658143},
+					{"lookback": 2, "correlation": 0.698954528278},
+					{"lookback": 40, "correlation": 0.698954528278},
+					{"lookback": 39, "correlation": 0.694419952135},
+					{"lookback": 37, "correlation": 0.658647184784},
+					{"lookback": 41, "correlation": 0.62388210102}
+				]
+			},
+			{"encountered": 7938, "taken": 578, "transitions": 580,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.854371378181},
+					{"lookback": 2, "correlation": -0.854371378181}
+				]
+			},
+			{"encountered": 7767, "taken": 7643, "transitions": 162,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.968070039912},
+					{"lookback": 5, "correlation": 0.968070039912},
+					{"lookback": 2, "correlation": 0.96292004635},
+					{"lookback": 4, "correlation": 0.926870091412},
+					{"lookback": 3, "correlation": 0.92172009785},
+					{"lookback": 6, "correlation": -0.92172009785},
+					{"lookback": 7, "correlation": 0.92172009785},
+					{"lookback": 18, "correlation": -0.920690099137},
+					{"lookback": 9, "correlation": 0.917342603322},
+					{"lookback": 17, "correlation": -0.87356765804}
+				]
+			},
+			{"encountered": 7717, "taken": 7625, "transitions": 54,
+				"correlations": [
+					{"lookback": 3, "correlation": -1.0},
+					{"lookback": 6, "correlation": -0.984709083841},
+					{"lookback": 1, "correlation": -0.976156537515},
+					{"lookback": 2, "correlation": -0.976156537515},
+					{"lookback": 4, "correlation": -0.976156537515},
+					{"lookback": 46, "correlation": -0.807956459764}
+				]
+			},
+			{"encountered": 7593, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 8, "correlation": 1.0},
+					{"lookback": 9, "correlation": 0.933623073884},
+					{"lookback": 2, "correlation": 0.905966021335},
+					{"lookback": 7, "correlation": 0.833004082708},
+					{"lookback": 11, "correlation": -0.781640985118},
+					{"lookback": 3, "correlation": -0.776109574608},
+					{"lookback": 5, "correlation": 0.776109574608},
+					{"lookback": 13, "correlation": -0.473989200579}
+				]
+			},
+			{"encountered": 7593, "taken": 5909, "transitions": 3162,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.556433557224},
+					{"lookback": 2, "correlation": 0.556433557224},
+					{"lookback": 9, "correlation": -0.556433557224},
+					{"lookback": 10, "correlation": -0.540102726195},
+					{"lookback": 14, "correlation": 0.526142499671},
+					{"lookback": 3, "correlation": -0.507704464638},
+					{"lookback": 4, "correlation": 0.45686816805}
+				]
+			},
+			{"encountered": 7592, "taken": 4496, "transitions": 3662,
+				"correlations": [
+					{"lookback": 2, "correlation": 0.47866174921},
+					{"lookback": 13, "correlation": 0.349051633298},
+					{"lookback": 22, "correlation": 0.325869336143},
+					{"lookback": 26, "correlation": -0.300842992624},
+					{"lookback": 20, "correlation": 0.293993677555},
+					{"lookback": 12, "correlation": 0.257376185458}
+				]
+			},
+			{"encountered": 7457, "taken": 5353, "transitions": 4207,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.628000536409},
+					{"lookback": 11, "correlation": 0.45152205981},
+					{"lookback": 3, "correlation": -0.436234410621},
+					{"lookback": 8, "correlation": 0.436234410621},
+					{"lookback": 9, "correlation": 0.386616601851},
+					{"lookback": 12, "correlation": 0.336730588709}
+				]
+			},
+			{"encountered": 7393, "taken": 3168, "transitions": 4056,
+				"correlations": [
+					{"lookback": 15, "correlation": -0.812254835655},
+					{"lookback": 33, "correlation": 0.539293926687},
+					{"lookback": 28, "correlation": 0.448126606249},
+					{"lookback": 32, "correlation": 0.418098201001},
+					{"lookback": 24, "correlation": 0.413499256053},
+					{"lookback": 37, "correlation": 0.378871905857}
+				]
+			},
+			{"encountered": 7360, "taken": 7360, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0}
+				]
+			},
+			{"encountered": 7360, "taken": 2442, "transitions": 789,
+				"correlations": [
+					{"lookback": 83, "correlation": 0.597282608696}
+				]
+			},
+			{"encountered": 7269, "taken": 7246, "transitions": 46,
+				"correlations": [
+					{"lookback": 1, "correlation": -0.993671756775},
+					{"lookback": 4, "correlation": 0.993671756775},
+					{"lookback": 6, "correlation": 0.961755399642},
+					{"lookback": 7, "correlation": -0.783739166323},
+					{"lookback": 10, "correlation": 0.765029577659}
+				]
+			},
+			{"encountered": 7246, "taken": 7233, "transitions": 26,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.996411813414},
+					{"lookback": 2, "correlation": -0.996411813414},
+					{"lookback": 5, "correlation": 0.996411813414},
+					{"lookback": 7, "correlation": 0.964394148496},
+					{"lookback": 8, "correlation": -0.783604747447},
+					{"lookback": 11, "correlation": 0.770356058515}
+				]
+			},
+			{"encountered": 7194, "taken": 5035, "transitions": 3721,
+				"correlations": [
+					{"lookback": 6, "correlation": -0.445371142619},
+					{"lookback": 4, "correlation": -0.340839588546},
+					{"lookback": 2, "correlation": -0.321378926884}
+				]
+			},
+			{"encountered": 7111, "taken": 7111, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": -1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 6, "correlation": -1.0},
+					{"lookback": 8, "correlation": 0.933905217269},
+					{"lookback": 14, "correlation": 0.897342145971},
+					{"lookback": 41, "correlation": -0.895654619603}
+				]
+			},
+			{"encountered": 7111, "taken": 5022, "transitions": 2260,
+				"correlations": [
+					{"lookback": 42, "correlation": -0.450991421741}
+				]
+			},
+			{"encountered": 6956, "taken": 4367, "transitions": 2692,
+				"correlations": [
+					{"lookback": 7, "correlation": 0.416331224842},
+					{"lookback": 1, "correlation": -0.2556066705},
+					{"lookback": 5, "correlation": -0.2556066705},
+					{"lookback": 6, "correlation": -0.2556066705},
+					{"lookback": 2, "correlation": 0.255319148936},
+					{"lookback": 3, "correlation": 0.255319148936},
+					{"lookback": 4, "correlation": -0.255319148936}
+				]
+			},
+			{"encountered": 6939, "taken": 5508, "transitions": 2850,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.580054762934},
+					{"lookback": 2, "correlation": 0.578325407119},
+					{"lookback": 6, "correlation": 0.556996685401}
+				]
+			},
+			{"encountered": 6924, "taken": 6690, "transitions": 465,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.865395725014},
+					{"lookback": 3, "correlation": 0.799248989024},
+					{"lookback": 2, "correlation": 0.798671288273},
+					{"lookback": 4, "correlation": 0.736279607163},
+					{"lookback": 5, "correlation": 0.734257654535},
+					{"lookback": 6, "correlation": 0.695551704217},
+					{"lookback": 7, "correlation": 0.636048526863},
+					{"lookback": 8, "correlation": 0.617273252455},
+					{"lookback": 9, "correlation": 0.559214326979},
+					{"lookback": 10, "correlation": 0.496533795494}
+				]
+			},
+			{"encountered": 6922, "taken": 3500, "transitions": 2682,
+				"correlations": [
+					{"lookback": 71, "correlation": 0.355677549841},
+					{"lookback": 23, "correlation": -0.336607916787},
+					{"lookback": 43, "correlation": -0.32707310026}
+				]
+			},
+			{"encountered": 6671, "taken": 3894, "transitions": 2042,
+				"correlations": [
+					{"lookback": 10, "correlation": 0.181831809324},
+					{"lookback": 1, "correlation": 0.167441163244},
+					{"lookback": 2, "correlation": 0.167441163244},
+					{"lookback": 17, "correlation": -0.166541747864},
+					{"lookback": 11, "correlation": -0.166241942737}
+				]
+			},
+			{"encountered": 6624, "taken": 1337, "transitions": 2673,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.596316425121},
+					{"lookback": 3, "correlation": 0.511473429952},
+					{"lookback": 47, "correlation": 0.420893719807},
+					{"lookback": 8, "correlation": -0.401268115942}
+				]
+			},
+			{"encountered": 6463, "taken": 90, "transitions": 80,
+				"correlations": [
+					{"lookback": 1, "correlation": 0.972149156738},
+					{"lookback": 2, "correlation": 0.972149156738},
+					{"lookback": 3, "correlation": -0.972149156738},
+					{"lookback": 4, "correlation": -0.972149156738},
+					{"lookback": 5, "correlation": 0.972149156738},
+					{"lookback": 7, "correlation": 0.972149156738},
+					{"lookback": 8, "correlation": -0.970911341482},
+					{"lookback": 6, "correlation": -0.965031719016},
+					{"lookback": 24, "correlation": -0.697663623704},
+					{"lookback": 27, "correlation": -0.674764041467},
+					{"lookback": 10, "correlation": -0.671050595699}
+				]
+			},
+			{"encountered": 6373, "taken": 23, "transitions": 10,
+				"correlations": [
+					{"lookback": 7, "correlation": -1.0},
+					{"lookback": 1, "correlation": 0.99278204927},
+					{"lookback": 2, "correlation": 0.99278204927},
+					{"lookback": 3, "correlation": 0.99278204927},
+					{"lookback": 4, "correlation": -0.99278204927},
+					{"lookback": 5, "correlation": -0.99278204927},
+					{"lookback": 6, "correlation": 0.99278204927},
+					{"lookback": 8, "correlation": 0.99278204927},
+					{"lookback": 9, "correlation": -0.989016161933},
+					{"lookback": 25, "correlation": -0.712537266593},
+					{"lookback": 28, "correlation": -0.697473717245},
+					{"lookback": 11, "correlation": -0.684293111564},
+					{"lookback": 12, "correlation": -0.681154872117}
+				]
+			},
+			{"encountered": 6360, "taken": 5510, "transitions": 240,
+				"correlations": [
+					{"lookback": 2, "correlation": -0.737735849057},
+					{"lookback": 1, "correlation": 0.732704402516},
+					{"lookback": 8, "correlation": 0.712893081761},
+					{"lookback": 4, "correlation": 0.694339622642},
+					{"lookback": 14, "correlation": 0.681132075472},
+					{"lookback": 9, "correlation": 0.654402515723},
+					{"lookback": 10, "correlation": 0.652201257862},
+					{"lookback": 29, "correlation": -0.603459119497}
+				]
+			},
+			{"encountered": 6350, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 5, "correlation": -1.0},
+					{"lookback": 6, "correlation": -1.0},
+					{"lookback": 7, "correlation": 1.0},
+					{"lookback": 8, "correlation": -1.0},
+					{"lookback": 9, "correlation": 1.0},
+					{"lookback": 10, "correlation": -0.996220472441},
+					{"lookback": 26, "correlation": -0.716850393701},
+					{"lookback": 29, "correlation": -0.699212598425},
+					{"lookback": 12, "correlation": -0.690393700787},
+					{"lookback": 13, "correlation": -0.687244094488}
+				]
+			},
+			{"encountered": 6350, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 3, "correlation": 1.0},
+					{"lookback": 4, "correlation": 1.0},
+					{"lookback": 5, "correlation": 1.0},
+					{"lookback": 6, "correlation": -1.0},
+					{"lookback": 7, "correlation": -1.0},
+					{"lookback": 8, "correlation": 1.0},
+					{"lookback": 9, "correlation": -1.0},
+					{"lookback": 10, "correlation": 1.0},
+					{"lookback": 11, "correlation": -0.996220472441},
+					{"lookback": 27, "correlation": -0.716850393701},
+					{"lookback": 30, "correlation": -0.699212598425},
+					{"lookback": 13, "correlation": -0.690393700787},
+					{"lookback": 14, "correlation": -0.687244094488}
+				]
+			},
+			{"encountered": 6350, "taken": 5458, "transitions": 610,
+				"correlations": [
+					{"lookback": 27, "correlation": -0.762834645669},
+					{"lookback": 25, "correlation": -0.748976377953}
+				]
+			},
+			{"encountered": 6079, "taken": 3185, "transitions": 1219,
+				"correlations": [
+					{"lookback": 8, "correlation": -0.252508636289},
+					{"lookback": 14, "correlation": 0.155453199539}
+				]
+			},
+			{"encountered": 6064, "taken": 0, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 3, "correlation": -0.956464379947},
+					{"lookback": 9, "correlation": 0.954485488127},
+					{"lookback": 6, "correlation": 0.947229551451}
+				]
+			},
+			{"encountered": 6064, "taken": 2950, "transitions": 179,
+				"correlations": [
+					{"lookback": 4, "correlation": -0.226583113456},
+					{"lookback": 9, "correlation": -0.209432717678},
+					{"lookback": 12, "correlation": 0.183047493404},
+					{"lookback": 14, "correlation": -0.179089709763},
+					{"lookback": 17, "correlation": -0.177770448549},
+					{"lookback": 7, "correlation": 0.170844327177}
+				]
+			},
+			{"encountered": 6064, "taken": 6064, "transitions": 0,
+				"correlations": [
+					{"lookback": 2, "correlation": -1.0},
+					{"lookback": 23, "correlation": -0.900395778364},
+					{"lookback": 17, "correlation": 0.737796833773},
+					{"lookback": 16, "correlation": 0.737137203166}
+				]
+			},
+			{"encountered": 6064, "taken": 4793, "transitions": 1017,
+				"correlations": [
+					{"lookback": 11, "correlation": 0.767150395778},
+					{"lookback": 16, "correlation": 0.681398416887}
+				]
+			},
+			{"encountered": 6064, "taken": 6064, "transitions": 0,
+				"correlations": [
+					{"lookback": 1, "correlation": 1.0},
+					{"lookback": 2, "correlation": 1.0},
+					{"lookback": 4, "correlation": -1.0},
+					{"lookback": 25, "correlation": -0.900395778364},
+					{"lookback": 19, "correlation": 0.737796833773},
+					{"lookback": 18, "correlation": 0.737137203166}
+				]
+			}
+		],
+		"immediate_operands": "1",
+		"dynamic_basic_block_count": "13242555",
+		"static_basic_block_count": "559",
+		"avr_basic_block_size": "8",
+		"avr_number_succ_bbl": "1.275668",
+		"data_footprint": "49152",
+		"byte_data_footprint": "49152",
+		"dominant_local_stride": "64",
+		"raw":
+		{
+			"0": "0",
+			"1": "36659052",
+			"2": "19866228",
+			"3": "12565398",
+			"4": "8567582",
+			"5": "5604324",
+			"6": "4380836",
+			"7": "3280461",
+			"8": "2782993",
+			"9": "2445107",
+			"10": "3489243",
+			"11": "2294697",
+			"12": "1680323",
+			"13": "1606475",
+			"14": "980685",
+			"15": "1276414",
+			"16": "1252600",
+			"17": "1284106",
+			"18": "960033",
+			"19": "1132260",
+			"20": "1020675",
+			"21": "678188",
+			"22": "1046503",
+			"23": "669451",
+			"24": "754126",
+			"25": "1024226",
+			"26": "917502",
+			"27": "828120",
+			"28": "503114",
+			"29": "722384",
+			"30": "557504",
+			"31": "468297",
+			"32": "487121",
+			"33": "24419861"
+		},
+		"stride_dens":
+		{
+			"-256": "8165364",
+			"-255": "0",
+			"-254": "0",
+			"-253": "0",
+			"-252": "7107",
+			"-251": "0",
+			"-250": "0",
+			"-249": "0",
+			"-248": "4454",
+			"-247": "0",
+			"-246": "0",
+			"-245": "0",
+			"-244": "4988",
+			"-243": "0",
+			"-242": "0",
+			"-241": "0",
+			"-240": "11637",
+			"-239": "0",
+			"-238": "0",
+			"-237": "0",
+			"-236": "9240",
+			"-235": "0",
+			"-234": "0",
+			"-233": "0",
+			"-232": "15898",
+			"-231": "0",
+			"-230": "0",
+			"-229": "0",
+			"-228": "7517",
+			"-227": "0",
+			"-226": "0",
+			"-225": "0",
+			"-224": "11637",
+			"-223": "0",
+			"-222": "0",
+			"-221": "0",
+			"-220": "15317",
+			"-219": "0",
+			"-218": "0",
+			"-217": "0",
+			"-216": "42560",
+			"-215": "0",
+			"-214": "0",
+			"-213": "0",
+			"-212": "141",
+			"-211": "0",
+			"-210": "0",
+			"-209": "0",
+			"-208": "10935",
+			"-207": "0",
+			"-206": "0",
+			"-205": "0",
+			"-204": "2893",
+			"-203": "0",
+			"-202": "0",
+			"-201": "0",
+			"-200": "75",
+			"-199": "0",
+			"-198": "0",
+			"-197": "0",
+			"-196": "247",
+			"-195": "0",
+			"-194": "0",
+			"-193": "0",
+			"-192": "3190",
+			"-191": "0",
+			"-190": "0",
+			"-189": "0",
+			"-188": "4816",
+			"-187": "0",
+			"-186": "0",
+			"-185": "0",
+			"-184": "2589",
+			"-183": "0",
+			"-182": "0",
+			"-181": "0",
+			"-180": "33286",
+			"-179": "0",
+			"-178": "0",
+			"-177": "0",
+			"-176": "2950",
+			"-175": "0",
+			"-174": "0",
+			"-173": "0",
+			"-172": "13904",
+			"-171": "0",
+			"-170": "0",
+			"-169": "0",
+			"-168": "14443",
+			"-167": "0",
+			"-166": "0",
+			"-165": "0",
+			"-164": "2806",
+			"-163": "0",
+			"-162": "0",
+			"-161": "0",
+			"-160": "24019",
+			"-159": "0",
+			"-158": "0",
+			"-157": "0",
+			"-156": "11453",
+			"-155": "0",
+			"-154": "0",
+			"-153": "0",
+			"-152": "49385",
+			"-151": "0",
+			"-150": "0",
+			"-149": "0",
+			"-148": "7911",
+			"-147": "0",
+			"-146": "0",
+			"-145": "0",
+			"-144": "3447",
+			"-143": "0",
+			"-142": "0",
+			"-141": "0",
+			"-140": "7231",
+			"-139": "0",
+			"-138": "0",
+			"-137": "0",
+			"-136": "77999",
+			"-135": "0",
+			"-134": "0",
+			"-133": "0",
+			"-132": "21367",
+			"-131": "0",
+			"-130": "0",
+			"-129": "0",
+			"-128": "56197",
+			"-127": "0",
+			"-126": "0",
+			"-125": "0",
+			"-124": "1505",
+			"-123": "0",
+			"-122": "0",
+			"-121": "0",
+			"-120": "89708",
+			"-119": "0",
+			"-118": "0",
+			"-117": "0",
+			"-116": "17015",
+			"-115": "0",
+			"-114": "0",
+			"-113": "0",
+			"-112": "98935",
+			"-111": "0",
+			"-110": "0",
+			"-109": "0",
+			"-108": "11377",
+			"-107": "0",
+			"-106": "0",
+			"-105": "0",
+			"-104": "91188",
+			"-103": "0",
+			"-102": "0",
+			"-101": "0",
+			"-100": "18768",
+			"-99": "0",
+			"-98": "0",
+			"-97": "0",
+			"-96": "242897",
+			"-95": "0",
+			"-94": "0",
+			"-93": "0",
+			"-92": "30267",
+			"-91": "0",
+			"-90": "0",
+			"-89": "0",
+			"-88": "108734",
+			"-87": "0",
+			"-86": "0",
+			"-85": "0",
+			"-84": "35570",
+			"-83": "0",
+			"-82": "0",
+			"-81": "0",
+			"-80": "103870",
+			"-79": "0",
+			"-78": "0",
+			"-77": "0",
+			"-76": "2612",
+			"-75": "0",
+			"-74": "0",
+			"-73": "0",
+			"-72": "121573",
+			"-71": "0",
+			"-70": "0",
+			"-69": "0",
+			"-68": "31027",
+			"-67": "0",
+			"-66": "0",
+			"-65": "0",
+			"-64": "140196",
+			"-63": "0",
+			"-62": "0",
+			"-61": "0",
+			"-60": "49469",
+			"-59": "0",
+			"-58": "0",
+			"-57": "0",
+			"-56": "161554",
+			"-55": "0",
+			"-54": "0",
+			"-53": "7150",
+			"-52": "97982",
+			"-51": "0",
+			"-50": "0",
+			"-49": "0",
+			"-48": "64164",
+			"-47": "0",
+			"-46": "0",
+			"-45": "1",
+			"-44": "46576",
+			"-43": "0",
+			"-42": "101",
+			"-41": "0",
+			"-40": "157445",
+			"-39": "0",
+			"-38": "0",
+			"-37": "0",
+			"-36": "96632",
+			"-35": "237",
+			"-34": "0",
+			"-33": "0",
+			"-32": "423273",
+			"-31": "0",
+			"-30": "0",
+			"-29": "0",
+			"-28": "126518",
+			"-27": "58",
+			"-26": "0",
+			"-25": "0",
+			"-24": "394205",
+			"-23": "0",
+			"-22": "0",
+			"-21": "954",
+			"-20": "137539",
+			"-19": "0",
+			"-18": "609",
+			"-17": "43",
+			"-16": "774348",
+			"-15": "281",
+			"-14": "638",
+			"-13": "0",
+			"-12": "273252",
+			"-11": "0",
+			"-10": "13",
+			"-9": "17866",
+			"-8": "3778729",
+			"-7": "2161",
+			"-6": "309",
+			"-5": "306",
+			"-4": "599532",
+			"-3": "564",
+			"-2": "999",
+			"-1": "67055",
+			"0": "2772301",
+			"1": "20890",
+			"2": "18002",
+			"3": "1114",
+			"4": "1219408",
+			"5": "583",
+			"6": "179",
+			"7": "2885",
+			"8": "3840145",
+			"9": "15888",
+			"10": "590",
+			"11": "0",
+			"12": "215085",
+			"13": "2115",
+			"14": "641",
+			"15": "466",
+			"16": "886254",
+			"17": "220",
+			"18": "1204",
+			"19": "0",
+			"20": "145589",
+			"21": "2985",
+			"22": "0",
+			"23": "0",
+			"24": "261335",
+			"25": "0",
+			"26": "0",
+			"27": "261",
+			"28": "109140",
+			"29": "6922",
+			"30": "0",
+			"31": "0",
+			"32": "525857",
+			"33": "0",
+			"34": "0",
+			"35": "112",
+			"36": "91889",
+			"37": "0",
+			"38": "0",
+			"39": "0",
+			"40": "363491",
+			"41": "0",
+			"42": "20",
+			"43": "0",
+			"44": "3208",
+			"45": "5",
+			"46": "0",
+			"47": "0",
+			"48": "170032",
+			"49": "0",
+			"50": "0",
+			"51": "0",
+			"52": "20564",
+			"53": "5035",
+			"54": "4",
+			"55": "0",
+			"56": "237896",
+			"57": "0",
+			"58": "0",
+			"59": "1",
+			"60": "26279",
+			"61": "0",
+			"62": "0",
+			"63": "8718",
+			"64": "251733",
+			"65": "0",
+			"66": "0",
+			"67": "0",
+			"68": "35138",
+			"69": "0",
+			"70": "0",
+			"71": "0",
+			"72": "89273",
+			"73": "0",
+			"74": "0",
+			"75": "0",
+			"76": "13150",
+			"77": "0",
+			"78": "0",
+			"79": "0",
+			"80": "49867",
+			"81": "0",
+			"82": "0",
+			"83": "0",
+			"84": "30114",
+			"85": "2",
+			"86": "0",
+			"87": "0",
+			"88": "62352",
+			"89": "0",
+			"90": "0",
+			"91": "0",
+			"92": "12837",
+			"93": "9",
+			"94": "0",
+			"95": "0",
+			"96": "153672",
+			"97": "0",
+			"98": "0",
+			"99": "0",
+			"100": "22940",
+			"101": "86",
+			"102": "9",
+			"103": "0",
+			"104": "59933",
+			"105": "0",
+			"106": "0",
+			"107": "0",
+			"108": "3305",
+			"109": "0",
+			"110": "68",
+			"111": "0",
+			"112": "75895",
+			"113": "0",
+			"114": "0",
+			"115": "0",
+			"116": "22077",
+			"117": "0",
+			"118": "0",
+			"119": "20",
+			"120": "189504",
+			"121": "0",
+			"122": "30",
+			"123": "73",
+			"124": "9211",
+			"125": "0",
+			"126": "0",
+			"127": "0",
+			"128": "61063",
+			"129": "0",
+			"130": "0",
+			"131": "0",
+			"132": "5732",
+			"133": "0",
+			"134": "1",
+			"135": "0",
+			"136": "89682",
+			"137": "2",
+			"138": "0",
+			"139": "0",
+			"140": "5107",
+			"141": "2",
+			"142": "0",
+			"143": "0",
+			"144": "11966",
+			"145": "0",
+			"146": "0",
+			"147": "0",
+			"148": "19322",
+			"149": "3",
+			"150": "0",
+			"151": "0",
+			"152": "187861",
+			"153": "0",
+			"154": "1",
+			"155": "0",
+			"156": "5609",
+			"157": "0",
+			"158": "0",
+			"159": "0",
+			"160": "9434",
+			"161": "2",
+			"162": "0",
+			"163": "5",
+			"164": "98740",
+			"165": "525",
+			"166": "89",
+			"167": "0",
+			"168": "6279",
+			"169": "0",
+			"170": "3",
+			"171": "2",
+			"172": "4529",
+			"173": "3",
+			"174": "140",
+			"175": "1",
+			"176": "19345",
+			"177": "0",
+			"178": "1",
+			"179": "4",
+			"180": "3569",
+			"181": "0",
+			"182": "0",
+			"183": "0",
+			"184": "2965",
+			"185": "1",
+			"186": "60",
+			"187": "648",
+			"188": "2152",
+			"189": "0",
+			"190": "0",
+			"191": "0",
+			"192": "2945",
+			"193": "190",
+			"194": "0",
+			"195": "500",
+			"196": "15833",
+			"197": "300",
+			"198": "41",
+			"199": "0",
+			"200": "676",
+			"201": "8",
+			"202": "0",
+			"203": "81",
+			"204": "661",
+			"205": "41",
+			"206": "0",
+			"207": "0",
+			"208": "20654",
+			"209": "4",
+			"210": "0",
+			"211": "160",
+			"212": "940",
+			"213": "165",
+			"214": "0",
+			"215": "0",
+			"216": "9550",
+			"217": "0",
+			"218": "12",
+			"219": "0",
+			"220": "5340",
+			"221": "1",
+			"222": "1",
+			"223": "0",
+			"224": "7062",
+			"225": "5",
+			"226": "0",
+			"227": "3086",
+			"228": "4924",
+			"229": "4421",
+			"230": "1123",
+			"231": "1",
+			"232": "6737",
+			"233": "0",
+			"234": "448",
+			"235": "89",
+			"236": "1272",
+			"237": "0",
+			"238": "9",
+			"239": "0",
+			"240": "12781",
+			"241": "4",
+			"242": "0",
+			"243": "2",
+			"244": "2070",
+			"245": "0",
+			"246": "1",
+			"247": "39",
+			"248": "2713",
+			"249": "4",
+			"250": "118",
+			"251": "12",
+			"252": "3195",
+			"253": "1",
+			"254": "0",
+			"255": "0",
+			"256": "8195258"
+		},
+		"local_stride_dens":
+		{
+			"0": "24609107",
+			"1": "17334",
+			"2": "20349",
+			"3": "5552",
+			"4": "1506127",
+			"5": "1952",
+			"6": "3436",
+			"7": "1889",
+			"8": "667704",
+			"9": "992",
+			"10": "608",
+			"11": "313",
+			"12": "85560",
+			"13": "393",
+			"14": "624",
+			"15": "601",
+			"16": "271092",
+			"17": "460",
+			"18": "781",
+			"19": "409",
+			"20": "66976",
+			"21": "682",
+			"22": "924",
+			"23": "497",
+			"24": "221738",
+			"25": "1220",
+			"26": "2934",
+			"27": "643",
+			"28": "136270",
+			"29": "1474",
+			"30": "529",
+			"31": "510",
+			"32": "433022",
+			"33": "571",
+			"34": "284",
+			"35": "871",
+			"36": "57348",
+			"37": "322",
+			"38": "1792",
+			"39": "1192",
+			"40": "97861",
+			"41": "744",
+			"42": "528",
+			"43": "379",
+			"44": "33785",
+			"45": "262",
+			"46": "449",
+			"47": "282",
+			"48": "173780",
+			"49": "399",
+			"50": "326",
+			"51": "154",
+			"52": "24307",
+			"53": "134",
+			"54": "224",
+			"55": "180",
+			"56": "193927",
+			"57": "403",
+			"58": "892",
+			"59": "406",
+			"60": "29964",
+			"61": "914",
+			"62": "2360",
+			"63": "1606",
+			"64": "306834",
+			"65": "2420",
+			"66": "3044",
+			"67": "644",
+			"68": "19397",
+			"69": "373",
+			"70": "1409",
+			"71": "196",
+			"72": "84873",
+			"73": "134",
+			"74": "220",
+			"75": "83",
+			"76": "12909",
+			"77": "151",
+			"78": "328",
+			"79": "261",
+			"80": "48479",
+			"81": "297",
+			"82": "504",
+			"83": "200",
+			"84": "26342",
+			"85": "304",
+			"86": "531",
+			"87": "332",
+			"88": "57919",
+			"89": "685",
+			"90": "1200",
+			"91": "570",
+			"92": "14441",
+			"93": "643",
+			"94": "305",
+			"95": "686",
+			"96": "49458",
+			"97": "606",
+			"98": "537",
+			"99": "269",
+			"100": "13337",
+			"101": "412",
+			"102": "694",
+			"103": "536",
+			"104": "42746",
+			"105": "276",
+			"106": "260",
+			"107": "176",
+			"108": "16435",
+			"109": "227",
+			"110": "608",
+			"111": "236",
+			"112": "205663",
+			"113": "445",
+			"114": "190",
+			"115": "381",
+			"116": "17248",
+			"117": "434",
+			"118": "433",
+			"119": "406",
+			"120": "42367",
+			"121": "599",
+			"122": "1365",
+			"123": "494",
+			"124": "14737",
+			"125": "669",
+			"126": "1391",
+			"127": "1537",
+			"128": "54495",
+			"129": "1721",
+			"130": "779",
+			"131": "788",
+			"132": "22276",
+			"133": "748",
+			"134": "1296",
+			"135": "456",
+			"136": "25997",
+			"137": "202",
+			"138": "225",
+			"139": "253",
+			"140": "6119",
+			"141": "226",
+			"142": "369",
+			"143": "335",
+			"144": "34332",
+			"145": "278",
+			"146": "289",
+			"147": "239",
+			"148": "6189",
+			"149": "215",
+			"150": "431",
+			"151": "332",
+			"152": "21994",
+			"153": "976",
+			"154": "672",
+			"155": "204",
+			"156": "7208",
+			"157": "253",
+			"158": "390",
+			"159": "367",
+			"160": "22877",
+			"161": "204",
+			"162": "158",
+			"163": "284",
+			"164": "5342",
+			"165": "363",
+			"166": "597",
+			"167": "426",
+			"168": "27001",
+			"169": "350",
+			"170": "1191",
+			"171": "227",
+			"172": "2763",
+			"173": "108",
+			"174": "167",
+			"175": "144",
+			"176": "19822",
+			"177": "306",
+			"178": "279",
+			"179": "80",
+			"180": "4070",
+			"181": "172",
+			"182": "119",
+			"183": "125",
+			"184": "14511",
+			"185": "170",
+			"186": "224",
+			"187": "234",
+			"188": "6233",
+			"189": "429",
+			"190": "1100",
+			"191": "663",
+			"192": "26945",
+			"193": "932",
+			"194": "2242",
+			"195": "340",
+			"196": "8426",
+			"197": "298",
+			"198": "1362",
+			"199": "93",
+			"200": "11137",
+			"201": "89",
+			"202": "169",
+			"203": "191",
+			"204": "1827",
+			"205": "143",
+			"206": "251",
+			"207": "136",
+			"208": "16083",
+			"209": "267",
+			"210": "284",
+			"211": "226",
+			"212": "8571",
+			"213": "381",
+			"214": "292",
+			"215": "637",
+			"216": "14528",
+			"217": "1204",
+			"218": "1342",
+			"219": "242",
+			"220": "2454",
+			"221": "286",
+			"222": "381",
+			"223": "745",
+			"224": "16441",
+			"225": "349",
+			"226": "355",
+			"227": "411",
+			"228": "2092",
+			"229": "492",
+			"230": "1156",
+			"231": "595",
+			"232": "9324",
+			"233": "258",
+			"234": "496",
+			"235": "574",
+			"236": "699",
+			"237": "141",
+			"238": "218",
+			"239": "258",
+			"240": "41059",
+			"241": "360",
+			"242": "393",
+			"243": "378",
+			"244": "1128",
+			"245": "177",
+			"246": "252",
+			"247": "553",
+			"248": "15317",
+			"249": "312",
+			"250": "294",
+			"251": "320",
+			"252": "919",
+			"253": "629",
+			"254": "1516",
+			"255": "3610",
+			"256": "7770523"
+		}
+	}
+}

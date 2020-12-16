@@ -1,0 +1,80 @@
+Block 0x0: Count: 256594, Running Total: 256594
+Block 0x1: Count: 328865, Running Total: 585459
+Block 0x2: Count: 414887, Running Total: 1000346
+Block 0x3: Count: 319471, Running Total: 1319817
+Block 0x4: Count: 238216, Running Total: 1558033
+Block 0x5: Count: 238216, Running Total: 1796249
+Block 0x6: Count: 238216, Running Total: 2034465
+Block 0x7: Count: 238216, Running Total: 2272681
+Block 0x8: Count: 238216, Running Total: 2510897
+Block 0x9: Count: 238216, Running Total: 2749113
+Block 0x10: Count: 238216, Running Total: 2987329
+Block 0x11: Count: 238216, Running Total: 3225545
+Block 0x12: Count: 256593, Running Total: 3482138
+Block 0x13: Count: 256593, Running Total: 3738731
+Block 0x14: Count: 124640, Running Total: 3863371
+Block 0x15: Count: 124383, Running Total: 3987754
+Block 0x16: Count: 129652, Running Total: 4117406
+Block 0x17: Count: 126228, Running Total: 4243634
+Block 0x18: Count: 124892, Running Total: 4368526
+Block 0x19: Count: 124648, Running Total: 4493174
+Load metaop: *mem-read-1
+Load metaop: *mem-read-2
+Load metaop: *mem-read-4
+Load metaop: *mem-read-8
+Load metaop: *mem-read-16
+Load metaop: *mem-read-32
+Store metaop: *mem-write-1
+Store metaop: *mem-write-2
+Store metaop: *mem-write-4
+Store metaop: *mem-write-8
+Store metaop: *mem-write-16
+Store metaop: *mem-write-32
+Xfer metaop: *category-DATAXFER
+Unrecognized opcode CMOVB, classifying as "other"
+Unrecognized opcode CMOVBE, classifying as "other"
+Unrecognized opcode CMOVNB, classifying as "other"
+Unrecognized opcode CMOVNBE, classifying as "other"
+Unrecognized opcode CMOVNZ, classifying as "other"
+Unrecognized opcode CMOVS, classifying as "other"
+Unrecognized opcode LDDQU, classifying as "other"
+Unrecognized opcode LEAVE, classifying as "other"
+Unrecognized opcode NOP, classifying as "other"
+Unrecognized opcode PALIGNR, classifying as "other"
+Unrecognized opcode SETNL, classifying as "other"
+Unrecognized opcode SETNZ, classifying as "other"
+Unrecognized opcode VEXTRACTF128, classifying as "other"
+Unrecognized opcode VMOVDQU, classifying as "other"
+Unrecognized opcode VZEROUPPER, classifying as "other"
+Total metaop: *total
+
+Done parsing file
+
+"Other" ratio: 28.7913232135%
+Sum category count: 131663768
+Static BBL count: 26
+
+# FINI: end of program
+Dynamic Instruction Count = 100001518, Dyn BBL Count = 4493174
+<DynInsCount> 100001518
+<BBLCount> 4493174
+<TotInsCount> 100001518
+<IntCount> 45742955
+<IntMulCount> 3352235
+<IntDivCount> 0
+<FPCount> 0
+<FPMulCount> 0
+<FPDivCount> 0
+<LdCount> 14819628
+<StCount> 6616959
+<Br/CallCount> 12980663
+<CondBrCount> 10243587
+<OtherCount> 37907741
+<SysCallCount> 0
+
+# END_DYNAMIC_STATS
+
+
+Saving to file ./pinball_out/xalancbmk/t0r17/imix_new.out
+
+

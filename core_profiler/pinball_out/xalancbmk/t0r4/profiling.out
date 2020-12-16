@@ -1,0 +1,16 @@
+/export/sflolid/data/spec_runs/xz/k32/XZ.test_18939.pp/XZ.test_18939_t0r4_warmup1501_prolog0_region100000002_epilog0_004_0-00018.0
+Running SDE...
+Extracting imix...
+Running PIN...
+1/6
+2/6
+3/6
+4/6
+5/6
+6/6
+Running the new branch profiler
+Using new format branch file
+Static conditional branch instructions: 649
+Unique branch bins: 170
+99.99% branch bins: 127
+Generated PIN JSON successfully

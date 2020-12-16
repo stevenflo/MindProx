@@ -1,0 +1,10 @@
+./mcf_s_base.refspeed.gcc48-64bit-m64: Interrupt
+
+ Performance counter stats for 'system wide':
+
+              2.50 Joules power/energy-cores/                                          [100.00%]
+              4.02 Joules power/energy-pkg/                                            [100.00%]
+              1.49 Joules power/energy-ram/                                           
+
+       0.178780818 seconds time elapsed
+

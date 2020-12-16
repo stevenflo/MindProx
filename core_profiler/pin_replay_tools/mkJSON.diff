@@ -1,0 +1,53 @@
+3c3
+< TOOLPATH=$PINPATH/extras/pinplay/bin/intel64/
+---
+> TOOLPATH=$PINPATH/source/tools/Mix/obj-intel64/
+5,6d4
+< REPLAY="-xyzzy -reserve_memory $1.address "
+< NULLAPP="$PIN_ROOT/extras/pinplay/bin/intel64/nullapp"
+10c8
+< 		echo "Usage: ./mkJSON.sh <PINBALL PATH AND BASE NAME> <OUTPUT DIR PATH> <OUTPUT FILE PREFIX>"
+---
+> 		echo "Usage: ./mkJSON.sh <INPUT CMD> <OUTPUT DIR PATH> <OUTPUT FILE PREFIX>"
+16c14
+< $SDE_ROOT/sde -replay -replay:basename $1 -replay:addr_trans -mix -- $NULLAPP
+---
+> $SDE_ROOT/sde -mix -- $1
+19c17
+< ./imix_new.py $2/sde-mix-out.txt $2/imix_new.out > $2/output.log
+---
+> /export/zachary/software/sde_parser/imix_new.py $2/sde-mix-out.txt $2/imix_new.out > $2/output.log
+21c19
+< $PINPATH/pin $REPLAY -t $TOOLPATH/st-imix-v5.so -replay -replay:basename $1 -o $2/imix_old.out -- $NULLAPP >> $2/output.log
+---
+> $PINPATH/pin -t $TOOLPATH/st-imix-v5.so -o $2/imix_old.out -- $1 >> $2/output.log
+23c21
+< $PINPATH/pin $REPLAY -t $TOOLPATH/st-branchconfigs-mj-v5.so -replay -replay:basename $1 -o $2/branch.out -- $NULLAPP >> $2/output.log
+---
+> $PINPATH/pin -t $TOOLPATH/st-branchconfigs-mj-v5.so -o $2/branch.out -- $1 >> $2/output.log
+25c23
+< $PINPATH/pin $REPLAY -t $TOOLPATH/st-inst-data-footprint-mj-v5.so -replay -replay:basename $1 -o $2/footprint.out -- $NULLAPP >> $2/output.log
+---
+> $PINPATH/pin -t $TOOLPATH/st-inst-data-footprint-mj-v5.so -o $2/footprint.out -- $1 >> $2/output.log
+27c25
+< $PINPATH/pin $REPLAY -t $TOOLPATH/st-localstride256-mj-v5.so -replay -replay:basename $1 -o $2/lstride.out -- $NULLAPP >> $2/output.log
+---
+> $PINPATH/pin -t $TOOLPATH/st-localstride256-mj-v5.so -o $2/lstride.out -- $1 >> $2/output.log
+29c27
+< $PINPATH/pin $REPLAY -t $TOOLPATH/st-pnstride-mj-v5.so -replay -replay:basename $1 -o $2/pnstride.out -- $NULLAPP >> $2/output.log
+---
+> $PINPATH/pin -t $TOOLPATH/st-pnstride-mj-v5.so -o $2/pnstride.out -- $1 >> $2/output.log
+31c29
+< $PINPATH/pin $REPLAY -t $TOOLPATH/st-regdist-mj-v5.so -replay -replay:basename $1 -o $2/regdist.out -- $NULLAPP >> $2/output.log
+---
+> $PINPATH/pin -t $TOOLPATH/st-regdist-mj-v5.so -o $2/regdist.out -- $1 >> $2/output.log
+34,37c32,35
+< $PINPATH/pin $REPLAY -t $TOOLPATH/branchconfigs-local.so -replay -replay:basename $1 -o $2/branch_local.out -- $NULLAPP >> $2/output.log
+< #echo "Generating JSON data files..."
+< #$SCRIPT_HOME/jsongen.py --im $2/imix_old.out --br $2/branch.out --fp $2/footprint.out --ls $2/lstride.out --ps $2/pnstride.out --rd $2/regdist.out --o $2/$3\_old.json
+< $SCRIPT_HOME/jsongen.py --im $2/imix_new.out --br $2/branch_local.out --fp $2/footprint.out --ls $2/lstride.out --ps $2/pnstride.out --rd $2/regdist.out --o $2/$3\_new.json
+---
+> $PINPATH/pin -t $TOOLPATH/branchconfigs-local.so -o $2/branch_local.out -- $1 >> $2/output.log
+> echo "Generating JSON data files..."
+> $SCRIPT_HOME/jsongen.py --im $2/imix_old.out --br $2/branch.out --fp $2/footprint.out --ls $2/lstride.out --ps $2/pnstride.out --rd $2/regdist.out --o $2/$3\_old.json
+> $SCRIPT_HOME/jsongen.py --im $2/imix_new.out --br $2/branch.out --fp $2/footprint.out --ls $2/lstride.out --ps $2/pnstride.out --rd $2/regdist.out --o $2/$3\_new.json

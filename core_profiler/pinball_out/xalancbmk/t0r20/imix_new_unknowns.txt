@@ -1,0 +1,13 @@
+Dynamic instruction count: 100001502
+
+Unknown Opcodes:
+XADD_LOCK           2                   1.99996996045e-06%
+CMPXCHG_LOCK        1                   9.99984980226e-07%
+SETZ                1                   9.99984980226e-07%
+CMPXCHG             1                   9.99984980226e-07%
+SETNBE              1                   9.99984980226e-07%
+NOP                 1                   9.99984980226e-07%
+CMOVNB              1                   9.99984980226e-07%
+CMOVBE              1                   9.99984980226e-07%
+CMOVNLE             1                   9.99984980226e-07%
+Total               10                  9.99984980226e-06%

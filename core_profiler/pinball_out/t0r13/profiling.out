@@ -1,0 +1,16 @@
+/export/sflolid/data/spec_runs/leela/100M/leela.try_33426.pp/leela.try_33426_t0r13_warmup101500_prolog0_region100000004_epilog0_013_0-03365.0
+Running SDE...
+Extracting imix...
+Running PIN...
+1/6
+2/6
+3/6
+4/6
+5/6
+6/6
+Running the new branch profiler
+Using new format branch file
+Static conditional branch instructions: 638
+Unique branch bins: 376
+99.99% branch bins: 353
+Generated PIN JSON successfully

@@ -1,0 +1,48 @@
+gcc-pp.c: In function 'fibheap_delete_node':
+gcc-pp.c:19958:49: warning: overflow in implicit constant conversion
+gcc-pp.c: In function 'htab_mod_1':
+gcc-pp.c:25469:7: warning: right shift count >= width of type
+
+ Performance counter stats for './sgcc_base.gcc48-64bit-m64 gcc-pp.c -O5 -fipa-pta -o gcc-pp.opts-O5_-fipa-pta.s':
+
+ 4,577,227,175,971      instructions              #    1.58  insns per cycle          (13.16%)
+ 2,891,849,501,191      cycles                                                        (13.16%)
+ 4,571,769,291,385      instructions:u                                                (13.16%)
+     8,145,946,344      instructions:k                                                (13.16%)
+    55,511,468,267      L1-dcache-load-misses     #    2.46% of all L1-dcache hits    (13.16%)
+     2,446,246,200      L1-dcache-store-misses                                        (13.16%)
+     7,468,105,023      L1-icache-load-misses                                         (13.16%)
+ 2,252,042,685,361      L1-dcache-loads                                               (7.90%)
+   788,618,043,075      L1-dcache-stores                                              (7.90%)
+     2,663,903,172      LLC-load-misses                                               (5.26%)
+       188,115,143      LLC-store-misses                                              (5.26%)
+     5,362,658,198      branch-misses                                                 (7.90%)
+        80,042,901      iTLB-load-misses          #   42.19% of all iTLB cache hits   (10.53%)
+     1,481,638,738      dTLB-load-misses          #    0.07% of all dTLB cache hits   (10.53%)
+        66,550,323      dTLB-store-misses                                             (10.53%)
+       189,742,022      iTLB-loads                                                    (10.53%)
+ 2,254,150,189,524      dTLB-loads                                                    (10.53%)
+   789,957,243,454      dTLB-stores                                                   (5.26%)
+     8,622,107,291      cache-references                                              (5.26%)
+    47,691,764,620      r0124                                                         (5.26%)
+     1,225,949,233      r2024                                                         (7.90%)
+     9,892,916,019      r1024                                                         (10.53%)
+    54,011,000,387      r0324                                                         (10.53%)
+   825,491,367,450      r00c4                                                         (10.53%)
+   300,418,298,311      r10c4                                                         (10.53%)
+        78,001,403      r0185                                                         (10.53%)
+     1,467,411,271      r8108                                                         (10.53%)
+        66,091,424      r0149                                                         (10.53%)
+     1,220,994,306      r8208                                                         (10.53%)
+        41,115,075      r0249                                                         (10.53%)
+ 4,914,238,565,065      r010e                                                         (10.53%)
+       604,393,065      r0110                                                         (10.53%)
+ 2,255,380,426,565      r81d0                                                         (10.53%)
+   789,413,153,190      r82d0                                                         (10.53%)
+   825,043,604,026      r00c4                                                         (5.26%)
+        43,153,833      r0285                                                         (5.26%)
+                 0      r0111                                                         (7.89%)
+                 0      r0211                                                         (10.53%)
+
+    1159.737136426 seconds time elapsed
+

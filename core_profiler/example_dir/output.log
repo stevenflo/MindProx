@@ -1,0 +1,93 @@
+Block 0x0: Count: 1188, Running Total: 1188
+Block 0x1: Count: 1191, Running Total: 2379
+Block 0x2: Count: 1191, Running Total: 3570
+Block 0x3: Count: 1385, Running Total: 4955
+Block 0x4: Count: 1441, Running Total: 6396
+Block 0x5: Count: 181, Running Total: 6577
+Block 0x6: Count: 89, Running Total: 6666
+Block 0x7: Count: 1191, Running Total: 7857
+Block 0x8: Count: 2189, Running Total: 10046
+Block 0x9: Count: 89, Running Total: 10135
+Block 0xa: Count: 89, Running Total: 10224
+Block 0xb: Count: 185, Running Total: 10409
+Block 0xc: Count: 83, Running Total: 10492
+Block 0xd: Count: 185, Running Total: 10677
+Block 0xe: Count: 96, Running Total: 10773
+Block 0xf: Count: 82, Running Total: 10855
+Block 0x10: Count: 92, Running Total: 10947
+Block 0x11: Count: 82, Running Total: 11029
+Block 0x12: Count: 87, Running Total: 11116
+Block 0x13: Count: 166, Running Total: 11282
+Load metaop: *mem-read-1
+Load metaop: *mem-read-2
+Load metaop: *mem-read-4
+Load metaop: *mem-read-8
+Load metaop: *mem-read-16
+Store metaop: *mem-write-1
+Store metaop: *mem-write-2
+Store metaop: *mem-write-4
+Store metaop: *mem-write-8
+Xfer metaop: *category-DATAXFER
+Unrecognized opcode BT, classifying as "other"
+Unrecognized opcode CDQE, classifying as "other"
+Unrecognized opcode CMOVB, classifying as "other"
+Unrecognized opcode CMOVBE, classifying as "other"
+Unrecognized opcode CMOVNBE, classifying as "other"
+Unrecognized opcode CMOVNZ, classifying as "other"
+Unrecognized opcode CMOVZ, classifying as "other"
+Unrecognized opcode CMPXCHG, classifying as "other"
+Unrecognized opcode CPUID, classifying as "other"
+Unrecognized opcode CQO, classifying as "other"
+Unrecognized opcode NOP, classifying as "other"
+Unrecognized opcode PCMPEQB, classifying as "other"
+Unrecognized opcode PMINUB, classifying as "other"
+Unrecognized opcode PMOVMSKB, classifying as "other"
+Unrecognized opcode PSHUFD, classifying as "other"
+Unrecognized opcode PUNPCKLBW, classifying as "other"
+Unrecognized opcode PUNPCKLWD, classifying as "other"
+Unrecognized opcode RDTSC, classifying as "other"
+Opcode REP_STOSB has repeat prefix; discarding prefix
+Opcode REP_STOSQ has repeat prefix; discarding prefix
+Unrecognized opcode SETBE, classifying as "other"
+Unrecognized opcode SETNZ, classifying as "other"
+Unrecognized opcode SETZ, classifying as "other"
+Unrecognized opcode XGETBV, classifying as "other"
+Total metaop: *total
+
+Done parsing file
+
+"Other" ratio: 22.5308725376%
+Sum category count: 148028
+Static BBL count: 20
+
+# FINI: end of program
+Dynamic Instruction Count = 99824, Dyn BBL Count = 11282
+<DynInsCount> 99824
+<BBLCount> 11282
+<TotInsCount> 99824
+<IntCount> 40054
+<IntMulCount> 26
+<IntDivCount> 93
+<FPCount> 0
+<FPMulCount> 0
+<FPDivCount> 0
+<LdCount> 24815
+<StCount> 12651
+<Br/CallCount> 19637
+<CondBrCount> 17360
+<OtherCount> 33352
+<SysCallCount> 40
+
+# END_DYNAMIC_STATS
+
+
+Saving to file example_dir//imix_new.out
+
+
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!

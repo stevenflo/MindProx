@@ -1,0 +1,10 @@
+./sgcc_base.gcc48-64bit-m64: Interrupt
+
+ Performance counter stats for 'system wide':
+
+              0.21 Joules power/energy-cores/                                          [99.98%]
+              0.37 Joules power/energy-pkg/                                            [99.99%]
+              0.16 Joules power/energy-ram/                                           
+
+       0.019399525 seconds time elapsed
+

@@ -1,0 +1,1424 @@
+# Mix output version 10
+# Intel(R) SDE version: 8.16.0 external
+# Starting tid 0,  OS-TID 22491
+# FINI: end of program
+
+# EMIT_IMAGE_ADDRESSES 
+# 
+#    IMAGE NAME                                                                              LOW ADDRESS   HIGH ADDRESS  
+# 
+/export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64                        000000400000  000000652306
+/lib64/ld-linux-x86-64.so.2                                                                  7fb52e9b5000  7fb52ebd91c6
+/usr/lib/x86_64-linux-gnu/libstdc++.so.6                                                     7fb50ee1c000  7fb50f12e95e
+/lib/x86_64-linux-gnu/libgcc_s.so.1                                                          7fb50ec05000  7fb50ee1b44e
+/lib/x86_64-linux-gnu/libc.so.6                                                              7fb50e83c000  7fb50ec042be
+/lib/x86_64-linux-gnu/libm.so.6                                                              7fb50e536000  7fb50e83b166
+# END_IMAGE_ADDRESSES
+
+# ==============================================
+# STATS FOR TID 0  OS-TID  22491 EMIT# 1
+# ==============================================
+# EMIT_TOP_BLOCK_STATS FOR TID 0  OS-TID 22491 EMIT # 1 EVENT=ICOUNT
+BLOCK:     0   PC: 000000000042335a   ICOUNT:  52881913   EXECUTIONS:    226961   #BYTES: 877   %:  52.8   cumltv%:  52.8  FN: FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 2335a
+XDIS 000000000042335a: BASE 4589E7                   mov r15d, r12d
+XDIS 000000000042335d: BASE 4489C9                   mov ecx, r9d
+XDIS 0000000000423360: BASE 89442490                 mov dword ptr [rsp-0x70], eax
+XDIS 0000000000423364: BASE 41C1E70C                 shl r15d, 0xc
+XDIS 0000000000423368: BASE C1E10E                   shl ecx, 0xe
+XDIS 000000000042336b: BASE 44897C2410               mov dword ptr [rsp+0x10], r15d
+XDIS 0000000000423370: BASE 4589DF                   mov r15d, r11d
+XDIS 0000000000423373: BASE 41C1E708                 shl r15d, 0x8
+XDIS 0000000000423377: BASE 894C2414                 mov dword ptr [rsp+0x14], ecx
+XDIS 000000000042337b: BASE 4489C1                   mov ecx, r8d
+XDIS 000000000042337e: BASE 44897C2408               mov dword ptr [rsp+0x8], r15d
+XDIS 0000000000423383: BASE 4589D7                   mov r15d, r10d
+XDIS 0000000000423386: BASE C1E10A                   shl ecx, 0xa
+XDIS 0000000000423389: BASE 41C1E704                 shl r15d, 0x4
+XDIS 000000000042338d: BASE 894C240C                 mov dword ptr [rsp+0xc], ecx
+XDIS 0000000000423391: BASE 4489E9                   mov ecx, r13d
+XDIS 0000000000423394: BASE 44893C24                 mov dword ptr [rsp], r15d
+XDIS 0000000000423398: BASE 4189F7                   mov r15d, esi
+XDIS 000000000042339b: BASE C1E106                   shl ecx, 0x6
+XDIS 000000000042339e: BASE 41C1E712                 shl r15d, 0x12
+XDIS 00000000004233a2: BASE 894C2404                 mov dword ptr [rsp+0x4], ecx
+XDIS 00000000004233a6: BASE 44897C24F4               mov dword ptr [rsp-0xc], r15d
+XDIS 00000000004233ab: BASE 8D0C9D00000000           lea ecx, ptr [rbx*4]
+XDIS 00000000004233b2: BASE 4589F7                   mov r15d, r14d
+XDIS 00000000004233b5: BASE 41C1E710                 shl r15d, 0x10
+XDIS 00000000004233b9: BASE 894C24FC                 mov dword ptr [rsp-0x4], ecx
+XDIS 00000000004233bd: BASE 89D1                     mov ecx, edx
+XDIS 00000000004233bf: BASE 44897C24EC               mov dword ptr [rsp-0x14], r15d
+XDIS 00000000004233c4: BASE 4589DF                   mov r15d, r11d
+XDIS 00000000004233c7: BASE C1E113                   shl ecx, 0x13
+XDIS 00000000004233ca: BASE 41C1E70C                 shl r15d, 0xc
+XDIS 00000000004233ce: BASE 894C24F8                 mov dword ptr [rsp-0x8], ecx
+XDIS 00000000004233d2: BASE 89F9                     mov ecx, edi
+XDIS 00000000004233d4: BASE 44897C24E4               mov dword ptr [rsp-0x1c], r15d
+XDIS 00000000004233d9: BASE 4189DF                   mov r15d, ebx
+XDIS 00000000004233dc: BASE C1E111                   shl ecx, 0x11
+XDIS 00000000004233df: BASE 41C1E708                 shl r15d, 0x8
+XDIS 00000000004233e3: BASE 894C24F0                 mov dword ptr [rsp-0x10], ecx
+XDIS 00000000004233e7: BASE 4489D1                   mov ecx, r10d
+XDIS 00000000004233ea: BASE 44897C24DC               mov dword ptr [rsp-0x24], r15d
+XDIS 00000000004233ef: BASE 4189C7                   mov r15d, eax
+XDIS 00000000004233f2: BASE C1E10E                   shl ecx, 0xe
+XDIS 00000000004233f5: BASE 41C1E704                 shl r15d, 0x4
+XDIS 00000000004233f9: BASE 894C24E8                 mov dword ptr [rsp-0x18], ecx
+XDIS 00000000004233fd: BASE 4489C9                   mov ecx, r9d
+XDIS 0000000000423400: BASE 44897C24D4               mov dword ptr [rsp-0x2c], r15d
+XDIS 0000000000423405: BASE 4189F7                   mov r15d, esi
+XDIS 0000000000423408: BASE C1E10A                   shl ecx, 0xa
+XDIS 000000000042340b: BASE 41C1E713                 shl r15d, 0x13
+XDIS 000000000042340f: BASE 894C24E0                 mov dword ptr [rsp-0x20], ecx
+XDIS 0000000000423413: BASE 4489E1                   mov ecx, r12d
+XDIS 0000000000423416: BASE 44897C24D0               mov dword ptr [rsp-0x30], r15d
+XDIS 000000000042341b: BASE 4589F7                   mov r15d, r14d
+XDIS 000000000042341e: BASE C1E106                   shl ecx, 0x6
+XDIS 0000000000423421: BASE 41C1E712                 shl r15d, 0x12
+XDIS 0000000000423425: BASE 894C24D8                 mov dword ptr [rsp-0x28], ecx
+XDIS 0000000000423429: BASE 44897C24CC               mov dword ptr [rsp-0x34], r15d
+XDIS 000000000042342e: BASE 428D0CAD00000000         lea ecx, ptr [r13*4]
+XDIS 0000000000423436: BASE 4189D7                   mov r15d, edx
+XDIS 0000000000423439: BASE 41C1E711                 shl r15d, 0x11
+XDIS 000000000042343d: BASE 44897C24C8               mov dword ptr [rsp-0x38], r15d
+XDIS 0000000000423442: BASE 4189FF                   mov r15d, edi
+XDIS 0000000000423445: BASE 41C1E710                 shl r15d, 0x10
+XDIS 0000000000423449: BASE 44897C24C4               mov dword ptr [rsp-0x3c], r15d
+XDIS 000000000042344e: BASE 4189C7                   mov r15d, eax
+XDIS 0000000000423451: BASE 89F0                     mov eax, esi
+XDIS 0000000000423453: BASE 41C1E70E                 shl r15d, 0xe
+XDIS 0000000000423457: BASE C1E011                   shl eax, 0x11
+XDIS 000000000042345a: BASE 44897C24C0               mov dword ptr [rsp-0x40], r15d
+XDIS 000000000042345f: BASE 4189DF                   mov r15d, ebx
+XDIS 0000000000423462: BASE 41C1E70C                 shl r15d, 0xc
+XDIS 0000000000423466: BASE 894424A0                 mov dword ptr [rsp-0x60], eax
+XDIS 000000000042346a: BASE 89D0                     mov eax, edx
+XDIS 000000000042346c: BASE 44897C24BC               mov dword ptr [rsp-0x44], r15d
+XDIS 0000000000423471: BASE 4589D7                   mov r15d, r10d
+XDIS 0000000000423474: BASE C1E010                   shl eax, 0x10
+XDIS 0000000000423477: BASE 41C1E70A                 shl r15d, 0xa
+XDIS 000000000042347b: BASE 8944249C                 mov dword ptr [rsp-0x64], eax
+XDIS 000000000042347f: BASE 4489C0                   mov eax, r8d
+XDIS 0000000000423482: BASE 44897C24B8               mov dword ptr [rsp-0x48], r15d
+XDIS 0000000000423487: BASE 4589EF                   mov r15d, r13d
+XDIS 000000000042348a: BASE C1E00E                   shl eax, 0xe
+XDIS 000000000042348d: BASE 41C1E708                 shl r15d, 0x8
+XDIS 0000000000423491: BASE 41C1E50C                 shl r13d, 0xc
+XDIS 0000000000423495: BASE 89442498                 mov dword ptr [rsp-0x68], eax
+XDIS 0000000000423499: BASE 44897C24B4               mov dword ptr [rsp-0x4c], r15d
+XDIS 000000000042349e: BASE 4589DF                   mov r15d, r11d
+XDIS 00000000004234a1: BASE 41C1E706                 shl r15d, 0x6
+XDIS 00000000004234a5: BASE 44897C24B0               mov dword ptr [rsp-0x50], r15d
+XDIS 00000000004234aa: BASE 4589C7                   mov r15d, r8d
+XDIS 00000000004234ad: BASE 41C1E704                 shl r15d, 0x4
+XDIS 00000000004234b1: BASE 44897C24AC               mov dword ptr [rsp-0x54], r15d
+XDIS 00000000004234b6: BASE 468D3CA500000000         lea r15d, ptr [r12*4]
+XDIS 00000000004234be: BASE 44897C24A8               mov dword ptr [rsp-0x58], r15d
+XDIS 00000000004234c3: BASE 4589F7                   mov r15d, r14d
+XDIS 00000000004234c6: BASE 41C1E713                 shl r15d, 0x13
+XDIS 00000000004234ca: BASE 44897C24A4               mov dword ptr [rsp-0x5c], r15d
+XDIS 00000000004234cf: BASE 4189FF                   mov r15d, edi
+XDIS 00000000004234d2: BASE 44896C2494               mov dword ptr [rsp-0x6c], r13d
+XDIS 00000000004234d7: BASE 8B442490                 mov eax, dword ptr [rsp-0x70]
+XDIS 00000000004234db: BASE 41C1E712                 shl r15d, 0x12
+XDIS 00000000004234df: BASE 4189C5                   mov r13d, eax
+XDIS 00000000004234e2: BASE 41C1E50A                 shl r13d, 0xa
+XDIS 00000000004234e6: BASE 41C1E408                 shl r12d, 0x8
+XDIS 00000000004234ea: BASE 44896C2490               mov dword ptr [rsp-0x70], r13d
+XDIS 00000000004234ef: BASE 4589CD                   mov r13d, r9d
+XDIS 00000000004234f2: BASE C1E610                   shl esi, 0x10
+XDIS 00000000004234f5: BASE 41C1E504                 shl r13d, 0x4
+XDIS 00000000004234f9: BASE 41C1E302                 shl r11d, 0x2
+XDIS 00000000004234fd: BASE 44896C248C               mov dword ptr [rsp-0x74], r13d
+XDIS 0000000000423502: BASE 4189F5                   mov r13d, esi
+XDIS 0000000000423505: BASE 8B7424F0                 mov esi, dword ptr [rsp-0x10]
+XDIS 0000000000423509: BASE C1E713                   shl edi, 0x13
+XDIS 000000000042350c: BASE 44895C2488               mov dword ptr [rsp-0x78], r11d
+XDIS 0000000000423511: BASE C1E306                   shl ebx, 0x6
+XDIS 0000000000423514: BASE C1E212                   shl edx, 0x12
+XDIS 0000000000423517: BASE 4189FB                   mov r11d, edi
+XDIS 000000000042351a: BASE 8B7C24C4                 mov edi, dword ptr [rsp-0x3c]
+XDIS 000000000042351e: BASE 41C1E611                 shl r14d, 0x11
+XDIS 0000000000423522: BASE 0B7424EC                 or esi, dword ptr [rsp-0x14]
+XDIS 0000000000423526: BASE 0B7C24CC                 or edi, dword ptr [rsp-0x34]
+XDIS 000000000042352a: BASE 0B7424F4                 or esi, dword ptr [rsp-0xc]
+XDIS 000000000042352e: BASE 0B7C24D0                 or edi, dword ptr [rsp-0x30]
+XDIS 0000000000423532: BASE 0B7424F8                 or esi, dword ptr [rsp-0x8]
+XDIS 0000000000423536: BASE 0B7C24C8                 or edi, dword ptr [rsp-0x38]
+XDIS 000000000042353a: BASE 09C6                     or esi, eax
+XDIS 000000000042353c: BASE 0B742414                 or esi, dword ptr [rsp+0x14]
+XDIS 0000000000423540: BASE 4409C7                   or edi, r8d
+XDIS 0000000000423543: BASE 0B7C24E8                 or edi, dword ptr [rsp-0x18]
+XDIS 0000000000423547: BASE 0B742410                 or esi, dword ptr [rsp+0x10]
+XDIS 000000000042354b: BASE 0B7C24E4                 or edi, dword ptr [rsp-0x1c]
+XDIS 000000000042354f: BASE 0B74240C                 or esi, dword ptr [rsp+0xc]
+XDIS 0000000000423553: BASE 0B7C24E0                 or edi, dword ptr [rsp-0x20]
+XDIS 0000000000423557: BASE 0B742408                 or esi, dword ptr [rsp+0x8]
+XDIS 000000000042355b: BASE 0B7C24DC                 or edi, dword ptr [rsp-0x24]
+XDIS 000000000042355f: BASE 0B742404                 or esi, dword ptr [rsp+0x4]
+XDIS 0000000000423563: BASE 0B7C24D8                 or edi, dword ptr [rsp-0x28]
+XDIS 0000000000423567: BASE 0B3424                   or esi, dword ptr [rsp]
+XDIS 000000000042356a: BASE 0B7C24D4                 or edi, dword ptr [rsp-0x2c]
+XDIS 000000000042356e: BASE 0B7424FC                 or esi, dword ptr [rsp-0x4]
+XDIS 0000000000423572: BASE 09CF                     or edi, ecx
+XDIS 0000000000423574: BASE 39F7                     cmp edi, esi
+XDIS 0000000000423576: BASE 0F4FFE                   cmovnle edi, esi
+XDIS 0000000000423579: BASE 8B7424A4                 mov esi, dword ptr [rsp-0x5c]
+XDIS 000000000042357d: BASE 4409FE                   or esi, r15d
+XDIS 0000000000423580: BASE 0B7424A0                 or esi, dword ptr [rsp-0x60]
+XDIS 0000000000423584: BASE 0B74249C                 or esi, dword ptr [rsp-0x64]
+XDIS 0000000000423588: BASE 4409CE                   or esi, r9d
+XDIS 000000000042358b: BASE 0B7424C0                 or esi, dword ptr [rsp-0x40]
+XDIS 000000000042358f: BASE 0B7424BC                 or esi, dword ptr [rsp-0x44]
+XDIS 0000000000423593: BASE 0B7424B8                 or esi, dword ptr [rsp-0x48]
+XDIS 0000000000423597: BASE 0B7424B4                 or esi, dword ptr [rsp-0x4c]
+XDIS 000000000042359b: BASE 0B7424B0                 or esi, dword ptr [rsp-0x50]
+XDIS 000000000042359f: BASE 0B7424AC                 or esi, dword ptr [rsp-0x54]
+XDIS 00000000004235a3: BASE 0B7424A8                 or esi, dword ptr [rsp-0x58]
+XDIS 00000000004235a7: BASE 39F7                     cmp edi, esi
+XDIS 00000000004235a9: BASE 0F4FFE                   cmovnle edi, esi
+XDIS 00000000004235ac: BASE 4489DE                   mov esi, r11d
+XDIS 00000000004235af: BASE 4409F6                   or esi, r14d
+XDIS 00000000004235b2: BASE 4409EE                   or esi, r13d
+XDIS 00000000004235b5: BASE 09D6                     or esi, edx
+XDIS 00000000004235b7: BASE 4409D6                   or esi, r10d
+XDIS 00000000004235ba: BASE 0B742498                 or esi, dword ptr [rsp-0x68]
+XDIS 00000000004235be: BASE 0B742494                 or esi, dword ptr [rsp-0x6c]
+XDIS 00000000004235c2: BASE 0B742490                 or esi, dword ptr [rsp-0x70]
+XDIS 00000000004235c6: BASE 4409E6                   or esi, r12d
+XDIS 00000000004235c9: BASE 09DE                     or esi, ebx
+XDIS 00000000004235cb: BASE 0B74248C                 or esi, dword ptr [rsp-0x74]
+XDIS 00000000004235cf: BASE 0B742488                 or esi, dword ptr [rsp-0x78]
+XDIS 00000000004235d3: BASE 39F7                     cmp edi, esi
+XDIS 00000000004235d5: BASE 0F4EF7                   cmovle esi, edi
+XDIS 00000000004235d8: BASE 440B7424C4               or r14d, dword ptr [rsp-0x3c]
+XDIS 00000000004235dd: BASE 440B7424D0               or r14d, dword ptr [rsp-0x30]
+XDIS 00000000004235e2: BASE 4109D6                   or r14d, edx
+XDIS 00000000004235e5: BASE 4109C6                   or r14d, eax
+XDIS 00000000004235e8: BASE 8B4424F0                 mov eax, dword ptr [rsp-0x10]
+XDIS 00000000004235ec: BASE 440B742414               or r14d, dword ptr [rsp+0x14]
+XDIS 00000000004235f1: BASE 440B7424E4               or r14d, dword ptr [rsp-0x1c]
+XDIS 00000000004235f6: BASE 4109CE                   or r14d, ecx
+XDIS 00000000004235f9: BASE 440B7424B8               or r14d, dword ptr [rsp-0x48]
+XDIS 00000000004235fe: BASE 440B7424AC               or r14d, dword ptr [rsp-0x54]
+XDIS 0000000000423603: BASE 4509E6                   or r14d, r12d
+XDIS 0000000000423606: BASE 4109DE                   or r14d, ebx
+XDIS 0000000000423609: BASE 4439F6                   cmp esi, r14d
+XDIS 000000000042360c: BASE 410F4FF6                 cmovnle esi, r14d
+XDIS 0000000000423610: BASE 448B7424EC               mov r14d, dword ptr [rsp-0x14]
+XDIS 0000000000423615: BASE 4509FE                   or r14d, r15d
+XDIS 0000000000423618: BASE 440B7424A0               or r14d, dword ptr [rsp-0x60]
+XDIS 000000000042361d: BASE 440B7424F8               or r14d, dword ptr [rsp-0x8]
+XDIS 0000000000423622: BASE 4509D6                   or r14d, r10d
+XDIS 0000000000423625: BASE 440B742410               or r14d, dword ptr [rsp+0x10]
+XDIS 000000000042362a: BASE 440B7424FC               or r14d, dword ptr [rsp-0x4]
+XDIS 000000000042362f: BASE 440B7424E0               or r14d, dword ptr [rsp-0x20]
+XDIS 0000000000423634: BASE 440B7424D4               or r14d, dword ptr [rsp-0x2c]
+XDIS 0000000000423639: BASE 440B7424B4               or r14d, dword ptr [rsp-0x4c]
+XDIS 000000000042363e: BASE 440B7424B0               or r14d, dword ptr [rsp-0x50]
+XDIS 0000000000423643: BASE 440B742498               or r14d, dword ptr [rsp-0x68]
+XDIS 0000000000423648: BASE 4439F6                   cmp esi, r14d
+XDIS 000000000042364b: BASE 410F4FF6                 cmovnle esi, r14d
+XDIS 000000000042364f: BASE 440B5C24CC               or r11d, dword ptr [rsp-0x34]
+XDIS 0000000000423654: BASE 4509EB                   or r11d, r13d
+XDIS 0000000000423657: BASE 440B5C24C8               or r11d, dword ptr [rsp-0x38]
+XDIS 000000000042365c: BASE 4509CB                   or r11d, r9d
+XDIS 000000000042365f: BASE 440B5C240C               or r11d, dword ptr [rsp+0xc]
+XDIS 0000000000423664: BASE 440B1C24                 or r11d, dword ptr [rsp]
+XDIS 0000000000423668: BASE 440B5C24DC               or r11d, dword ptr [rsp-0x24]
+XDIS 000000000042366d: BASE 440B5C24D8               or r11d, dword ptr [rsp-0x28]
+XDIS 0000000000423672: BASE 440B5C24C0               or r11d, dword ptr [rsp-0x40]
+XDIS 0000000000423677: BASE 440B5C2494               or r11d, dword ptr [rsp-0x6c]
+XDIS 000000000042367c: BASE 440B5C2488               or r11d, dword ptr [rsp-0x78]
+XDIS 0000000000423681: BASE 4439DE                   cmp esi, r11d
+XDIS 0000000000423684: BASE 410F4FF3                 cmovnle esi, r11d
+XDIS 0000000000423688: BASE 0B4424A4                 or eax, dword ptr [rsp-0x5c]
+XDIS 000000000042368c: BASE 0B4424F4                 or eax, dword ptr [rsp-0xc]
+XDIS 0000000000423690: BASE 0B44249C                 or eax, dword ptr [rsp-0x64]
+XDIS 0000000000423694: BASE 4409C0                   or eax, r8d
+XDIS 0000000000423697: BASE 0B442408                 or eax, dword ptr [rsp+0x8]
+XDIS 000000000042369b: BASE 0B442404                 or eax, dword ptr [rsp+0x4]
+XDIS 000000000042369f: BASE 0B4424E8                 or eax, dword ptr [rsp-0x18]
+XDIS 00000000004236a3: BASE 0B4424BC                 or eax, dword ptr [rsp-0x44]
+XDIS 00000000004236a7: BASE 0B4424A8                 or eax, dword ptr [rsp-0x58]
+XDIS 00000000004236ab: BASE 0B442490                 or eax, dword ptr [rsp-0x70]
+XDIS 00000000004236af: BASE 0B44248C                 or eax, dword ptr [rsp-0x74]
+XDIS 00000000004236b3: BASE 39C6                     cmp esi, eax
+XDIS 00000000004236b5: BASE 0F4EC6                   cmovle eax, esi
+XDIS 00000000004236b8: BASE 488D65D8                 lea rsp, ptr [rbp-0x28]
+XDIS 00000000004236bc: BASE 5B                       pop rbx
+XDIS 00000000004236bd: BASE 415C                     pop r12
+XDIS 00000000004236bf: BASE 415D                     pop r13
+XDIS 00000000004236c1: BASE 415E                     pop r14
+XDIS 00000000004236c3: BASE 415F                     pop r15
+XDIS 00000000004236c5: BASE 5D                       pop rbp
+XDIS 00000000004236c6: BASE C3                       ret 
+
+BLOCK:     1   PC: 0000000000423240   ICOUNT:  12936720   EXECUTIONS:    226960   #BYTES: 213   %:  12.9   cumltv%:  65.8  FN: FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 23240
+XDIS 0000000000423240: BASE 55                       push rbp
+XDIS 0000000000423241: BASE 89F0                     mov eax, esi
+XDIS 0000000000423243: BASE 4889E5                   mov rbp, rsp
+XDIS 0000000000423246: BASE 4157                     push r15
+XDIS 0000000000423248: BASE 4156                     push r14
+XDIS 000000000042324a: BASE 4189D6                   mov r14d, edx
+XDIS 000000000042324d: BASE 4155                     push r13
+XDIS 000000000042324f: BASE 4183E601                 and r14d, 0x1
+XDIS 0000000000423253: BASE 4154                     push r12
+XDIS 0000000000423255: BASE 53                       push rbx
+XDIS 0000000000423256: BASE 4883E4E0                 and rsp, 0xffffffffffffffe0
+XDIS 000000000042325a: BASE 4883EC38                 sub rsp, 0x38
+XDIS 000000000042325e: BASE 448B97701F0000           mov r10d, dword ptr [rdi+0x1f70]
+XDIS 0000000000423265: BASE 4429D0                   sub eax, r10d
+XDIS 0000000000423268: BASE 448D40FD                 lea r8d, ptr [rax-0x3]
+XDIS 000000000042326c: LONGMODE 4D63C0                   movsxd r8, r8d
+XDIS 000000000042326f: BASE 468B8C87F0060000         mov r9d, dword ptr [rdi+r8*4+0x6f0]
+XDIS 0000000000423277: BASE 448D40FE                 lea r8d, ptr [rax-0x2]
+XDIS 000000000042327b: BASE 83E801                   sub eax, 0x1
+XDIS 000000000042327e: LONGMODE 4D63C0                   movsxd r8, r8d
+XDIS 0000000000423281: LONGMODE 4898                     cdqe 
+XDIS 0000000000423283: BASE 468BA487F0060000         mov r12d, dword ptr [rdi+r8*4+0x6f0]
+XDIS 000000000042328b: BASE 448B8487F0060000         mov r8d, dword ptr [rdi+rax*4+0x6f0]
+XDIS 0000000000423293: BASE 8D46FF                   lea eax, ptr [rsi-0x1]
+XDIS 0000000000423296: LONGMODE 4898                     cdqe 
+XDIS 0000000000423298: BASE 44894C2418               mov dword ptr [rsp+0x18], r9d
+XDIS 000000000042329d: BASE 448B9C87F0060000         mov r11d, dword ptr [rdi+rax*4+0x6f0]
+XDIS 00000000004232a5: BASE 8D4601                   lea eax, ptr [rsi+0x1]
+XDIS 00000000004232a8: BASE 4401D6                   add esi, r10d
+XDIS 00000000004232ab: LONGMODE 4898                     cdqe 
+XDIS 00000000004232ad: BASE 448964241C               mov dword ptr [rsp+0x1c], r12d
+XDIS 00000000004232b2: BASE 448BAC87F0060000         mov r13d, dword ptr [rdi+rax*4+0x6f0]
+XDIS 00000000004232ba: BASE 8D4601                   lea eax, ptr [rsi+0x1]
+XDIS 00000000004232bd: BASE 4489442420               mov dword ptr [rsp+0x20], r8d
+XDIS 00000000004232c2: LONGMODE 4898                     cdqe 
+XDIS 00000000004232c4: BASE 448B9487F0060000         mov r10d, dword ptr [rdi+rax*4+0x6f0]
+XDIS 00000000004232cc: BASE 8D4602                   lea eax, ptr [rsi+0x2]
+XDIS 00000000004232cf: BASE 83C603                   add esi, 0x3
+XDIS 00000000004232d2: LONGMODE 4898                     cdqe 
+XDIS 00000000004232d4: LONGMODE 4863F6                   movsxd rsi, esi
+XDIS 00000000004232d7: BASE 44895C2424               mov dword ptr [rsp+0x24], r11d
+XDIS 00000000004232dc: BASE 8B9C87F0060000           mov ebx, dword ptr [rdi+rax*4+0x6f0]
+XDIS 00000000004232e3: BASE 44896C2428               mov dword ptr [rsp+0x28], r13d
+XDIS 00000000004232e8: BASE 8B84B7F0060000           mov eax, dword ptr [rdi+rsi*4+0x6f0]
+XDIS 00000000004232ef: BASE 89D7                     mov edi, edx
+XDIS 00000000004232f1: BASE 89D6                     mov esi, edx
+XDIS 00000000004232f3: BASE D1FF                     sar edi, 0x1
+XDIS 00000000004232f5: BASE C1FE02                   sar esi, 0x2
+XDIS 00000000004232f8: BASE 448954242C               mov dword ptr [rsp+0x2c], r10d
+XDIS 00000000004232fd: BASE C1FA03                   sar edx, 0x3
+XDIS 0000000000423300: BASE 83E701                   and edi, 0x1
+XDIS 0000000000423303: BASE 83E601                   and esi, 0x1
+XDIS 0000000000423306: BASE 83E201                   and edx, 0x1
+XDIS 0000000000423309: BASE 84C9                     test cl, cl
+XDIS 000000000042330b: BASE 895C2430                 mov dword ptr [rsp+0x30], ebx
+XDIS 000000000042330f: BASE 89442434                 mov dword ptr [rsp+0x34], eax
+XDIS 0000000000423313: BASE 7445                     jz 0x42335a
+
+BLOCK:     2   PC: 0000000000429740   ICOUNT:   4539200   EXECUTIONS:    907840   #BYTES: 19   %:  4.53   cumltv%:  70.3  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29740
+XDIS 0000000000429740: BASE 488D7C2470               lea rdi, ptr [rsp+0x70]
+XDIS 0000000000429745: BASE 4589E5                   mov r13d, r12d
+XDIS 0000000000429748: BASE 89DE                     mov esi, ebx
+XDIS 000000000042974a: BASE 4183E503                 and r13d, 0x3
+XDIS 000000000042974e: BASE E80D87FFFF               call 0x421e60
+
+BLOCK:     3   PC: 0000000000429764   ICOUNT:   3631360   EXECUTIONS:    907840   #BYTES: 12   %:  3.63   cumltv%:  73.9  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29764
+XDIS 0000000000429764: BASE 83EB01                   sub ebx, 0x1
+XDIS 0000000000429767: BASE 41C1FC02                 sar r12d, 0x2
+XDIS 000000000042976b: BASE 83FBFF                   cmp ebx, 0xffffffff
+XDIS 000000000042976e: BASE 75D0                     jnz 0x429740
+
+BLOCK:     4   PC: 0000000000429753   ICOUNT:   3631360   EXECUTIONS:    907840   #BYTES: 17   %:  3.63   cumltv%:  77.5  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29753
+XDIS 0000000000429753: BASE 418D3406                 lea esi, ptr [r14+rax*1]
+XDIS 0000000000429757: BASE 4489EA                   mov edx, r13d
+XDIS 000000000042975a: BASE 488D7C2470               lea rdi, ptr [rsp+0x70]
+XDIS 000000000042975f: BASE E86C37FFFF               call 0x41ced0
+
+BLOCK:     5   PC: 00000000004297c1   ICOUNT:   2943198   EXECUTIONS:    981066   #BYTES:  9   %:  2.94   cumltv%:  80.5  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 297c1
+XDIS 00000000004297c1: BASE 488B5218                 mov rdx, qword ptr [rdx+0x18]
+XDIS 00000000004297c5: BASE 4885D2                   test rdx, rdx
+XDIS 00000000004297c8: BASE 75F2                     jnz 0x4297bc
+
+BLOCK:     6   PC: 0000000000429841   ICOUNT:   2943069   EXECUTIONS:    981023   #BYTES:  9   %:  2.94   cumltv%:  83.4  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29841
+XDIS 0000000000429841: BASE 488B5218                 mov rdx, qword ptr [rdx+0x18]
+XDIS 0000000000429845: BASE 4885D2                   test rdx, rdx
+XDIS 0000000000429848: BASE 75F2                     jnz 0x42983c
+
+BLOCK:     7   PC: 000000000041ced0   ICOUNT:   2723520   EXECUTIONS:    907840   #BYTES: 11   %:  2.72   cumltv%:  86.1  FN: FastBoard::set_square(int, FastBoard::square_t)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 1ced0
+XDIS 000000000041ced0: LONGMODE 4863F6                   movsxd rsi, esi
+XDIS 000000000041ced3: BASE 8994B7F0060000           mov dword ptr [rdi+rsi*4+0x6f0], edx
+XDIS 000000000041ceda: BASE C3                       ret 
+
+BLOCK:     8   PC: 0000000000421e60   ICOUNT:   2723520   EXECUTIONS:    907840   #BYTES: 11   %:  2.72   cumltv%:  88.9  FN: FastBoard::get_extra_dir(int)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 21e60
+XDIS 0000000000421e60: LONGMODE 4863F6                   movsxd rsi, esi
+XDIS 0000000000421e63: BASE 8B84B7281F0000           mov eax, dword ptr [rdi+rsi*4+0x1f28]
+XDIS 0000000000421e6a: BASE C3                       ret 
+
+BLOCK:     9   PC: 00000000004297bc   ICOUNT:   2177100   EXECUTIONS:   1088550   #BYTES:  5   %:  2.17   cumltv%:    91  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 297bc
+XDIS 00000000004297bc: BASE 3B5A20                   cmp ebx, dword ptr [rdx+0x20]
+XDIS 00000000004297bf: BASE 7EEF                     jle 0x4297b0
+
+BLOCK:     a   PC: 000000000042983c   ICOUNT:   2177088   EXECUTIONS:   1088544   #BYTES:  5   %:  2.17   cumltv%:  93.2  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 2983c
+XDIS 000000000042983c: BASE 3B4220                   cmp eax, dword ptr [rdx+0x20]
+XDIS 000000000042983f: BASE 7EEF                     jle 0x429830
+
+BLOCK:     b   PC: 0000000000423315   ICOUNT:   1134810   EXECUTIONS:    113481   #BYTES: 69   %:  1.13   cumltv%:  94.3  FN: FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 23315
+XDIS 0000000000423315: BASE 8B4C2430                 mov ecx, dword ptr [rsp+0x30]
+XDIS 0000000000423319: BASE 4489EB                   mov ebx, r13d
+XDIS 000000000042331c: BASE 448B2C9D101C4400         mov r13d, dword ptr [rbx*4+0x441c10]
+XDIS 0000000000423324: BASE 468B0C8D101C4400         mov r9d, dword ptr [r9*4+0x441c10]
+XDIS 000000000042332c: BASE 468B24A5101C4400         mov r12d, dword ptr [r12*4+0x441c10]
+XDIS 0000000000423334: BASE 468B0485101C4400         mov r8d, dword ptr [r8*4+0x441c10]
+XDIS 000000000042333c: BASE 468B1C9D101C4400         mov r11d, dword ptr [r11*4+0x441c10]
+XDIS 0000000000423344: BASE 468B1495101C4400         mov r10d, dword ptr [r10*4+0x441c10]
+XDIS 000000000042334c: BASE 8B1C8D101C4400           mov ebx, dword ptr [rcx*4+0x441c10]
+XDIS 0000000000423353: BASE 8B0485101C4400           mov eax, dword ptr [rax*4+0x441c10]
+
+BLOCK:     c   PC: 0000000000429782   ICOUNT:    680880   EXECUTIONS:    113480   #BYTES: 23   %:  0.68   cumltv%:    95  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29782
+XDIS 0000000000429782: BASE B901000000               mov ecx, 0x1
+XDIS 0000000000429787: BASE 4489E2                   mov edx, r12d
+XDIS 000000000042978a: BASE 4489F6                   mov esi, r14d
+XDIS 000000000042978d: BASE 488D7C2470               lea rdi, ptr [rsp+0x70]
+XDIS 0000000000429792: BASE 89C3                     mov ebx, eax
+XDIS 0000000000429794: BASE E8A79AFFFF               call 0x423240
+
+BLOCK:     d   PC: 0000000000429770   ICOUNT:    567400   EXECUTIONS:    113480   #BYTES: 18   %: 0.567   cumltv%:  95.6  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29770
+XDIS 0000000000429770: BASE 31C9                     xor ecx, ecx
+XDIS 0000000000429772: BASE 4489E2                   mov edx, r12d
+XDIS 0000000000429775: BASE 4489F6                   mov esi, r14d
+XDIS 0000000000429778: BASE 488D7C2470               lea rdi, ptr [rsp+0x70]
+XDIS 000000000042977d: BASE E8BE9AFFFF               call 0x423240
+
+BLOCK:     e   PC: 0000000000429948   ICOUNT:    453440   EXECUTIONS:    113360   #BYTES: 18   %: 0.453   cumltv%:    96  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29948
+XDIS 0000000000429948: BASE 488B4C2408               mov rcx, qword ptr [rsp+0x8]
+XDIS 000000000042994d: BASE 488B11                   mov rdx, qword ptr [rcx]
+XDIS 0000000000429950: BASE 42C6043A01               mov byte ptr [rdx+r15*1], 0x1
+XDIS 0000000000429955: BASE E9BDFEFFFF               jmp 0x429817
+
+BLOCK:     f   PC: 0000000000429930   ICOUNT:    453440   EXECUTIONS:    113360   #BYTES: 19   %: 0.453   cumltv%:  96.5  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29930
+XDIS 0000000000429930: BASE 488B442408               mov rax, qword ptr [rsp+0x8]
+XDIS 0000000000429935: BASE 488B4018                 mov rax, qword ptr [rax+0x18]
+XDIS 0000000000429939: BASE 42C6043801               mov byte ptr [rax+r15*1], 0x1
+XDIS 000000000042993e: BASE E955FFFFFF               jmp 0x429898
+
+BLOCK:    10   PC: 0000000000429830   ICOUNT:    430084   EXECUTIONS:    107521   #BYTES: 12   %:  0.43   cumltv%:  96.9  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29830
+XDIS 0000000000429830: BASE 4889D1                   mov rcx, rdx
+XDIS 0000000000429833: BASE 488B5210                 mov rdx, qword ptr [rdx+0x10]
+XDIS 0000000000429837: BASE 4885D2                   test rdx, rdx
+XDIS 000000000042983a: BASE 740E                     jz 0x42984a
+
+BLOCK:    11   PC: 00000000004297b0   ICOUNT:    429936   EXECUTIONS:    107484   #BYTES: 12   %:  0.43   cumltv%:  97.4  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 297b0
+XDIS 00000000004297b0: BASE 4889D1                   mov rcx, rdx
+XDIS 00000000004297b3: BASE 488B5210                 mov rdx, qword ptr [rdx+0x10]
+XDIS 00000000004297b7: BASE 4885D2                   test rdx, rdx
+XDIS 00000000004297ba: BASE 740E                     jz 0x4297ca
+
+BLOCK:    12   PC: 0000000000429799   ICOUNT:    340443   EXECUTIONS:    113481   #BYTES: 14   %:  0.34   cumltv%:  97.7  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29799
+XDIS 0000000000429799: BASE 488B542440               mov rdx, qword ptr [rsp+0x40]
+XDIS 000000000042979e: BASE 4885D2                   test rdx, rdx
+XDIS 00000000004297a1: BASE 0F84A1010000             jz 0x429948
+
+BLOCK:    13   PC: 00000000004297ca   ICOUNT:    340440   EXECUTIONS:    113480   #BYTES: 14   %:  0.34   cumltv%:    98  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 297ca
+XDIS 00000000004297ca: BASE 488D542438               lea rdx, ptr [rsp+0x38]
+XDIS 00000000004297cf: BASE 4839D1                   cmp rcx, rdx
+XDIS 00000000004297d2: BASE 0F8470010000             jz 0x429948
+
+# END_TOP_BLOCK_STATS
+# EMIT_DYNAMIC_STATS FOR TID 0  OS-TID 22491 EMIT #1
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                     20539962
+*stack-write                                                    13617637
+*iprel-read                                                          240
+*mem-read-4                                                     22789174
+*mem-read-8                                                      6262622
+*mem-write-1                                                      226960
+*mem-write-4                                                    11121077
+*mem-write-8                                                     3404400
+*isa-ext-AVX                                                         960
+*isa-ext-BASE                                                   96469159
+*isa-ext-LONGMODE                                                3631360
+*isa-set-AVX                                                         960
+*isa-set-CMOV                                                    1589207
+*isa-set-FAT_NOP                                                  113480
+*isa-set-I186                                                   10667161
+*isa-set-I86                                                    84099311
+*isa-set-LONGMODE                                                3631360
+*category-AVX                                                        240
+*category-BINARY                                                 7242339
+*category-CALL                                                   2042640
+*category-CMOV                                                   1589207
+*category-COND_BR                                                6128267
+*category-CONVERT                                                1135280
+*category-DATAXFER                                              35301869
+*category-LOGICAL                                               24760183
+*category-MISC                                                   5674005
+*category-POP                                                    1361766
+*category-PUSH                                                   1361760
+*category-RET                                                    2042641
+*category-SHIFT                                                 10894121
+*category-UNCOND_BR                                               453681
+*category-WIDENOP                                                 113480
+*ilen-1                                                          2950483
+*ilen-2                                                         13660045
+*ilen-3                                                         31763345
+*ilen-4                                                         27710907
+*ilen-5                                                         17702929
+*ilen-6                                                           639519
+*ilen-7                                                          3063963
+*ilen-8                                                          2610288
+*nop-ilen-8                                                       113480
+*scalar-simd                                                         720
+*avx-scalar                                                          720
+*avx128                                                              240
+*gpr64                                                          19775524
+*legacy-prefixes-0                                              44920059
+*legacy-prefixes-1                                              55181420
+*legacy-prefixes-and-escapes-0                                  43258976
+*legacy-prefixes-and-escapes-1                                  56161620
+*legacy-prefixes-and-escapes-2                                    680883
+*rex_prefix                                                     55181420
+*rexw_prefix                                                    12966717
+*rexr_prefix                                                    27008333
+*rexx_prefix                                                     1702207
+*rexb_prefix                                                    20766906
+*loadop                                                         24377886
+*one-memops                                                     43917713
+*cond-branch-forward                                              967764
+*cond-branch-backward                                            5160503
+*index_disp                                                       907848
+*base_only                                                       7603170
+*base_disp                                                      31434895
+*base_index                                                       226960
+*base_index_disp                                                 3744840
+*scale_1                                                        44371627
+*scale_4                                                         5220091
+*memdisp8                                                       35292977
+*memdisp32                                                       5560771
+*elements_fp_double_1                                                240
+*convert_i32_1                                                   1134800
+*convert_fp_single_2                                                 240
+*convert_fp_double_1                                                 240
+*dataxfer_fp_single_1                                                240
+ADD                                                               567400
+AND                                                              2042640
+CALL_NEAR                                                        2042640
+CDQE                                                             1134800
+CMOVLE                                                            453922
+CMOVNLE                                                          1135045
+CMOVNS                                                               240
+CMP                                                              5086219
+JL                                                                 71878
+JLE                                                              2177094
+JMP                                                               453681
+JNZ                                                              2983409
+JZ                                                                895886
+LEA                                                              5674005
+MOV                                                             32805069
+MOVSXD                                                           2496560
+NOP                                                               113480
+OR                                                              19972568
+POP                                                              1361766
+PUSH                                                             1361760
+RET_NEAR                                                         2042641
+SAR                                                              1588720
+SHL                                                              9305401
+SUB                                                              1588720
+TEST                                                             2631255
+VCVTPS2PD                                                            240
+VCVTTSD2SI                                                           240
+VMOVSS                                                               240
+VMULSD                                                               240
+XOR                                                               113720
+*total                                                         100101479
+# END_DYNAMIC_STATS
+# FUNCTION TOTALS FOR TID 0  OS-TID 22491
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+   0:     66953443  66.886  66.886        226960            423240 FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64
+   1:     27700996  27.673  94.558             0            429570 Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64
+            100101479 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 22491 EMIT# 1
+#
+# $dynamic-counts-for-function: FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64 at [0x000423240, 0x0004236d0)  66.886%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                     18270361
+*stack-write                                                    11574997
+*mem-read-4                                                     19632122
+*mem-read-8                                                      1588727
+*mem-write-4                                                    10213237
+*mem-write-8                                                     1361760
+*isa-ext-BASE                                                   65137763
+*isa-ext-LONGMODE                                                1815680
+*isa-set-CMOV                                                    1588727
+*isa-set-I186                                                    9759321
+*isa-set-I86                                                    53789715
+*isa-set-LONGMODE                                                1815680
+*category-BINARY                                                 2723527
+*category-CMOV                                                   1588727
+*category-COND_BR                                                 226960
+*category-CONVERT                                                1134800
+*category-DATAXFER                                              24738729
+*category-LOGICAL                                               21334328
+*category-MISC                                                   2269604
+*category-POP                                                    1361766
+*category-PUSH                                                   1361760
+*category-RET                                                     226961
+*category-SHIFT                                                  9986281
+*ilen-1                                                          1134803
+*ilen-2                                                          7035776
+*ilen-3                                                         20539953
+*ilen-4                                                         22582613
+*ilen-5                                                         12028927
+*ilen-7                                                          1134803
+*ilen-8                                                          2496568
+*gpr64                                                           5674008
+*legacy-prefixes-0                                              27348779
+*legacy-prefixes-1                                              39604664
+*legacy-prefixes-and-escapes-0                                  26440935
+*legacy-prefixes-and-escapes-1                                  39831625
+*legacy-prefixes-and-escapes-2                                    680883
+*rex_prefix                                                     39604664
+*rexw_prefix                                                     2723521
+*rexr_prefix                                                    24625253
+*rexx_prefix                                                     1475247
+*rexb_prefix                                                    16795106
+*loadop                                                         18156874
+*one-memops                                                     32795846
+*cond-branch-forward                                              226960
+*index_disp                                                       907848
+*base_only                                                       3631370
+*base_disp                                                      26440948
+*base_index_disp                                                 1815680
+*scale_1                                                        31661039
+*scale_4                                                         3404411
+*memdisp8                                                       27802709
+*memdisp32                                                       3631371
+*convert_i32_1                                                   1134800
+ADD                                                               453920
+AND                                                              1134800
+CDQE                                                             1134800
+CMOVLE                                                            453922
+CMOVNLE                                                          1134805
+CMP                                                              1588727
+JZ                                                                226960
+LEA                                                              2269604
+MOV                                                             24057849
+MOVSXD                                                            680880
+OR                                                              19972568
+POP                                                              1361766
+PUSH                                                             1361760
+RET_NEAR                                                          226961
+SAR                                                               680880
+SHL                                                              9305401
+SUB                                                               680880
+TEST                                                              226960
+*total                                                          66953443
+#
+# $dynamic-counts-for-function: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64 at [0x000429570, 0x000429a80)  27.673%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                       453921
+*stack-write                                                     2042640
+*iprel-read                                                          240
+*mem-read-4                                                      2249212
+*mem-read-8                                                      2858215
+*mem-write-1                                                      226960
+*mem-write-8                                                     2042640
+*isa-ext-AVX                                                         960
+*isa-ext-BASE                                                   27700036
+*isa-set-AVX                                                         960
+*isa-set-CMOV                                                        480
+*isa-set-FAT_NOP                                                  113480
+*isa-set-I186                                                     907840
+*isa-set-I86                                                    26678236
+*category-AVX                                                        240
+*category-BINARY                                                 4518812
+*category-CALL                                                   2042640
+*category-CMOV                                                       480
+*category-COND_BR                                                5901307
+*category-CONVERT                                                    480
+*category-DATAXFER                                               6931780
+*category-LOGICAL                                                3425855
+*category-MISC                                                   3404401
+*category-SHIFT                                                   907840
+*category-UNCOND_BR                                               453681
+*category-WIDENOP                                                 113480
+*ilen-2                                                          6624269
+*ilen-3                                                          9407712
+*ilen-4                                                          5128294
+*ilen-5                                                          5674002
+*ilen-6                                                           639519
+*ilen-7                                                           113480
+*ilen-8                                                           113720
+*nop-ilen-8                                                       113480
+*scalar-simd                                                         720
+*avx-scalar                                                          720
+*avx128                                                              240
+*gpr64                                                          10470156
+*legacy-prefixes-0                                              13939920
+*legacy-prefixes-1                                              13761076
+*legacy-prefixes-and-escapes-0                                  13186681
+*legacy-prefixes-and-escapes-1                                  14514315
+*rex_prefix                                                     13761076
+*rexw_prefix                                                     8427516
+*rexr_prefix                                                     2383080
+*rexx_prefix                                                      226960
+*rexb_prefix                                                     3971800
+*loadop                                                          4405332
+*one-memops                                                      7490507
+*cond-branch-forward                                              740804
+*cond-branch-backward                                            5160503
+*base_only                                                       2156120
+*base_disp                                                       4993947
+*base_index                                                       226960
+*base_index_disp                                                  113480
+*scale_1                                                        10894908
+*memdisp8                                                        7490268
+*memdisp32                                                        113720
+*elements_fp_double_1                                                240
+*convert_fp_single_2                                                 240
+*convert_fp_double_1                                                 240
+*dataxfer_fp_single_1                                                240
+ADD                                                               113480
+AND                                                               907840
+CALL_NEAR                                                        2042640
+CMOVNLE                                                              240
+CMOVNS                                                               240
+CMP                                                              3497492
+JL                                                                 71878
+JLE                                                              2177094
+JMP                                                               453681
+JNZ                                                              2983409
+JZ                                                                668926
+LEA                                                              3404401
+MOV                                                              6931540
+NOP                                                               113480
+SAR                                                               907840
+SUB                                                               907840
+TEST                                                             2404295
+VCVTPS2PD                                                            240
+VCVTTSD2SI                                                           240
+VMOVSS                                                               240
+VMULSD                                                               240
+XOR                                                               113720
+*total                                                          27700996
+# END_PER_FUNCTION_STATS 
+# EMIT_GLOBAL_TOP_BLOCK_STATS EVENT=ICOUNT
+BLOCK:     0   PC: 000000000042335a   ICOUNT:  52881913   EXECUTIONS:    226961   #BYTES: 877   %:  52.8   cumltv%:  52.8  FN: FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 2335a
+XDIS 000000000042335a: BASE 4589E7                   mov r15d, r12d
+XDIS 000000000042335d: BASE 4489C9                   mov ecx, r9d
+XDIS 0000000000423360: BASE 89442490                 mov dword ptr [rsp-0x70], eax
+XDIS 0000000000423364: BASE 41C1E70C                 shl r15d, 0xc
+XDIS 0000000000423368: BASE C1E10E                   shl ecx, 0xe
+XDIS 000000000042336b: BASE 44897C2410               mov dword ptr [rsp+0x10], r15d
+XDIS 0000000000423370: BASE 4589DF                   mov r15d, r11d
+XDIS 0000000000423373: BASE 41C1E708                 shl r15d, 0x8
+XDIS 0000000000423377: BASE 894C2414                 mov dword ptr [rsp+0x14], ecx
+XDIS 000000000042337b: BASE 4489C1                   mov ecx, r8d
+XDIS 000000000042337e: BASE 44897C2408               mov dword ptr [rsp+0x8], r15d
+XDIS 0000000000423383: BASE 4589D7                   mov r15d, r10d
+XDIS 0000000000423386: BASE C1E10A                   shl ecx, 0xa
+XDIS 0000000000423389: BASE 41C1E704                 shl r15d, 0x4
+XDIS 000000000042338d: BASE 894C240C                 mov dword ptr [rsp+0xc], ecx
+XDIS 0000000000423391: BASE 4489E9                   mov ecx, r13d
+XDIS 0000000000423394: BASE 44893C24                 mov dword ptr [rsp], r15d
+XDIS 0000000000423398: BASE 4189F7                   mov r15d, esi
+XDIS 000000000042339b: BASE C1E106                   shl ecx, 0x6
+XDIS 000000000042339e: BASE 41C1E712                 shl r15d, 0x12
+XDIS 00000000004233a2: BASE 894C2404                 mov dword ptr [rsp+0x4], ecx
+XDIS 00000000004233a6: BASE 44897C24F4               mov dword ptr [rsp-0xc], r15d
+XDIS 00000000004233ab: BASE 8D0C9D00000000           lea ecx, ptr [rbx*4]
+XDIS 00000000004233b2: BASE 4589F7                   mov r15d, r14d
+XDIS 00000000004233b5: BASE 41C1E710                 shl r15d, 0x10
+XDIS 00000000004233b9: BASE 894C24FC                 mov dword ptr [rsp-0x4], ecx
+XDIS 00000000004233bd: BASE 89D1                     mov ecx, edx
+XDIS 00000000004233bf: BASE 44897C24EC               mov dword ptr [rsp-0x14], r15d
+XDIS 00000000004233c4: BASE 4589DF                   mov r15d, r11d
+XDIS 00000000004233c7: BASE C1E113                   shl ecx, 0x13
+XDIS 00000000004233ca: BASE 41C1E70C                 shl r15d, 0xc
+XDIS 00000000004233ce: BASE 894C24F8                 mov dword ptr [rsp-0x8], ecx
+XDIS 00000000004233d2: BASE 89F9                     mov ecx, edi
+XDIS 00000000004233d4: BASE 44897C24E4               mov dword ptr [rsp-0x1c], r15d
+XDIS 00000000004233d9: BASE 4189DF                   mov r15d, ebx
+XDIS 00000000004233dc: BASE C1E111                   shl ecx, 0x11
+XDIS 00000000004233df: BASE 41C1E708                 shl r15d, 0x8
+XDIS 00000000004233e3: BASE 894C24F0                 mov dword ptr [rsp-0x10], ecx
+XDIS 00000000004233e7: BASE 4489D1                   mov ecx, r10d
+XDIS 00000000004233ea: BASE 44897C24DC               mov dword ptr [rsp-0x24], r15d
+XDIS 00000000004233ef: BASE 4189C7                   mov r15d, eax
+XDIS 00000000004233f2: BASE C1E10E                   shl ecx, 0xe
+XDIS 00000000004233f5: BASE 41C1E704                 shl r15d, 0x4
+XDIS 00000000004233f9: BASE 894C24E8                 mov dword ptr [rsp-0x18], ecx
+XDIS 00000000004233fd: BASE 4489C9                   mov ecx, r9d
+XDIS 0000000000423400: BASE 44897C24D4               mov dword ptr [rsp-0x2c], r15d
+XDIS 0000000000423405: BASE 4189F7                   mov r15d, esi
+XDIS 0000000000423408: BASE C1E10A                   shl ecx, 0xa
+XDIS 000000000042340b: BASE 41C1E713                 shl r15d, 0x13
+XDIS 000000000042340f: BASE 894C24E0                 mov dword ptr [rsp-0x20], ecx
+XDIS 0000000000423413: BASE 4489E1                   mov ecx, r12d
+XDIS 0000000000423416: BASE 44897C24D0               mov dword ptr [rsp-0x30], r15d
+XDIS 000000000042341b: BASE 4589F7                   mov r15d, r14d
+XDIS 000000000042341e: BASE C1E106                   shl ecx, 0x6
+XDIS 0000000000423421: BASE 41C1E712                 shl r15d, 0x12
+XDIS 0000000000423425: BASE 894C24D8                 mov dword ptr [rsp-0x28], ecx
+XDIS 0000000000423429: BASE 44897C24CC               mov dword ptr [rsp-0x34], r15d
+XDIS 000000000042342e: BASE 428D0CAD00000000         lea ecx, ptr [r13*4]
+XDIS 0000000000423436: BASE 4189D7                   mov r15d, edx
+XDIS 0000000000423439: BASE 41C1E711                 shl r15d, 0x11
+XDIS 000000000042343d: BASE 44897C24C8               mov dword ptr [rsp-0x38], r15d
+XDIS 0000000000423442: BASE 4189FF                   mov r15d, edi
+XDIS 0000000000423445: BASE 41C1E710                 shl r15d, 0x10
+XDIS 0000000000423449: BASE 44897C24C4               mov dword ptr [rsp-0x3c], r15d
+XDIS 000000000042344e: BASE 4189C7                   mov r15d, eax
+XDIS 0000000000423451: BASE 89F0                     mov eax, esi
+XDIS 0000000000423453: BASE 41C1E70E                 shl r15d, 0xe
+XDIS 0000000000423457: BASE C1E011                   shl eax, 0x11
+XDIS 000000000042345a: BASE 44897C24C0               mov dword ptr [rsp-0x40], r15d
+XDIS 000000000042345f: BASE 4189DF                   mov r15d, ebx
+XDIS 0000000000423462: BASE 41C1E70C                 shl r15d, 0xc
+XDIS 0000000000423466: BASE 894424A0                 mov dword ptr [rsp-0x60], eax
+XDIS 000000000042346a: BASE 89D0                     mov eax, edx
+XDIS 000000000042346c: BASE 44897C24BC               mov dword ptr [rsp-0x44], r15d
+XDIS 0000000000423471: BASE 4589D7                   mov r15d, r10d
+XDIS 0000000000423474: BASE C1E010                   shl eax, 0x10
+XDIS 0000000000423477: BASE 41C1E70A                 shl r15d, 0xa
+XDIS 000000000042347b: BASE 8944249C                 mov dword ptr [rsp-0x64], eax
+XDIS 000000000042347f: BASE 4489C0                   mov eax, r8d
+XDIS 0000000000423482: BASE 44897C24B8               mov dword ptr [rsp-0x48], r15d
+XDIS 0000000000423487: BASE 4589EF                   mov r15d, r13d
+XDIS 000000000042348a: BASE C1E00E                   shl eax, 0xe
+XDIS 000000000042348d: BASE 41C1E708                 shl r15d, 0x8
+XDIS 0000000000423491: BASE 41C1E50C                 shl r13d, 0xc
+XDIS 0000000000423495: BASE 89442498                 mov dword ptr [rsp-0x68], eax
+XDIS 0000000000423499: BASE 44897C24B4               mov dword ptr [rsp-0x4c], r15d
+XDIS 000000000042349e: BASE 4589DF                   mov r15d, r11d
+XDIS 00000000004234a1: BASE 41C1E706                 shl r15d, 0x6
+XDIS 00000000004234a5: BASE 44897C24B0               mov dword ptr [rsp-0x50], r15d
+XDIS 00000000004234aa: BASE 4589C7                   mov r15d, r8d
+XDIS 00000000004234ad: BASE 41C1E704                 shl r15d, 0x4
+XDIS 00000000004234b1: BASE 44897C24AC               mov dword ptr [rsp-0x54], r15d
+XDIS 00000000004234b6: BASE 468D3CA500000000         lea r15d, ptr [r12*4]
+XDIS 00000000004234be: BASE 44897C24A8               mov dword ptr [rsp-0x58], r15d
+XDIS 00000000004234c3: BASE 4589F7                   mov r15d, r14d
+XDIS 00000000004234c6: BASE 41C1E713                 shl r15d, 0x13
+XDIS 00000000004234ca: BASE 44897C24A4               mov dword ptr [rsp-0x5c], r15d
+XDIS 00000000004234cf: BASE 4189FF                   mov r15d, edi
+XDIS 00000000004234d2: BASE 44896C2494               mov dword ptr [rsp-0x6c], r13d
+XDIS 00000000004234d7: BASE 8B442490                 mov eax, dword ptr [rsp-0x70]
+XDIS 00000000004234db: BASE 41C1E712                 shl r15d, 0x12
+XDIS 00000000004234df: BASE 4189C5                   mov r13d, eax
+XDIS 00000000004234e2: BASE 41C1E50A                 shl r13d, 0xa
+XDIS 00000000004234e6: BASE 41C1E408                 shl r12d, 0x8
+XDIS 00000000004234ea: BASE 44896C2490               mov dword ptr [rsp-0x70], r13d
+XDIS 00000000004234ef: BASE 4589CD                   mov r13d, r9d
+XDIS 00000000004234f2: BASE C1E610                   shl esi, 0x10
+XDIS 00000000004234f5: BASE 41C1E504                 shl r13d, 0x4
+XDIS 00000000004234f9: BASE 41C1E302                 shl r11d, 0x2
+XDIS 00000000004234fd: BASE 44896C248C               mov dword ptr [rsp-0x74], r13d
+XDIS 0000000000423502: BASE 4189F5                   mov r13d, esi
+XDIS 0000000000423505: BASE 8B7424F0                 mov esi, dword ptr [rsp-0x10]
+XDIS 0000000000423509: BASE C1E713                   shl edi, 0x13
+XDIS 000000000042350c: BASE 44895C2488               mov dword ptr [rsp-0x78], r11d
+XDIS 0000000000423511: BASE C1E306                   shl ebx, 0x6
+XDIS 0000000000423514: BASE C1E212                   shl edx, 0x12
+XDIS 0000000000423517: BASE 4189FB                   mov r11d, edi
+XDIS 000000000042351a: BASE 8B7C24C4                 mov edi, dword ptr [rsp-0x3c]
+XDIS 000000000042351e: BASE 41C1E611                 shl r14d, 0x11
+XDIS 0000000000423522: BASE 0B7424EC                 or esi, dword ptr [rsp-0x14]
+XDIS 0000000000423526: BASE 0B7C24CC                 or edi, dword ptr [rsp-0x34]
+XDIS 000000000042352a: BASE 0B7424F4                 or esi, dword ptr [rsp-0xc]
+XDIS 000000000042352e: BASE 0B7C24D0                 or edi, dword ptr [rsp-0x30]
+XDIS 0000000000423532: BASE 0B7424F8                 or esi, dword ptr [rsp-0x8]
+XDIS 0000000000423536: BASE 0B7C24C8                 or edi, dword ptr [rsp-0x38]
+XDIS 000000000042353a: BASE 09C6                     or esi, eax
+XDIS 000000000042353c: BASE 0B742414                 or esi, dword ptr [rsp+0x14]
+XDIS 0000000000423540: BASE 4409C7                   or edi, r8d
+XDIS 0000000000423543: BASE 0B7C24E8                 or edi, dword ptr [rsp-0x18]
+XDIS 0000000000423547: BASE 0B742410                 or esi, dword ptr [rsp+0x10]
+XDIS 000000000042354b: BASE 0B7C24E4                 or edi, dword ptr [rsp-0x1c]
+XDIS 000000000042354f: BASE 0B74240C                 or esi, dword ptr [rsp+0xc]
+XDIS 0000000000423553: BASE 0B7C24E0                 or edi, dword ptr [rsp-0x20]
+XDIS 0000000000423557: BASE 0B742408                 or esi, dword ptr [rsp+0x8]
+XDIS 000000000042355b: BASE 0B7C24DC                 or edi, dword ptr [rsp-0x24]
+XDIS 000000000042355f: BASE 0B742404                 or esi, dword ptr [rsp+0x4]
+XDIS 0000000000423563: BASE 0B7C24D8                 or edi, dword ptr [rsp-0x28]
+XDIS 0000000000423567: BASE 0B3424                   or esi, dword ptr [rsp]
+XDIS 000000000042356a: BASE 0B7C24D4                 or edi, dword ptr [rsp-0x2c]
+XDIS 000000000042356e: BASE 0B7424FC                 or esi, dword ptr [rsp-0x4]
+XDIS 0000000000423572: BASE 09CF                     or edi, ecx
+XDIS 0000000000423574: BASE 39F7                     cmp edi, esi
+XDIS 0000000000423576: BASE 0F4FFE                   cmovnle edi, esi
+XDIS 0000000000423579: BASE 8B7424A4                 mov esi, dword ptr [rsp-0x5c]
+XDIS 000000000042357d: BASE 4409FE                   or esi, r15d
+XDIS 0000000000423580: BASE 0B7424A0                 or esi, dword ptr [rsp-0x60]
+XDIS 0000000000423584: BASE 0B74249C                 or esi, dword ptr [rsp-0x64]
+XDIS 0000000000423588: BASE 4409CE                   or esi, r9d
+XDIS 000000000042358b: BASE 0B7424C0                 or esi, dword ptr [rsp-0x40]
+XDIS 000000000042358f: BASE 0B7424BC                 or esi, dword ptr [rsp-0x44]
+XDIS 0000000000423593: BASE 0B7424B8                 or esi, dword ptr [rsp-0x48]
+XDIS 0000000000423597: BASE 0B7424B4                 or esi, dword ptr [rsp-0x4c]
+XDIS 000000000042359b: BASE 0B7424B0                 or esi, dword ptr [rsp-0x50]
+XDIS 000000000042359f: BASE 0B7424AC                 or esi, dword ptr [rsp-0x54]
+XDIS 00000000004235a3: BASE 0B7424A8                 or esi, dword ptr [rsp-0x58]
+XDIS 00000000004235a7: BASE 39F7                     cmp edi, esi
+XDIS 00000000004235a9: BASE 0F4FFE                   cmovnle edi, esi
+XDIS 00000000004235ac: BASE 4489DE                   mov esi, r11d
+XDIS 00000000004235af: BASE 4409F6                   or esi, r14d
+XDIS 00000000004235b2: BASE 4409EE                   or esi, r13d
+XDIS 00000000004235b5: BASE 09D6                     or esi, edx
+XDIS 00000000004235b7: BASE 4409D6                   or esi, r10d
+XDIS 00000000004235ba: BASE 0B742498                 or esi, dword ptr [rsp-0x68]
+XDIS 00000000004235be: BASE 0B742494                 or esi, dword ptr [rsp-0x6c]
+XDIS 00000000004235c2: BASE 0B742490                 or esi, dword ptr [rsp-0x70]
+XDIS 00000000004235c6: BASE 4409E6                   or esi, r12d
+XDIS 00000000004235c9: BASE 09DE                     or esi, ebx
+XDIS 00000000004235cb: BASE 0B74248C                 or esi, dword ptr [rsp-0x74]
+XDIS 00000000004235cf: BASE 0B742488                 or esi, dword ptr [rsp-0x78]
+XDIS 00000000004235d3: BASE 39F7                     cmp edi, esi
+XDIS 00000000004235d5: BASE 0F4EF7                   cmovle esi, edi
+XDIS 00000000004235d8: BASE 440B7424C4               or r14d, dword ptr [rsp-0x3c]
+XDIS 00000000004235dd: BASE 440B7424D0               or r14d, dword ptr [rsp-0x30]
+XDIS 00000000004235e2: BASE 4109D6                   or r14d, edx
+XDIS 00000000004235e5: BASE 4109C6                   or r14d, eax
+XDIS 00000000004235e8: BASE 8B4424F0                 mov eax, dword ptr [rsp-0x10]
+XDIS 00000000004235ec: BASE 440B742414               or r14d, dword ptr [rsp+0x14]
+XDIS 00000000004235f1: BASE 440B7424E4               or r14d, dword ptr [rsp-0x1c]
+XDIS 00000000004235f6: BASE 4109CE                   or r14d, ecx
+XDIS 00000000004235f9: BASE 440B7424B8               or r14d, dword ptr [rsp-0x48]
+XDIS 00000000004235fe: BASE 440B7424AC               or r14d, dword ptr [rsp-0x54]
+XDIS 0000000000423603: BASE 4509E6                   or r14d, r12d
+XDIS 0000000000423606: BASE 4109DE                   or r14d, ebx
+XDIS 0000000000423609: BASE 4439F6                   cmp esi, r14d
+XDIS 000000000042360c: BASE 410F4FF6                 cmovnle esi, r14d
+XDIS 0000000000423610: BASE 448B7424EC               mov r14d, dword ptr [rsp-0x14]
+XDIS 0000000000423615: BASE 4509FE                   or r14d, r15d
+XDIS 0000000000423618: BASE 440B7424A0               or r14d, dword ptr [rsp-0x60]
+XDIS 000000000042361d: BASE 440B7424F8               or r14d, dword ptr [rsp-0x8]
+XDIS 0000000000423622: BASE 4509D6                   or r14d, r10d
+XDIS 0000000000423625: BASE 440B742410               or r14d, dword ptr [rsp+0x10]
+XDIS 000000000042362a: BASE 440B7424FC               or r14d, dword ptr [rsp-0x4]
+XDIS 000000000042362f: BASE 440B7424E0               or r14d, dword ptr [rsp-0x20]
+XDIS 0000000000423634: BASE 440B7424D4               or r14d, dword ptr [rsp-0x2c]
+XDIS 0000000000423639: BASE 440B7424B4               or r14d, dword ptr [rsp-0x4c]
+XDIS 000000000042363e: BASE 440B7424B0               or r14d, dword ptr [rsp-0x50]
+XDIS 0000000000423643: BASE 440B742498               or r14d, dword ptr [rsp-0x68]
+XDIS 0000000000423648: BASE 4439F6                   cmp esi, r14d
+XDIS 000000000042364b: BASE 410F4FF6                 cmovnle esi, r14d
+XDIS 000000000042364f: BASE 440B5C24CC               or r11d, dword ptr [rsp-0x34]
+XDIS 0000000000423654: BASE 4509EB                   or r11d, r13d
+XDIS 0000000000423657: BASE 440B5C24C8               or r11d, dword ptr [rsp-0x38]
+XDIS 000000000042365c: BASE 4509CB                   or r11d, r9d
+XDIS 000000000042365f: BASE 440B5C240C               or r11d, dword ptr [rsp+0xc]
+XDIS 0000000000423664: BASE 440B1C24                 or r11d, dword ptr [rsp]
+XDIS 0000000000423668: BASE 440B5C24DC               or r11d, dword ptr [rsp-0x24]
+XDIS 000000000042366d: BASE 440B5C24D8               or r11d, dword ptr [rsp-0x28]
+XDIS 0000000000423672: BASE 440B5C24C0               or r11d, dword ptr [rsp-0x40]
+XDIS 0000000000423677: BASE 440B5C2494               or r11d, dword ptr [rsp-0x6c]
+XDIS 000000000042367c: BASE 440B5C2488               or r11d, dword ptr [rsp-0x78]
+XDIS 0000000000423681: BASE 4439DE                   cmp esi, r11d
+XDIS 0000000000423684: BASE 410F4FF3                 cmovnle esi, r11d
+XDIS 0000000000423688: BASE 0B4424A4                 or eax, dword ptr [rsp-0x5c]
+XDIS 000000000042368c: BASE 0B4424F4                 or eax, dword ptr [rsp-0xc]
+XDIS 0000000000423690: BASE 0B44249C                 or eax, dword ptr [rsp-0x64]
+XDIS 0000000000423694: BASE 4409C0                   or eax, r8d
+XDIS 0000000000423697: BASE 0B442408                 or eax, dword ptr [rsp+0x8]
+XDIS 000000000042369b: BASE 0B442404                 or eax, dword ptr [rsp+0x4]
+XDIS 000000000042369f: BASE 0B4424E8                 or eax, dword ptr [rsp-0x18]
+XDIS 00000000004236a3: BASE 0B4424BC                 or eax, dword ptr [rsp-0x44]
+XDIS 00000000004236a7: BASE 0B4424A8                 or eax, dword ptr [rsp-0x58]
+XDIS 00000000004236ab: BASE 0B442490                 or eax, dword ptr [rsp-0x70]
+XDIS 00000000004236af: BASE 0B44248C                 or eax, dword ptr [rsp-0x74]
+XDIS 00000000004236b3: BASE 39C6                     cmp esi, eax
+XDIS 00000000004236b5: BASE 0F4EC6                   cmovle eax, esi
+XDIS 00000000004236b8: BASE 488D65D8                 lea rsp, ptr [rbp-0x28]
+XDIS 00000000004236bc: BASE 5B                       pop rbx
+XDIS 00000000004236bd: BASE 415C                     pop r12
+XDIS 00000000004236bf: BASE 415D                     pop r13
+XDIS 00000000004236c1: BASE 415E                     pop r14
+XDIS 00000000004236c3: BASE 415F                     pop r15
+XDIS 00000000004236c5: BASE 5D                       pop rbp
+XDIS 00000000004236c6: BASE C3                       ret 
+
+BLOCK:     1   PC: 0000000000423240   ICOUNT:  12936720   EXECUTIONS:    226960   #BYTES: 213   %:  12.9   cumltv%:  65.8  FN: FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 23240
+XDIS 0000000000423240: BASE 55                       push rbp
+XDIS 0000000000423241: BASE 89F0                     mov eax, esi
+XDIS 0000000000423243: BASE 4889E5                   mov rbp, rsp
+XDIS 0000000000423246: BASE 4157                     push r15
+XDIS 0000000000423248: BASE 4156                     push r14
+XDIS 000000000042324a: BASE 4189D6                   mov r14d, edx
+XDIS 000000000042324d: BASE 4155                     push r13
+XDIS 000000000042324f: BASE 4183E601                 and r14d, 0x1
+XDIS 0000000000423253: BASE 4154                     push r12
+XDIS 0000000000423255: BASE 53                       push rbx
+XDIS 0000000000423256: BASE 4883E4E0                 and rsp, 0xffffffffffffffe0
+XDIS 000000000042325a: BASE 4883EC38                 sub rsp, 0x38
+XDIS 000000000042325e: BASE 448B97701F0000           mov r10d, dword ptr [rdi+0x1f70]
+XDIS 0000000000423265: BASE 4429D0                   sub eax, r10d
+XDIS 0000000000423268: BASE 448D40FD                 lea r8d, ptr [rax-0x3]
+XDIS 000000000042326c: LONGMODE 4D63C0                   movsxd r8, r8d
+XDIS 000000000042326f: BASE 468B8C87F0060000         mov r9d, dword ptr [rdi+r8*4+0x6f0]
+XDIS 0000000000423277: BASE 448D40FE                 lea r8d, ptr [rax-0x2]
+XDIS 000000000042327b: BASE 83E801                   sub eax, 0x1
+XDIS 000000000042327e: LONGMODE 4D63C0                   movsxd r8, r8d
+XDIS 0000000000423281: LONGMODE 4898                     cdqe 
+XDIS 0000000000423283: BASE 468BA487F0060000         mov r12d, dword ptr [rdi+r8*4+0x6f0]
+XDIS 000000000042328b: BASE 448B8487F0060000         mov r8d, dword ptr [rdi+rax*4+0x6f0]
+XDIS 0000000000423293: BASE 8D46FF                   lea eax, ptr [rsi-0x1]
+XDIS 0000000000423296: LONGMODE 4898                     cdqe 
+XDIS 0000000000423298: BASE 44894C2418               mov dword ptr [rsp+0x18], r9d
+XDIS 000000000042329d: BASE 448B9C87F0060000         mov r11d, dword ptr [rdi+rax*4+0x6f0]
+XDIS 00000000004232a5: BASE 8D4601                   lea eax, ptr [rsi+0x1]
+XDIS 00000000004232a8: BASE 4401D6                   add esi, r10d
+XDIS 00000000004232ab: LONGMODE 4898                     cdqe 
+XDIS 00000000004232ad: BASE 448964241C               mov dword ptr [rsp+0x1c], r12d
+XDIS 00000000004232b2: BASE 448BAC87F0060000         mov r13d, dword ptr [rdi+rax*4+0x6f0]
+XDIS 00000000004232ba: BASE 8D4601                   lea eax, ptr [rsi+0x1]
+XDIS 00000000004232bd: BASE 4489442420               mov dword ptr [rsp+0x20], r8d
+XDIS 00000000004232c2: LONGMODE 4898                     cdqe 
+XDIS 00000000004232c4: BASE 448B9487F0060000         mov r10d, dword ptr [rdi+rax*4+0x6f0]
+XDIS 00000000004232cc: BASE 8D4602                   lea eax, ptr [rsi+0x2]
+XDIS 00000000004232cf: BASE 83C603                   add esi, 0x3
+XDIS 00000000004232d2: LONGMODE 4898                     cdqe 
+XDIS 00000000004232d4: LONGMODE 4863F6                   movsxd rsi, esi
+XDIS 00000000004232d7: BASE 44895C2424               mov dword ptr [rsp+0x24], r11d
+XDIS 00000000004232dc: BASE 8B9C87F0060000           mov ebx, dword ptr [rdi+rax*4+0x6f0]
+XDIS 00000000004232e3: BASE 44896C2428               mov dword ptr [rsp+0x28], r13d
+XDIS 00000000004232e8: BASE 8B84B7F0060000           mov eax, dword ptr [rdi+rsi*4+0x6f0]
+XDIS 00000000004232ef: BASE 89D7                     mov edi, edx
+XDIS 00000000004232f1: BASE 89D6                     mov esi, edx
+XDIS 00000000004232f3: BASE D1FF                     sar edi, 0x1
+XDIS 00000000004232f5: BASE C1FE02                   sar esi, 0x2
+XDIS 00000000004232f8: BASE 448954242C               mov dword ptr [rsp+0x2c], r10d
+XDIS 00000000004232fd: BASE C1FA03                   sar edx, 0x3
+XDIS 0000000000423300: BASE 83E701                   and edi, 0x1
+XDIS 0000000000423303: BASE 83E601                   and esi, 0x1
+XDIS 0000000000423306: BASE 83E201                   and edx, 0x1
+XDIS 0000000000423309: BASE 84C9                     test cl, cl
+XDIS 000000000042330b: BASE 895C2430                 mov dword ptr [rsp+0x30], ebx
+XDIS 000000000042330f: BASE 89442434                 mov dword ptr [rsp+0x34], eax
+XDIS 0000000000423313: BASE 7445                     jz 0x42335a
+
+BLOCK:     2   PC: 0000000000429740   ICOUNT:   4539200   EXECUTIONS:    907840   #BYTES: 19   %:  4.53   cumltv%:  70.3  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29740
+XDIS 0000000000429740: BASE 488D7C2470               lea rdi, ptr [rsp+0x70]
+XDIS 0000000000429745: BASE 4589E5                   mov r13d, r12d
+XDIS 0000000000429748: BASE 89DE                     mov esi, ebx
+XDIS 000000000042974a: BASE 4183E503                 and r13d, 0x3
+XDIS 000000000042974e: BASE E80D87FFFF               call 0x421e60
+
+BLOCK:     3   PC: 0000000000429764   ICOUNT:   3631360   EXECUTIONS:    907840   #BYTES: 12   %:  3.63   cumltv%:  73.9  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29764
+XDIS 0000000000429764: BASE 83EB01                   sub ebx, 0x1
+XDIS 0000000000429767: BASE 41C1FC02                 sar r12d, 0x2
+XDIS 000000000042976b: BASE 83FBFF                   cmp ebx, 0xffffffff
+XDIS 000000000042976e: BASE 75D0                     jnz 0x429740
+
+BLOCK:     4   PC: 0000000000429753   ICOUNT:   3631360   EXECUTIONS:    907840   #BYTES: 17   %:  3.63   cumltv%:  77.5  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29753
+XDIS 0000000000429753: BASE 418D3406                 lea esi, ptr [r14+rax*1]
+XDIS 0000000000429757: BASE 4489EA                   mov edx, r13d
+XDIS 000000000042975a: BASE 488D7C2470               lea rdi, ptr [rsp+0x70]
+XDIS 000000000042975f: BASE E86C37FFFF               call 0x41ced0
+
+BLOCK:     5   PC: 00000000004297c1   ICOUNT:   2943198   EXECUTIONS:    981066   #BYTES:  9   %:  2.94   cumltv%:  80.5  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 297c1
+XDIS 00000000004297c1: BASE 488B5218                 mov rdx, qword ptr [rdx+0x18]
+XDIS 00000000004297c5: BASE 4885D2                   test rdx, rdx
+XDIS 00000000004297c8: BASE 75F2                     jnz 0x4297bc
+
+BLOCK:     6   PC: 0000000000429841   ICOUNT:   2943069   EXECUTIONS:    981023   #BYTES:  9   %:  2.94   cumltv%:  83.4  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29841
+XDIS 0000000000429841: BASE 488B5218                 mov rdx, qword ptr [rdx+0x18]
+XDIS 0000000000429845: BASE 4885D2                   test rdx, rdx
+XDIS 0000000000429848: BASE 75F2                     jnz 0x42983c
+
+BLOCK:     7   PC: 000000000041ced0   ICOUNT:   2723520   EXECUTIONS:    907840   #BYTES: 11   %:  2.72   cumltv%:  86.1  FN: FastBoard::set_square(int, FastBoard::square_t)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 1ced0
+XDIS 000000000041ced0: LONGMODE 4863F6                   movsxd rsi, esi
+XDIS 000000000041ced3: BASE 8994B7F0060000           mov dword ptr [rdi+rsi*4+0x6f0], edx
+XDIS 000000000041ceda: BASE C3                       ret 
+
+BLOCK:     8   PC: 0000000000421e60   ICOUNT:   2723520   EXECUTIONS:    907840   #BYTES: 11   %:  2.72   cumltv%:  88.9  FN: FastBoard::get_extra_dir(int)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 21e60
+XDIS 0000000000421e60: LONGMODE 4863F6                   movsxd rsi, esi
+XDIS 0000000000421e63: BASE 8B84B7281F0000           mov eax, dword ptr [rdi+rsi*4+0x1f28]
+XDIS 0000000000421e6a: BASE C3                       ret 
+
+BLOCK:     9   PC: 00000000004297bc   ICOUNT:   2177100   EXECUTIONS:   1088550   #BYTES:  5   %:  2.17   cumltv%:    91  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 297bc
+XDIS 00000000004297bc: BASE 3B5A20                   cmp ebx, dword ptr [rdx+0x20]
+XDIS 00000000004297bf: BASE 7EEF                     jle 0x4297b0
+
+BLOCK:     a   PC: 000000000042983c   ICOUNT:   2177088   EXECUTIONS:   1088544   #BYTES:  5   %:  2.17   cumltv%:  93.2  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 2983c
+XDIS 000000000042983c: BASE 3B4220                   cmp eax, dword ptr [rdx+0x20]
+XDIS 000000000042983f: BASE 7EEF                     jle 0x429830
+
+BLOCK:     b   PC: 0000000000423315   ICOUNT:   1134810   EXECUTIONS:    113481   #BYTES: 69   %:  1.13   cumltv%:  94.3  FN: FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 23315
+XDIS 0000000000423315: BASE 8B4C2430                 mov ecx, dword ptr [rsp+0x30]
+XDIS 0000000000423319: BASE 4489EB                   mov ebx, r13d
+XDIS 000000000042331c: BASE 448B2C9D101C4400         mov r13d, dword ptr [rbx*4+0x441c10]
+XDIS 0000000000423324: BASE 468B0C8D101C4400         mov r9d, dword ptr [r9*4+0x441c10]
+XDIS 000000000042332c: BASE 468B24A5101C4400         mov r12d, dword ptr [r12*4+0x441c10]
+XDIS 0000000000423334: BASE 468B0485101C4400         mov r8d, dword ptr [r8*4+0x441c10]
+XDIS 000000000042333c: BASE 468B1C9D101C4400         mov r11d, dword ptr [r11*4+0x441c10]
+XDIS 0000000000423344: BASE 468B1495101C4400         mov r10d, dword ptr [r10*4+0x441c10]
+XDIS 000000000042334c: BASE 8B1C8D101C4400           mov ebx, dword ptr [rcx*4+0x441c10]
+XDIS 0000000000423353: BASE 8B0485101C4400           mov eax, dword ptr [rax*4+0x441c10]
+
+BLOCK:     c   PC: 0000000000429782   ICOUNT:    680880   EXECUTIONS:    113480   #BYTES: 23   %:  0.68   cumltv%:    95  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29782
+XDIS 0000000000429782: BASE B901000000               mov ecx, 0x1
+XDIS 0000000000429787: BASE 4489E2                   mov edx, r12d
+XDIS 000000000042978a: BASE 4489F6                   mov esi, r14d
+XDIS 000000000042978d: BASE 488D7C2470               lea rdi, ptr [rsp+0x70]
+XDIS 0000000000429792: BASE 89C3                     mov ebx, eax
+XDIS 0000000000429794: BASE E8A79AFFFF               call 0x423240
+
+BLOCK:     d   PC: 0000000000429770   ICOUNT:    567400   EXECUTIONS:    113480   #BYTES: 18   %: 0.567   cumltv%:  95.6  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29770
+XDIS 0000000000429770: BASE 31C9                     xor ecx, ecx
+XDIS 0000000000429772: BASE 4489E2                   mov edx, r12d
+XDIS 0000000000429775: BASE 4489F6                   mov esi, r14d
+XDIS 0000000000429778: BASE 488D7C2470               lea rdi, ptr [rsp+0x70]
+XDIS 000000000042977d: BASE E8BE9AFFFF               call 0x423240
+
+BLOCK:     e   PC: 0000000000429948   ICOUNT:    453440   EXECUTIONS:    113360   #BYTES: 18   %: 0.453   cumltv%:    96  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29948
+XDIS 0000000000429948: BASE 488B4C2408               mov rcx, qword ptr [rsp+0x8]
+XDIS 000000000042994d: BASE 488B11                   mov rdx, qword ptr [rcx]
+XDIS 0000000000429950: BASE 42C6043A01               mov byte ptr [rdx+r15*1], 0x1
+XDIS 0000000000429955: BASE E9BDFEFFFF               jmp 0x429817
+
+BLOCK:     f   PC: 0000000000429930   ICOUNT:    453440   EXECUTIONS:    113360   #BYTES: 19   %: 0.453   cumltv%:  96.5  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29930
+XDIS 0000000000429930: BASE 488B442408               mov rax, qword ptr [rsp+0x8]
+XDIS 0000000000429935: BASE 488B4018                 mov rax, qword ptr [rax+0x18]
+XDIS 0000000000429939: BASE 42C6043801               mov byte ptr [rax+r15*1], 0x1
+XDIS 000000000042993e: BASE E955FFFFFF               jmp 0x429898
+
+BLOCK:    10   PC: 0000000000429830   ICOUNT:    430084   EXECUTIONS:    107521   #BYTES: 12   %:  0.43   cumltv%:  96.9  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29830
+XDIS 0000000000429830: BASE 4889D1                   mov rcx, rdx
+XDIS 0000000000429833: BASE 488B5210                 mov rdx, qword ptr [rdx+0x10]
+XDIS 0000000000429837: BASE 4885D2                   test rdx, rdx
+XDIS 000000000042983a: BASE 740E                     jz 0x42984a
+
+BLOCK:    11   PC: 00000000004297b0   ICOUNT:    429936   EXECUTIONS:    107484   #BYTES: 12   %:  0.43   cumltv%:  97.4  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 297b0
+XDIS 00000000004297b0: BASE 4889D1                   mov rcx, rdx
+XDIS 00000000004297b3: BASE 488B5210                 mov rdx, qword ptr [rdx+0x10]
+XDIS 00000000004297b7: BASE 4885D2                   test rdx, rdx
+XDIS 00000000004297ba: BASE 740E                     jz 0x4297ca
+
+BLOCK:    12   PC: 0000000000429799   ICOUNT:    340443   EXECUTIONS:    113481   #BYTES: 14   %:  0.34   cumltv%:  97.7  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 29799
+XDIS 0000000000429799: BASE 488B542440               mov rdx, qword ptr [rsp+0x40]
+XDIS 000000000042979e: BASE 4885D2                   test rdx, rdx
+XDIS 00000000004297a1: BASE 0F84A1010000             jz 0x429948
+
+BLOCK:    13   PC: 00000000004297ca   ICOUNT:    340440   EXECUTIONS:    113480   #BYTES: 14   %:  0.34   cumltv%:    98  FN: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64  OFFSET: 297ca
+XDIS 00000000004297ca: BASE 488D542438               lea rdx, ptr [rsp+0x38]
+XDIS 00000000004297cf: BASE 4839D1                   cmp rcx, rdx
+XDIS 00000000004297d2: BASE 0F8470010000             jz 0x429948
+
+# END_TOP_BLOCK_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*total                                                                 0
+# END_DYNAMIC_STATS
+#GLOBAL FUNCTION TOTALS
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+   0:     66953443  66.886  66.886        226960            423240 FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64
+   1:     27700996  27.673  94.558             0            429570 Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64
+            100101479 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 0 EMIT# 1
+#
+# $dynamic-counts-for-function: FastBoard::get_pattern3_augment_spec(int, int, bool)  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64 at [0x000423240, 0x0004236d0)  66.886%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                     18270361
+*stack-write                                                    11574997
+*mem-read-4                                                     19632122
+*mem-read-8                                                      1588727
+*mem-write-4                                                    10213237
+*mem-write-8                                                     1361760
+*isa-ext-BASE                                                   65137763
+*isa-ext-LONGMODE                                                1815680
+*isa-set-CMOV                                                    1588727
+*isa-set-I186                                                    9759321
+*isa-set-I86                                                    53789715
+*isa-set-LONGMODE                                                1815680
+*category-BINARY                                                 2723527
+*category-CMOV                                                   1588727
+*category-COND_BR                                                 226960
+*category-CONVERT                                                1134800
+*category-DATAXFER                                              24738729
+*category-LOGICAL                                               21334328
+*category-MISC                                                   2269604
+*category-POP                                                    1361766
+*category-PUSH                                                   1361760
+*category-RET                                                     226961
+*category-SHIFT                                                  9986281
+*ilen-1                                                          1134803
+*ilen-2                                                          7035776
+*ilen-3                                                         20539953
+*ilen-4                                                         22582613
+*ilen-5                                                         12028927
+*ilen-7                                                          1134803
+*ilen-8                                                          2496568
+*gpr64                                                           5674008
+*legacy-prefixes-0                                              27348779
+*legacy-prefixes-1                                              39604664
+*legacy-prefixes-and-escapes-0                                  26440935
+*legacy-prefixes-and-escapes-1                                  39831625
+*legacy-prefixes-and-escapes-2                                    680883
+*rex_prefix                                                     39604664
+*rexw_prefix                                                     2723521
+*rexr_prefix                                                    24625253
+*rexx_prefix                                                     1475247
+*rexb_prefix                                                    16795106
+*loadop                                                         18156874
+*one-memops                                                     32795846
+*cond-branch-forward                                              226960
+*index_disp                                                       907848
+*base_only                                                       3631370
+*base_disp                                                      26440948
+*base_index_disp                                                 1815680
+*scale_1                                                        31661039
+*scale_4                                                         3404411
+*memdisp8                                                       27802709
+*memdisp32                                                       3631371
+*convert_i32_1                                                   1134800
+ADD                                                               453920
+AND                                                              1134800
+CDQE                                                             1134800
+CMOVLE                                                            453922
+CMOVNLE                                                          1134805
+CMP                                                              1588727
+JZ                                                                226960
+LEA                                                              2269604
+MOV                                                             24057849
+MOVSXD                                                            680880
+OR                                                              19972568
+POP                                                              1361766
+PUSH                                                             1361760
+RET_NEAR                                                          226961
+SAR                                                               680880
+SHL                                                              9305401
+SUB                                                               680880
+TEST                                                              226960
+*total                                                          66953443
+#
+# $dynamic-counts-for-function: Matcher::Matcher()  IMG: /export/sflolid/spec_runs/leela/leela_s_base.refspeed.gcc48-64bit-m64 at [0x000429570, 0x000429a80)  27.673%
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                       453921
+*stack-write                                                     2042640
+*iprel-read                                                          240
+*mem-read-4                                                      2249212
+*mem-read-8                                                      2858215
+*mem-write-1                                                      226960
+*mem-write-8                                                     2042640
+*isa-ext-AVX                                                         960
+*isa-ext-BASE                                                   27700036
+*isa-set-AVX                                                         960
+*isa-set-CMOV                                                        480
+*isa-set-FAT_NOP                                                  113480
+*isa-set-I186                                                     907840
+*isa-set-I86                                                    26678236
+*category-AVX                                                        240
+*category-BINARY                                                 4518812
+*category-CALL                                                   2042640
+*category-CMOV                                                       480
+*category-COND_BR                                                5901307
+*category-CONVERT                                                    480
+*category-DATAXFER                                               6931780
+*category-LOGICAL                                                3425855
+*category-MISC                                                   3404401
+*category-SHIFT                                                   907840
+*category-UNCOND_BR                                               453681
+*category-WIDENOP                                                 113480
+*ilen-2                                                          6624269
+*ilen-3                                                          9407712
+*ilen-4                                                          5128294
+*ilen-5                                                          5674002
+*ilen-6                                                           639519
+*ilen-7                                                           113480
+*ilen-8                                                           113720
+*nop-ilen-8                                                       113480
+*scalar-simd                                                         720
+*avx-scalar                                                          720
+*avx128                                                              240
+*gpr64                                                          10470156
+*legacy-prefixes-0                                              13939920
+*legacy-prefixes-1                                              13761076
+*legacy-prefixes-and-escapes-0                                  13186681
+*legacy-prefixes-and-escapes-1                                  14514315
+*rex_prefix                                                     13761076
+*rexw_prefix                                                     8427516
+*rexr_prefix                                                     2383080
+*rexx_prefix                                                      226960
+*rexb_prefix                                                     3971800
+*loadop                                                          4405332
+*one-memops                                                      7490507
+*cond-branch-forward                                              740804
+*cond-branch-backward                                            5160503
+*base_only                                                       2156120
+*base_disp                                                       4993947
+*base_index                                                       226960
+*base_index_disp                                                  113480
+*scale_1                                                        10894908
+*memdisp8                                                        7490268
+*memdisp32                                                        113720
+*elements_fp_double_1                                                240
+*convert_fp_single_2                                                 240
+*convert_fp_double_1                                                 240
+*dataxfer_fp_single_1                                                240
+ADD                                                               113480
+AND                                                               907840
+CALL_NEAR                                                        2042640
+CMOVNLE                                                              240
+CMOVNS                                                               240
+CMP                                                              3497492
+JL                                                                 71878
+JLE                                                              2177094
+JMP                                                               453681
+JNZ                                                              2983409
+JZ                                                                668926
+LEA                                                              3404401
+MOV                                                              6931540
+NOP                                                               113480
+SAR                                                               907840
+SUB                                                               907840
+TEST                                                             2404295
+VCVTPS2PD                                                            240
+VCVTTSD2SI                                                           240
+VMOVSS                                                               240
+VMULSD                                                               240
+XOR                                                               113720
+*total                                                          27700996
+# END_PER_FUNCTION_STATS 
+# EMIT_STATIC_STATS 
+#
+# $static-counts
+#
+#       opcode                 count
+#
+*total                                                                 0
+
+# END_STATIC_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS   EMIT# 1
+#
+# $global-dynamic-counts
+#
+#       opcode                 count
+#
+*stack-read                                                     20539962
+*stack-write                                                    13617637
+*iprel-read                                                          240
+*mem-read-4                                                     22789174
+*mem-read-8                                                      6262622
+*mem-write-1                                                      226960
+*mem-write-4                                                    11121077
+*mem-write-8                                                     3404400
+*isa-ext-AVX                                                         960
+*isa-ext-BASE                                                   96469159
+*isa-ext-LONGMODE                                                3631360
+*isa-set-AVX                                                         960
+*isa-set-CMOV                                                    1589207
+*isa-set-FAT_NOP                                                  113480
+*isa-set-I186                                                   10667161
+*isa-set-I86                                                    84099311
+*isa-set-LONGMODE                                                3631360
+*category-AVX                                                        240
+*category-BINARY                                                 7242339
+*category-CALL                                                   2042640
+*category-CMOV                                                   1589207
+*category-COND_BR                                                6128267
+*category-CONVERT                                                1135280
+*category-DATAXFER                                              35301869
+*category-LOGICAL                                               24760183
+*category-MISC                                                   5674005
+*category-POP                                                    1361766
+*category-PUSH                                                   1361760
+*category-RET                                                    2042641
+*category-SHIFT                                                 10894121
+*category-UNCOND_BR                                               453681
+*category-WIDENOP                                                 113480
+*ilen-1                                                          2950483
+*ilen-2                                                         13660045
+*ilen-3                                                         31763345
+*ilen-4                                                         27710907
+*ilen-5                                                         17702929
+*ilen-6                                                           639519
+*ilen-7                                                          3063963
+*ilen-8                                                          2610288
+*nop-ilen-8                                                       113480
+*scalar-simd                                                         720
+*avx-scalar                                                          720
+*avx128                                                              240
+*gpr64                                                          19775524
+*legacy-prefixes-0                                              44920059
+*legacy-prefixes-1                                              55181420
+*legacy-prefixes-and-escapes-0                                  43258976
+*legacy-prefixes-and-escapes-1                                  56161620
+*legacy-prefixes-and-escapes-2                                    680883
+*rex_prefix                                                     55181420
+*rexw_prefix                                                    12966717
+*rexr_prefix                                                    27008333
+*rexx_prefix                                                     1702207
+*rexb_prefix                                                    20766906
+*loadop                                                         24377886
+*one-memops                                                     43917713
+*cond-branch-forward                                              967764
+*cond-branch-backward                                            5160503
+*index_disp                                                       907848
+*base_only                                                       7603170
+*base_disp                                                      31434895
+*base_index                                                       226960
+*base_index_disp                                                 3744840
+*scale_1                                                        44371627
+*scale_4                                                         5220091
+*memdisp8                                                       35292977
+*memdisp32                                                       5560771
+*elements_fp_double_1                                                240
+*convert_i32_1                                                   1134800
+*convert_fp_single_2                                                 240
+*convert_fp_double_1                                                 240
+*dataxfer_fp_single_1                                                240
+ADD                                                               567400
+AND                                                              2042640
+CALL_NEAR                                                        2042640
+CDQE                                                             1134800
+CMOVLE                                                            453922
+CMOVNLE                                                          1135045
+CMOVNS                                                               240
+CMP                                                              5086219
+JL                                                                 71878
+JLE                                                              2177094
+JMP                                                               453681
+JNZ                                                              2983409
+JZ                                                                895886
+LEA                                                              5674005
+MOV                                                             32805069
+MOVSXD                                                           2496560
+NOP                                                               113480
+OR                                                              19972568
+POP                                                              1361766
+PUSH                                                             1361760
+RET_NEAR                                                         2042641
+SAR                                                              1588720
+SHL                                                              9305401
+SUB                                                              1588720
+TEST                                                             2631255
+VCVTPS2PD                                                            240
+VCVTTSD2SI                                                           240
+VMOVSS                                                               240
+VMULSD                                                               240
+XOR                                                               113720
+*total                                                         100101479
+
+# END_GLOBAL_DYNAMIC_STATS

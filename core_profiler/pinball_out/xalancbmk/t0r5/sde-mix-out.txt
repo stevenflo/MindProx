@@ -1,0 +1,1925 @@
+# Mix output version 10
+# Intel(R) SDE version: 8.16.0 external
+# Starting tid 0,  OS-TID 21140
+# FINI: end of program
+
+# EMIT_IMAGE_ADDRESSES 
+# 
+#    IMAGE NAME                                                                              LOW ADDRESS   HIGH ADDRESS  
+# 
+/home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64             000000400000  00000063e8a6
+/lib64/ld-linux-x86-64.so.2                                                                  7f0250493000  7f02506b71c6
+/lib/x86_64-linux-gnu/libc.so.6                                                              7f02308af000  7f0230c772be
+# END_IMAGE_ADDRESSES
+
+# ==============================================
+# STATS FOR TID 0  OS-TID  21140 EMIT# 1
+# ==============================================
+# EMIT_TOP_BLOCK_STATS FOR TID 0  OS-TID 21140 EMIT # 1 EVENT=ICOUNT
+BLOCK:     0   PC: 0000000000428750   ICOUNT:  34525820   EXECUTIONS:    246613   #BYTES: 452   %:  34.5   cumltv%:  34.5  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28750 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 88,52
+XDIS 0000000000428750: BASE 4C8B2A                   mov r13, qword ptr [rdx]
+XDIS 0000000000428753: BASE 4989F6                   mov r14, rsi
+XDIS 0000000000428756: BASE 4989CF                   mov r15, rcx
+XDIS 0000000000428759: BASE 4D31C6                   xor r14, r8
+XDIS 000000000042875c: BASE 49C1C732                 rol r15, 0x32
+XDIS 0000000000428760: BASE 4921CE                   and r14, rcx
+XDIS 0000000000428763: BASE 4D31C6                   xor r14, r8
+XDIS 0000000000428766: BASE 4C034008                 add r8, qword ptr [rax+0x8]
+XDIS 000000000042876a: BASE 4C0328                   add r13, qword ptr [rax]
+XDIS 000000000042876d: BASE 4C034208                 add r8, qword ptr [rdx+0x8]
+XDIS 0000000000428771: BASE 4D01EE                   add r14, r13
+XDIS 0000000000428774: BASE 4989CD                   mov r13, rcx
+XDIS 0000000000428777: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 000000000042877b: BASE 4D31FD                   xor r13, r15
+XDIS 000000000042877e: BASE 4989CF                   mov r15, rcx
+XDIS 0000000000428781: BASE 49C1C717                 rol r15, 0x17
+XDIS 0000000000428785: BASE 4D31FD                   xor r13, r15
+XDIS 0000000000428788: BASE 4989DF                   mov r15, rbx
+XDIS 000000000042878b: BASE 4D01F5                   add r13, r14
+XDIS 000000000042878e: BASE 4D89DE                   mov r14, r11
+XDIS 0000000000428791: BASE 4D21DF                   and r15, r11
+XDIS 0000000000428794: BASE 4D01E9                   add r9, r13
+XDIS 0000000000428797: BASE 4D89DD                   mov r13, r11
+XDIS 000000000042879a: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 000000000042879e: BASE 49C1C524                 rol r13, 0x24
+XDIS 00000000004287a2: BASE 4D01CA                   add r10, r9
+XDIS 00000000004287a5: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004287a8: BASE 4D89DD                   mov r13, r11
+XDIS 00000000004287ab: BASE 49C1C519                 rol r13, 0x19
+XDIS 00000000004287af: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004287b2: BASE 4989DD                   mov r13, rbx
+XDIS 00000000004287b5: BASE 4D09DD                   or r13, r11
+XDIS 00000000004287b8: BASE 4D21E5                   and r13, r12
+XDIS 00000000004287bb: BASE 4D09FD                   or r13, r15
+XDIS 00000000004287be: BASE 4D01F5                   add r13, r14
+XDIS 00000000004287c1: BASE 4D89D6                   mov r14, r10
+XDIS 00000000004287c4: BASE 4D01E9                   add r9, r13
+XDIS 00000000004287c7: BASE 4989F5                   mov r13, rsi
+XDIS 00000000004287ca: BASE 49C1C632                 rol r14, 0x32
+XDIS 00000000004287ce: BASE 4931CD                   xor r13, rcx
+XDIS 00000000004287d1: BASE 4D89CF                   mov r15, r9
+XDIS 00000000004287d4: BASE 4D21D5                   and r13, r10
+XDIS 00000000004287d7: BASE 4931F5                   xor r13, rsi
+XDIS 00000000004287da: BASE 4D01E8                   add r8, r13
+XDIS 00000000004287dd: BASE 4D89D5                   mov r13, r10
+XDIS 00000000004287e0: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 00000000004287e4: BASE 4D31F5                   xor r13, r14
+XDIS 00000000004287e7: BASE 4D89D6                   mov r14, r10
+XDIS 00000000004287ea: BASE 49C1C617                 rol r14, 0x17
+XDIS 00000000004287ee: BASE 48037010                 add rsi, qword ptr [rax+0x10]
+XDIS 00000000004287f2: BASE 4D21DF                   and r15, r11
+XDIS 00000000004287f5: BASE 4D31F5                   xor r13, r14
+XDIS 00000000004287f8: BASE 4D89CE                   mov r14, r9
+XDIS 00000000004287fb: BASE 4D01E8                   add r8, r13
+XDIS 00000000004287fe: BASE 4D89CD                   mov r13, r9
+XDIS 0000000000428801: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 0000000000428805: BASE 49C1C524                 rol r13, 0x24
+XDIS 0000000000428809: BASE 4D01C4                   add r12, r8
+XDIS 000000000042880c: BASE 4D31EE                   xor r14, r13
+XDIS 000000000042880f: BASE 4D89CD                   mov r13, r9
+XDIS 0000000000428812: BASE 48037210                 add rsi, qword ptr [rdx+0x10]
+XDIS 0000000000428816: BASE 49C1C519                 rol r13, 0x19
+XDIS 000000000042881a: BASE 4D31EE                   xor r14, r13
+XDIS 000000000042881d: BASE 4D89CD                   mov r13, r9
+XDIS 0000000000428820: BASE 4D09DD                   or r13, r11
+XDIS 0000000000428823: BASE 4921DD                   and r13, rbx
+XDIS 0000000000428826: BASE 4D09FD                   or r13, r15
+XDIS 0000000000428829: BASE 4D01F5                   add r13, r14
+XDIS 000000000042882c: BASE 4D89E6                   mov r14, r12
+XDIS 000000000042882f: BASE 4D01E8                   add r8, r13
+XDIS 0000000000428832: BASE 4D89D5                   mov r13, r10
+XDIS 0000000000428835: BASE 49C1C632                 rol r14, 0x32
+XDIS 0000000000428839: BASE 4931CD                   xor r13, rcx
+XDIS 000000000042883c: BASE 4D89C7                   mov r15, r8
+XDIS 000000000042883f: BASE 4D21E5                   and r13, r12
+XDIS 0000000000428842: BASE 4931CD                   xor r13, rcx
+XDIS 0000000000428845: BASE 4C01EE                   add rsi, r13
+XDIS 0000000000428848: BASE 4D89E5                   mov r13, r12
+XDIS 000000000042884b: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 000000000042884f: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428852: BASE 4D89E6                   mov r14, r12
+XDIS 0000000000428855: BASE 49C1C617                 rol r14, 0x17
+XDIS 0000000000428859: BASE 4D31F5                   xor r13, r14
+XDIS 000000000042885c: BASE 4D89C6                   mov r14, r8
+XDIS 000000000042885f: BASE 4C01EE                   add rsi, r13
+XDIS 0000000000428862: BASE 4D89C5                   mov r13, r8
+XDIS 0000000000428865: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 0000000000428869: BASE 49C1C524                 rol r13, 0x24
+XDIS 000000000042886d: BASE 4801F3                   add rbx, rsi
+XDIS 0000000000428870: BASE 4D31EE                   xor r14, r13
+XDIS 0000000000428873: BASE 4D89C5                   mov r13, r8
+XDIS 0000000000428876: BASE 49C1C519                 rol r13, 0x19
+XDIS 000000000042887a: BASE 4D31EE                   xor r14, r13
+XDIS 000000000042887d: BASE 4D89C5                   mov r13, r8
+XDIS 0000000000428880: BASE 4D09CD                   or r13, r9
+XDIS 0000000000428883: BASE 48034818                 add rcx, qword ptr [rax+0x18]
+XDIS 0000000000428887: BASE 4D21CF                   and r15, r9
+XDIS 000000000042888a: BASE 4D21DD                   and r13, r11
+XDIS 000000000042888d: BASE 4D09FD                   or r13, r15
+XDIS 0000000000428890: BASE 4D01F5                   add r13, r14
+XDIS 0000000000428893: BASE 4989DE                   mov r14, rbx
+XDIS 0000000000428896: BASE 4C01EE                   add rsi, r13
+XDIS 0000000000428899: BASE 48034A18                 add rcx, qword ptr [rdx+0x18]
+XDIS 000000000042889d: BASE 4D89E5                   mov r13, r12
+XDIS 00000000004288a0: BASE 4D31D5                   xor r13, r10
+XDIS 00000000004288a3: BASE 49C1C632                 rol r14, 0x32
+XDIS 00000000004288a7: BASE 4921DD                   and r13, rbx
+XDIS 00000000004288aa: BASE 4989F7                   mov r15, rsi
+XDIS 00000000004288ad: BASE 4D31D5                   xor r13, r10
+XDIS 00000000004288b0: BASE 4C035220                 add r10, qword ptr [rdx+0x20]
+XDIS 00000000004288b4: BASE 4D21C7                   and r15, r8
+XDIS 00000000004288b7: BASE 4C01E9                   add rcx, r13
+XDIS 00000000004288ba: BASE 4989DD                   mov r13, rbx
+XDIS 00000000004288bd: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 00000000004288c1: BASE 4D31F5                   xor r13, r14
+XDIS 00000000004288c4: BASE 4989DE                   mov r14, rbx
+XDIS 00000000004288c7: BASE 49C1C617                 rol r14, 0x17
+XDIS 00000000004288cb: BASE 4C035020                 add r10, qword ptr [rax+0x20]
+XDIS 00000000004288cf: BASE 4D31F5                   xor r13, r14
+XDIS 00000000004288d2: BASE 4989F6                   mov r14, rsi
+XDIS 00000000004288d5: BASE 4C01E9                   add rcx, r13
+XDIS 00000000004288d8: BASE 4989F5                   mov r13, rsi
+XDIS 00000000004288db: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 00000000004288df: BASE 49C1C524                 rol r13, 0x24
+XDIS 00000000004288e3: BASE 4901CB                   add r11, rcx
+XDIS 00000000004288e6: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004288e9: BASE 4989F5                   mov r13, rsi
+XDIS 00000000004288ec: BASE 49C1C519                 rol r13, 0x19
+XDIS 00000000004288f0: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004288f3: BASE 4989F5                   mov r13, rsi
+XDIS 00000000004288f6: BASE 4D09C5                   or r13, r8
+XDIS 00000000004288f9: BASE 4D21CD                   and r13, r9
+XDIS 00000000004288fc: BASE 4D09FD                   or r13, r15
+XDIS 00000000004288ff: BASE 4D01F5                   add r13, r14
+XDIS 0000000000428902: BASE 4D89DE                   mov r14, r11
+XDIS 0000000000428905: BASE 4C01E9                   add rcx, r13
+XDIS 0000000000428908: BASE 4989DD                   mov r13, rbx
+XDIS 000000000042890b: BASE 4D31E5                   xor r13, r12
+XDIS 000000000042890e: BASE 4989CF                   mov r15, rcx
+XDIS 0000000000428911: BASE 4D21DD                   and r13, r11
+
+BLOCK:     1   PC: 0000000000428914   ICOUNT:  31813206   EXECUTIONS:    246614   #BYTES: 426   %:  31.8   cumltv%:  66.3  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28914 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 54,86
+XDIS 0000000000428914: BASE 49C1C632                 rol r14, 0x32
+XDIS 0000000000428918: BASE 4921F7                   and r15, rsi
+XDIS 000000000042891b: BASE 4D31E5                   xor r13, r12
+XDIS 000000000042891e: BASE 4C036228                 add r12, qword ptr [rdx+0x28]
+XDIS 0000000000428922: BASE 4D01EA                   add r10, r13
+XDIS 0000000000428925: BASE 4D89DD                   mov r13, r11
+XDIS 0000000000428928: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 000000000042892c: BASE 4D31F5                   xor r13, r14
+XDIS 000000000042892f: BASE 4D89DE                   mov r14, r11
+XDIS 0000000000428932: BASE 49C1C617                 rol r14, 0x17
+XDIS 0000000000428936: BASE 4C036028                 add r12, qword ptr [rax+0x28]
+XDIS 000000000042893a: BASE 4D31F5                   xor r13, r14
+XDIS 000000000042893d: BASE 4989CE                   mov r14, rcx
+XDIS 0000000000428940: BASE 4D01EA                   add r10, r13
+XDIS 0000000000428943: BASE 4989CD                   mov r13, rcx
+XDIS 0000000000428946: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 000000000042894a: BASE 49C1C524                 rol r13, 0x24
+XDIS 000000000042894e: BASE 4D01D1                   add r9, r10
+XDIS 0000000000428951: BASE 4D31EE                   xor r14, r13
+XDIS 0000000000428954: BASE 4989CD                   mov r13, rcx
+XDIS 0000000000428957: BASE 49C1C519                 rol r13, 0x19
+XDIS 000000000042895b: BASE 4D31EE                   xor r14, r13
+XDIS 000000000042895e: BASE 4989CD                   mov r13, rcx
+XDIS 0000000000428961: BASE 4909F5                   or r13, rsi
+XDIS 0000000000428964: BASE 4D21C5                   and r13, r8
+XDIS 0000000000428967: BASE 4D09FD                   or r13, r15
+XDIS 000000000042896a: BASE 4D01F5                   add r13, r14
+XDIS 000000000042896d: BASE 4D89CE                   mov r14, r9
+XDIS 0000000000428970: BASE 4D01EA                   add r10, r13
+XDIS 0000000000428973: BASE 4D89DD                   mov r13, r11
+XDIS 0000000000428976: BASE 49C1C632                 rol r14, 0x32
+XDIS 000000000042897a: BASE 4931DD                   xor r13, rbx
+XDIS 000000000042897d: BASE 4D89D7                   mov r15, r10
+XDIS 0000000000428980: BASE 4D21CD                   and r13, r9
+XDIS 0000000000428983: BASE 4931DD                   xor r13, rbx
+XDIS 0000000000428986: BASE 4D01EC                   add r12, r13
+XDIS 0000000000428989: BASE 4D89CD                   mov r13, r9
+XDIS 000000000042898c: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 0000000000428990: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428993: BASE 4D89CE                   mov r14, r9
+XDIS 0000000000428996: BASE 49C1C617                 rol r14, 0x17
+XDIS 000000000042899a: BASE 4D31F5                   xor r13, r14
+XDIS 000000000042899d: BASE 4D89D6                   mov r14, r10
+XDIS 00000000004289a0: BASE 4D01EC                   add r12, r13
+XDIS 00000000004289a3: BASE 4D89D5                   mov r13, r10
+XDIS 00000000004289a6: BASE 4D01E0                   add r8, r12
+XDIS 00000000004289a9: BASE 49C1C524                 rol r13, 0x24
+XDIS 00000000004289ad: BASE 48035A30                 add rbx, qword ptr [rdx+0x30]
+XDIS 00000000004289b1: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 00000000004289b5: BASE 4921CF                   and r15, rcx
+XDIS 00000000004289b8: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004289bb: BASE 4D89D5                   mov r13, r10
+XDIS 00000000004289be: BASE 49C1C519                 rol r13, 0x19
+XDIS 00000000004289c2: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004289c5: BASE 4D89D5                   mov r13, r10
+XDIS 00000000004289c8: BASE 48035830                 add rbx, qword ptr [rax+0x30]
+XDIS 00000000004289cc: BASE 4909CD                   or r13, rcx
+XDIS 00000000004289cf: BASE 4921F5                   and r13, rsi
+XDIS 00000000004289d2: BASE 4D09FD                   or r13, r15
+XDIS 00000000004289d5: BASE 4D01F5                   add r13, r14
+XDIS 00000000004289d8: BASE 4D89C6                   mov r14, r8
+XDIS 00000000004289db: BASE 4D01EC                   add r12, r13
+XDIS 00000000004289de: BASE 4D89CD                   mov r13, r9
+XDIS 00000000004289e1: BASE 49C1C632                 rol r14, 0x32
+XDIS 00000000004289e5: BASE 4D31DD                   xor r13, r11
+XDIS 00000000004289e8: BASE 4D89E7                   mov r15, r12
+XDIS 00000000004289eb: BASE 4D21C5                   and r13, r8
+XDIS 00000000004289ee: BASE 4D21D7                   and r15, r10
+XDIS 00000000004289f1: BASE 4D31DD                   xor r13, r11
+XDIS 00000000004289f4: BASE 4C01EB                   add rbx, r13
+XDIS 00000000004289f7: BASE 4D89C5                   mov r13, r8
+XDIS 00000000004289fa: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 00000000004289fe: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428a01: BASE 4D89C6                   mov r14, r8
+XDIS 0000000000428a04: BASE 49C1C617                 rol r14, 0x17
+XDIS 0000000000428a08: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428a0b: BASE 4D89E6                   mov r14, r12
+XDIS 0000000000428a0e: BASE 4C01EB                   add rbx, r13
+XDIS 0000000000428a11: BASE 4D89E5                   mov r13, r12
+XDIS 0000000000428a14: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 0000000000428a18: BASE 49C1C524                 rol r13, 0x24
+XDIS 0000000000428a1c: BASE 4801DE                   add rsi, rbx
+XDIS 0000000000428a1f: BASE 4D31EE                   xor r14, r13
+XDIS 0000000000428a22: BASE 4D89E5                   mov r13, r12
+XDIS 0000000000428a25: BASE 49C1C519                 rol r13, 0x19
+XDIS 0000000000428a29: BASE 4D31EE                   xor r14, r13
+XDIS 0000000000428a2c: BASE 4D89E5                   mov r13, r12
+XDIS 0000000000428a2f: BASE 4D09D5                   or r13, r10
+XDIS 0000000000428a32: BASE 4921CD                   and r13, rcx
+XDIS 0000000000428a35: BASE 4D09FD                   or r13, r15
+XDIS 0000000000428a38: BASE 4C035A38                 add r11, qword ptr [rdx+0x38]
+XDIS 0000000000428a3c: BASE 4883C040                 add rax, 0x40
+XDIS 0000000000428a40: BASE 4D01F5                   add r13, r14
+XDIS 0000000000428a43: BASE 4989F6                   mov r14, rsi
+XDIS 0000000000428a46: BASE 4C01EB                   add rbx, r13
+XDIS 0000000000428a49: BASE 4D89C5                   mov r13, r8
+XDIS 0000000000428a4c: BASE 49C1C632                 rol r14, 0x32
+XDIS 0000000000428a50: BASE 4D31CD                   xor r13, r9
+XDIS 0000000000428a53: BASE 4989DF                   mov r15, rbx
+XDIS 0000000000428a56: BASE 4883C240                 add rdx, 0x40
+XDIS 0000000000428a5a: BASE 4C0358F8                 add r11, qword ptr [rax-0x8]
+XDIS 0000000000428a5e: BASE 4921F5                   and r13, rsi
+XDIS 0000000000428a61: BASE 4D21E7                   and r15, r12
+XDIS 0000000000428a64: BASE 4D31CD                   xor r13, r9
+XDIS 0000000000428a67: BASE 4D01EB                   add r11, r13
+XDIS 0000000000428a6a: BASE 4989F5                   mov r13, rsi
+XDIS 0000000000428a6d: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 0000000000428a71: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428a74: BASE 4989F6                   mov r14, rsi
+XDIS 0000000000428a77: BASE 49C1C617                 rol r14, 0x17
+XDIS 0000000000428a7b: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428a7e: BASE 4F8D342B                 lea r14, ptr [r11+r13*1]
+XDIS 0000000000428a82: BASE 4989DD                   mov r13, rbx
+XDIS 0000000000428a85: BASE 4989DB                   mov r11, rbx
+XDIS 0000000000428a88: BASE 49C1C324                 rol r11, 0x24
+XDIS 0000000000428a8c: BASE 49C1C51E                 rol r13, 0x1e
+XDIS 0000000000428a90: BASE 4C01F1                   add rcx, r14
+XDIS 0000000000428a93: BASE 4D31DD                   xor r13, r11
+XDIS 0000000000428a96: BASE 4989DB                   mov r11, rbx
+XDIS 0000000000428a99: BASE 49C1C319                 rol r11, 0x19
+XDIS 0000000000428a9d: BASE 4D31DD                   xor r13, r11
+XDIS 0000000000428aa0: BASE 4989DB                   mov r11, rbx
+XDIS 0000000000428aa3: BASE 4D09E3                   or r11, r12
+XDIS 0000000000428aa6: BASE 4D21D3                   and r11, r10
+XDIS 0000000000428aa9: BASE 4D09FB                   or r11, r15
+XDIS 0000000000428aac: BASE 4D01EB                   add r11, r13
+XDIS 0000000000428aaf: BASE 4D01F3                   add r11, r14
+XDIS 0000000000428ab2: BASE 483DC03A4300             cmp rax, 0x433ac0
+XDIS 0000000000428ab8: BASE 0F8592FCFFFF             jnz 0x428750
+
+BLOCK:     2   PC: 0000000000428680   ICOUNT:  21307131   EXECUTIONS:    789153   #BYTES: 125   %:  21.3   cumltv%:  87.6  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28680 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 84,84
+XDIS 0000000000428680:  AVX C5FA6F08                 vmovdqu xmm1, xmmword ptr [rax]
+XDIS 0000000000428684:  AVX C4C16973F603             vpsllq xmm2, xmm14, 0x3
+XDIS 000000000042868a: BASE 4883C010                 add rax, 0x10
+XDIS 000000000042868e:  AVX C5FA6F40B0               vmovdqu xmm0, xmmword ptr [rax-0x50]
+XDIS 0000000000428693:  AVX C4C16173D63D             vpsrlq xmm3, xmm14, 0x3d
+XDIS 0000000000428699:  AVX C5F1D448A8               vpaddq xmm1, xmm1, xmmword ptr [rax-0x58]
+XDIS 000000000042869e:  AVX C5E1EBDA                 vpor xmm3, xmm3, xmm2
+XDIS 00000000004286a2:  AVX C4C15973D613             vpsrlq xmm4, xmm14, 0x13
+XDIS 00000000004286a8:  AVX C4C16973F62D             vpsllq xmm2, xmm14, 0x2d
+XDIS 00000000004286ae:  AVX C4C10973D606             vpsrlq xmm14, xmm14, 0x6
+XDIS 00000000004286b4:  AVX C5D9EBD2                 vpor xmm2, xmm4, xmm2
+XDIS 00000000004286b8:  AVX C5E1EFD2                 vpxor xmm2, xmm3, xmm2
+XDIS 00000000004286bc:  AVX C44169EFF6               vpxor xmm14, xmm2, xmm14
+XDIS 00000000004286c1:  AVX C5E973D008               vpsrlq xmm2, xmm0, 0x8
+XDIS 00000000004286c6:  AVX C44171D4F6               vpaddq xmm14, xmm1, xmm14
+XDIS 00000000004286cb:  AVX C5F173F038               vpsllq xmm1, xmm0, 0x38
+XDIS 00000000004286d0:  AVX C5E9EBD1                 vpor xmm2, xmm2, xmm1
+XDIS 00000000004286d4:  AVX C5E173D001               vpsrlq xmm3, xmm0, 0x1
+XDIS 00000000004286d9:  AVX C5F173F03F               vpsllq xmm1, xmm0, 0x3f
+XDIS 00000000004286de:  AVX C5F973D007               vpsrlq xmm0, xmm0, 0x7
+XDIS 00000000004286e3:  AVX C5E1EBC9                 vpor xmm1, xmm3, xmm1
+XDIS 00000000004286e7:  AVX C5E9EFC9                 vpxor xmm1, xmm2, xmm1
+XDIS 00000000004286eb:  AVX C5F1EFC0                 vpxor xmm0, xmm1, xmm0
+XDIS 00000000004286ef:  AVX C509D4F0                 vpaddq xmm14, xmm14, xmm0
+XDIS 00000000004286f3:  AVX C5797F7028               vmovdqa xmmword ptr [rax+0x28], xmm14
+XDIS 00000000004286f8: BASE 4839D0                   cmp rax, rdx
+XDIS 00000000004286fb: BASE 7583                     jnz 0x428680
+
+BLOCK:     3   PC: 0000000000427d70   ICOUNT:  10826618   EXECUTIONS:     24662   #BYTES: 2320   %:  10.8   cumltv%:  98.5  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 27d70 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 71,80
+XDIS 0000000000427d70: BASE 55                       push rbp
+XDIS 0000000000427d71: BASE 4889E5                   mov rbp, rsp
+XDIS 0000000000427d74: BASE 4157                     push r15
+XDIS 0000000000427d76: BASE 4156                     push r14
+XDIS 0000000000427d78: BASE 4155                     push r13
+XDIS 0000000000427d7a: BASE 4154                     push r12
+XDIS 0000000000427d7c: BASE 53                       push rbx
+XDIS 0000000000427d7d: BASE 4883E4E0                 and rsp, 0xffffffffffffffe0
+XDIS 0000000000427d81: BASE 4881EC98030000           sub rsp, 0x398
+XDIS 0000000000427d88: BASE 488B5708                 mov rdx, qword ptr [rdi+0x8]
+XDIS 0000000000427d8c:  AVX C5F96F152CBD0000         vmovdqa xmm2, xmmword ptr [rip+0xbd2c]
+XDIS 0000000000427d94:  AVX C5F96F3D34BD0000         vmovdqa xmm7, xmmword ptr [rip+0xbd34]
+XDIS 0000000000427d9c:  AVX C5FA6F06                 vmovdqu xmm0, xmmword ptr [rsi]
+XDIS 0000000000427da0: BASE 48899424D8000000         mov qword ptr [rsp+0xd8], rdx
+XDIS 0000000000427da8:  AVX C57A6F4E10               vmovdqu xmm9, xmmword ptr [rsi+0x10]
+XDIS 0000000000427dad: BASE 488B5710                 mov rdx, qword ptr [rdi+0x10]
+XDIS 0000000000427db1:  AVX C4E27900F2               vpshufb xmm6, xmm0, xmm2
+XDIS 0000000000427db6:  AVX C4E23100DF               vpshufb xmm3, xmm9, xmm7
+XDIS 0000000000427dbb:  AVX C5C9EBDB                 vpor xmm3, xmm6, xmm3
+XDIS 0000000000427dbf:  AVX C5FA6F4E20               vmovdqu xmm1, xmmword ptr [rsi+0x20]
+XDIS 0000000000427dc4:  AVX C5F96F3514BD0000         vmovdqa xmm6, xmmword ptr [rip+0xbd14]
+XDIS 0000000000427dcc:  AVX C57A6F6630               vmovdqu xmm12, xmmword ptr [rsi+0x30]
+XDIS 0000000000427dd1:  AVX C4627100EA               vpshufb xmm13, xmm1, xmm2
+XDIS 0000000000427dd6:  AVX C57A6F5640               vmovdqu xmm10, xmmword ptr [rsi+0x40]
+XDIS 0000000000427ddb:  AVX C4627900DE               vpshufb xmm11, xmm0, xmm6
+XDIS 0000000000427de0:  AVX C4E27100CE               vpshufb xmm1, xmm1, xmm6
+XDIS 0000000000427de5: BASE 48899424E0000000         mov qword ptr [rsp+0xe0], rdx
+XDIS 0000000000427ded:  AVX C5F96F05FBBC0000         vmovdqa xmm0, xmmword ptr [rip+0xbcfb]
+XDIS 0000000000427df5: BASE 488B5718                 mov rdx, qword ptr [rdi+0x18]
+XDIS 0000000000427df9:  AVX C5FA6F6E50               vmovdqu xmm5, xmmword ptr [rsi+0x50]
+XDIS 0000000000427dfe:  AVX C4623100C8               vpshufb xmm9, xmm9, xmm0
+XDIS 0000000000427e03:  AVX C44121EBD9               vpor xmm11, xmm11, xmm9
+XDIS 0000000000427e08:  AVX C57A6F4660               vmovdqu xmm8, xmmword ptr [rsi+0x60]
+XDIS 0000000000427e0d:  AVX C4621900CF               vpshufb xmm9, xmm12, xmm7
+XDIS 0000000000427e12:  AVX C4621900E0               vpshufb xmm12, xmm12, xmm0
+XDIS 0000000000427e17:  AVX C5FA6F6670               vmovdqu xmm4, xmmword ptr [rsi+0x70]
+XDIS 0000000000427e1c:  AVX C44111EBC9               vpor xmm9, xmm13, xmm9
+XDIS 0000000000427e21:  AVX C4C171EBCC               vpor xmm1, xmm1, xmm12
+XDIS 0000000000427e26: BASE 48899424E8000000         mov qword ptr [rsp+0xe8], rdx
+XDIS 0000000000427e2e:  AVX C4622900EA               vpshufb xmm13, xmm10, xmm2
+XDIS 0000000000427e33:  AVX C4625100E7               vpshufb xmm12, xmm5, xmm7
+XDIS 0000000000427e38: BASE 488B5720                 mov rdx, qword ptr [rdi+0x20]
+XDIS 0000000000427e3c:  AVX C44111EBE4               vpor xmm12, xmm13, xmm12
+XDIS 0000000000427e41:  AVX C4E25100E8               vpshufb xmm5, xmm5, xmm0
+XDIS 0000000000427e46:  AVX C4623900EA               vpshufb xmm13, xmm8, xmm2
+XDIS 0000000000427e4b:  AVX C4622900D6               vpshufb xmm10, xmm10, xmm6
+XDIS 0000000000427e50:  AVX C4623900C6               vpshufb xmm8, xmm8, xmm6
+XDIS 0000000000427e55:  AVX C529EBD5                 vpor xmm10, xmm10, xmm5
+XDIS 0000000000427e59:  AVX C4E25900EF               vpshufb xmm5, xmm4, xmm7
+XDIS 0000000000427e5e:  AVX C4E25900E0               vpshufb xmm4, xmm4, xmm0
+XDIS 0000000000427e63:  AVX C591EBED                 vpor xmm5, xmm13, xmm5
+XDIS 0000000000427e67:  AVX C539EBC4                 vpor xmm8, xmm8, xmm4
+XDIS 0000000000427e6b:  AVX C4626100EA               vpshufb xmm13, xmm3, xmm2
+XDIS 0000000000427e70: BASE 48899424F0000000         mov qword ptr [rsp+0xf0], rdx
+XDIS 0000000000427e78:  AVX C4E23100E7               vpshufb xmm4, xmm9, xmm7
+XDIS 0000000000427e7d:  AVX C4E26100DE               vpshufb xmm3, xmm3, xmm6
+XDIS 0000000000427e82: BASE 488B5728                 mov rdx, qword ptr [rdi+0x28]
+XDIS 0000000000427e86:  AVX C591EBE4                 vpor xmm4, xmm13, xmm4
+XDIS 0000000000427e8a:  AVX C4623100C8               vpshufb xmm9, xmm9, xmm0
+XDIS 0000000000427e8f:  AVX C4621900EA               vpshufb xmm13, xmm12, xmm2
+XDIS 0000000000427e94:  AVX C4C161EBD9               vpor xmm3, xmm3, xmm9
+XDIS 0000000000427e99:  AVX C4621900E6               vpshufb xmm12, xmm12, xmm6
+XDIS 0000000000427e9e:  AVX C4625100CF               vpshufb xmm9, xmm5, xmm7
+XDIS 0000000000427ea3:  AVX C4E25100E8               vpshufb xmm5, xmm5, xmm0
+XDIS 0000000000427ea8:  AVX C44111EBC9               vpor xmm9, xmm13, xmm9
+XDIS 0000000000427ead:  AVX C519EBE5                 vpor xmm12, xmm12, xmm5
+XDIS 0000000000427eb1:  AVX C4622100EA               vpshufb xmm13, xmm11, xmm2
+XDIS 0000000000427eb6:  AVX C4E27100EF               vpshufb xmm5, xmm1, xmm7
+XDIS 0000000000427ebb:  AVX C4622100DE               vpshufb xmm11, xmm11, xmm6
+XDIS 0000000000427ec0:  AVX C591EBED                 vpor xmm5, xmm13, xmm5
+XDIS 0000000000427ec4:  AVX C4E27100C8               vpshufb xmm1, xmm1, xmm0
+XDIS 0000000000427ec9: BASE 48899424F8000000         mov qword ptr [rsp+0xf8], rdx
+XDIS 0000000000427ed1:  AVX C4622900EA               vpshufb xmm13, xmm10, xmm2
+XDIS 0000000000427ed6:  AVX C521EBD9                 vpor xmm11, xmm11, xmm1
+XDIS 0000000000427eda: BASE 488B5730                 mov rdx, qword ptr [rdi+0x30]
+XDIS 0000000000427ede:  AVX C4E23900CF               vpshufb xmm1, xmm8, xmm7
+XDIS 0000000000427ee3:  AVX C4622900D6               vpshufb xmm10, xmm10, xmm6
+XDIS 0000000000427ee8:  AVX C591EBC9                 vpor xmm1, xmm13, xmm1
+XDIS 0000000000427eec:  AVX C4623900C0               vpshufb xmm8, xmm8, xmm0
+XDIS 0000000000427ef1:  AVX C4625900EA               vpshufb xmm13, xmm4, xmm2
+XDIS 0000000000427ef6:  AVX C44129EBD0               vpor xmm10, xmm10, xmm8
+XDIS 0000000000427efb:  AVX C4E25900E6               vpshufb xmm4, xmm4, xmm6
+XDIS 0000000000427f00:  AVX C4623100C7               vpshufb xmm8, xmm9, xmm7
+XDIS 0000000000427f05:  AVX C4623100C8               vpshufb xmm9, xmm9, xmm0
+XDIS 0000000000427f0a:  AVX C44111EBC0               vpor xmm8, xmm13, xmm8
+XDIS 0000000000427f0f:  AVX C4C159EBE1               vpor xmm4, xmm4, xmm9
+XDIS 0000000000427f14: BASE 4889942400010000         mov qword ptr [rsp+0x100], rdx
+XDIS 0000000000427f1c:  AVX C4625100EA               vpshufb xmm13, xmm5, xmm2
+XDIS 0000000000427f21:  AVX C4627100CF               vpshufb xmm9, xmm1, xmm7
+XDIS 0000000000427f26: BASE 488B5738                 mov rdx, qword ptr [rdi+0x38]
+XDIS 0000000000427f2a:  AVX C44111EBC9               vpor xmm9, xmm13, xmm9
+XDIS 0000000000427f2f:  AVX C4E27100C8               vpshufb xmm1, xmm1, xmm0
+XDIS 0000000000427f34:  AVX C4626100EA               vpshufb xmm13, xmm3, xmm2
+XDIS 0000000000427f39:  AVX C4E25100EE               vpshufb xmm5, xmm5, xmm6
+XDIS 0000000000427f3e:  AVX C4E22100D2               vpshufb xmm2, xmm11, xmm2
+XDIS 0000000000427f43:  AVX C5D1EBE9                 vpor xmm5, xmm5, xmm1
+XDIS 0000000000427f47:  AVX C4622100DE               vpshufb xmm11, xmm11, xmm6
+XDIS 0000000000427f4c:  AVX C4E21900CF               vpshufb xmm1, xmm12, xmm7
+XDIS 0000000000427f51:  AVX C4621900E0               vpshufb xmm12, xmm12, xmm0
+XDIS 0000000000427f56:  AVX C4E22900C0               vpshufb xmm0, xmm10, xmm0
+XDIS 0000000000427f5b:  AVX C521EBD8                 vpor xmm11, xmm11, xmm0
+XDIS 0000000000427f5f:  AVX C4C17973D808             vpsrldq xmm0, xmm8, 0x8
+XDIS 0000000000427f65:  AVX C4E22900FF               vpshufb xmm7, xmm10, xmm7
+XDIS 0000000000427f6a:  AVX C4E26100DE               vpshufb xmm3, xmm3, xmm6
+XDIS 0000000000427f6f: BASE 4889942408010000         mov qword ptr [rsp+0x108], rdx
+XDIS 0000000000427f77:  AVX C4C161EBDC               vpor xmm3, xmm3, xmm12
+XDIS 0000000000427f7c:  AVX C5E9EBD7                 vpor xmm2, xmm2, xmm7
+XDIS 0000000000427f80: BASE 488B4740                 mov rax, qword ptr [rdi+0x40]
+XDIS 0000000000427f84:  AVX C4E27930C0               vpmovzxbw xmm0, xmm0
+XDIS 0000000000427f89:  AVX C4C27930F8               vpmovzxbw xmm7, xmm8
+XDIS 0000000000427f8e:  AVX C4627933E0               vpmovzxwd xmm12, xmm0
+XDIS 0000000000427f93:  AVX C5F973D808               vpsrldq xmm0, xmm0, 0x8
+XDIS 0000000000427f98:  AVX C4E27933F7               vpmovzxwd xmm6, xmm7
+XDIS 0000000000427f9d:  AVX C4E27933C0               vpmovzxwd xmm0, xmm0
+XDIS 0000000000427fa2:  AVX C5C173DF08               vpsrldq xmm7, xmm7, 0x8
+XDIS 0000000000427fa7:  AVX C4427930C1               vpmovzxbw xmm8, xmm9
+XDIS 0000000000427fac:  AVX C4E27933FF               vpmovzxwd xmm7, xmm7
+XDIS 0000000000427fb1:  AVX C591EBC9                 vpor xmm1, xmm13, xmm1
+XDIS 0000000000427fb5: BASE 4889842410010000         mov qword ptr [rsp+0x110], rax
+XDIS 0000000000427fbd: BASE 488D942460030000         lea rdx, ptr [rsp+0x360]
+XDIS 0000000000427fc5:  AVX C5F97F742488             vmovdqa xmmword ptr [rsp-0x78], xmm6
+XDIS 0000000000427fcb: BASE 488D842460010000         lea rax, ptr [rsp+0x160]
+XDIS 0000000000427fd3:  AVX C5F97F442468             vmovdqa xmmword ptr [rsp+0x68], xmm0
+XDIS 0000000000427fd9:  AVX C4C17973D908             vpsrldq xmm0, xmm9, 0x8
+XDIS 0000000000427fdf:  AVX C5F97F7C2498             vmovdqa xmmword ptr [rsp-0x68], xmm7
+XDIS 0000000000427fe5:  AVX C4E27930C0               vpmovzxbw xmm0, xmm0
+XDIS 0000000000427fea:  AVX C4C27933F8               vpmovzxwd xmm7, xmm8
+XDIS 0000000000427fef:  AVX C4C13973D808             vpsrldq xmm8, xmm8, 0x8
+XDIS 0000000000427ff5:  AVX C5797F6424A8             vmovdqa xmmword ptr [rsp-0x58], xmm12
+XDIS 0000000000427ffb:  AVX C4427933E8               vpmovzxwd xmm13, xmm8
+XDIS 0000000000428000:  AVX C4627933C0               vpmovzxwd xmm8, xmm0
+XDIS 0000000000428005:  AVX C5F973D808               vpsrldq xmm0, xmm0, 0x8
+XDIS 000000000042800a:  AVX C5797F6C24B8             vmovdqa xmmword ptr [rsp-0x48], xmm13
+XDIS 0000000000428010:  AVX C4627933F8               vpmovzxwd xmm15, xmm0
+XDIS 0000000000428015:  AVX C4E27930C1               vpmovzxbw xmm0, xmm1
+XDIS 000000000042801a:  AVX C5797F4424C8             vmovdqa xmmword ptr [rsp-0x38], xmm8
+XDIS 0000000000428020:  AVX C5F173D908               vpsrldq xmm1, xmm1, 0x8
+XDIS 0000000000428025:  AVX C5797F7C2478             vmovdqa xmmword ptr [rsp+0x78], xmm15
+XDIS 000000000042802b:  AVX C4627933C0               vpmovzxwd xmm8, xmm0
+XDIS 0000000000428030:  AVX C4E27930C9               vpmovzxbw xmm1, xmm1
+XDIS 0000000000428035:  AVX C5F973D808               vpsrldq xmm0, xmm0, 0x8
+XDIS 000000000042803a:  AVX C4627933C9               vpmovzxwd xmm9, xmm1
+XDIS 000000000042803f:  AVX C5F173D908               vpsrldq xmm1, xmm1, 0x8
+XDIS 0000000000428044:  AVX C4E27933C0               vpmovzxwd xmm0, xmm0
+XDIS 0000000000428049:  AVX C4E27933C9               vpmovzxwd xmm1, xmm1
+XDIS 000000000042804e:  AVX C5797F4C24D8             vmovdqa xmmword ptr [rsp-0x28], xmm9
+XDIS 0000000000428054:  AVX C5F97F8C2488000000       vmovdqa xmmword ptr [rsp+0x88], xmm1
+XDIS 000000000042805d:  AVX C4E27930CA               vpmovzxbw xmm1, xmm2
+XDIS 0000000000428062:  AVX C5E973DA08               vpsrldq xmm2, xmm2, 0x8
+XDIS 0000000000428067:  AVX C4E27930D2               vpmovzxbw xmm2, xmm2
+XDIS 000000000042806c:  AVX C4627933C9               vpmovzxwd xmm9, xmm1
+XDIS 0000000000428071:  AVX C4627933F2               vpmovzxwd xmm14, xmm2
+XDIS 0000000000428076:  AVX C5E973DA08               vpsrldq xmm2, xmm2, 0x8
+XDIS 000000000042807b:  AVX C4E27933D2               vpmovzxwd xmm2, xmm2
+XDIS 0000000000428080:  AVX C5797F7424E8             vmovdqa xmmword ptr [rsp-0x18], xmm14
+XDIS 0000000000428086:  AVX C5F173D908               vpsrldq xmm1, xmm1, 0x8
+XDIS 000000000042808b:  AVX C5F97F942498000000       vmovdqa xmmword ptr [rsp+0x98], xmm2
+XDIS 0000000000428094:  AVX C4E27930D4               vpmovzxbw xmm2, xmm4
+XDIS 0000000000428099:  AVX C5D973DC08               vpsrldq xmm4, xmm4, 0x8
+XDIS 000000000042809e:  AVX C4E27930E4               vpmovzxbw xmm4, xmm4
+XDIS 00000000004280a3:  AVX C4627933D2               vpmovzxwd xmm10, xmm2
+XDIS 00000000004280a8:  AVX C4E27933C9               vpmovzxwd xmm1, xmm1
+XDIS 00000000004280ad:  AVX C4627933FC               vpmovzxwd xmm15, xmm4
+XDIS 00000000004280b2:  AVX C5D973DC08               vpsrldq xmm4, xmm4, 0x8
+XDIS 00000000004280b7:  AVX C4E27933E4               vpmovzxwd xmm4, xmm4
+XDIS 00000000004280bc:  AVX C5797F7C24F8             vmovdqa xmmword ptr [rsp-0x8], xmm15
+XDIS 00000000004280c2:  AVX C5E973DA08               vpsrldq xmm2, xmm2, 0x8
+XDIS 00000000004280c7:  AVX C5F97FA424A8000000       vmovdqa xmmword ptr [rsp+0xa8], xmm4
+XDIS 00000000004280d0:  AVX C4E27930E5               vpmovzxbw xmm4, xmm5
+XDIS 00000000004280d5:  AVX C5D173DD08               vpsrldq xmm5, xmm5, 0x8
+XDIS 00000000004280da:  AVX C4E27930ED               vpmovzxbw xmm5, xmm5
+XDIS 00000000004280df:  AVX C4627933E4               vpmovzxwd xmm12, xmm4
+XDIS 00000000004280e4:  AVX C4E27933D2               vpmovzxwd xmm2, xmm2
+XDIS 00000000004280e9:  AVX C4627933ED               vpmovzxwd xmm13, xmm5
+XDIS 00000000004280ee:  AVX C5D173DD08               vpsrldq xmm5, xmm5, 0x8
+XDIS 00000000004280f3:  AVX C4E27933ED               vpmovzxwd xmm5, xmm5
+XDIS 00000000004280f8:  AVX C5797F6C2408             vmovdqa xmmword ptr [rsp+0x8], xmm13
+XDIS 00000000004280fe:  AVX C5D973DC08               vpsrldq xmm4, xmm4, 0x8
+XDIS 0000000000428103:  AVX C5F97FAC24B8000000       vmovdqa xmmword ptr [rsp+0xb8], xmm5
+XDIS 000000000042810c:  AVX C4E27930EB               vpmovzxbw xmm5, xmm3
+XDIS 0000000000428111:  AVX C5E173DB08               vpsrldq xmm3, xmm3, 0x8
+XDIS 0000000000428116:  AVX C4E27930DB               vpmovzxbw xmm3, xmm3
+XDIS 000000000042811b:  AVX C4627933ED               vpmovzxwd xmm13, xmm5
+XDIS 0000000000428120:  AVX C4E27933E4               vpmovzxwd xmm4, xmm4
+XDIS 0000000000428125:  AVX C4627933FB               vpmovzxwd xmm15, xmm3
+XDIS 000000000042812a:  AVX C5E173DB08               vpsrldq xmm3, xmm3, 0x8
+XDIS 000000000042812f:  AVX C4E27933DB               vpmovzxwd xmm3, xmm3
+XDIS 0000000000428134:  AVX C5797F7C2418             vmovdqa xmmword ptr [rsp+0x18], xmm15
+XDIS 000000000042813a:  AVX C5D173DD08               vpsrldq xmm5, xmm5, 0x8
+XDIS 000000000042813f:  AVX C5796FFB                 vmovdqa xmm15, xmm3
+XDIS 0000000000428143:  AVX C4C27930DB               vpmovzxbw xmm3, xmm11
+XDIS 0000000000428148:  AVX C4E27933ED               vpmovzxwd xmm5, xmm5
+XDIS 000000000042814d:  AVX C4C12173DB08             vpsrldq xmm11, xmm11, 0x8
+XDIS 0000000000428153:  AVX C5797F7C2428             vmovdqa xmmword ptr [rsp+0x28], xmm15
+XDIS 0000000000428159:  AVX C4427930F3               vpmovzxbw xmm14, xmm11
+XDIS 000000000042815e:  AVX C4C10173DF08             vpsrldq xmm15, xmm15, 0x8
+XDIS 0000000000428164:  AVX C4627933DB               vpmovzxwd xmm11, xmm3
+XDIS 0000000000428169:  AVX C4C27933F6               vpmovzxwd xmm6, xmm14
+XDIS 000000000042816e:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 0000000000428174:  AVX C4427935FF               vpmovzxdq xmm15, xmm15
+XDIS 0000000000428179:  AVX C5F97F742438             vmovdqa xmmword ptr [rsp+0x38], xmm6
+XDIS 000000000042817f:  AVX C4C27933F6               vpmovzxwd xmm6, xmm14
+XDIS 0000000000428184:  AVX C4C10173F708             vpsllq xmm15, xmm15, 0x8
+XDIS 000000000042818a:  AVX C5796FB424B8000000       vmovdqa xmm14, xmmword ptr [rsp+0xb8]
+XDIS 0000000000428193:  AVX C5F97F742448             vmovdqa xmmword ptr [rsp+0x48], xmm6
+XDIS 0000000000428199:  AVX C5E173DB08               vpsrldq xmm3, xmm3, 0x8
+XDIS 000000000042819e:  AVX C4E27933DB               vpmovzxwd xmm3, xmm3
+XDIS 00000000004281a3:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 00000000004281a9:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 00000000004281ae:  AVX C4C10973F610             vpsllq xmm14, xmm14, 0x10
+XDIS 00000000004281b4:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004281b9:  AVX C58973DE08               vpsrldq xmm14, xmm6, 0x8
+XDIS 00000000004281be:  AVX C5F96F742488             vmovdqa xmm6, xmmword ptr [rsp-0x78]
+XDIS 00000000004281c4:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 00000000004281c9:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004281ce:  AVX C5796FB424A8000000       vmovdqa xmm14, xmmword ptr [rsp+0xa8]
+XDIS 00000000004281d7:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 00000000004281dd:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 00000000004281e2:  AVX C4C10973F618             vpsllq xmm14, xmm14, 0x18
+XDIS 00000000004281e8:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004281ed:  AVX C5796FB42498000000       vmovdqa xmm14, xmmword ptr [rsp+0x98]
+XDIS 00000000004281f6:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 00000000004281fc:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 0000000000428201:  AVX C4C10973F620             vpsllq xmm14, xmm14, 0x20
+XDIS 0000000000428207:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 000000000042820c:  AVX C5796FB42488000000       vmovdqa xmm14, xmmword ptr [rsp+0x88]
+XDIS 0000000000428215:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 000000000042821b:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 0000000000428220:  AVX C4C10973F628             vpsllq xmm14, xmm14, 0x28
+XDIS 0000000000428226:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 000000000042822b:  AVX C5796F742478             vmovdqa xmm14, xmmword ptr [rsp+0x78]
+XDIS 0000000000428231:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 0000000000428237:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 000000000042823c:  AVX C4C10973F630             vpsllq xmm14, xmm14, 0x30
+XDIS 0000000000428242:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 0000000000428247:  AVX C5796F742468             vmovdqa xmm14, xmmword ptr [rsp+0x68]
+XDIS 000000000042824d:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 0000000000428253:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 0000000000428258:  AVX C4C10973F638             vpsllq xmm14, xmm14, 0x38
+XDIS 000000000042825e:  AVX C44101EBF6               vpor xmm14, xmm15, xmm14
+XDIS 0000000000428263:  AVX C4427935FD               vpmovzxdq xmm15, xmm13
+XDIS 0000000000428268:  AVX C5797F742458             vmovdqa xmmword ptr [rsp+0x58], xmm14
+XDIS 000000000042826e:  AVX C4427935F4               vpmovzxdq xmm14, xmm12
+XDIS 0000000000428273:  AVX C4C10173F708             vpsllq xmm15, xmm15, 0x8
+XDIS 0000000000428279:  AVX C4C10973F610             vpsllq xmm14, xmm14, 0x10
+XDIS 000000000042827f:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 0000000000428284:  AVX C4427935F3               vpmovzxdq xmm14, xmm11
+XDIS 0000000000428289:  AVX C4C11173DD08             vpsrldq xmm13, xmm13, 0x8
+XDIS 000000000042828f:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 0000000000428294:  AVX C4427935F2               vpmovzxdq xmm14, xmm10
+XDIS 0000000000428299:  AVX C4C11973DC08             vpsrldq xmm12, xmm12, 0x8
+XDIS 000000000042829f:  AVX C4C10973F618             vpsllq xmm14, xmm14, 0x18
+XDIS 00000000004282a5:  AVX C4427935ED               vpmovzxdq xmm13, xmm13
+XDIS 00000000004282aa:  AVX C4427935E4               vpmovzxdq xmm12, xmm12
+XDIS 00000000004282af:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004282b4:  AVX C4427935F1               vpmovzxdq xmm14, xmm9
+XDIS 00000000004282b9:  AVX C4C12973DA08             vpsrldq xmm10, xmm10, 0x8
+XDIS 00000000004282bf:  AVX C4C10973F620             vpsllq xmm14, xmm14, 0x20
+XDIS 00000000004282c5:  AVX C4427935D2               vpmovzxdq xmm10, xmm10
+XDIS 00000000004282ca:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004282cf:  AVX C4427935F0               vpmovzxdq xmm14, xmm8
+XDIS 00000000004282d4:  AVX C4C13173D908             vpsrldq xmm9, xmm9, 0x8
+XDIS 00000000004282da:  AVX C4C10973F628             vpsllq xmm14, xmm14, 0x28
+XDIS 00000000004282e0:  AVX C4427935C9               vpmovzxdq xmm9, xmm9
+XDIS 00000000004282e5:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004282ea:  AVX C4627935F7               vpmovzxdq xmm14, xmm7
+XDIS 00000000004282ef:  AVX C4C13973D808             vpsrldq xmm8, xmm8, 0x8
+XDIS 00000000004282f5:  AVX C4C10973F630             vpsllq xmm14, xmm14, 0x30
+XDIS 00000000004282fb:  AVX C4427935C0               vpmovzxdq xmm8, xmm8
+XDIS 0000000000428300:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 0000000000428305:  AVX C5C173DF08               vpsrldq xmm7, xmm7, 0x8
+XDIS 000000000042830a:  AVX C4627935F6               vpmovzxdq xmm14, xmm6
+XDIS 000000000042830f:  AVX C5C973DE08               vpsrldq xmm6, xmm6, 0x8
+XDIS 0000000000428314:  AVX C4E27935FF               vpmovzxdq xmm7, xmm7
+XDIS 0000000000428319:  AVX C4C12173DB08             vpsrldq xmm11, xmm11, 0x8
+XDIS 000000000042831f:  AVX C4E27935F6               vpmovzxdq xmm6, xmm6
+XDIS 0000000000428324:  AVX C4C11173F508             vpsllq xmm13, xmm13, 0x8
+XDIS 000000000042832a:  AVX C4427935DB               vpmovzxdq xmm11, xmm11
+XDIS 000000000042832f:  AVX C4C11973F410             vpsllq xmm12, xmm12, 0x10
+XDIS 0000000000428335:  AVX C4C12973F218             vpsllq xmm10, xmm10, 0x18
+XDIS 000000000042833b:  AVX C44111EBE4               vpor xmm12, xmm13, xmm12
+XDIS 0000000000428340:  AVX C44119EBDB               vpor xmm11, xmm12, xmm11
+XDIS 0000000000428345:  AVX C4C13173F120             vpsllq xmm9, xmm9, 0x20
+XDIS 000000000042834b:  AVX C44121EBD2               vpor xmm10, xmm11, xmm10
+XDIS 0000000000428350:  AVX C5796F6C24B8             vmovdqa xmm13, xmmword ptr [rsp-0x48]
+XDIS 0000000000428356:  AVX C4C13973F028             vpsllq xmm8, xmm8, 0x28
+XDIS 000000000042835c:  AVX C44129EBC9               vpor xmm9, xmm10, xmm9
+XDIS 0000000000428361:  AVX C5796F542498             vmovdqa xmm10, xmmword ptr [rsp-0x68]
+XDIS 0000000000428367:  AVX C5C173F730               vpsllq xmm7, xmm7, 0x30
+XDIS 000000000042836c:  AVX C44131EBC0               vpor xmm8, xmm9, xmm8
+XDIS 0000000000428371:  AVX C5796F4C24D8             vmovdqa xmm9, xmmword ptr [rsp-0x28]
+XDIS 0000000000428377:  AVX C5C973F638               vpsllq xmm6, xmm6, 0x38
+XDIS 000000000042837c:  AVX C5B9EBFF                 vpor xmm7, xmm8, xmm7
+XDIS 0000000000428380:  AVX C5796F4424C8             vmovdqa xmm8, xmmword ptr [rsp-0x38]
+XDIS 0000000000428386:  AVX C5C1EBF6                 vpor xmm6, xmm7, xmm6
+XDIS 000000000042838a:  AVX C4E27935FD               vpmovzxdq xmm7, xmm5
+XDIS 000000000042838f:  AVX C5D173DD08               vpsrldq xmm5, xmm5, 0x8
+XDIS 0000000000428394:  AVX C5C173F708               vpsllq xmm7, xmm7, 0x8
+XDIS 0000000000428399:  AVX C4E27935ED               vpmovzxdq xmm5, xmm5
+XDIS 000000000042839e:  AVX C5796F6424A8             vmovdqa xmm12, xmmword ptr [rsp-0x58]
+XDIS 00000000004283a4:  AVX C5F97FB42428010000       vmovdqa xmmword ptr [rsp+0x128], xmm6
+XDIS 00000000004283ad:  AVX C4E27935F4               vpmovzxdq xmm6, xmm4
+XDIS 00000000004283b2:  AVX C5D973DC08               vpsrldq xmm4, xmm4, 0x8
+XDIS 00000000004283b7:  AVX C5C973F610               vpsllq xmm6, xmm6, 0x10
+XDIS 00000000004283bc:  AVX C4E27935E4               vpmovzxdq xmm4, xmm4
+XDIS 00000000004283c1:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 00000000004283c5:  AVX C4E27935F3               vpmovzxdq xmm6, xmm3
+XDIS 00000000004283ca:  AVX C5E173DB08               vpsrldq xmm3, xmm3, 0x8
+XDIS 00000000004283cf:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 00000000004283d3:  AVX C4E27935F2               vpmovzxdq xmm6, xmm2
+XDIS 00000000004283d8:  AVX C5E973DA08               vpsrldq xmm2, xmm2, 0x8
+XDIS 00000000004283dd:  AVX C5C973F618               vpsllq xmm6, xmm6, 0x18
+XDIS 00000000004283e2:  AVX C4E27935D2               vpmovzxdq xmm2, xmm2
+XDIS 00000000004283e7:  AVX C4E27935DB               vpmovzxdq xmm3, xmm3
+XDIS 00000000004283ec:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 00000000004283f0:  AVX C4E27935F1               vpmovzxdq xmm6, xmm1
+XDIS 00000000004283f5:  AVX C5F173D908               vpsrldq xmm1, xmm1, 0x8
+XDIS 00000000004283fa:  AVX C5C973F620               vpsllq xmm6, xmm6, 0x20
+XDIS 00000000004283ff:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 0000000000428404:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 0000000000428408:  AVX C4E27935F0               vpmovzxdq xmm6, xmm0
+XDIS 000000000042840d:  AVX C5F973D808               vpsrldq xmm0, xmm0, 0x8
+XDIS 0000000000428412:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 0000000000428417:  AVX C5C973F628               vpsllq xmm6, xmm6, 0x28
+XDIS 000000000042841c:  AVX C5D173F508               vpsllq xmm5, xmm5, 0x8
+XDIS 0000000000428421:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 0000000000428425:  AVX C4C27935F5               vpmovzxdq xmm6, xmm13
+XDIS 000000000042842a:  AVX C5D973F410               vpsllq xmm4, xmm4, 0x10
+XDIS 000000000042842f:  AVX C5E973F218               vpsllq xmm2, xmm2, 0x18
+XDIS 0000000000428434:  AVX C5D1EBE4                 vpor xmm4, xmm5, xmm4
+XDIS 0000000000428438:  AVX C5D9EBDB                 vpor xmm3, xmm4, xmm3
+XDIS 000000000042843c:  AVX C5F173F120               vpsllq xmm1, xmm1, 0x20
+XDIS 0000000000428441:  AVX C5E1EBD2                 vpor xmm2, xmm3, xmm2
+XDIS 0000000000428445:  AVX C5F96F6C24F8             vmovdqa xmm5, xmmword ptr [rsp-0x8]
+XDIS 000000000042844b:  AVX C5F973F028               vpsllq xmm0, xmm0, 0x28
+XDIS 0000000000428450:  AVX C5E9EBC9                 vpor xmm1, xmm2, xmm1
+XDIS 0000000000428454:  AVX C5F1EBC0                 vpor xmm0, xmm1, xmm0
+XDIS 0000000000428458:  AVX C4C17173DD08             vpsrldq xmm1, xmm13, 0x8
+XDIS 000000000042845e:  AVX C5796F6C2408             vmovdqa xmm13, xmmword ptr [rsp+0x8]
+XDIS 0000000000428464:  AVX C5C973F630               vpsllq xmm6, xmm6, 0x30
+XDIS 0000000000428469:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 000000000042846e:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 0000000000428472:  AVX C5F173F130               vpsllq xmm1, xmm1, 0x30
+XDIS 0000000000428477:  AVX C4C27935F2               vpmovzxdq xmm6, xmm10
+XDIS 000000000042847c:  AVX C5F9EBC1                 vpor xmm0, xmm0, xmm1
+XDIS 0000000000428480:  AVX C5C973F638               vpsllq xmm6, xmm6, 0x38
+XDIS 0000000000428485:  AVX C4C17173DA08             vpsrldq xmm1, xmm10, 0x8
+XDIS 000000000042848b:  AVX C5C1EBF6                 vpor xmm6, xmm7, xmm6
+XDIS 000000000042848f:  AVX C5F96F7C2418             vmovdqa xmm7, xmmword ptr [rsp+0x18]
+XDIS 0000000000428495:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 000000000042849a:  AVX C4C10973F638             vpsllq xmm14, xmm14, 0x38
+XDIS 00000000004284a0:  AVX C5F97FB42438010000       vmovdqa xmmword ptr [rsp+0x138], xmm6
+XDIS 00000000004284a9:  AVX C5F173F138               vpsllq xmm1, xmm1, 0x38
+XDIS 00000000004284ae:  AVX C5F96F742438             vmovdqa xmm6, xmmword ptr [rsp+0x38]
+XDIS 00000000004284b4:  AVX C44101EBF6               vpor xmm14, xmm15, xmm14
+XDIS 00000000004284b9:  AVX C5797FB42418010000       vmovdqa xmmword ptr [rsp+0x118], xmm14
+XDIS 00000000004284c2:  AVX C5F9EBC1                 vpor xmm0, xmm0, xmm1
+XDIS 00000000004284c6:  AVX C4E27935CF               vpmovzxdq xmm1, xmm7
+XDIS 00000000004284cb:  AVX C5F97F842448010000       vmovdqa xmmword ptr [rsp+0x148], xmm0
+XDIS 00000000004284d4:  AVX C4C27935C5               vpmovzxdq xmm0, xmm13
+XDIS 00000000004284d9:  AVX C5F173F108               vpsllq xmm1, xmm1, 0x8
+XDIS 00000000004284de:  AVX C5F973F010               vpsllq xmm0, xmm0, 0x10
+XDIS 00000000004284e3:  AVX C5796F7424E8             vmovdqa xmm14, xmmword ptr [rsp-0x18]
+XDIS 00000000004284e9:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004284ed:  AVX C4E27935C6               vpmovzxdq xmm0, xmm6
+XDIS 00000000004284f2:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004284f6:  AVX C4E27935C5               vpmovzxdq xmm0, xmm5
+XDIS 00000000004284fb:  AVX C5F973F018               vpsllq xmm0, xmm0, 0x18
+XDIS 0000000000428500:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428504:  AVX C4C27935C6               vpmovzxdq xmm0, xmm14
+XDIS 0000000000428509:  AVX C5F973F020               vpsllq xmm0, xmm0, 0x20
+XDIS 000000000042850e:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428512:  AVX C4C27935C1               vpmovzxdq xmm0, xmm9
+XDIS 0000000000428517:  AVX C5F973F028               vpsllq xmm0, xmm0, 0x28
+XDIS 000000000042851c:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428520:  AVX C4C27935C0               vpmovzxdq xmm0, xmm8
+XDIS 0000000000428525:  AVX C5F973F030               vpsllq xmm0, xmm0, 0x30
+XDIS 000000000042852a:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 000000000042852e:  AVX C4C27935C4               vpmovzxdq xmm0, xmm12
+XDIS 0000000000428533:  AVX C5F973F038               vpsllq xmm0, xmm0, 0x38
+XDIS 0000000000428538:  AVX C5F1EBC0                 vpor xmm0, xmm1, xmm0
+XDIS 000000000042853c:  AVX C4C17173DD08             vpsrldq xmm1, xmm13, 0x8
+XDIS 0000000000428542:  AVX C5F97F842458010000       vmovdqa xmmword ptr [rsp+0x158], xmm0
+XDIS 000000000042854b:  AVX C5F973DF08               vpsrldq xmm0, xmm7, 0x8
+XDIS 0000000000428550:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 0000000000428555:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 000000000042855a:  AVX C5F173F110               vpsllq xmm1, xmm1, 0x10
+XDIS 000000000042855f:  AVX C5F973F008               vpsllq xmm0, xmm0, 0x8
+XDIS 0000000000428564:  AVX C5F9EBC1                 vpor xmm0, xmm0, xmm1
+XDIS 0000000000428568:  AVX C5F173DE08               vpsrldq xmm1, xmm6, 0x8
+XDIS 000000000042856d:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 0000000000428572:  AVX C5F9EBC9                 vpor xmm1, xmm0, xmm1
+XDIS 0000000000428576:  AVX C5F973DD08               vpsrldq xmm0, xmm5, 0x8
+XDIS 000000000042857b:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 0000000000428580:  AVX C5F973F018               vpsllq xmm0, xmm0, 0x18
+XDIS 0000000000428585:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428589:  AVX C4C17973DE08             vpsrldq xmm0, xmm14, 0x8
+XDIS 000000000042858f:  AVX C5796F742458             vmovdqa xmm14, xmmword ptr [rsp+0x58]
+XDIS 0000000000428595:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 000000000042859a:  AVX C5797FB42488010000       vmovdqa xmmword ptr [rsp+0x188], xmm14
+XDIS 00000000004285a3:  AVX C5F973F020               vpsllq xmm0, xmm0, 0x20
+XDIS 00000000004285a8:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004285ac:  AVX C4C17973D908             vpsrldq xmm0, xmm9, 0x8
+XDIS 00000000004285b2:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 00000000004285b7:  AVX C5F973F028               vpsllq xmm0, xmm0, 0x28
+XDIS 00000000004285bc:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004285c0:  AVX C4C17973D808             vpsrldq xmm0, xmm8, 0x8
+XDIS 00000000004285c6:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 00000000004285cb:  AVX C5F973F030               vpsllq xmm0, xmm0, 0x30
+XDIS 00000000004285d0:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004285d4:  AVX C4C17973DC08             vpsrldq xmm0, xmm12, 0x8
+XDIS 00000000004285da:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 00000000004285df:  AVX C5F973F038               vpsllq xmm0, xmm0, 0x38
+XDIS 00000000004285e4:  AVX C5F1EBC0                 vpor xmm0, xmm1, xmm0
+XDIS 00000000004285e8:  AVX C4E279354C2428           vpmovzxdq xmm1, qword ptr [rsp+0x28]
+XDIS 00000000004285ef:  AVX C5F97F842468010000       vmovdqa xmmword ptr [rsp+0x168], xmm0
+XDIS 00000000004285f8:  AVX C4E279358424B8000000     vpmovzxdq xmm0, qword ptr [rsp+0xb8]
+XDIS 0000000000428602:  AVX C5F173F108               vpsllq xmm1, xmm1, 0x8
+XDIS 0000000000428607:  AVX C5F973F010               vpsllq xmm0, xmm0, 0x10
+XDIS 000000000042860c:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428610:  AVX C4E27935442448           vpmovzxdq xmm0, qword ptr [rsp+0x48]
+XDIS 0000000000428617:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 000000000042861b:  AVX C4E279358424A8000000     vpmovzxdq xmm0, qword ptr [rsp+0xa8]
+XDIS 0000000000428625:  AVX C5F973F018               vpsllq xmm0, xmm0, 0x18
+XDIS 000000000042862a:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 000000000042862e:  AVX C4E27935842498000000     vpmovzxdq xmm0, qword ptr [rsp+0x98]
+XDIS 0000000000428638:  AVX C5F973F020               vpsllq xmm0, xmm0, 0x20
+XDIS 000000000042863d:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428641:  AVX C4E27935842488000000     vpmovzxdq xmm0, qword ptr [rsp+0x88]
+XDIS 000000000042864b:  AVX C5F973F028               vpsllq xmm0, xmm0, 0x28
+XDIS 0000000000428650:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428654:  AVX C4E27935442478           vpmovzxdq xmm0, qword ptr [rsp+0x78]
+XDIS 000000000042865b:  AVX C5F973F030               vpsllq xmm0, xmm0, 0x30
+XDIS 0000000000428660:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428664:  AVX C4E27935442468           vpmovzxdq xmm0, qword ptr [rsp+0x68]
+XDIS 000000000042866b:  AVX C5F973F038               vpsllq xmm0, xmm0, 0x38
+XDIS 0000000000428670:  AVX C5F1EBC0                 vpor xmm0, xmm1, xmm0
+XDIS 0000000000428674:  AVX C5F97F842478010000       vmovdqa xmmword ptr [rsp+0x178], xmm0
+XDIS 000000000042867d: BASE 0F1F00                   nop dword ptr [rax], eax
+
+BLOCK:     4   PC: 0000000000428abe   ICOUNT:    912494   EXECUTIONS:     24662   #BYTES: 194   %: 0.912   cumltv%:  99.4  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28abe Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 86,101
+XDIS 0000000000428abe:  AVX C4C1F96EEC               vmovq xmm5, r12
+XDIS 0000000000428ac3:  AVX C4C3D122C201             vpinsrq xmm0, xmm5, r10, 0x1
+XDIS 0000000000428ac9:  AVX C4C1F96EEB               vmovq xmm5, r11
+XDIS 0000000000428ace:  AVX C4E3D122CB01             vpinsrq xmm1, xmm5, rbx, 0x1
+XDIS 0000000000428ad4:  AVX C4E37518E801             vinsertf128 ymm5, ymm1, xmm0, 0x1
+XDIS 0000000000428ada:  AVX C5FD7FAC24B8000000       vmovdqa ymmword ptr [rsp+0xb8], ymm5
+XDIS 0000000000428ae3:  AVX C5FD7FAC24D8000000       vmovdqa ymmword ptr [rsp+0xd8], ymm5
+XDIS 0000000000428aec:  AVX C4C1F96EE8               vmovq xmm5, r8
+XDIS 0000000000428af1:  AVX C5F96F8C24B8000000       vmovdqa xmm1, xmmword ptr [rsp+0xb8]
+XDIS 0000000000428afa:  AVX C4C3D122C101             vpinsrq xmm0, xmm5, r9, 0x1
+XDIS 0000000000428b00:  AVX C4E1F96EE9               vmovq xmm5, rcx
+XDIS 0000000000428b05:  AVX C4E3D122D601             vpinsrq xmm2, xmm5, rsi, 0x1
+XDIS 0000000000428b0b:  AVX C4E36D18E801             vinsertf128 ymm5, ymm2, xmm0, 0x1
+XDIS 0000000000428b11:  AVX C5FA6F5708               vmovdqu xmm2, xmmword ptr [rdi+0x8]
+XDIS 0000000000428b16:  AVX C5FD7FAC24B8000000       vmovdqa ymmword ptr [rsp+0xb8], ymm5
+XDIS 0000000000428b1f:  AVX C5F96F8424B8000000       vmovdqa xmm0, xmmword ptr [rsp+0xb8]
+XDIS 0000000000428b28:  AVX C5E9D4C9                 vpaddq xmm1, xmm2, xmm1
+XDIS 0000000000428b2c:  AVX C5FD7FAC24F8000000       vmovdqa ymmword ptr [rsp+0xf8], ymm5
+XDIS 0000000000428b35:  AVX C5FA7F4F08               vmovdqu xmmword ptr [rdi+0x8], xmm1
+XDIS 0000000000428b3a:  AVX C5FA6F4F18               vmovdqu xmm1, xmmword ptr [rdi+0x18]
+XDIS 0000000000428b3f:  AVX C5F1D48C24E8000000       vpaddq xmm1, xmm1, xmmword ptr [rsp+0xe8]
+XDIS 0000000000428b48:  AVX C5FA7F4F18               vmovdqu xmmword ptr [rdi+0x18], xmm1
+XDIS 0000000000428b4d:  AVX C5FA6F4F28               vmovdqu xmm1, xmmword ptr [rdi+0x28]
+XDIS 0000000000428b52:  AVX C5F1D4C0                 vpaddq xmm0, xmm1, xmm0
+XDIS 0000000000428b56:  AVX C5FA7F4728               vmovdqu xmmword ptr [rdi+0x28], xmm0
+XDIS 0000000000428b5b:  AVX C5FA6F4738               vmovdqu xmm0, xmmword ptr [rdi+0x38]
+XDIS 0000000000428b60:  AVX C5F9D4842408010000       vpaddq xmm0, xmm0, xmmword ptr [rsp+0x108]
+XDIS 0000000000428b69:  AVX C5FA7F4738               vmovdqu xmmword ptr [rdi+0x38], xmm0
+XDIS 0000000000428b6e:  AVX C5F877                   vzeroupper 
+XDIS 0000000000428b71: BASE 488D65D8                 lea rsp, ptr [rbp-0x28]
+XDIS 0000000000428b75: BASE 5B                       pop rbx
+XDIS 0000000000428b76: BASE 415C                     pop r12
+XDIS 0000000000428b78: BASE 415D                     pop r13
+XDIS 0000000000428b7a: BASE 415E                     pop r14
+XDIS 0000000000428b7c: BASE 415F                     pop r15
+XDIS 0000000000428b7e: BASE 5D                       pop rbp
+XDIS 0000000000428b7f: BASE C3                       ret 
+
+BLOCK:     5   PC: 00000000004286fd   ICOUNT:    271271   EXECUTIONS:     24661   #BYTES: 83   %: 0.271   cumltv%:  99.7  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 286fd Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 84,84
+XDIS 00000000004286fd: BASE 4C8B8C2410010000         mov r9, qword ptr [rsp+0x110]
+XDIS 0000000000428705: BASE B840384300               mov eax, 0x433840
+XDIS 000000000042870a: BASE 488B8C24F8000000         mov rcx, qword ptr [rsp+0xf8]
+XDIS 0000000000428712: BASE 488D942418010000         lea rdx, ptr [rsp+0x118]
+XDIS 000000000042871a: BASE 4C8B842408010000         mov r8, qword ptr [rsp+0x108]
+XDIS 0000000000428722: BASE 488BB42400010000         mov rsi, qword ptr [rsp+0x100]
+XDIS 000000000042872a: BASE 4C8B9C24D8000000         mov r11, qword ptr [rsp+0xd8]
+XDIS 0000000000428732: BASE 4C8BA424E8000000         mov r12, qword ptr [rsp+0xe8]
+XDIS 000000000042873a: BASE 488B9C24E0000000         mov rbx, qword ptr [rsp+0xe0]
+XDIS 0000000000428742: BASE 4C8B9424F0000000         mov r10, qword ptr [rsp+0xf0]
+XDIS 000000000042874a: BASE 660F1F440000             nop word ptr [rax+rax*1], ax
+
+BLOCK:     6   PC: 0000000000428ce0   ICOUNT:     98648   EXECUTIONS:     24662   #BYTES: 15   %: 0.0986   cumltv%:  99.8  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28ce0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 144,144
+XDIS 0000000000428ce0: BASE 4C89FE                   mov rsi, r15
+XDIS 0000000000428ce3: BASE 4889EF                   mov rdi, rbp
+XDIS 0000000000428ce6: BASE 4983EF80                 sub r15, 0xffffffffffffff80
+XDIS 0000000000428cea: BASE E881F0FFFF               call 0x427d70
+
+BLOCK:     7   PC: 0000000000428c54   ICOUNT:     73986   EXECUTIONS:     24662   #BYTES:  7   %: 0.074   cumltv%:  99.8  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28c54 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 142,142
+XDIS 0000000000428c54: BASE 8B4D48                   mov ecx, dword ptr [rbp+0x48]
+XDIS 0000000000428c57: BASE 85C9                     test ecx, ecx
+XDIS 0000000000428c59: BASE 7509                     jnz 0x428c64
+
+BLOCK:     8   PC: 0000000000428cef   ICOUNT:     73986   EXECUTIONS:     24662   #BYTES: 16   %: 0.074   cumltv%:  99.9  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28cef Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 147,147
+XDIS 0000000000428cef: BASE 83C380                   add ebx, 0xffffff80
+XDIS 0000000000428cf2: BASE 4881450000040000         add qword ptr [rbp], 0x400
+XDIS 0000000000428cfa: BASE E951FFFFFF               jmp 0x428c50
+
+BLOCK:     9   PC: 0000000000428c50   ICOUNT:     49324   EXECUTIONS:     24662   #BYTES:  4   %: 0.0493   cumltv%:   100  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28c50 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 140,140
+XDIS 0000000000428c50: BASE 85DB                     test ebx, ebx
+XDIS 0000000000428c52: BASE 746C                     jz 0x428cc0
+
+BLOCK:    10   PC: 0000000000428c5b   ICOUNT:     49324   EXECUTIONS:     24662   #BYTES:  9   %: 0.0493   cumltv%:   100  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28c5b Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 142,142
+XDIS 0000000000428c5b: BASE 83FB7F                   cmp ebx, 0x7f
+XDIS 0000000000428c5e: BASE 0F877C000000             jnbe 0x428ce0
+
+# END_TOP_BLOCK_STATS
+# EMIT_DYNAMIC_STATS FOR TID 0  OS-TID 21140 EMIT #1
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*stack-read                                                      1159106
+*stack-write                                                     1183776
+*iprel-read                                                        98648
+*mem-read-4                                                        24662
+*mem-read-8                                                      4734990
+*mem-read-16                                                     3304615
+*mem-write-8                                                      394592
+*mem-write-16                                                    1578337
+*mem-write-32                                                      98648
+*isa-ext-AVX                                                    29790952
+*isa-ext-BASE                                                   70210856
+*isa-set-AVX                                                    29790952
+*isa-set-FAT_NOP                                                   49323
+*isa-set-I186                                                   11837448
+*isa-set-I86                                                    58324085
+*category-AVX                                                   17238335
+*category-BINARY                                                16005198
+*category-CALL                                                     24662
+*category-COND_BR                                                1109753
+*category-DATAXFER                                              22984404
+*category-LOGICAL                                               30062156
+*category-MISC                                                    345261
+*category-POP                                                     147972
+*category-PUSH                                                    147972
+*category-RET                                                      24662
+*category-ROTATE                                                11837448
+*category-UNCOND_BR                                                24662
+*category-WIDENOP                                                  49323
+*ilen-1                                                           123310
+*ilen-2                                                          1085097
+*ilen-3                                                         50802369
+*ilen-4                                                         25524438
+*ilen-5                                                         14599593
+*ilen-6                                                          6461276
+*ilen-7                                                           123310
+*ilen-8                                                           591879
+*ilen-9                                                           591888
+*ilen-10                                                           98648
+*nop-ilen-3                                                        24662
+*nop-ilen-6                                                        24661
+*avx128                                                         29642980
+*avx256                                                           147972
+*gpr64                                                          69076443
+*legacy-prefixes-0                                              31245972
+*legacy-prefixes-1                                              68755836
+*legacy-prefixes-and-escapes-0                                  30950034
+*legacy-prefixes-and-escapes-1                                  69027113
+*legacy-prefixes-and-escapes-2                                     24661
+*66_prefix                                                         24661
+*rex_prefix                                                     68731175
+*rexw_prefix                                                    68731175
+*rexr_prefix                                                    46708635
+*rexx_prefix                                                      246614
+*rexb_prefix                                                    67004892
+*loadop                                                          5154227
+*one-memops                                                     10160505
+*cond-branch-forward                                               73986
+*cond-branch-backward                                            1035767
+*base_only                                                       1676971
+*base_disp                                                       8458873
+*base_index_disp                                                   24661
+*scale_1                                                        10505766
+*memdisp8                                                        7324428
+*memdisp32                                                       1257753
+*elements_i1_128                                                 8286184
+*elements_i8_16                                                  1183776
+*elements_i16_8                                                   394592
+*elements_i32_4                                                   789184
+*elements_i64_2                                                 13415725
+*elements_i64_4                                                    49324
+*elements_i128_1                                                 1381072
+*dataxfer_i32_4                                                  4069137
+*dataxfer_i32_8                                                    98648
+*dataxfer_i64_1                                                    98648
+ADD                                                             14895445
+AND                                                              5943385
+CALL_NEAR                                                          24662
+CMP                                                              1060429
+JMP                                                                24662
+JNBE                                                               24662
+JNZ                                                              1060429
+JZ                                                                 24662
+LEA                                                               345261
+MOV                                                             18717971
+NOP                                                                49323
+OR                                                               3945816
+POP                                                               147972
+PUSH                                                              147972
+RET_NEAR                                                           24662
+ROL                                                             11837448
+SUB                                                                49324
+TEST                                                               49324
+VINSERTF128                                                        49324
+VMOVDQA                                                          2194887
+VMOVDQU                                                          1972898
+VMOVQ                                                              98648
+VPADDQ                                                           2466107
+VPINSRQ                                                            98648
+VPMOVZXBW                                                         394592
+VPMOVZXDQ                                                        1578368
+VPMOVZXWD                                                         789184
+VPOR                                                             5129572
+VPSHUFB                                                          1183776
+VPSLLQ                                                           4537684
+VPSRLDQ                                                          1381072
+VPSRLQ                                                           4734918
+VPXOR                                                            3156612
+VZEROUPPER                                                         24662
+XOR                                                             11837447
+*total                                                         100001808
+# END_DYNAMIC_STATS
+# FUNCTION TOTALS FOR TID 0  OS-TID 21140
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+            100001808 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 21140 EMIT# 1
+# END_PER_FUNCTION_STATS 
+# EMIT_GLOBAL_TOP_BLOCK_STATS EVENT=ICOUNT
+BLOCK:     0   PC: 0000000000428750   ICOUNT:  34525820   EXECUTIONS:    246613   #BYTES: 452   %:  34.5   cumltv%:  34.5  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28750 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 88,52
+XDIS 0000000000428750: BASE 4C8B2A                   mov r13, qword ptr [rdx]
+XDIS 0000000000428753: BASE 4989F6                   mov r14, rsi
+XDIS 0000000000428756: BASE 4989CF                   mov r15, rcx
+XDIS 0000000000428759: BASE 4D31C6                   xor r14, r8
+XDIS 000000000042875c: BASE 49C1C732                 rol r15, 0x32
+XDIS 0000000000428760: BASE 4921CE                   and r14, rcx
+XDIS 0000000000428763: BASE 4D31C6                   xor r14, r8
+XDIS 0000000000428766: BASE 4C034008                 add r8, qword ptr [rax+0x8]
+XDIS 000000000042876a: BASE 4C0328                   add r13, qword ptr [rax]
+XDIS 000000000042876d: BASE 4C034208                 add r8, qword ptr [rdx+0x8]
+XDIS 0000000000428771: BASE 4D01EE                   add r14, r13
+XDIS 0000000000428774: BASE 4989CD                   mov r13, rcx
+XDIS 0000000000428777: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 000000000042877b: BASE 4D31FD                   xor r13, r15
+XDIS 000000000042877e: BASE 4989CF                   mov r15, rcx
+XDIS 0000000000428781: BASE 49C1C717                 rol r15, 0x17
+XDIS 0000000000428785: BASE 4D31FD                   xor r13, r15
+XDIS 0000000000428788: BASE 4989DF                   mov r15, rbx
+XDIS 000000000042878b: BASE 4D01F5                   add r13, r14
+XDIS 000000000042878e: BASE 4D89DE                   mov r14, r11
+XDIS 0000000000428791: BASE 4D21DF                   and r15, r11
+XDIS 0000000000428794: BASE 4D01E9                   add r9, r13
+XDIS 0000000000428797: BASE 4D89DD                   mov r13, r11
+XDIS 000000000042879a: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 000000000042879e: BASE 49C1C524                 rol r13, 0x24
+XDIS 00000000004287a2: BASE 4D01CA                   add r10, r9
+XDIS 00000000004287a5: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004287a8: BASE 4D89DD                   mov r13, r11
+XDIS 00000000004287ab: BASE 49C1C519                 rol r13, 0x19
+XDIS 00000000004287af: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004287b2: BASE 4989DD                   mov r13, rbx
+XDIS 00000000004287b5: BASE 4D09DD                   or r13, r11
+XDIS 00000000004287b8: BASE 4D21E5                   and r13, r12
+XDIS 00000000004287bb: BASE 4D09FD                   or r13, r15
+XDIS 00000000004287be: BASE 4D01F5                   add r13, r14
+XDIS 00000000004287c1: BASE 4D89D6                   mov r14, r10
+XDIS 00000000004287c4: BASE 4D01E9                   add r9, r13
+XDIS 00000000004287c7: BASE 4989F5                   mov r13, rsi
+XDIS 00000000004287ca: BASE 49C1C632                 rol r14, 0x32
+XDIS 00000000004287ce: BASE 4931CD                   xor r13, rcx
+XDIS 00000000004287d1: BASE 4D89CF                   mov r15, r9
+XDIS 00000000004287d4: BASE 4D21D5                   and r13, r10
+XDIS 00000000004287d7: BASE 4931F5                   xor r13, rsi
+XDIS 00000000004287da: BASE 4D01E8                   add r8, r13
+XDIS 00000000004287dd: BASE 4D89D5                   mov r13, r10
+XDIS 00000000004287e0: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 00000000004287e4: BASE 4D31F5                   xor r13, r14
+XDIS 00000000004287e7: BASE 4D89D6                   mov r14, r10
+XDIS 00000000004287ea: BASE 49C1C617                 rol r14, 0x17
+XDIS 00000000004287ee: BASE 48037010                 add rsi, qword ptr [rax+0x10]
+XDIS 00000000004287f2: BASE 4D21DF                   and r15, r11
+XDIS 00000000004287f5: BASE 4D31F5                   xor r13, r14
+XDIS 00000000004287f8: BASE 4D89CE                   mov r14, r9
+XDIS 00000000004287fb: BASE 4D01E8                   add r8, r13
+XDIS 00000000004287fe: BASE 4D89CD                   mov r13, r9
+XDIS 0000000000428801: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 0000000000428805: BASE 49C1C524                 rol r13, 0x24
+XDIS 0000000000428809: BASE 4D01C4                   add r12, r8
+XDIS 000000000042880c: BASE 4D31EE                   xor r14, r13
+XDIS 000000000042880f: BASE 4D89CD                   mov r13, r9
+XDIS 0000000000428812: BASE 48037210                 add rsi, qword ptr [rdx+0x10]
+XDIS 0000000000428816: BASE 49C1C519                 rol r13, 0x19
+XDIS 000000000042881a: BASE 4D31EE                   xor r14, r13
+XDIS 000000000042881d: BASE 4D89CD                   mov r13, r9
+XDIS 0000000000428820: BASE 4D09DD                   or r13, r11
+XDIS 0000000000428823: BASE 4921DD                   and r13, rbx
+XDIS 0000000000428826: BASE 4D09FD                   or r13, r15
+XDIS 0000000000428829: BASE 4D01F5                   add r13, r14
+XDIS 000000000042882c: BASE 4D89E6                   mov r14, r12
+XDIS 000000000042882f: BASE 4D01E8                   add r8, r13
+XDIS 0000000000428832: BASE 4D89D5                   mov r13, r10
+XDIS 0000000000428835: BASE 49C1C632                 rol r14, 0x32
+XDIS 0000000000428839: BASE 4931CD                   xor r13, rcx
+XDIS 000000000042883c: BASE 4D89C7                   mov r15, r8
+XDIS 000000000042883f: BASE 4D21E5                   and r13, r12
+XDIS 0000000000428842: BASE 4931CD                   xor r13, rcx
+XDIS 0000000000428845: BASE 4C01EE                   add rsi, r13
+XDIS 0000000000428848: BASE 4D89E5                   mov r13, r12
+XDIS 000000000042884b: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 000000000042884f: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428852: BASE 4D89E6                   mov r14, r12
+XDIS 0000000000428855: BASE 49C1C617                 rol r14, 0x17
+XDIS 0000000000428859: BASE 4D31F5                   xor r13, r14
+XDIS 000000000042885c: BASE 4D89C6                   mov r14, r8
+XDIS 000000000042885f: BASE 4C01EE                   add rsi, r13
+XDIS 0000000000428862: BASE 4D89C5                   mov r13, r8
+XDIS 0000000000428865: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 0000000000428869: BASE 49C1C524                 rol r13, 0x24
+XDIS 000000000042886d: BASE 4801F3                   add rbx, rsi
+XDIS 0000000000428870: BASE 4D31EE                   xor r14, r13
+XDIS 0000000000428873: BASE 4D89C5                   mov r13, r8
+XDIS 0000000000428876: BASE 49C1C519                 rol r13, 0x19
+XDIS 000000000042887a: BASE 4D31EE                   xor r14, r13
+XDIS 000000000042887d: BASE 4D89C5                   mov r13, r8
+XDIS 0000000000428880: BASE 4D09CD                   or r13, r9
+XDIS 0000000000428883: BASE 48034818                 add rcx, qword ptr [rax+0x18]
+XDIS 0000000000428887: BASE 4D21CF                   and r15, r9
+XDIS 000000000042888a: BASE 4D21DD                   and r13, r11
+XDIS 000000000042888d: BASE 4D09FD                   or r13, r15
+XDIS 0000000000428890: BASE 4D01F5                   add r13, r14
+XDIS 0000000000428893: BASE 4989DE                   mov r14, rbx
+XDIS 0000000000428896: BASE 4C01EE                   add rsi, r13
+XDIS 0000000000428899: BASE 48034A18                 add rcx, qword ptr [rdx+0x18]
+XDIS 000000000042889d: BASE 4D89E5                   mov r13, r12
+XDIS 00000000004288a0: BASE 4D31D5                   xor r13, r10
+XDIS 00000000004288a3: BASE 49C1C632                 rol r14, 0x32
+XDIS 00000000004288a7: BASE 4921DD                   and r13, rbx
+XDIS 00000000004288aa: BASE 4989F7                   mov r15, rsi
+XDIS 00000000004288ad: BASE 4D31D5                   xor r13, r10
+XDIS 00000000004288b0: BASE 4C035220                 add r10, qword ptr [rdx+0x20]
+XDIS 00000000004288b4: BASE 4D21C7                   and r15, r8
+XDIS 00000000004288b7: BASE 4C01E9                   add rcx, r13
+XDIS 00000000004288ba: BASE 4989DD                   mov r13, rbx
+XDIS 00000000004288bd: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 00000000004288c1: BASE 4D31F5                   xor r13, r14
+XDIS 00000000004288c4: BASE 4989DE                   mov r14, rbx
+XDIS 00000000004288c7: BASE 49C1C617                 rol r14, 0x17
+XDIS 00000000004288cb: BASE 4C035020                 add r10, qword ptr [rax+0x20]
+XDIS 00000000004288cf: BASE 4D31F5                   xor r13, r14
+XDIS 00000000004288d2: BASE 4989F6                   mov r14, rsi
+XDIS 00000000004288d5: BASE 4C01E9                   add rcx, r13
+XDIS 00000000004288d8: BASE 4989F5                   mov r13, rsi
+XDIS 00000000004288db: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 00000000004288df: BASE 49C1C524                 rol r13, 0x24
+XDIS 00000000004288e3: BASE 4901CB                   add r11, rcx
+XDIS 00000000004288e6: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004288e9: BASE 4989F5                   mov r13, rsi
+XDIS 00000000004288ec: BASE 49C1C519                 rol r13, 0x19
+XDIS 00000000004288f0: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004288f3: BASE 4989F5                   mov r13, rsi
+XDIS 00000000004288f6: BASE 4D09C5                   or r13, r8
+XDIS 00000000004288f9: BASE 4D21CD                   and r13, r9
+XDIS 00000000004288fc: BASE 4D09FD                   or r13, r15
+XDIS 00000000004288ff: BASE 4D01F5                   add r13, r14
+XDIS 0000000000428902: BASE 4D89DE                   mov r14, r11
+XDIS 0000000000428905: BASE 4C01E9                   add rcx, r13
+XDIS 0000000000428908: BASE 4989DD                   mov r13, rbx
+XDIS 000000000042890b: BASE 4D31E5                   xor r13, r12
+XDIS 000000000042890e: BASE 4989CF                   mov r15, rcx
+XDIS 0000000000428911: BASE 4D21DD                   and r13, r11
+
+BLOCK:     1   PC: 0000000000428914   ICOUNT:  31813206   EXECUTIONS:    246614   #BYTES: 426   %:  31.8   cumltv%:  66.3  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28914 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 54,86
+XDIS 0000000000428914: BASE 49C1C632                 rol r14, 0x32
+XDIS 0000000000428918: BASE 4921F7                   and r15, rsi
+XDIS 000000000042891b: BASE 4D31E5                   xor r13, r12
+XDIS 000000000042891e: BASE 4C036228                 add r12, qword ptr [rdx+0x28]
+XDIS 0000000000428922: BASE 4D01EA                   add r10, r13
+XDIS 0000000000428925: BASE 4D89DD                   mov r13, r11
+XDIS 0000000000428928: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 000000000042892c: BASE 4D31F5                   xor r13, r14
+XDIS 000000000042892f: BASE 4D89DE                   mov r14, r11
+XDIS 0000000000428932: BASE 49C1C617                 rol r14, 0x17
+XDIS 0000000000428936: BASE 4C036028                 add r12, qword ptr [rax+0x28]
+XDIS 000000000042893a: BASE 4D31F5                   xor r13, r14
+XDIS 000000000042893d: BASE 4989CE                   mov r14, rcx
+XDIS 0000000000428940: BASE 4D01EA                   add r10, r13
+XDIS 0000000000428943: BASE 4989CD                   mov r13, rcx
+XDIS 0000000000428946: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 000000000042894a: BASE 49C1C524                 rol r13, 0x24
+XDIS 000000000042894e: BASE 4D01D1                   add r9, r10
+XDIS 0000000000428951: BASE 4D31EE                   xor r14, r13
+XDIS 0000000000428954: BASE 4989CD                   mov r13, rcx
+XDIS 0000000000428957: BASE 49C1C519                 rol r13, 0x19
+XDIS 000000000042895b: BASE 4D31EE                   xor r14, r13
+XDIS 000000000042895e: BASE 4989CD                   mov r13, rcx
+XDIS 0000000000428961: BASE 4909F5                   or r13, rsi
+XDIS 0000000000428964: BASE 4D21C5                   and r13, r8
+XDIS 0000000000428967: BASE 4D09FD                   or r13, r15
+XDIS 000000000042896a: BASE 4D01F5                   add r13, r14
+XDIS 000000000042896d: BASE 4D89CE                   mov r14, r9
+XDIS 0000000000428970: BASE 4D01EA                   add r10, r13
+XDIS 0000000000428973: BASE 4D89DD                   mov r13, r11
+XDIS 0000000000428976: BASE 49C1C632                 rol r14, 0x32
+XDIS 000000000042897a: BASE 4931DD                   xor r13, rbx
+XDIS 000000000042897d: BASE 4D89D7                   mov r15, r10
+XDIS 0000000000428980: BASE 4D21CD                   and r13, r9
+XDIS 0000000000428983: BASE 4931DD                   xor r13, rbx
+XDIS 0000000000428986: BASE 4D01EC                   add r12, r13
+XDIS 0000000000428989: BASE 4D89CD                   mov r13, r9
+XDIS 000000000042898c: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 0000000000428990: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428993: BASE 4D89CE                   mov r14, r9
+XDIS 0000000000428996: BASE 49C1C617                 rol r14, 0x17
+XDIS 000000000042899a: BASE 4D31F5                   xor r13, r14
+XDIS 000000000042899d: BASE 4D89D6                   mov r14, r10
+XDIS 00000000004289a0: BASE 4D01EC                   add r12, r13
+XDIS 00000000004289a3: BASE 4D89D5                   mov r13, r10
+XDIS 00000000004289a6: BASE 4D01E0                   add r8, r12
+XDIS 00000000004289a9: BASE 49C1C524                 rol r13, 0x24
+XDIS 00000000004289ad: BASE 48035A30                 add rbx, qword ptr [rdx+0x30]
+XDIS 00000000004289b1: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 00000000004289b5: BASE 4921CF                   and r15, rcx
+XDIS 00000000004289b8: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004289bb: BASE 4D89D5                   mov r13, r10
+XDIS 00000000004289be: BASE 49C1C519                 rol r13, 0x19
+XDIS 00000000004289c2: BASE 4D31EE                   xor r14, r13
+XDIS 00000000004289c5: BASE 4D89D5                   mov r13, r10
+XDIS 00000000004289c8: BASE 48035830                 add rbx, qword ptr [rax+0x30]
+XDIS 00000000004289cc: BASE 4909CD                   or r13, rcx
+XDIS 00000000004289cf: BASE 4921F5                   and r13, rsi
+XDIS 00000000004289d2: BASE 4D09FD                   or r13, r15
+XDIS 00000000004289d5: BASE 4D01F5                   add r13, r14
+XDIS 00000000004289d8: BASE 4D89C6                   mov r14, r8
+XDIS 00000000004289db: BASE 4D01EC                   add r12, r13
+XDIS 00000000004289de: BASE 4D89CD                   mov r13, r9
+XDIS 00000000004289e1: BASE 49C1C632                 rol r14, 0x32
+XDIS 00000000004289e5: BASE 4D31DD                   xor r13, r11
+XDIS 00000000004289e8: BASE 4D89E7                   mov r15, r12
+XDIS 00000000004289eb: BASE 4D21C5                   and r13, r8
+XDIS 00000000004289ee: BASE 4D21D7                   and r15, r10
+XDIS 00000000004289f1: BASE 4D31DD                   xor r13, r11
+XDIS 00000000004289f4: BASE 4C01EB                   add rbx, r13
+XDIS 00000000004289f7: BASE 4D89C5                   mov r13, r8
+XDIS 00000000004289fa: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 00000000004289fe: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428a01: BASE 4D89C6                   mov r14, r8
+XDIS 0000000000428a04: BASE 49C1C617                 rol r14, 0x17
+XDIS 0000000000428a08: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428a0b: BASE 4D89E6                   mov r14, r12
+XDIS 0000000000428a0e: BASE 4C01EB                   add rbx, r13
+XDIS 0000000000428a11: BASE 4D89E5                   mov r13, r12
+XDIS 0000000000428a14: BASE 49C1C61E                 rol r14, 0x1e
+XDIS 0000000000428a18: BASE 49C1C524                 rol r13, 0x24
+XDIS 0000000000428a1c: BASE 4801DE                   add rsi, rbx
+XDIS 0000000000428a1f: BASE 4D31EE                   xor r14, r13
+XDIS 0000000000428a22: BASE 4D89E5                   mov r13, r12
+XDIS 0000000000428a25: BASE 49C1C519                 rol r13, 0x19
+XDIS 0000000000428a29: BASE 4D31EE                   xor r14, r13
+XDIS 0000000000428a2c: BASE 4D89E5                   mov r13, r12
+XDIS 0000000000428a2f: BASE 4D09D5                   or r13, r10
+XDIS 0000000000428a32: BASE 4921CD                   and r13, rcx
+XDIS 0000000000428a35: BASE 4D09FD                   or r13, r15
+XDIS 0000000000428a38: BASE 4C035A38                 add r11, qword ptr [rdx+0x38]
+XDIS 0000000000428a3c: BASE 4883C040                 add rax, 0x40
+XDIS 0000000000428a40: BASE 4D01F5                   add r13, r14
+XDIS 0000000000428a43: BASE 4989F6                   mov r14, rsi
+XDIS 0000000000428a46: BASE 4C01EB                   add rbx, r13
+XDIS 0000000000428a49: BASE 4D89C5                   mov r13, r8
+XDIS 0000000000428a4c: BASE 49C1C632                 rol r14, 0x32
+XDIS 0000000000428a50: BASE 4D31CD                   xor r13, r9
+XDIS 0000000000428a53: BASE 4989DF                   mov r15, rbx
+XDIS 0000000000428a56: BASE 4883C240                 add rdx, 0x40
+XDIS 0000000000428a5a: BASE 4C0358F8                 add r11, qword ptr [rax-0x8]
+XDIS 0000000000428a5e: BASE 4921F5                   and r13, rsi
+XDIS 0000000000428a61: BASE 4D21E7                   and r15, r12
+XDIS 0000000000428a64: BASE 4D31CD                   xor r13, r9
+XDIS 0000000000428a67: BASE 4D01EB                   add r11, r13
+XDIS 0000000000428a6a: BASE 4989F5                   mov r13, rsi
+XDIS 0000000000428a6d: BASE 49C1C52E                 rol r13, 0x2e
+XDIS 0000000000428a71: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428a74: BASE 4989F6                   mov r14, rsi
+XDIS 0000000000428a77: BASE 49C1C617                 rol r14, 0x17
+XDIS 0000000000428a7b: BASE 4D31F5                   xor r13, r14
+XDIS 0000000000428a7e: BASE 4F8D342B                 lea r14, ptr [r11+r13*1]
+XDIS 0000000000428a82: BASE 4989DD                   mov r13, rbx
+XDIS 0000000000428a85: BASE 4989DB                   mov r11, rbx
+XDIS 0000000000428a88: BASE 49C1C324                 rol r11, 0x24
+XDIS 0000000000428a8c: BASE 49C1C51E                 rol r13, 0x1e
+XDIS 0000000000428a90: BASE 4C01F1                   add rcx, r14
+XDIS 0000000000428a93: BASE 4D31DD                   xor r13, r11
+XDIS 0000000000428a96: BASE 4989DB                   mov r11, rbx
+XDIS 0000000000428a99: BASE 49C1C319                 rol r11, 0x19
+XDIS 0000000000428a9d: BASE 4D31DD                   xor r13, r11
+XDIS 0000000000428aa0: BASE 4989DB                   mov r11, rbx
+XDIS 0000000000428aa3: BASE 4D09E3                   or r11, r12
+XDIS 0000000000428aa6: BASE 4D21D3                   and r11, r10
+XDIS 0000000000428aa9: BASE 4D09FB                   or r11, r15
+XDIS 0000000000428aac: BASE 4D01EB                   add r11, r13
+XDIS 0000000000428aaf: BASE 4D01F3                   add r11, r14
+XDIS 0000000000428ab2: BASE 483DC03A4300             cmp rax, 0x433ac0
+XDIS 0000000000428ab8: BASE 0F8592FCFFFF             jnz 0x428750
+
+BLOCK:     2   PC: 0000000000428680   ICOUNT:  21307131   EXECUTIONS:    789153   #BYTES: 125   %:  21.3   cumltv%:  87.6  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28680 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 84,84
+XDIS 0000000000428680:  AVX C5FA6F08                 vmovdqu xmm1, xmmword ptr [rax]
+XDIS 0000000000428684:  AVX C4C16973F603             vpsllq xmm2, xmm14, 0x3
+XDIS 000000000042868a: BASE 4883C010                 add rax, 0x10
+XDIS 000000000042868e:  AVX C5FA6F40B0               vmovdqu xmm0, xmmword ptr [rax-0x50]
+XDIS 0000000000428693:  AVX C4C16173D63D             vpsrlq xmm3, xmm14, 0x3d
+XDIS 0000000000428699:  AVX C5F1D448A8               vpaddq xmm1, xmm1, xmmword ptr [rax-0x58]
+XDIS 000000000042869e:  AVX C5E1EBDA                 vpor xmm3, xmm3, xmm2
+XDIS 00000000004286a2:  AVX C4C15973D613             vpsrlq xmm4, xmm14, 0x13
+XDIS 00000000004286a8:  AVX C4C16973F62D             vpsllq xmm2, xmm14, 0x2d
+XDIS 00000000004286ae:  AVX C4C10973D606             vpsrlq xmm14, xmm14, 0x6
+XDIS 00000000004286b4:  AVX C5D9EBD2                 vpor xmm2, xmm4, xmm2
+XDIS 00000000004286b8:  AVX C5E1EFD2                 vpxor xmm2, xmm3, xmm2
+XDIS 00000000004286bc:  AVX C44169EFF6               vpxor xmm14, xmm2, xmm14
+XDIS 00000000004286c1:  AVX C5E973D008               vpsrlq xmm2, xmm0, 0x8
+XDIS 00000000004286c6:  AVX C44171D4F6               vpaddq xmm14, xmm1, xmm14
+XDIS 00000000004286cb:  AVX C5F173F038               vpsllq xmm1, xmm0, 0x38
+XDIS 00000000004286d0:  AVX C5E9EBD1                 vpor xmm2, xmm2, xmm1
+XDIS 00000000004286d4:  AVX C5E173D001               vpsrlq xmm3, xmm0, 0x1
+XDIS 00000000004286d9:  AVX C5F173F03F               vpsllq xmm1, xmm0, 0x3f
+XDIS 00000000004286de:  AVX C5F973D007               vpsrlq xmm0, xmm0, 0x7
+XDIS 00000000004286e3:  AVX C5E1EBC9                 vpor xmm1, xmm3, xmm1
+XDIS 00000000004286e7:  AVX C5E9EFC9                 vpxor xmm1, xmm2, xmm1
+XDIS 00000000004286eb:  AVX C5F1EFC0                 vpxor xmm0, xmm1, xmm0
+XDIS 00000000004286ef:  AVX C509D4F0                 vpaddq xmm14, xmm14, xmm0
+XDIS 00000000004286f3:  AVX C5797F7028               vmovdqa xmmword ptr [rax+0x28], xmm14
+XDIS 00000000004286f8: BASE 4839D0                   cmp rax, rdx
+XDIS 00000000004286fb: BASE 7583                     jnz 0x428680
+
+BLOCK:     3   PC: 0000000000427d70   ICOUNT:  10826618   EXECUTIONS:     24662   #BYTES: 2320   %:  10.8   cumltv%:  98.5  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 27d70 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 71,80
+XDIS 0000000000427d70: BASE 55                       push rbp
+XDIS 0000000000427d71: BASE 4889E5                   mov rbp, rsp
+XDIS 0000000000427d74: BASE 4157                     push r15
+XDIS 0000000000427d76: BASE 4156                     push r14
+XDIS 0000000000427d78: BASE 4155                     push r13
+XDIS 0000000000427d7a: BASE 4154                     push r12
+XDIS 0000000000427d7c: BASE 53                       push rbx
+XDIS 0000000000427d7d: BASE 4883E4E0                 and rsp, 0xffffffffffffffe0
+XDIS 0000000000427d81: BASE 4881EC98030000           sub rsp, 0x398
+XDIS 0000000000427d88: BASE 488B5708                 mov rdx, qword ptr [rdi+0x8]
+XDIS 0000000000427d8c:  AVX C5F96F152CBD0000         vmovdqa xmm2, xmmword ptr [rip+0xbd2c]
+XDIS 0000000000427d94:  AVX C5F96F3D34BD0000         vmovdqa xmm7, xmmword ptr [rip+0xbd34]
+XDIS 0000000000427d9c:  AVX C5FA6F06                 vmovdqu xmm0, xmmword ptr [rsi]
+XDIS 0000000000427da0: BASE 48899424D8000000         mov qword ptr [rsp+0xd8], rdx
+XDIS 0000000000427da8:  AVX C57A6F4E10               vmovdqu xmm9, xmmword ptr [rsi+0x10]
+XDIS 0000000000427dad: BASE 488B5710                 mov rdx, qword ptr [rdi+0x10]
+XDIS 0000000000427db1:  AVX C4E27900F2               vpshufb xmm6, xmm0, xmm2
+XDIS 0000000000427db6:  AVX C4E23100DF               vpshufb xmm3, xmm9, xmm7
+XDIS 0000000000427dbb:  AVX C5C9EBDB                 vpor xmm3, xmm6, xmm3
+XDIS 0000000000427dbf:  AVX C5FA6F4E20               vmovdqu xmm1, xmmword ptr [rsi+0x20]
+XDIS 0000000000427dc4:  AVX C5F96F3514BD0000         vmovdqa xmm6, xmmword ptr [rip+0xbd14]
+XDIS 0000000000427dcc:  AVX C57A6F6630               vmovdqu xmm12, xmmword ptr [rsi+0x30]
+XDIS 0000000000427dd1:  AVX C4627100EA               vpshufb xmm13, xmm1, xmm2
+XDIS 0000000000427dd6:  AVX C57A6F5640               vmovdqu xmm10, xmmword ptr [rsi+0x40]
+XDIS 0000000000427ddb:  AVX C4627900DE               vpshufb xmm11, xmm0, xmm6
+XDIS 0000000000427de0:  AVX C4E27100CE               vpshufb xmm1, xmm1, xmm6
+XDIS 0000000000427de5: BASE 48899424E0000000         mov qword ptr [rsp+0xe0], rdx
+XDIS 0000000000427ded:  AVX C5F96F05FBBC0000         vmovdqa xmm0, xmmword ptr [rip+0xbcfb]
+XDIS 0000000000427df5: BASE 488B5718                 mov rdx, qword ptr [rdi+0x18]
+XDIS 0000000000427df9:  AVX C5FA6F6E50               vmovdqu xmm5, xmmword ptr [rsi+0x50]
+XDIS 0000000000427dfe:  AVX C4623100C8               vpshufb xmm9, xmm9, xmm0
+XDIS 0000000000427e03:  AVX C44121EBD9               vpor xmm11, xmm11, xmm9
+XDIS 0000000000427e08:  AVX C57A6F4660               vmovdqu xmm8, xmmword ptr [rsi+0x60]
+XDIS 0000000000427e0d:  AVX C4621900CF               vpshufb xmm9, xmm12, xmm7
+XDIS 0000000000427e12:  AVX C4621900E0               vpshufb xmm12, xmm12, xmm0
+XDIS 0000000000427e17:  AVX C5FA6F6670               vmovdqu xmm4, xmmword ptr [rsi+0x70]
+XDIS 0000000000427e1c:  AVX C44111EBC9               vpor xmm9, xmm13, xmm9
+XDIS 0000000000427e21:  AVX C4C171EBCC               vpor xmm1, xmm1, xmm12
+XDIS 0000000000427e26: BASE 48899424E8000000         mov qword ptr [rsp+0xe8], rdx
+XDIS 0000000000427e2e:  AVX C4622900EA               vpshufb xmm13, xmm10, xmm2
+XDIS 0000000000427e33:  AVX C4625100E7               vpshufb xmm12, xmm5, xmm7
+XDIS 0000000000427e38: BASE 488B5720                 mov rdx, qword ptr [rdi+0x20]
+XDIS 0000000000427e3c:  AVX C44111EBE4               vpor xmm12, xmm13, xmm12
+XDIS 0000000000427e41:  AVX C4E25100E8               vpshufb xmm5, xmm5, xmm0
+XDIS 0000000000427e46:  AVX C4623900EA               vpshufb xmm13, xmm8, xmm2
+XDIS 0000000000427e4b:  AVX C4622900D6               vpshufb xmm10, xmm10, xmm6
+XDIS 0000000000427e50:  AVX C4623900C6               vpshufb xmm8, xmm8, xmm6
+XDIS 0000000000427e55:  AVX C529EBD5                 vpor xmm10, xmm10, xmm5
+XDIS 0000000000427e59:  AVX C4E25900EF               vpshufb xmm5, xmm4, xmm7
+XDIS 0000000000427e5e:  AVX C4E25900E0               vpshufb xmm4, xmm4, xmm0
+XDIS 0000000000427e63:  AVX C591EBED                 vpor xmm5, xmm13, xmm5
+XDIS 0000000000427e67:  AVX C539EBC4                 vpor xmm8, xmm8, xmm4
+XDIS 0000000000427e6b:  AVX C4626100EA               vpshufb xmm13, xmm3, xmm2
+XDIS 0000000000427e70: BASE 48899424F0000000         mov qword ptr [rsp+0xf0], rdx
+XDIS 0000000000427e78:  AVX C4E23100E7               vpshufb xmm4, xmm9, xmm7
+XDIS 0000000000427e7d:  AVX C4E26100DE               vpshufb xmm3, xmm3, xmm6
+XDIS 0000000000427e82: BASE 488B5728                 mov rdx, qword ptr [rdi+0x28]
+XDIS 0000000000427e86:  AVX C591EBE4                 vpor xmm4, xmm13, xmm4
+XDIS 0000000000427e8a:  AVX C4623100C8               vpshufb xmm9, xmm9, xmm0
+XDIS 0000000000427e8f:  AVX C4621900EA               vpshufb xmm13, xmm12, xmm2
+XDIS 0000000000427e94:  AVX C4C161EBD9               vpor xmm3, xmm3, xmm9
+XDIS 0000000000427e99:  AVX C4621900E6               vpshufb xmm12, xmm12, xmm6
+XDIS 0000000000427e9e:  AVX C4625100CF               vpshufb xmm9, xmm5, xmm7
+XDIS 0000000000427ea3:  AVX C4E25100E8               vpshufb xmm5, xmm5, xmm0
+XDIS 0000000000427ea8:  AVX C44111EBC9               vpor xmm9, xmm13, xmm9
+XDIS 0000000000427ead:  AVX C519EBE5                 vpor xmm12, xmm12, xmm5
+XDIS 0000000000427eb1:  AVX C4622100EA               vpshufb xmm13, xmm11, xmm2
+XDIS 0000000000427eb6:  AVX C4E27100EF               vpshufb xmm5, xmm1, xmm7
+XDIS 0000000000427ebb:  AVX C4622100DE               vpshufb xmm11, xmm11, xmm6
+XDIS 0000000000427ec0:  AVX C591EBED                 vpor xmm5, xmm13, xmm5
+XDIS 0000000000427ec4:  AVX C4E27100C8               vpshufb xmm1, xmm1, xmm0
+XDIS 0000000000427ec9: BASE 48899424F8000000         mov qword ptr [rsp+0xf8], rdx
+XDIS 0000000000427ed1:  AVX C4622900EA               vpshufb xmm13, xmm10, xmm2
+XDIS 0000000000427ed6:  AVX C521EBD9                 vpor xmm11, xmm11, xmm1
+XDIS 0000000000427eda: BASE 488B5730                 mov rdx, qword ptr [rdi+0x30]
+XDIS 0000000000427ede:  AVX C4E23900CF               vpshufb xmm1, xmm8, xmm7
+XDIS 0000000000427ee3:  AVX C4622900D6               vpshufb xmm10, xmm10, xmm6
+XDIS 0000000000427ee8:  AVX C591EBC9                 vpor xmm1, xmm13, xmm1
+XDIS 0000000000427eec:  AVX C4623900C0               vpshufb xmm8, xmm8, xmm0
+XDIS 0000000000427ef1:  AVX C4625900EA               vpshufb xmm13, xmm4, xmm2
+XDIS 0000000000427ef6:  AVX C44129EBD0               vpor xmm10, xmm10, xmm8
+XDIS 0000000000427efb:  AVX C4E25900E6               vpshufb xmm4, xmm4, xmm6
+XDIS 0000000000427f00:  AVX C4623100C7               vpshufb xmm8, xmm9, xmm7
+XDIS 0000000000427f05:  AVX C4623100C8               vpshufb xmm9, xmm9, xmm0
+XDIS 0000000000427f0a:  AVX C44111EBC0               vpor xmm8, xmm13, xmm8
+XDIS 0000000000427f0f:  AVX C4C159EBE1               vpor xmm4, xmm4, xmm9
+XDIS 0000000000427f14: BASE 4889942400010000         mov qword ptr [rsp+0x100], rdx
+XDIS 0000000000427f1c:  AVX C4625100EA               vpshufb xmm13, xmm5, xmm2
+XDIS 0000000000427f21:  AVX C4627100CF               vpshufb xmm9, xmm1, xmm7
+XDIS 0000000000427f26: BASE 488B5738                 mov rdx, qword ptr [rdi+0x38]
+XDIS 0000000000427f2a:  AVX C44111EBC9               vpor xmm9, xmm13, xmm9
+XDIS 0000000000427f2f:  AVX C4E27100C8               vpshufb xmm1, xmm1, xmm0
+XDIS 0000000000427f34:  AVX C4626100EA               vpshufb xmm13, xmm3, xmm2
+XDIS 0000000000427f39:  AVX C4E25100EE               vpshufb xmm5, xmm5, xmm6
+XDIS 0000000000427f3e:  AVX C4E22100D2               vpshufb xmm2, xmm11, xmm2
+XDIS 0000000000427f43:  AVX C5D1EBE9                 vpor xmm5, xmm5, xmm1
+XDIS 0000000000427f47:  AVX C4622100DE               vpshufb xmm11, xmm11, xmm6
+XDIS 0000000000427f4c:  AVX C4E21900CF               vpshufb xmm1, xmm12, xmm7
+XDIS 0000000000427f51:  AVX C4621900E0               vpshufb xmm12, xmm12, xmm0
+XDIS 0000000000427f56:  AVX C4E22900C0               vpshufb xmm0, xmm10, xmm0
+XDIS 0000000000427f5b:  AVX C521EBD8                 vpor xmm11, xmm11, xmm0
+XDIS 0000000000427f5f:  AVX C4C17973D808             vpsrldq xmm0, xmm8, 0x8
+XDIS 0000000000427f65:  AVX C4E22900FF               vpshufb xmm7, xmm10, xmm7
+XDIS 0000000000427f6a:  AVX C4E26100DE               vpshufb xmm3, xmm3, xmm6
+XDIS 0000000000427f6f: BASE 4889942408010000         mov qword ptr [rsp+0x108], rdx
+XDIS 0000000000427f77:  AVX C4C161EBDC               vpor xmm3, xmm3, xmm12
+XDIS 0000000000427f7c:  AVX C5E9EBD7                 vpor xmm2, xmm2, xmm7
+XDIS 0000000000427f80: BASE 488B4740                 mov rax, qword ptr [rdi+0x40]
+XDIS 0000000000427f84:  AVX C4E27930C0               vpmovzxbw xmm0, xmm0
+XDIS 0000000000427f89:  AVX C4C27930F8               vpmovzxbw xmm7, xmm8
+XDIS 0000000000427f8e:  AVX C4627933E0               vpmovzxwd xmm12, xmm0
+XDIS 0000000000427f93:  AVX C5F973D808               vpsrldq xmm0, xmm0, 0x8
+XDIS 0000000000427f98:  AVX C4E27933F7               vpmovzxwd xmm6, xmm7
+XDIS 0000000000427f9d:  AVX C4E27933C0               vpmovzxwd xmm0, xmm0
+XDIS 0000000000427fa2:  AVX C5C173DF08               vpsrldq xmm7, xmm7, 0x8
+XDIS 0000000000427fa7:  AVX C4427930C1               vpmovzxbw xmm8, xmm9
+XDIS 0000000000427fac:  AVX C4E27933FF               vpmovzxwd xmm7, xmm7
+XDIS 0000000000427fb1:  AVX C591EBC9                 vpor xmm1, xmm13, xmm1
+XDIS 0000000000427fb5: BASE 4889842410010000         mov qword ptr [rsp+0x110], rax
+XDIS 0000000000427fbd: BASE 488D942460030000         lea rdx, ptr [rsp+0x360]
+XDIS 0000000000427fc5:  AVX C5F97F742488             vmovdqa xmmword ptr [rsp-0x78], xmm6
+XDIS 0000000000427fcb: BASE 488D842460010000         lea rax, ptr [rsp+0x160]
+XDIS 0000000000427fd3:  AVX C5F97F442468             vmovdqa xmmword ptr [rsp+0x68], xmm0
+XDIS 0000000000427fd9:  AVX C4C17973D908             vpsrldq xmm0, xmm9, 0x8
+XDIS 0000000000427fdf:  AVX C5F97F7C2498             vmovdqa xmmword ptr [rsp-0x68], xmm7
+XDIS 0000000000427fe5:  AVX C4E27930C0               vpmovzxbw xmm0, xmm0
+XDIS 0000000000427fea:  AVX C4C27933F8               vpmovzxwd xmm7, xmm8
+XDIS 0000000000427fef:  AVX C4C13973D808             vpsrldq xmm8, xmm8, 0x8
+XDIS 0000000000427ff5:  AVX C5797F6424A8             vmovdqa xmmword ptr [rsp-0x58], xmm12
+XDIS 0000000000427ffb:  AVX C4427933E8               vpmovzxwd xmm13, xmm8
+XDIS 0000000000428000:  AVX C4627933C0               vpmovzxwd xmm8, xmm0
+XDIS 0000000000428005:  AVX C5F973D808               vpsrldq xmm0, xmm0, 0x8
+XDIS 000000000042800a:  AVX C5797F6C24B8             vmovdqa xmmword ptr [rsp-0x48], xmm13
+XDIS 0000000000428010:  AVX C4627933F8               vpmovzxwd xmm15, xmm0
+XDIS 0000000000428015:  AVX C4E27930C1               vpmovzxbw xmm0, xmm1
+XDIS 000000000042801a:  AVX C5797F4424C8             vmovdqa xmmword ptr [rsp-0x38], xmm8
+XDIS 0000000000428020:  AVX C5F173D908               vpsrldq xmm1, xmm1, 0x8
+XDIS 0000000000428025:  AVX C5797F7C2478             vmovdqa xmmword ptr [rsp+0x78], xmm15
+XDIS 000000000042802b:  AVX C4627933C0               vpmovzxwd xmm8, xmm0
+XDIS 0000000000428030:  AVX C4E27930C9               vpmovzxbw xmm1, xmm1
+XDIS 0000000000428035:  AVX C5F973D808               vpsrldq xmm0, xmm0, 0x8
+XDIS 000000000042803a:  AVX C4627933C9               vpmovzxwd xmm9, xmm1
+XDIS 000000000042803f:  AVX C5F173D908               vpsrldq xmm1, xmm1, 0x8
+XDIS 0000000000428044:  AVX C4E27933C0               vpmovzxwd xmm0, xmm0
+XDIS 0000000000428049:  AVX C4E27933C9               vpmovzxwd xmm1, xmm1
+XDIS 000000000042804e:  AVX C5797F4C24D8             vmovdqa xmmword ptr [rsp-0x28], xmm9
+XDIS 0000000000428054:  AVX C5F97F8C2488000000       vmovdqa xmmword ptr [rsp+0x88], xmm1
+XDIS 000000000042805d:  AVX C4E27930CA               vpmovzxbw xmm1, xmm2
+XDIS 0000000000428062:  AVX C5E973DA08               vpsrldq xmm2, xmm2, 0x8
+XDIS 0000000000428067:  AVX C4E27930D2               vpmovzxbw xmm2, xmm2
+XDIS 000000000042806c:  AVX C4627933C9               vpmovzxwd xmm9, xmm1
+XDIS 0000000000428071:  AVX C4627933F2               vpmovzxwd xmm14, xmm2
+XDIS 0000000000428076:  AVX C5E973DA08               vpsrldq xmm2, xmm2, 0x8
+XDIS 000000000042807b:  AVX C4E27933D2               vpmovzxwd xmm2, xmm2
+XDIS 0000000000428080:  AVX C5797F7424E8             vmovdqa xmmword ptr [rsp-0x18], xmm14
+XDIS 0000000000428086:  AVX C5F173D908               vpsrldq xmm1, xmm1, 0x8
+XDIS 000000000042808b:  AVX C5F97F942498000000       vmovdqa xmmword ptr [rsp+0x98], xmm2
+XDIS 0000000000428094:  AVX C4E27930D4               vpmovzxbw xmm2, xmm4
+XDIS 0000000000428099:  AVX C5D973DC08               vpsrldq xmm4, xmm4, 0x8
+XDIS 000000000042809e:  AVX C4E27930E4               vpmovzxbw xmm4, xmm4
+XDIS 00000000004280a3:  AVX C4627933D2               vpmovzxwd xmm10, xmm2
+XDIS 00000000004280a8:  AVX C4E27933C9               vpmovzxwd xmm1, xmm1
+XDIS 00000000004280ad:  AVX C4627933FC               vpmovzxwd xmm15, xmm4
+XDIS 00000000004280b2:  AVX C5D973DC08               vpsrldq xmm4, xmm4, 0x8
+XDIS 00000000004280b7:  AVX C4E27933E4               vpmovzxwd xmm4, xmm4
+XDIS 00000000004280bc:  AVX C5797F7C24F8             vmovdqa xmmword ptr [rsp-0x8], xmm15
+XDIS 00000000004280c2:  AVX C5E973DA08               vpsrldq xmm2, xmm2, 0x8
+XDIS 00000000004280c7:  AVX C5F97FA424A8000000       vmovdqa xmmword ptr [rsp+0xa8], xmm4
+XDIS 00000000004280d0:  AVX C4E27930E5               vpmovzxbw xmm4, xmm5
+XDIS 00000000004280d5:  AVX C5D173DD08               vpsrldq xmm5, xmm5, 0x8
+XDIS 00000000004280da:  AVX C4E27930ED               vpmovzxbw xmm5, xmm5
+XDIS 00000000004280df:  AVX C4627933E4               vpmovzxwd xmm12, xmm4
+XDIS 00000000004280e4:  AVX C4E27933D2               vpmovzxwd xmm2, xmm2
+XDIS 00000000004280e9:  AVX C4627933ED               vpmovzxwd xmm13, xmm5
+XDIS 00000000004280ee:  AVX C5D173DD08               vpsrldq xmm5, xmm5, 0x8
+XDIS 00000000004280f3:  AVX C4E27933ED               vpmovzxwd xmm5, xmm5
+XDIS 00000000004280f8:  AVX C5797F6C2408             vmovdqa xmmword ptr [rsp+0x8], xmm13
+XDIS 00000000004280fe:  AVX C5D973DC08               vpsrldq xmm4, xmm4, 0x8
+XDIS 0000000000428103:  AVX C5F97FAC24B8000000       vmovdqa xmmword ptr [rsp+0xb8], xmm5
+XDIS 000000000042810c:  AVX C4E27930EB               vpmovzxbw xmm5, xmm3
+XDIS 0000000000428111:  AVX C5E173DB08               vpsrldq xmm3, xmm3, 0x8
+XDIS 0000000000428116:  AVX C4E27930DB               vpmovzxbw xmm3, xmm3
+XDIS 000000000042811b:  AVX C4627933ED               vpmovzxwd xmm13, xmm5
+XDIS 0000000000428120:  AVX C4E27933E4               vpmovzxwd xmm4, xmm4
+XDIS 0000000000428125:  AVX C4627933FB               vpmovzxwd xmm15, xmm3
+XDIS 000000000042812a:  AVX C5E173DB08               vpsrldq xmm3, xmm3, 0x8
+XDIS 000000000042812f:  AVX C4E27933DB               vpmovzxwd xmm3, xmm3
+XDIS 0000000000428134:  AVX C5797F7C2418             vmovdqa xmmword ptr [rsp+0x18], xmm15
+XDIS 000000000042813a:  AVX C5D173DD08               vpsrldq xmm5, xmm5, 0x8
+XDIS 000000000042813f:  AVX C5796FFB                 vmovdqa xmm15, xmm3
+XDIS 0000000000428143:  AVX C4C27930DB               vpmovzxbw xmm3, xmm11
+XDIS 0000000000428148:  AVX C4E27933ED               vpmovzxwd xmm5, xmm5
+XDIS 000000000042814d:  AVX C4C12173DB08             vpsrldq xmm11, xmm11, 0x8
+XDIS 0000000000428153:  AVX C5797F7C2428             vmovdqa xmmword ptr [rsp+0x28], xmm15
+XDIS 0000000000428159:  AVX C4427930F3               vpmovzxbw xmm14, xmm11
+XDIS 000000000042815e:  AVX C4C10173DF08             vpsrldq xmm15, xmm15, 0x8
+XDIS 0000000000428164:  AVX C4627933DB               vpmovzxwd xmm11, xmm3
+XDIS 0000000000428169:  AVX C4C27933F6               vpmovzxwd xmm6, xmm14
+XDIS 000000000042816e:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 0000000000428174:  AVX C4427935FF               vpmovzxdq xmm15, xmm15
+XDIS 0000000000428179:  AVX C5F97F742438             vmovdqa xmmword ptr [rsp+0x38], xmm6
+XDIS 000000000042817f:  AVX C4C27933F6               vpmovzxwd xmm6, xmm14
+XDIS 0000000000428184:  AVX C4C10173F708             vpsllq xmm15, xmm15, 0x8
+XDIS 000000000042818a:  AVX C5796FB424B8000000       vmovdqa xmm14, xmmword ptr [rsp+0xb8]
+XDIS 0000000000428193:  AVX C5F97F742448             vmovdqa xmmword ptr [rsp+0x48], xmm6
+XDIS 0000000000428199:  AVX C5E173DB08               vpsrldq xmm3, xmm3, 0x8
+XDIS 000000000042819e:  AVX C4E27933DB               vpmovzxwd xmm3, xmm3
+XDIS 00000000004281a3:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 00000000004281a9:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 00000000004281ae:  AVX C4C10973F610             vpsllq xmm14, xmm14, 0x10
+XDIS 00000000004281b4:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004281b9:  AVX C58973DE08               vpsrldq xmm14, xmm6, 0x8
+XDIS 00000000004281be:  AVX C5F96F742488             vmovdqa xmm6, xmmword ptr [rsp-0x78]
+XDIS 00000000004281c4:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 00000000004281c9:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004281ce:  AVX C5796FB424A8000000       vmovdqa xmm14, xmmword ptr [rsp+0xa8]
+XDIS 00000000004281d7:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 00000000004281dd:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 00000000004281e2:  AVX C4C10973F618             vpsllq xmm14, xmm14, 0x18
+XDIS 00000000004281e8:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004281ed:  AVX C5796FB42498000000       vmovdqa xmm14, xmmword ptr [rsp+0x98]
+XDIS 00000000004281f6:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 00000000004281fc:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 0000000000428201:  AVX C4C10973F620             vpsllq xmm14, xmm14, 0x20
+XDIS 0000000000428207:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 000000000042820c:  AVX C5796FB42488000000       vmovdqa xmm14, xmmword ptr [rsp+0x88]
+XDIS 0000000000428215:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 000000000042821b:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 0000000000428220:  AVX C4C10973F628             vpsllq xmm14, xmm14, 0x28
+XDIS 0000000000428226:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 000000000042822b:  AVX C5796F742478             vmovdqa xmm14, xmmword ptr [rsp+0x78]
+XDIS 0000000000428231:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 0000000000428237:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 000000000042823c:  AVX C4C10973F630             vpsllq xmm14, xmm14, 0x30
+XDIS 0000000000428242:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 0000000000428247:  AVX C5796F742468             vmovdqa xmm14, xmmword ptr [rsp+0x68]
+XDIS 000000000042824d:  AVX C4C10973DE08             vpsrldq xmm14, xmm14, 0x8
+XDIS 0000000000428253:  AVX C4427935F6               vpmovzxdq xmm14, xmm14
+XDIS 0000000000428258:  AVX C4C10973F638             vpsllq xmm14, xmm14, 0x38
+XDIS 000000000042825e:  AVX C44101EBF6               vpor xmm14, xmm15, xmm14
+XDIS 0000000000428263:  AVX C4427935FD               vpmovzxdq xmm15, xmm13
+XDIS 0000000000428268:  AVX C5797F742458             vmovdqa xmmword ptr [rsp+0x58], xmm14
+XDIS 000000000042826e:  AVX C4427935F4               vpmovzxdq xmm14, xmm12
+XDIS 0000000000428273:  AVX C4C10173F708             vpsllq xmm15, xmm15, 0x8
+XDIS 0000000000428279:  AVX C4C10973F610             vpsllq xmm14, xmm14, 0x10
+XDIS 000000000042827f:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 0000000000428284:  AVX C4427935F3               vpmovzxdq xmm14, xmm11
+XDIS 0000000000428289:  AVX C4C11173DD08             vpsrldq xmm13, xmm13, 0x8
+XDIS 000000000042828f:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 0000000000428294:  AVX C4427935F2               vpmovzxdq xmm14, xmm10
+XDIS 0000000000428299:  AVX C4C11973DC08             vpsrldq xmm12, xmm12, 0x8
+XDIS 000000000042829f:  AVX C4C10973F618             vpsllq xmm14, xmm14, 0x18
+XDIS 00000000004282a5:  AVX C4427935ED               vpmovzxdq xmm13, xmm13
+XDIS 00000000004282aa:  AVX C4427935E4               vpmovzxdq xmm12, xmm12
+XDIS 00000000004282af:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004282b4:  AVX C4427935F1               vpmovzxdq xmm14, xmm9
+XDIS 00000000004282b9:  AVX C4C12973DA08             vpsrldq xmm10, xmm10, 0x8
+XDIS 00000000004282bf:  AVX C4C10973F620             vpsllq xmm14, xmm14, 0x20
+XDIS 00000000004282c5:  AVX C4427935D2               vpmovzxdq xmm10, xmm10
+XDIS 00000000004282ca:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004282cf:  AVX C4427935F0               vpmovzxdq xmm14, xmm8
+XDIS 00000000004282d4:  AVX C4C13173D908             vpsrldq xmm9, xmm9, 0x8
+XDIS 00000000004282da:  AVX C4C10973F628             vpsllq xmm14, xmm14, 0x28
+XDIS 00000000004282e0:  AVX C4427935C9               vpmovzxdq xmm9, xmm9
+XDIS 00000000004282e5:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 00000000004282ea:  AVX C4627935F7               vpmovzxdq xmm14, xmm7
+XDIS 00000000004282ef:  AVX C4C13973D808             vpsrldq xmm8, xmm8, 0x8
+XDIS 00000000004282f5:  AVX C4C10973F630             vpsllq xmm14, xmm14, 0x30
+XDIS 00000000004282fb:  AVX C4427935C0               vpmovzxdq xmm8, xmm8
+XDIS 0000000000428300:  AVX C44101EBFE               vpor xmm15, xmm15, xmm14
+XDIS 0000000000428305:  AVX C5C173DF08               vpsrldq xmm7, xmm7, 0x8
+XDIS 000000000042830a:  AVX C4627935F6               vpmovzxdq xmm14, xmm6
+XDIS 000000000042830f:  AVX C5C973DE08               vpsrldq xmm6, xmm6, 0x8
+XDIS 0000000000428314:  AVX C4E27935FF               vpmovzxdq xmm7, xmm7
+XDIS 0000000000428319:  AVX C4C12173DB08             vpsrldq xmm11, xmm11, 0x8
+XDIS 000000000042831f:  AVX C4E27935F6               vpmovzxdq xmm6, xmm6
+XDIS 0000000000428324:  AVX C4C11173F508             vpsllq xmm13, xmm13, 0x8
+XDIS 000000000042832a:  AVX C4427935DB               vpmovzxdq xmm11, xmm11
+XDIS 000000000042832f:  AVX C4C11973F410             vpsllq xmm12, xmm12, 0x10
+XDIS 0000000000428335:  AVX C4C12973F218             vpsllq xmm10, xmm10, 0x18
+XDIS 000000000042833b:  AVX C44111EBE4               vpor xmm12, xmm13, xmm12
+XDIS 0000000000428340:  AVX C44119EBDB               vpor xmm11, xmm12, xmm11
+XDIS 0000000000428345:  AVX C4C13173F120             vpsllq xmm9, xmm9, 0x20
+XDIS 000000000042834b:  AVX C44121EBD2               vpor xmm10, xmm11, xmm10
+XDIS 0000000000428350:  AVX C5796F6C24B8             vmovdqa xmm13, xmmword ptr [rsp-0x48]
+XDIS 0000000000428356:  AVX C4C13973F028             vpsllq xmm8, xmm8, 0x28
+XDIS 000000000042835c:  AVX C44129EBC9               vpor xmm9, xmm10, xmm9
+XDIS 0000000000428361:  AVX C5796F542498             vmovdqa xmm10, xmmword ptr [rsp-0x68]
+XDIS 0000000000428367:  AVX C5C173F730               vpsllq xmm7, xmm7, 0x30
+XDIS 000000000042836c:  AVX C44131EBC0               vpor xmm8, xmm9, xmm8
+XDIS 0000000000428371:  AVX C5796F4C24D8             vmovdqa xmm9, xmmword ptr [rsp-0x28]
+XDIS 0000000000428377:  AVX C5C973F638               vpsllq xmm6, xmm6, 0x38
+XDIS 000000000042837c:  AVX C5B9EBFF                 vpor xmm7, xmm8, xmm7
+XDIS 0000000000428380:  AVX C5796F4424C8             vmovdqa xmm8, xmmword ptr [rsp-0x38]
+XDIS 0000000000428386:  AVX C5C1EBF6                 vpor xmm6, xmm7, xmm6
+XDIS 000000000042838a:  AVX C4E27935FD               vpmovzxdq xmm7, xmm5
+XDIS 000000000042838f:  AVX C5D173DD08               vpsrldq xmm5, xmm5, 0x8
+XDIS 0000000000428394:  AVX C5C173F708               vpsllq xmm7, xmm7, 0x8
+XDIS 0000000000428399:  AVX C4E27935ED               vpmovzxdq xmm5, xmm5
+XDIS 000000000042839e:  AVX C5796F6424A8             vmovdqa xmm12, xmmword ptr [rsp-0x58]
+XDIS 00000000004283a4:  AVX C5F97FB42428010000       vmovdqa xmmword ptr [rsp+0x128], xmm6
+XDIS 00000000004283ad:  AVX C4E27935F4               vpmovzxdq xmm6, xmm4
+XDIS 00000000004283b2:  AVX C5D973DC08               vpsrldq xmm4, xmm4, 0x8
+XDIS 00000000004283b7:  AVX C5C973F610               vpsllq xmm6, xmm6, 0x10
+XDIS 00000000004283bc:  AVX C4E27935E4               vpmovzxdq xmm4, xmm4
+XDIS 00000000004283c1:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 00000000004283c5:  AVX C4E27935F3               vpmovzxdq xmm6, xmm3
+XDIS 00000000004283ca:  AVX C5E173DB08               vpsrldq xmm3, xmm3, 0x8
+XDIS 00000000004283cf:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 00000000004283d3:  AVX C4E27935F2               vpmovzxdq xmm6, xmm2
+XDIS 00000000004283d8:  AVX C5E973DA08               vpsrldq xmm2, xmm2, 0x8
+XDIS 00000000004283dd:  AVX C5C973F618               vpsllq xmm6, xmm6, 0x18
+XDIS 00000000004283e2:  AVX C4E27935D2               vpmovzxdq xmm2, xmm2
+XDIS 00000000004283e7:  AVX C4E27935DB               vpmovzxdq xmm3, xmm3
+XDIS 00000000004283ec:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 00000000004283f0:  AVX C4E27935F1               vpmovzxdq xmm6, xmm1
+XDIS 00000000004283f5:  AVX C5F173D908               vpsrldq xmm1, xmm1, 0x8
+XDIS 00000000004283fa:  AVX C5C973F620               vpsllq xmm6, xmm6, 0x20
+XDIS 00000000004283ff:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 0000000000428404:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 0000000000428408:  AVX C4E27935F0               vpmovzxdq xmm6, xmm0
+XDIS 000000000042840d:  AVX C5F973D808               vpsrldq xmm0, xmm0, 0x8
+XDIS 0000000000428412:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 0000000000428417:  AVX C5C973F628               vpsllq xmm6, xmm6, 0x28
+XDIS 000000000042841c:  AVX C5D173F508               vpsllq xmm5, xmm5, 0x8
+XDIS 0000000000428421:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 0000000000428425:  AVX C4C27935F5               vpmovzxdq xmm6, xmm13
+XDIS 000000000042842a:  AVX C5D973F410               vpsllq xmm4, xmm4, 0x10
+XDIS 000000000042842f:  AVX C5E973F218               vpsllq xmm2, xmm2, 0x18
+XDIS 0000000000428434:  AVX C5D1EBE4                 vpor xmm4, xmm5, xmm4
+XDIS 0000000000428438:  AVX C5D9EBDB                 vpor xmm3, xmm4, xmm3
+XDIS 000000000042843c:  AVX C5F173F120               vpsllq xmm1, xmm1, 0x20
+XDIS 0000000000428441:  AVX C5E1EBD2                 vpor xmm2, xmm3, xmm2
+XDIS 0000000000428445:  AVX C5F96F6C24F8             vmovdqa xmm5, xmmword ptr [rsp-0x8]
+XDIS 000000000042844b:  AVX C5F973F028               vpsllq xmm0, xmm0, 0x28
+XDIS 0000000000428450:  AVX C5E9EBC9                 vpor xmm1, xmm2, xmm1
+XDIS 0000000000428454:  AVX C5F1EBC0                 vpor xmm0, xmm1, xmm0
+XDIS 0000000000428458:  AVX C4C17173DD08             vpsrldq xmm1, xmm13, 0x8
+XDIS 000000000042845e:  AVX C5796F6C2408             vmovdqa xmm13, xmmword ptr [rsp+0x8]
+XDIS 0000000000428464:  AVX C5C973F630               vpsllq xmm6, xmm6, 0x30
+XDIS 0000000000428469:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 000000000042846e:  AVX C5C1EBFE                 vpor xmm7, xmm7, xmm6
+XDIS 0000000000428472:  AVX C5F173F130               vpsllq xmm1, xmm1, 0x30
+XDIS 0000000000428477:  AVX C4C27935F2               vpmovzxdq xmm6, xmm10
+XDIS 000000000042847c:  AVX C5F9EBC1                 vpor xmm0, xmm0, xmm1
+XDIS 0000000000428480:  AVX C5C973F638               vpsllq xmm6, xmm6, 0x38
+XDIS 0000000000428485:  AVX C4C17173DA08             vpsrldq xmm1, xmm10, 0x8
+XDIS 000000000042848b:  AVX C5C1EBF6                 vpor xmm6, xmm7, xmm6
+XDIS 000000000042848f:  AVX C5F96F7C2418             vmovdqa xmm7, xmmword ptr [rsp+0x18]
+XDIS 0000000000428495:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 000000000042849a:  AVX C4C10973F638             vpsllq xmm14, xmm14, 0x38
+XDIS 00000000004284a0:  AVX C5F97FB42438010000       vmovdqa xmmword ptr [rsp+0x138], xmm6
+XDIS 00000000004284a9:  AVX C5F173F138               vpsllq xmm1, xmm1, 0x38
+XDIS 00000000004284ae:  AVX C5F96F742438             vmovdqa xmm6, xmmword ptr [rsp+0x38]
+XDIS 00000000004284b4:  AVX C44101EBF6               vpor xmm14, xmm15, xmm14
+XDIS 00000000004284b9:  AVX C5797FB42418010000       vmovdqa xmmword ptr [rsp+0x118], xmm14
+XDIS 00000000004284c2:  AVX C5F9EBC1                 vpor xmm0, xmm0, xmm1
+XDIS 00000000004284c6:  AVX C4E27935CF               vpmovzxdq xmm1, xmm7
+XDIS 00000000004284cb:  AVX C5F97F842448010000       vmovdqa xmmword ptr [rsp+0x148], xmm0
+XDIS 00000000004284d4:  AVX C4C27935C5               vpmovzxdq xmm0, xmm13
+XDIS 00000000004284d9:  AVX C5F173F108               vpsllq xmm1, xmm1, 0x8
+XDIS 00000000004284de:  AVX C5F973F010               vpsllq xmm0, xmm0, 0x10
+XDIS 00000000004284e3:  AVX C5796F7424E8             vmovdqa xmm14, xmmword ptr [rsp-0x18]
+XDIS 00000000004284e9:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004284ed:  AVX C4E27935C6               vpmovzxdq xmm0, xmm6
+XDIS 00000000004284f2:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004284f6:  AVX C4E27935C5               vpmovzxdq xmm0, xmm5
+XDIS 00000000004284fb:  AVX C5F973F018               vpsllq xmm0, xmm0, 0x18
+XDIS 0000000000428500:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428504:  AVX C4C27935C6               vpmovzxdq xmm0, xmm14
+XDIS 0000000000428509:  AVX C5F973F020               vpsllq xmm0, xmm0, 0x20
+XDIS 000000000042850e:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428512:  AVX C4C27935C1               vpmovzxdq xmm0, xmm9
+XDIS 0000000000428517:  AVX C5F973F028               vpsllq xmm0, xmm0, 0x28
+XDIS 000000000042851c:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428520:  AVX C4C27935C0               vpmovzxdq xmm0, xmm8
+XDIS 0000000000428525:  AVX C5F973F030               vpsllq xmm0, xmm0, 0x30
+XDIS 000000000042852a:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 000000000042852e:  AVX C4C27935C4               vpmovzxdq xmm0, xmm12
+XDIS 0000000000428533:  AVX C5F973F038               vpsllq xmm0, xmm0, 0x38
+XDIS 0000000000428538:  AVX C5F1EBC0                 vpor xmm0, xmm1, xmm0
+XDIS 000000000042853c:  AVX C4C17173DD08             vpsrldq xmm1, xmm13, 0x8
+XDIS 0000000000428542:  AVX C5F97F842458010000       vmovdqa xmmword ptr [rsp+0x158], xmm0
+XDIS 000000000042854b:  AVX C5F973DF08               vpsrldq xmm0, xmm7, 0x8
+XDIS 0000000000428550:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 0000000000428555:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 000000000042855a:  AVX C5F173F110               vpsllq xmm1, xmm1, 0x10
+XDIS 000000000042855f:  AVX C5F973F008               vpsllq xmm0, xmm0, 0x8
+XDIS 0000000000428564:  AVX C5F9EBC1                 vpor xmm0, xmm0, xmm1
+XDIS 0000000000428568:  AVX C5F173DE08               vpsrldq xmm1, xmm6, 0x8
+XDIS 000000000042856d:  AVX C4E27935C9               vpmovzxdq xmm1, xmm1
+XDIS 0000000000428572:  AVX C5F9EBC9                 vpor xmm1, xmm0, xmm1
+XDIS 0000000000428576:  AVX C5F973DD08               vpsrldq xmm0, xmm5, 0x8
+XDIS 000000000042857b:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 0000000000428580:  AVX C5F973F018               vpsllq xmm0, xmm0, 0x18
+XDIS 0000000000428585:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428589:  AVX C4C17973DE08             vpsrldq xmm0, xmm14, 0x8
+XDIS 000000000042858f:  AVX C5796F742458             vmovdqa xmm14, xmmword ptr [rsp+0x58]
+XDIS 0000000000428595:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 000000000042859a:  AVX C5797FB42488010000       vmovdqa xmmword ptr [rsp+0x188], xmm14
+XDIS 00000000004285a3:  AVX C5F973F020               vpsllq xmm0, xmm0, 0x20
+XDIS 00000000004285a8:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004285ac:  AVX C4C17973D908             vpsrldq xmm0, xmm9, 0x8
+XDIS 00000000004285b2:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 00000000004285b7:  AVX C5F973F028               vpsllq xmm0, xmm0, 0x28
+XDIS 00000000004285bc:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004285c0:  AVX C4C17973D808             vpsrldq xmm0, xmm8, 0x8
+XDIS 00000000004285c6:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 00000000004285cb:  AVX C5F973F030               vpsllq xmm0, xmm0, 0x30
+XDIS 00000000004285d0:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 00000000004285d4:  AVX C4C17973DC08             vpsrldq xmm0, xmm12, 0x8
+XDIS 00000000004285da:  AVX C4E27935C0               vpmovzxdq xmm0, xmm0
+XDIS 00000000004285df:  AVX C5F973F038               vpsllq xmm0, xmm0, 0x38
+XDIS 00000000004285e4:  AVX C5F1EBC0                 vpor xmm0, xmm1, xmm0
+XDIS 00000000004285e8:  AVX C4E279354C2428           vpmovzxdq xmm1, qword ptr [rsp+0x28]
+XDIS 00000000004285ef:  AVX C5F97F842468010000       vmovdqa xmmword ptr [rsp+0x168], xmm0
+XDIS 00000000004285f8:  AVX C4E279358424B8000000     vpmovzxdq xmm0, qword ptr [rsp+0xb8]
+XDIS 0000000000428602:  AVX C5F173F108               vpsllq xmm1, xmm1, 0x8
+XDIS 0000000000428607:  AVX C5F973F010               vpsllq xmm0, xmm0, 0x10
+XDIS 000000000042860c:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428610:  AVX C4E27935442448           vpmovzxdq xmm0, qword ptr [rsp+0x48]
+XDIS 0000000000428617:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 000000000042861b:  AVX C4E279358424A8000000     vpmovzxdq xmm0, qword ptr [rsp+0xa8]
+XDIS 0000000000428625:  AVX C5F973F018               vpsllq xmm0, xmm0, 0x18
+XDIS 000000000042862a:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 000000000042862e:  AVX C4E27935842498000000     vpmovzxdq xmm0, qword ptr [rsp+0x98]
+XDIS 0000000000428638:  AVX C5F973F020               vpsllq xmm0, xmm0, 0x20
+XDIS 000000000042863d:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428641:  AVX C4E27935842488000000     vpmovzxdq xmm0, qword ptr [rsp+0x88]
+XDIS 000000000042864b:  AVX C5F973F028               vpsllq xmm0, xmm0, 0x28
+XDIS 0000000000428650:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428654:  AVX C4E27935442478           vpmovzxdq xmm0, qword ptr [rsp+0x78]
+XDIS 000000000042865b:  AVX C5F973F030               vpsllq xmm0, xmm0, 0x30
+XDIS 0000000000428660:  AVX C5F1EBC8                 vpor xmm1, xmm1, xmm0
+XDIS 0000000000428664:  AVX C4E27935442468           vpmovzxdq xmm0, qword ptr [rsp+0x68]
+XDIS 000000000042866b:  AVX C5F973F038               vpsllq xmm0, xmm0, 0x38
+XDIS 0000000000428670:  AVX C5F1EBC0                 vpor xmm0, xmm1, xmm0
+XDIS 0000000000428674:  AVX C5F97F842478010000       vmovdqa xmmword ptr [rsp+0x178], xmm0
+XDIS 000000000042867d: BASE 0F1F00                   nop dword ptr [rax], eax
+
+BLOCK:     4   PC: 0000000000428abe   ICOUNT:    912494   EXECUTIONS:     24662   #BYTES: 194   %: 0.912   cumltv%:  99.4  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28abe Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 86,101
+XDIS 0000000000428abe:  AVX C4C1F96EEC               vmovq xmm5, r12
+XDIS 0000000000428ac3:  AVX C4C3D122C201             vpinsrq xmm0, xmm5, r10, 0x1
+XDIS 0000000000428ac9:  AVX C4C1F96EEB               vmovq xmm5, r11
+XDIS 0000000000428ace:  AVX C4E3D122CB01             vpinsrq xmm1, xmm5, rbx, 0x1
+XDIS 0000000000428ad4:  AVX C4E37518E801             vinsertf128 ymm5, ymm1, xmm0, 0x1
+XDIS 0000000000428ada:  AVX C5FD7FAC24B8000000       vmovdqa ymmword ptr [rsp+0xb8], ymm5
+XDIS 0000000000428ae3:  AVX C5FD7FAC24D8000000       vmovdqa ymmword ptr [rsp+0xd8], ymm5
+XDIS 0000000000428aec:  AVX C4C1F96EE8               vmovq xmm5, r8
+XDIS 0000000000428af1:  AVX C5F96F8C24B8000000       vmovdqa xmm1, xmmword ptr [rsp+0xb8]
+XDIS 0000000000428afa:  AVX C4C3D122C101             vpinsrq xmm0, xmm5, r9, 0x1
+XDIS 0000000000428b00:  AVX C4E1F96EE9               vmovq xmm5, rcx
+XDIS 0000000000428b05:  AVX C4E3D122D601             vpinsrq xmm2, xmm5, rsi, 0x1
+XDIS 0000000000428b0b:  AVX C4E36D18E801             vinsertf128 ymm5, ymm2, xmm0, 0x1
+XDIS 0000000000428b11:  AVX C5FA6F5708               vmovdqu xmm2, xmmword ptr [rdi+0x8]
+XDIS 0000000000428b16:  AVX C5FD7FAC24B8000000       vmovdqa ymmword ptr [rsp+0xb8], ymm5
+XDIS 0000000000428b1f:  AVX C5F96F8424B8000000       vmovdqa xmm0, xmmword ptr [rsp+0xb8]
+XDIS 0000000000428b28:  AVX C5E9D4C9                 vpaddq xmm1, xmm2, xmm1
+XDIS 0000000000428b2c:  AVX C5FD7FAC24F8000000       vmovdqa ymmword ptr [rsp+0xf8], ymm5
+XDIS 0000000000428b35:  AVX C5FA7F4F08               vmovdqu xmmword ptr [rdi+0x8], xmm1
+XDIS 0000000000428b3a:  AVX C5FA6F4F18               vmovdqu xmm1, xmmword ptr [rdi+0x18]
+XDIS 0000000000428b3f:  AVX C5F1D48C24E8000000       vpaddq xmm1, xmm1, xmmword ptr [rsp+0xe8]
+XDIS 0000000000428b48:  AVX C5FA7F4F18               vmovdqu xmmword ptr [rdi+0x18], xmm1
+XDIS 0000000000428b4d:  AVX C5FA6F4F28               vmovdqu xmm1, xmmword ptr [rdi+0x28]
+XDIS 0000000000428b52:  AVX C5F1D4C0                 vpaddq xmm0, xmm1, xmm0
+XDIS 0000000000428b56:  AVX C5FA7F4728               vmovdqu xmmword ptr [rdi+0x28], xmm0
+XDIS 0000000000428b5b:  AVX C5FA6F4738               vmovdqu xmm0, xmmword ptr [rdi+0x38]
+XDIS 0000000000428b60:  AVX C5F9D4842408010000       vpaddq xmm0, xmm0, xmmword ptr [rsp+0x108]
+XDIS 0000000000428b69:  AVX C5FA7F4738               vmovdqu xmmword ptr [rdi+0x38], xmm0
+XDIS 0000000000428b6e:  AVX C5F877                   vzeroupper 
+XDIS 0000000000428b71: BASE 488D65D8                 lea rsp, ptr [rbp-0x28]
+XDIS 0000000000428b75: BASE 5B                       pop rbx
+XDIS 0000000000428b76: BASE 415C                     pop r12
+XDIS 0000000000428b78: BASE 415D                     pop r13
+XDIS 0000000000428b7a: BASE 415E                     pop r14
+XDIS 0000000000428b7c: BASE 415F                     pop r15
+XDIS 0000000000428b7e: BASE 5D                       pop rbp
+XDIS 0000000000428b7f: BASE C3                       ret 
+
+BLOCK:     5   PC: 00000000004286fd   ICOUNT:    271271   EXECUTIONS:     24661   #BYTES: 83   %: 0.271   cumltv%:  99.7  FN: sha_compress  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 286fd Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 84,84
+XDIS 00000000004286fd: BASE 4C8B8C2410010000         mov r9, qword ptr [rsp+0x110]
+XDIS 0000000000428705: BASE B840384300               mov eax, 0x433840
+XDIS 000000000042870a: BASE 488B8C24F8000000         mov rcx, qword ptr [rsp+0xf8]
+XDIS 0000000000428712: BASE 488D942418010000         lea rdx, ptr [rsp+0x118]
+XDIS 000000000042871a: BASE 4C8B842408010000         mov r8, qword ptr [rsp+0x108]
+XDIS 0000000000428722: BASE 488BB42400010000         mov rsi, qword ptr [rsp+0x100]
+XDIS 000000000042872a: BASE 4C8B9C24D8000000         mov r11, qword ptr [rsp+0xd8]
+XDIS 0000000000428732: BASE 4C8BA424E8000000         mov r12, qword ptr [rsp+0xe8]
+XDIS 000000000042873a: BASE 488B9C24E0000000         mov rbx, qword ptr [rsp+0xe0]
+XDIS 0000000000428742: BASE 4C8B9424F0000000         mov r10, qword ptr [rsp+0xf0]
+XDIS 000000000042874a: BASE 660F1F440000             nop word ptr [rax+rax*1], ax
+
+BLOCK:     6   PC: 0000000000428ce0   ICOUNT:     98648   EXECUTIONS:     24662   #BYTES: 15   %: 0.0986   cumltv%:  99.8  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28ce0 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 144,144
+XDIS 0000000000428ce0: BASE 4C89FE                   mov rsi, r15
+XDIS 0000000000428ce3: BASE 4889EF                   mov rdi, rbp
+XDIS 0000000000428ce6: BASE 4983EF80                 sub r15, 0xffffffffffffff80
+XDIS 0000000000428cea: BASE E881F0FFFF               call 0x427d70
+
+BLOCK:     7   PC: 0000000000428c54   ICOUNT:     73986   EXECUTIONS:     24662   #BYTES:  7   %: 0.074   cumltv%:  99.8  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28c54 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 142,142
+XDIS 0000000000428c54: BASE 8B4D48                   mov ecx, dword ptr [rbp+0x48]
+XDIS 0000000000428c57: BASE 85C9                     test ecx, ecx
+XDIS 0000000000428c59: BASE 7509                     jnz 0x428c64
+
+BLOCK:     8   PC: 0000000000428cef   ICOUNT:     73986   EXECUTIONS:     24662   #BYTES: 16   %: 0.074   cumltv%:  99.9  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28cef Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 147,147
+XDIS 0000000000428cef: BASE 83C380                   add ebx, 0xffffff80
+XDIS 0000000000428cf2: BASE 4881450000040000         add qword ptr [rbp], 0x400
+XDIS 0000000000428cfa: BASE E951FFFFFF               jmp 0x428c50
+
+BLOCK:     9   PC: 0000000000428c50   ICOUNT:     49324   EXECUTIONS:     24662   #BYTES:  4   %: 0.0493   cumltv%:   100  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28c50 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 140,140
+XDIS 0000000000428c50: BASE 85DB                     test ebx, ebx
+XDIS 0000000000428c52: BASE 746C                     jz 0x428cc0
+
+BLOCK:    10   PC: 0000000000428c5b   ICOUNT:     49324   EXECUTIONS:     24662   #BYTES:  9   %: 0.0493   cumltv%:   100  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28c5b Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 142,142
+XDIS 0000000000428c5b: BASE 83FB7F                   cmp ebx, 0x7f
+XDIS 0000000000428c5e: BASE 0F877C000000             jnbe 0x428ce0
+
+# END_TOP_BLOCK_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*total                                                                 0
+# END_DYNAMIC_STATS
+#GLOBAL FUNCTION TOTALS
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+            100001808 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 0 EMIT# 1
+# END_PER_FUNCTION_STATS 
+# EMIT_STATIC_STATS 
+#
+# $static-counts
+#
+#       opcode                 count
+#
+*total                                                                 0
+
+# END_STATIC_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS   EMIT# 1
+#
+# $global-dynamic-counts
+#
+#       opcode                 count
+#
+*stack-read                                                      1159106
+*stack-write                                                     1183776
+*iprel-read                                                        98648
+*mem-read-4                                                        24662
+*mem-read-8                                                      4734990
+*mem-read-16                                                     3304615
+*mem-write-8                                                      394592
+*mem-write-16                                                    1578337
+*mem-write-32                                                      98648
+*isa-ext-AVX                                                    29790952
+*isa-ext-BASE                                                   70210856
+*isa-set-AVX                                                    29790952
+*isa-set-FAT_NOP                                                   49323
+*isa-set-I186                                                   11837448
+*isa-set-I86                                                    58324085
+*category-AVX                                                   17238335
+*category-BINARY                                                16005198
+*category-CALL                                                     24662
+*category-COND_BR                                                1109753
+*category-DATAXFER                                              22984404
+*category-LOGICAL                                               30062156
+*category-MISC                                                    345261
+*category-POP                                                     147972
+*category-PUSH                                                    147972
+*category-RET                                                      24662
+*category-ROTATE                                                11837448
+*category-UNCOND_BR                                                24662
+*category-WIDENOP                                                  49323
+*ilen-1                                                           123310
+*ilen-2                                                          1085097
+*ilen-3                                                         50802369
+*ilen-4                                                         25524438
+*ilen-5                                                         14599593
+*ilen-6                                                          6461276
+*ilen-7                                                           123310
+*ilen-8                                                           591879
+*ilen-9                                                           591888
+*ilen-10                                                           98648
+*nop-ilen-3                                                        24662
+*nop-ilen-6                                                        24661
+*avx128                                                         29642980
+*avx256                                                           147972
+*gpr64                                                          69076443
+*legacy-prefixes-0                                              31245972
+*legacy-prefixes-1                                              68755836
+*legacy-prefixes-and-escapes-0                                  30950034
+*legacy-prefixes-and-escapes-1                                  69027113
+*legacy-prefixes-and-escapes-2                                     24661
+*66_prefix                                                         24661
+*rex_prefix                                                     68731175
+*rexw_prefix                                                    68731175
+*rexr_prefix                                                    46708635
+*rexx_prefix                                                      246614
+*rexb_prefix                                                    67004892
+*loadop                                                          5154227
+*one-memops                                                     10160505
+*cond-branch-forward                                               73986
+*cond-branch-backward                                            1035767
+*base_only                                                       1676971
+*base_disp                                                       8458873
+*base_index_disp                                                   24661
+*scale_1                                                        10505766
+*memdisp8                                                        7324428
+*memdisp32                                                       1257753
+*elements_i1_128                                                 8286184
+*elements_i8_16                                                  1183776
+*elements_i16_8                                                   394592
+*elements_i32_4                                                   789184
+*elements_i64_2                                                 13415725
+*elements_i64_4                                                    49324
+*elements_i128_1                                                 1381072
+*dataxfer_i32_4                                                  4069137
+*dataxfer_i32_8                                                    98648
+*dataxfer_i64_1                                                    98648
+ADD                                                             14895445
+AND                                                              5943385
+CALL_NEAR                                                          24662
+CMP                                                              1060429
+JMP                                                                24662
+JNBE                                                               24662
+JNZ                                                              1060429
+JZ                                                                 24662
+LEA                                                               345261
+MOV                                                             18717971
+NOP                                                                49323
+OR                                                               3945816
+POP                                                               147972
+PUSH                                                              147972
+RET_NEAR                                                           24662
+ROL                                                             11837448
+SUB                                                                49324
+TEST                                                               49324
+VINSERTF128                                                        49324
+VMOVDQA                                                          2194887
+VMOVDQU                                                          1972898
+VMOVQ                                                              98648
+VPADDQ                                                           2466107
+VPINSRQ                                                            98648
+VPMOVZXBW                                                         394592
+VPMOVZXDQ                                                        1578368
+VPMOVZXWD                                                         789184
+VPOR                                                             5129572
+VPSHUFB                                                          1183776
+VPSLLQ                                                           4537684
+VPSRLDQ                                                          1381072
+VPSRLQ                                                           4734918
+VPXOR                                                            3156612
+VZEROUPPER                                                         24662
+XOR                                                             11837447
+*total                                                         100001808
+
+# END_GLOBAL_DYNAMIC_STATS

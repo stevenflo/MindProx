@@ -1,0 +1,407 @@
+30a31
+> import operator
+116a118
+> 		avail_arr_strides = []
+154a157
+> 		self.avail_arr_strides = []
+205,211c208,213
+< 					if not (operand.reg == self.registers.zeroStrideR[0]):
+< 						reg_idx = self.registers.strideR.index(operand.reg)	
+< 						reg_raw_dist = self.numAvailableArrays - reg_idx
+< 						if rawRemoveDens.has_key(x + reg_raw_dist):
+< 							rawRemoveDens[x + reg_raw_dist] += 1
+< 						else:
+< 							rawRemoveDens[x + reg_raw_dist] = 1
+---
+> 					reg_idx = self.registers.strideR.index(operand.reg)	
+> 					reg_raw_dist = self.numAvailableArrays - reg_idx
+> 					if rawRemoveDens.has_key(x + reg_raw_dist):
+> 						rawRemoveDens[x + reg_raw_dist] += 1
+> 					else:
+> 						rawRemoveDens[x + reg_raw_dist] = 1
+215,216c217
+< 	
+< 	'''
+---
+> 
+227,228c228
+< 		#targ_pBrTrans = int(2 * self.brTrans * 100) for q19
+< 		targ_pBrTrans = int(1 * self.brTrans * 100) #for q6
+---
+> 		targ_pBrTrans = int(1 * self.brTrans * 100)
+232c232
+< 
+---
+> 		
+233a234
+> 		#	BrBucketIds.append(0)
+240d240
+< 				
+242c242
+< 
+---
+> 		
+252,253c252,254
+< 	'''	
+<         def generateBranchBehavior(self):
+---
+>         
+> 	'''
+> 	def generateBranchBehavior(self):
+255a257
+> 		print "Target BrTrans = ", pBrTrans
+308c310,312
+< 	
+---
+> 		
+> 	'''
+> 
+344d347
+< 					
+503a507,520
+> 	def updateLocalDens(self, strideDens):
+> 		print "In updateLocalDens", strideDens
+> 		running_arr_ct = self.numAvailableArrays - 1;
+> 
+> 		while running_arr_ct > 0:
+> 			if not (strideDens.has_key(0)) :
+> 				strideDens[0] = 1
+> 			else :
+> 				strideDens[0] += 3 #TBD - Fixme
+> 			running_arr_ct -= 1
+> 
+> 		print "In updateLocalDens, updated local stride density for num arrays ", self.numAvailableArrays
+>                 print strideDens
+> 
+506c523
+<                         return 1
+---
+>                         return 2 #1
+508c525,527
+<                         return int (numMemIns/10) #+ 1
+---
+>                         return int (numMemIns/10) + 1
+> 		elif(numMemIns < 1600):
+> 			return int (numMemIns/200) + 1 # 5arr = 300, 40; 4arr = 400, 50; 2arr = 
+558d576
+< 
+566c584
+<                 strideDens = {k: int(float(float(v * (total_mem_inst + relGlobalRemoveStrideNum)) / float(total_strides)) + 0.5) for k, v in self.stride.items()}
+---
+>                 strideDens = {k: int(float(v * (total_mem_inst + relGlobalRemoveStrideNum) / float(total_strides)) + 0.5) for k, v in self.stride.items()}
+576a595
+>                 #prevOffset = None
+579,580d597
+< 		#Local Stride Calculations
+< 		print "Target local stride ratio:", self.localStride
+582c599,602
+< 		total_local_strides = 0
+---
+>                 #Local Stride Calculations
+>                 print "Target local stride ratio:", self.localStride
+> 
+>                 total_local_strides = 0
+585,588c605,610
+< 								
+< 		relLocalRemoveStrideNum = 0
+< 		print localStrideRemoveDens
+< 		for key in localStrideRemoveDens.keys():
+---
+> 
+> 		self.updateLocalDens(localStrideRemoveDens)
+> 
+>                 relLocalRemoveStrideNum = 0
+>                 print localStrideRemoveDens
+>                 for key in localStrideRemoveDens.keys():
+590,591c612,613
+< 		    print "key is ", key
+< 		    print "scaled down stride is ", scaled_down_stride
+---
+>                     print "key is ", key
+>                     print "scaled down stride is ", scaled_down_stride
+593,595c615,617
+< 			   print "localStrideRemoveDens key is ", localStrideRemoveDens[key]
+<                  	   if(scaled_down_stride >= localStrideRemoveDens[key]) :
+<                         	relLocalRemoveStrideNum += localStrideRemoveDens[key]
+---
+>                            print "localStrideRemoveDens key is ", localStrideRemoveDens[key]
+>                            if(scaled_down_stride >= localStrideRemoveDens[key]) :
+>                                 relLocalRemoveStrideNum += localStrideRemoveDens[key]
+597c619
+<                            	relLocalRemoveStrideNum += scaled_down_stride
+---
+>                                 relLocalRemoveStrideNum += scaled_down_stride
+601,613c623,652
+< 		localStrideDens = {k: int(float(float(v * (total_mem_inst + relLocalRemoveStrideNum)) / float(total_local_strides)) + 0.5) for k, v in self.localStride.items()}
+< 		print "Printing local stride dens before remove:", localStrideDens
+< 		localStrideDens = removeStrides(localStrideDens, localStrideRemoveDens)
+< 		print "Printing local stride dens after remove:", localStrideDens
+< 		print "Total sum of localstrideDens values = ", sum(localStrideDens.values())
+< 		num_zero_strides = localStrideDens[0]
+< 
+< 		print "num zero strides is ", num_zero_strides
+< 		#Stride Algorithm
+< 		prevInsCategory = None
+<                 prevOffset = None
+< 		prevInsZeroStride = "False"
+< 				
+---
+>                 localStrideDens = {k: int(float(float(v * (total_mem_inst + relLocalRemoveStrideNum)) / float(total_local_strides)) + 0.5) for k, v in self.localStride.items()}
+>                 print "Printing local stride dens before remove:", localStrideDens
+>                 localStrideDens = removeStrides(localStrideDens, localStrideRemoveDens)
+>                 print "Printing local stride dens after remove:", localStrideDens
+>                 print "Total sum of localstrideDens values = ", sum(localStrideDens.values())
+> 
+> 		sorted_localStrideDens = sorted(localStrideDens.items(), key=operator.itemgetter(1))
+> 		print sorted_localStrideDens
+> 
+> 		avail_arr_cnts = [0, 0, 0, 0, 0, 0, 0, 0]
+> 		self.avail_arr_strides = [0, 0, 0, 0, 0, 0, 0, 0]
+> 		print "Avail arr cts is ", avail_arr_cnts
+> 		adjusted_arr_cts = 0
+> 		for arr_ct_act in range(0, len(sorted_localStrideDens)):
+> 			arr_ct = len(sorted_localStrideDens) - arr_ct_act - 1
+> 			print "arr_ct is ", arr_ct
+> 			if(arr_ct_act < self.numAvailableArrays):
+> 				print "arr_ct is ", arr_ct	
+> 				print sorted_localStrideDens[arr_ct]
+> 				avail_arr_cnts[arr_ct_act] = (sorted_localStrideDens[arr_ct])[1]
+> 				self.avail_arr_strides[arr_ct_act] = (sorted_localStrideDens[arr_ct])[0]
+> 			else:
+> 				adjusted_arr_cts += (sorted_localStrideDens[arr_ct])[1]
+> 		print "Extra array counts than available arrays are ", adjusted_arr_cts
+> 
+> 		for arr_ct in range(0, self.numAvailableArrays):
+> 			avail_arr_cnts[arr_ct] = int(float(avail_arr_cnts[arr_ct] + (float(adjusted_arr_cts)/float(self.numAvailableArrays) + 0.5)))
+> 
+> 		print "Adjusted Avail arr cts is ", avail_arr_cnts
+> 
+618c657
+< 				
+---
+> 
+620a660
+> 		prevOffset = None
+625,676d664
+< 					if num_zero_strides > 0:
+< 						print "\nnum zero strides is ", num_zero_strides
+< 						if "load" in ins.insType and prevInsCategory == None:
+< 							print "none load case"
+< 							prevInsCategory = "load"
+< 							prevInsZeroStride = "False"
+< 						elif "load" in ins.insType and prevInsCategory == "load":
+< 							print "load load"
+< 							prevInsCategory = "load"												
+< 							operand.offset = 0
+< 							operand.reg = self.registers.zeroStrideR[0]										
+< 							if prevInsZeroStride == "True" and strideDens[0] > 0:
+< 								print "load load case 1"
+< 								strideDens[0] -= 1
+< 								prevInsZeroStride = "True"
+< 								num_zero_strides -= 1
+< 								print "Mem instruction: ", str(ins)
+< 								continue
+< 							elif prevInsZeroStride == "False" and strideDens[CodeGenerator.memBlockSize] > 0:
+< 								print "load load case 2"
+< 								strideDens[CodeGenerator.memBlockSize] -= 1
+< 								prevInsZeroStride = "True"
+< 								num_zero_strides -= 1
+< 								print "Mem instruction: ", str(ins)
+< 								continue
+< 							else :
+< 								print strideDens
+< 								print "Num_zero_strides not zero, could not find a suitable placement though - Proceed to get a different assignment"													
+< 								#prevInsZeroStride = "False"
+< 						elif "load" in ins.insType and prevInsCategory == "store":
+< 							print "store load"
+< 							prevInsCategory = "load"
+< 							operand.reg = self.registers.zeroStrideR[0]
+< 							operand.offset = 0																								
+< 							if strideDens[CodeGenerator.memBlockSize] > 0:
+< 								print "store load case 1"
+< 								strideDens[CodeGenerator.memBlockSize] -= 1													
+< 								num_zero_strides -= 1
+< 								prevInsZeroStride = "True"
+< 								print "Mem instruction: ", str(ins)
+< 								continue
+< 						elif ins.insType == "store":
+< 							print "store curr"
+< 							prevInsCategory = "store"
+< 							if prevInsZeroStride == "True":
+< 								print "store curr case 1"
+< 								if strideDens[CodeGenerator.memBlockSize] > 0:
+< 									strideDens[CodeGenerator.memBlockSize] -= 1
+< 							#prevInsZeroStride = "False"
+< 						else:
+< 							print "Invalid case for mems, num_zero_strides = ", num_zero_strides
+< 							num_zero_strides = -1					
+685a674
+> 						avail_arr_cnts[prevArr] -= 1
+687c676,704
+< 						prevInsZeroStride = "False"
+---
+> 					elif avail_arr_cnts[prevArr] <= 0:
+> 						print "I have run out of the local stride array, pick a new one"
+> 						tempArr = -1
+> 						for arrs in range(0, self.numAvailableArrays-1):
+> 							if avail_arr_cnts[arrs] > 0:
+> 								tempArr = arrs
+> 						if tempArr == -1:
+> 							print "Warning, run out of all local arrays but still have mem instructions"
+> 							tempArr = random.randint(0, (self.numAvailableArrays-1))
+> 						if(self.array_used_list[tempArr] == 0) :
+> 	                                                running_arr_ct += 1
+> 						self.array_used_list[tempArr] = 1
+> 						tempOffset = (array_offset_list[tempArr] + CodeGenerator.memBlockSize)
+> 						if(abs(tempOffset) >= CodeGenerator_x86.MAX_OFFSET) :
+>          	                                	modtempOffset = abs(tempOffset) % CodeGenerator_x86.MAX_OFFSET
+> 	                                                if(tempOffset < 0) :
+>                                                         	tempOffset = -modtempOffset
+>                                                         else :
+>                                                         	tempOffset = modtempOffset
+> 						prevArr = tempArr
+> 						prevOffset = tempOffset
+> 						operand.reg = self.registers.strideR[prevArr]
+> 						operand.offset = tempOffset
+> 						self.maxArrOffset[prevArr] = max([tempOffset, self.maxArrOffset[prevArr]])
+> 						array_offset_list[prevArr] = operand.offset
+> 						if avail_arr_cnts[prevArr] > 0:
+> 							avail_arr_cnts[prevArr] -= 1	
+> 						if strideDens[CodeGenerator.memBlockSize] > 0 :
+> 							strideDens[CodeGenerator.memBlockSize] -= 1
+689,700c706,711
+< 						for x in range(10):	
+< 							print "x is ", x
+<                                                 	tempOffset = self.nextStride(strideDens)
+< 							#if(num_zero_strides > 0) and (x != 9):
+< 							#	continue
+< 
+<                                                 	print "prevoffset not none, tempoffset = ", tempOffset
+<                                                 	if(abs(tempOffset) >= CodeGenerator.memBlockSize) :
+<                                                         	if(num_zero_strides > 0) and (x != 9):
+<                                                                 	continue
+< 
+<                                                         	print "case 1"
+---
+>                                                 tempOffset = self.nextStride(strideDens)
+>                                                 print "prevoffset not none, tempoffset = ", tempOffset
+>                                                 if(abs(tempOffset) >= CodeGenerator.memBlockSize) :
+>                                                         print "case 1"
+> 							trials = 0
+> 							while trials < 10:
+702,756c713,764
+<                                                         	if(self.array_used_list[tempArr] == 0) :
+<                                                                 	running_arr_ct += 1
+<                                                         	self.array_used_list[tempArr] = 1
+<                                                         	tempOffset = (array_offset_list[tempArr] + CodeGenerator.memBlockSize)
+<                                                         	if(abs(tempOffset) >= CodeGenerator_x86.MAX_OFFSET) :
+<                                                                 	modtempOffset = abs(tempOffset) % CodeGenerator_x86.MAX_OFFSET
+<                                                                 	if(tempOffset < 0) :
+<                                                                         	tempOffset = -modtempOffset
+<                                                                 	else :
+<                                                                         	tempOffset = modtempOffset
+< 
+<                                                         	prevArr = tempArr
+< 								prevOffset = tempOffset
+<                                                         	operand.reg = self.registers.strideR[prevArr]
+<                                                         	operand.offset = tempOffset
+< 								self.maxArrOffset[prevArr] = max([tempOffset, self.maxArrOffset[prevArr]])
+<                                                         	array_offset_list[prevArr] = operand.offset
+<                                                         	if strideDens[CodeGenerator.memBlockSize] > 0 :
+<                                                                 	strideDens[CodeGenerator.memBlockSize] -= 1
+< 								prevInsZeroStride = "False"
+< 								break
+<                                                 	else :
+<                                                         	print "case 2"
+<                                                         	prevOffset = array_offset_list[prevArr]
+<                                                         	print "prevOffset = ", prevOffset
+<                                                         	if(tempOffset + prevOffset) < 0:
+<                                                                 	self.minArrOffset[prevArr] = min([(prevOffset + tempOffset), self.minArrOffset[prevArr]])
+<                                                                 	print "minArrOffset[prevArr] is ", self.minArrOffset[prevArr]
+< 
+<                                                         	if(abs(tempOffset + prevOffset) > CodeGenerator_x86.MAX_OFFSET) :
+<                                                                 	print "abs of tempOffset and prevOffset is greater than CodeGenerator_x86.MAX_OFFSET, ", (tempOffset + prevOffset)
+<                                                                 	if strideDens[CodeGenerator.memBlockSize] > 0 :
+<                                                                         	strideDens[CodeGenerator.memBlockSize] -= 1
+<                                                                 	modtempOffset = abs(tempOffset + prevOffset) % CodeGenerator_x86.MAX_OFFSET
+<                                                                 	if((prevOffset + tempOffset) < 0) :
+<                                                                         	prevOffset = -modtempOffset
+<                                                                 	else :
+<                                                                         	prevOffset = modtempOffset
+<                                                         	else:
+< 									if prevInsZeroStride == "True":
+< 										if strideDens[CodeGenerator.memBlockSize] > 0 :
+<                                                                                 	strideDens[CodeGenerator.memBlockSize] -= 1
+<                                                                 	else:
+< 										if strideDens[tempOffset] > 0:
+<                                                                         		strideDens[tempOffset] -= 1
+<                                                                 	prevOffset += tempOffset
+< 
+< 								self.maxArrOffset[prevArr] = max([prevOffset, self.maxArrOffset[prevArr]])
+<                                                         	operand.offset = prevOffset
+<                                                         	operand.reg = self.registers.strideR[prevArr]
+<                                                         	array_offset_list[prevArr] = prevOffset
+< 								prevInsZeroStride = "False"
+< 								break
+< 						if x == 9:
+< 							print "I am here, moving on to next instruction"
+---
+> 								if(avail_arr_cnts[tempArr] > 0) :
+> 									break
+> 								if trials == 9:
+> 									tempArr = prevArr
+>                                                         if(self.array_used_list[tempArr] == 0) :
+>                                                                 running_arr_ct += 1
+>                                                         self.array_used_list[tempArr] = 1
+>                                                         tempOffset = (array_offset_list[tempArr] + CodeGenerator.memBlockSize)
+>                                                         if(abs(tempOffset) >= CodeGenerator_x86.MAX_OFFSET) :
+>                                                                 modtempOffset = abs(tempOffset) % CodeGenerator_x86.MAX_OFFSET
+>                                                                 if(tempOffset < 0) :
+>                                                                         tempOffset = -modtempOffset
+>                                                                 else :
+>                                                                         tempOffset = modtempOffset
+> 
+>                                                         prevArr = tempArr
+> 							prevOffset = tempOffset
+>                                                         operand.reg = self.registers.strideR[prevArr]
+>                                                         operand.offset = tempOffset
+> 							self.maxArrOffset[prevArr] = max([tempOffset, self.maxArrOffset[prevArr]])
+>                                                         array_offset_list[prevArr] = operand.offset
+> 							avail_arr_cnts[prevArr] -= 1
+>                                                         if strideDens[CodeGenerator.memBlockSize] > 0 :
+>                                                                 strideDens[CodeGenerator.memBlockSize] -= 1
+>                                                 else :
+>                                                         print "case 2"
+>                                                         prevOffset = array_offset_list[prevArr]
+>                                                         print "prevOffset = ", prevOffset
+>                                                         if(tempOffset + prevOffset) < 0:
+>                                                                 self.minArrOffset[prevArr] = min([(prevOffset + tempOffset), self.minArrOffset[prevArr]])
+>                                                                 print "minArrOffset[prevArr] is ", self.minArrOffset[prevArr]
+> 
+>                                                         if(abs(tempOffset + prevOffset) > CodeGenerator_x86.MAX_OFFSET) :
+>                                                                 print "abs of tempOffset and prevOffset is greater than CodeGenerator_x86.MAX_OFFSET, ", (tempOffset + prevOffset)
+>                                                                 if strideDens[CodeGenerator.memBlockSize] > 0 :
+>                                                                         strideDens[CodeGenerator.memBlockSize] -= 1
+>                                                                 modtempOffset = abs(tempOffset + prevOffset) % CodeGenerator_x86.MAX_OFFSET
+>                                                                 if((prevOffset + tempOffset) < 0) :
+>                                                                         prevOffset = -modtempOffset
+>                                                                 else :
+>                                                                         prevOffset = modtempOffset
+>                                                         else:
+>                                                                 if strideDens[tempOffset] > 0:
+>                                                                         strideDens[tempOffset] -= 1
+>                                                                 prevOffset += tempOffset
+> 
+> 							self.maxArrOffset[prevArr] = max([prevOffset, self.maxArrOffset[prevArr]])
+>                                                         operand.offset = prevOffset
+>                                                         operand.reg = self.registers.strideR[prevArr]
+>                                                         array_offset_list[prevArr] = prevOffset
+> 							avail_arr_cnts[prevArr] -= 1
+> 
+758a767
+> 					print avail_arr_cnts
+777c786,787
+<                                 string += "ptr" + str(arr_ct) + " = (char*) &X" + str(arr_ct) + "[" + str(self.LocalStride) + " * i + " + str(-1 * self.minArrOffset[arr_ct]) + "];\n" #\ string += "ptr = (int*) &X[" + str(CodeGenerator.MAX_OFFSET) + " * i];\n"
+---
+> 				string += "ptr" + str(arr_ct) + " = (char*) &X" + str(arr_ct) + "[" + str(self.avail_arr_strides[arr_ct]) + " * i + " + str(-1 * self.minArrOffset[arr_ct]) + "];\n"
+>                                 #string += "ptr" + str(arr_ct) + " = (char*) &X" + str(arr_ct) + "[" + str(self.LocalStride) + " * i + " + str(-1 * self.minArrOffset[arr_ct]) + "];\n" #\ string += "ptr = (int*) &X[" + str(CodeGenerator.MAX_OFFSET) + " * i];\n"

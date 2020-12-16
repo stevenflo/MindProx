@@ -1,0 +1,51 @@
+specinvoke r4356
+ Invoked as: /home/rpanda/spec-clustering/cpu2017/bin/specinvoke -d /home/rpanda/spec-clustering/cpu2017/benchspec/CPU/602.gcc_s/run/run_base_refspeed_gcc48-64bit-m64.0000 -f compare.cmd -E -e compare.err -o compare.stdout
+timer ticks over every 1000 ns
+ Environment in effect for these runs:
+ # 1: HOME=/home/rpanda
+ # 2: SPECPERLLIB=/home/rpanda/spec-clustering/cpu2017/bin/lib:/home/rpanda/spec-clustering/cpu2017/bin
+ # 3: LOGNAME=rpanda
+ # 4: SPECDB_PWD=/home/rpanda/spec-clustering/cpu2017/config
+ # 5: SSH_CONNECTION=10.146.252.16 65389 129.116.238.140 3131
+ # 6: SHELL=/bin/bash
+ # 7: J2SDKDIR=/usr/lib/jvm/java-8-oracle
+ # 8: JAVA_HOME=/usr/lib/jvm/java-8-oracle
+ # 9: LC_LANG=C
+ #10: OLDPWD=/home/rpanda/spec-clustering/cpu2017
+ #11: J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+ #12: SPEC=/home/rpanda/spec-clustering/cpu2017
+ #13: LIBC_FATAL_STDERR_=1
+ #14: _=/home/rpanda/spec-clustering/cpu2017/bin/runcpu
+ #15: PATH=/home/rpanda/spec-clustering/cpu2017/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+ #16: PWD=/home/rpanda/spec-clustering/cpu2017/config
+ #17: LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+ #18: XDG_RUNTIME_DIR=/run/user/1001
+ #19: XDG_SESSION_ID=169
+ #20: MAIL=/var/mail/rpanda
+ #21: SHLVL=1
+ #22: SSH_TTY=/dev/pts/2
+ #23: LESSCLOSE=/usr/bin/lesspipe %s %s
+ #24: DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+ #25: LC_ALL=C
+ #26: LESSOPEN=| /usr/bin/lesspipe %s
+ #27: SSH_CLIENT=10.146.252.16 65389 3131
+ #28: USER=rpanda
+ #29: LD_LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib64/:/usr/lib/:/lib64
+ #30: LANG=en_US.UTF-8
+ #31: TERM=xterm
+ #32: OMP_NUM_THREADS=1
+ #33: OMP_THREAD_LIMIT=1
+running commands in compare.cmd 1 times
+runs started at		1500676465, 597155000, Fri Jul 21 17:34:25 2017
+run 1 started at	1500676465, 597188000, Fri Jul 21 17:34:25 2017
+child started: 0,	1500676465, 597197000, pid=8496, '/home/rpanda/spec-clustering/cpu2017/bin/specperl /home/rpanda/spec-clustering/cpu2017/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/rpanda/spec-clustering/cpu2017/benchspec/CPU/502.gcc_r/data/refspeed/output/gcc-pp.opts-O5_-finline-limit_1000_-fselective-scheduling_-fselective-scheduling2.s gcc-pp.opts-O5_-finline-limit_1000_-fselective-scheduling_-fselective-scheduling2.s > gcc-pp.opts-O5_-finline-limit_1000_-fselective-scheduling_-fselective-scheduling2.s.cmp'
+child finished: 0,	1500676478, 286254000, sec=12, nsec=689057000, pid=8496, rc=0
+child started: 0,	1500676478, 286275000, pid=8506, '/home/rpanda/spec-clustering/cpu2017/bin/specperl /home/rpanda/spec-clustering/cpu2017/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/rpanda/spec-clustering/cpu2017/benchspec/CPU/502.gcc_r/data/refspeed/output/gcc-pp.opts-O5_-finline-limit_24000_-fgcse_-fgcse-las_-fgcse-lm_-fgcse-sm.s gcc-pp.opts-O5_-finline-limit_24000_-fgcse_-fgcse-las_-fgcse-lm_-fgcse-sm.s > gcc-pp.opts-O5_-finline-limit_24000_-fgcse_-fgcse-las_-fgcse-lm_-fgcse-sm.s.cmp'
+child finished: 0,	1500676490, 910420000, sec=12, nsec=624145000, pid=8506, rc=0
+child started: 0,	1500676490, 910441000, pid=8516, '/home/rpanda/spec-clustering/cpu2017/bin/specperl /home/rpanda/spec-clustering/cpu2017/bin/harness/specdiff -m -l 10 --floatcompare --nonansupport /home/rpanda/spec-clustering/cpu2017/benchspec/CPU/502.gcc_r/data/refspeed/output/gcc-pp.opts-O5_-fipa-pta.s gcc-pp.opts-O5_-fipa-pta.s > gcc-pp.opts-O5_-fipa-pta.s.cmp'
+child finished: 0,	1500676503, 434929000, sec=12, nsec=524488000, pid=8516, rc=0
+run 1 finished at:	1500676503, 434947000, Fri Jul 21 17:35:03 2017
+run 1 elapsed time:	        37, 837759000, 37.837759000
+runs finished at	1500676503, 434965000, Fri Jul 21 17:35:03 2017
+runs elapsed time:	        37, 837810000, 37.837810000
+specinvoke exit: rc=0

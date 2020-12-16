@@ -1,0 +1,147 @@
+# Mix output version 2
+# FINI: end of program
+# EMIT_DYNAMIC_STATS FOR TID 1, ins = 99232
+Dynamic Instruction Count = 99232, Dyn BBL Count = 21998
+RAWdep[ 0] = 0
+RAWdep[ 1] = 43094
+RAWdep[ 2] = 14629
+RAWdep[ 3] = 9363
+RAWdep[ 4] = 11345
+RAWdep[ 5] = 7380
+RAWdep[ 6] = 5048
+RAWdep[ 7] = 5551
+RAWdep[ 8] = 5520
+RAWdep[ 9] = 2779
+RAWdep[ 10] = 2764
+RAWdep[ 11] = 1398
+RAWdep[ 12] = 1967
+RAWdep[ 13] = 1995
+RAWdep[ 14] = 832
+RAWdep[ 15] = 994
+RAWdep[ 16] = 1058
+RAWdep[ 17] = 841
+RAWdep[ 18] = 645
+RAWdep[ 19] = 848
+RAWdep[ 20] = 359
+RAWdep[ 21] = 524
+RAWdep[ 22] = 639
+RAWdep[ 23] = 542
+RAWdep[ 24] = 366
+RAWdep[ 25] = 310
+RAWdep[ 26] = 209
+RAWdep[ 27] = 626
+RAWdep[ 28] = 95
+RAWdep[ 29] = 102
+RAWdep[ 30] = 181
+RAWdep[ 31] = 173
+RAWdep[ 32] = 317
+RAWdep[ 33] = 32039
+
+WAWdep[ 0] = 0
+WAWdep[ 1] = 29582
+WAWdep[ 2] = 18413
+WAWdep[ 3] = 13210
+WAWdep[ 4] = 5434
+WAWdep[ 5] = 5360
+WAWdep[ 6] = 4796
+WAWdep[ 7] = 7272
+WAWdep[ 8] = 5776
+WAWdep[ 9] = 1248
+WAWdep[ 10] = 783
+WAWdep[ 11] = 839
+WAWdep[ 12] = 2945
+WAWdep[ 13] = 2900
+WAWdep[ 14] = 716
+WAWdep[ 15] = 394
+WAWdep[ 16] = 813
+WAWdep[ 17] = 564
+WAWdep[ 18] = 433
+WAWdep[ 19] = 208
+WAWdep[ 20] = 273
+WAWdep[ 21] = 401
+WAWdep[ 22] = 365
+WAWdep[ 23] = 284
+WAWdep[ 24] = 185
+WAWdep[ 25] = 229
+WAWdep[ 26] = 346
+WAWdep[ 27] = 296
+WAWdep[ 28] = 265
+WAWdep[ 29] = 312
+WAWdep[ 30] = 623
+WAWdep[ 31] = 181
+WAWdep[ 32] = 207
+WAWdep[ 33] = 12335
+
+WARdep[ 0] = 50612
+WARdep[ 1] = 10341
+WARdep[ 2] = 13072
+WARdep[ 3] = 9374
+WARdep[ 4] = 5830
+WARdep[ 5] = 3940
+WARdep[ 6] = 1893
+WARdep[ 7] = 2488
+WARdep[ 8] = 1063
+WARdep[ 9] = 665
+WARdep[ 10] = 495
+WARdep[ 11] = 890
+WARdep[ 12] = 800
+WARdep[ 13] = 679
+WARdep[ 14] = 244
+WARdep[ 15] = 358
+WARdep[ 16] = 378
+WARdep[ 17] = 379
+WARdep[ 18] = 207
+WARdep[ 19] = 190
+WARdep[ 20] = 284
+WARdep[ 21] = 284
+WARdep[ 22] = 124
+WARdep[ 23] = 340
+WARdep[ 24] = 342
+WARdep[ 25] = 275
+WARdep[ 26] = 263
+WARdep[ 27] = 179
+WARdep[ 28] = 377
+WARdep[ 29] = 265
+WARdep[ 30] = 232
+WARdep[ 31] = 44
+WARdep[ 32] = 55
+WARdep[ 33] = 11026
+
+
+		"0": "0",
+		"1": "43094",
+		"2": "14629",
+		"3": "9363",
+		"4": "11345",
+		"5": "7380",
+		"6": "5048",
+		"7": "5551",
+		"8": "5520",
+		"9": "2779",
+		"10": "2764",
+		"11": "1398",
+		"12": "1967",
+		"13": "1995",
+		"14": "832",
+		"15": "994",
+		"16": "1058",
+		"17": "841",
+		"18": "645",
+		"19": "848",
+		"20": "359",
+		"21": "524",
+		"22": "639",
+		"23": "542",
+		"24": "366",
+		"25": "310",
+		"26": "209",
+		"27": "626",
+		"28": "95",
+		"29": "102",
+		"30": "181",
+		"31": "173",
+		"32": "317",
+		"33": "32039",
+
+
+# END_DYNAMIC_STATS

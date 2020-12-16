@@ -1,0 +1,66 @@
+Block 0x0: Count: 226961, Running Total: 226961
+Block 0x1: Count: 226960, Running Total: 453921
+Block 0x2: Count: 907840, Running Total: 1361761
+Block 0x3: Count: 907840, Running Total: 2269601
+Block 0x4: Count: 907840, Running Total: 3177441
+Block 0x5: Count: 981066, Running Total: 4158507
+Block 0x6: Count: 981023, Running Total: 5139530
+Block 0x7: Count: 907840, Running Total: 6047370
+Block 0x8: Count: 907840, Running Total: 6955210
+Block 0x9: Count: 1088550, Running Total: 8043760
+Block 0xa: Count: 1088544, Running Total: 9132304
+Block 0xb: Count: 113481, Running Total: 9245785
+Block 0xc: Count: 113480, Running Total: 9359265
+Block 0xd: Count: 113480, Running Total: 9472745
+Block 0xe: Count: 113360, Running Total: 9586105
+Block 0xf: Count: 113360, Running Total: 9699465
+Block 0x10: Count: 107521, Running Total: 9806986
+Block 0x11: Count: 107484, Running Total: 9914470
+Block 0x12: Count: 113481, Running Total: 10027951
+Block 0x13: Count: 113480, Running Total: 10141431
+Load metaop: *mem-read-4
+Load metaop: *mem-read-8
+Store metaop: *mem-write-1
+Store metaop: *mem-write-4
+Store metaop: *mem-write-8
+Xfer metaop: *category-DATAXFER
+Unrecognized opcode CDQE, classifying as "other"
+Unrecognized opcode CMOVLE, classifying as "other"
+Unrecognized opcode CMOVNLE, classifying as "other"
+Unrecognized opcode CMOVNS, classifying as "other"
+Unrecognized opcode NOP, classifying as "other"
+Unrecognized opcode VCVTPS2PD, classifying as "other"
+Unrecognized opcode VCVTTSD2SI, classifying as "other"
+Unrecognized opcode VMOVSS, classifying as "other"
+Total metaop: *total
+
+Done parsing file
+
+"Other" ratio: 25.8909080008%
+Sum category count: 147310693
+Static BBL count: 20
+
+# FINI: end of program
+Dynamic Instruction Count = 100101479, Dyn BBL Count = 10141431
+<DynInsCount> 100101479
+<BBLCount> 10141431
+<TotInsCount> 100101479
+<IntCount> 48570648
+<IntMulCount> 0
+<IntDivCount> 0
+<FPCount> 0
+<FPMulCount> 240
+<FPDivCount> 0
+<LdCount> 29051796
+<StCount> 14752437
+<Br/CallCount> 10667229
+<CondBrCount> 6128267
+<OtherCount> 38140076
+<SysCallCount> 0
+
+# END_DYNAMIC_STATS
+
+
+Saving to file ./pinball_out/t0r2/imix_new.out
+
+

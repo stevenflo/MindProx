@@ -1,0 +1,15 @@
+# Mix output version 2
+# FINI: end of program
+# EMIT_DYNAMIC_STATS FOR TID 1
+# instructions = 100101485, basic blocks = 16098377
+Final 90% static basic block count is 279, final dynamic basic block count is 14492517
+
+
+Data statistics
+Total page count is 33355566
+Total touched static pages, size of pagecount_vector is 499
+Final 90% static data page count is 5, final dynamic page count is 30318512
+Final 50% static data page count is 2
+
+
+# END_DYNAMIC_STATS

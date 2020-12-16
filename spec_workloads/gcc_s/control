@@ -1,0 +1,6 @@
+# 57s @ 3.79 GiB VSZ
+gcc-pp.c	-O5 -fipa-pta
+# 523s @ 1.69 GiB VSZ
+gcc-pp.c	-O5 -finline-limit=1000 -fselective-scheduling -fselective-scheduling2
+# 526s @ 1.68 GiB VSZ
+gcc-pp.c	-O5 -finline-limit=24000 -fgcse -fgcse-las -fgcse-lm -fgcse-sm

@@ -1,0 +1,19 @@
+# FINI: end of program
+Dynamic Instruction Count = 96442, Dyn BBL Count = 21210
+<DynInsCount> 96442
+<BBLCount>21210
+<TotInsCount>96442
+<IntCount> 33378
+<IntMulCount > 26
+<IntDivCount > 93
+<FPCount> 0
+<FPMulCount> 0
+<FPDivCount> 0
+<LdCount> 24034
+<StCount> 12427
+<Br/CallCount> 18707
+<CondBrCount> 17217
+<OtherCount> 62945
+<SysCallCount> 40
+
+# END_DYNAMIC_STATS

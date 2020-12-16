@@ -1,0 +1,14 @@
+#The first step of generating a proxy requires us to profile the programs inherent characteristics.
+
+#For this proxy script we use PIN, a tool developed by Intel. So we must first install PIN as found at this site: https://software.intel.com/en-us/articles/pin-a-binary-instrumentation-tool-downloads I used Pin 3.7 for the profiling.
+
+#Once Pin is installed you will need to add these 6 tools to the Pin tools library and build them. This is done most easily by:
+1. copying these 6 files into PIN_HOME/source/tools/Mix
+2. Within the Mix folder run "make obj-intel64/TOOL_NAME.so" for each of the 6 tools
+
+#Now that the profilers are ready we need to run each of them on our benchmark. Here is the command to do so:
+PIN_HOME/pin -t PIN_HOME/source/tools/Mix/obj-intel64/TOOL_NAME.so -o TOOL_NAME.out -- BINARY TO BE PROFILED
+You will need to run this command once for each of the profilers. Each profile run should be run on a isolated cpu to minimize interference.
+
+#An example of the outputs for mcf are included in the profile_out folder
+

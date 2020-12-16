@@ -1,0 +1,88 @@
+Block 0x0: Count: 150126, Running Total: 150126
+Block 0x1: Count: 207903, Running Total: 358029
+Block 0x2: Count: 200285, Running Total: 558314
+Block 0x3: Count: 196920, Running Total: 755234
+Block 0x4: Count: 251850, Running Total: 1007084
+Block 0x5: Count: 190745, Running Total: 1197829
+Block 0x6: Count: 328135, Running Total: 1525964
+Block 0x7: Count: 39396, Running Total: 1565360
+Block 0x8: Count: 203301, Running Total: 1768661
+Block 0x9: Count: 120080, Running Total: 1888741
+Block 0xa: Count: 81632, Running Total: 1970373
+Block 0xb: Count: 125926, Running Total: 2096299
+Block 0xc: Count: 68494, Running Total: 2164793
+Block 0xd: Count: 121603, Running Total: 2286396
+Block 0xe: Count: 82211, Running Total: 2368607
+Block 0xf: Count: 328135, Running Total: 2696742
+Block 0x10: Count: 328135, Running Total: 3024877
+Block 0x11: Count: 120080, Running Total: 3144957
+Block 0x12: Count: 158651, Running Total: 3303608
+Block 0x13: Count: 150126, Running Total: 3453734
+Load metaop: *mem-read-1
+Load metaop: *mem-read-2
+Load metaop: *mem-read-4
+Load metaop: *mem-read-8
+Load metaop: *mem-read-16
+Store metaop: *mem-write-1
+Store metaop: *mem-write-2
+Store metaop: *mem-write-4
+Store metaop: *mem-write-8
+Store metaop: *mem-write-16
+Xfer metaop: *category-DATAXFER
+Unrecognized opcode CDQ, classifying as "other"
+Unrecognized opcode CDQE, classifying as "other"
+Unrecognized opcode CMOVL, classifying as "other"
+Unrecognized opcode CMOVLE, classifying as "other"
+Unrecognized opcode CMOVNB, classifying as "other"
+Unrecognized opcode CMOVNLE, classifying as "other"
+Unrecognized opcode CMOVNZ, classifying as "other"
+Unrecognized opcode CMOVZ, classifying as "other"
+Unrecognized opcode CMPXCHG, classifying as "other"
+Unrecognized opcode LDDQU, classifying as "other"
+Unrecognized opcode LEAVE, classifying as "other"
+Unrecognized opcode NOP, classifying as "other"
+Opcode REP_STOSQ has repeat prefix; discarding prefix
+Unrecognized opcode SETNBE, classifying as "other"
+Unrecognized opcode SETNLE, classifying as "other"
+Unrecognized opcode SETNZ, classifying as "other"
+Unrecognized opcode SETZ, classifying as "other"
+Unrecognized opcode VADDSS, classifying as "other"
+Unrecognized opcode VCVTSI2SS, classifying as "other"
+Unrecognized opcode VCVTTSS2SI, classifying as "other"
+Unrecognized opcode VDIVSS, classifying as "other"
+Unrecognized opcode VMOVSS, classifying as "other"
+Unrecognized opcode VSUBSS, classifying as "other"
+Unrecognized opcode VUCOMISS, classifying as "other"
+Unrecognized opcode VXORPS, classifying as "other"
+Total metaop: *total
+
+Done parsing file
+
+"Other" ratio: 28.0670806319%
+Sum category count: 141130036
+Static BBL count: 20
+
+# FINI: end of program
+Dynamic Instruction Count = 100101501, Dyn BBL Count = 3453734
+<DynInsCount> 100101501
+<BBLCount> 3453734
+<TotInsCount> 100101501
+<IntCount> 38930251
+<IntMulCount> 1585683
+<IntDivCount> 599311
+<FPCount> 0
+<FPMulCount> 0
+<FPDivCount> 0
+<LdCount> 24610177
+<StCount> 9225549
+<Br/CallCount> 16052125
+<CondBrCount> 10515859
+<OtherCount> 39611081
+<SysCallCount> 0
+
+# END_DYNAMIC_STATS
+
+
+Saving to file ./pinball_out/t0r7/imix_new.out
+
+

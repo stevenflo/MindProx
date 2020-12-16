@@ -1,0 +1,63 @@
+Block 0x0: Count: 246613, Running Total: 246613
+Block 0x1: Count: 246614, Running Total: 493227
+Block 0x2: Count: 789153, Running Total: 1282380
+Block 0x3: Count: 24662, Running Total: 1307042
+Block 0x4: Count: 24662, Running Total: 1331704
+Block 0x5: Count: 24661, Running Total: 1356365
+Block 0x6: Count: 24662, Running Total: 1381027
+Block 0x7: Count: 24662, Running Total: 1405689
+Block 0x8: Count: 24662, Running Total: 1430351
+Block 0x9: Count: 24662, Running Total: 1455013
+Block 0x10: Count: 24662, Running Total: 1479675
+Load metaop: *mem-read-4
+Load metaop: *mem-read-8
+Load metaop: *mem-read-16
+Store metaop: *mem-write-8
+Store metaop: *mem-write-16
+Store metaop: *mem-write-32
+Xfer metaop: *category-DATAXFER
+Unrecognized opcode NOP, classifying as "other"
+Unrecognized opcode VINSERTF128, classifying as "other"
+Unrecognized opcode VMOVDQU, classifying as "other"
+Unrecognized opcode VPINSRQ, classifying as "other"
+Unrecognized opcode VPMOVZXBW, classifying as "other"
+Unrecognized opcode VPMOVZXDQ, classifying as "other"
+Unrecognized opcode VPMOVZXWD, classifying as "other"
+Unrecognized opcode VPOR, classifying as "other"
+Unrecognized opcode VPSHUFB, classifying as "other"
+Unrecognized opcode VPSRLDQ, classifying as "other"
+Unrecognized opcode VPSRLQ, classifying as "other"
+Unrecognized opcode VPXOR, classifying as "other"
+Unrecognized opcode VZEROUPPER, classifying as "other"
+Total metaop: *total
+
+Done parsing file
+
+"Other" ratio: 38.5455834201%
+Sum category count: 112924359
+Static BBL count: 17
+
+# FINI: end of program
+Dynamic Instruction Count = 100001808, Dyn BBL Count = 1479675
+<DynInsCount> 100001808
+<BBLCount> 1479675
+<TotInsCount> 100001808
+<IntCount> 56967670
+<IntMulCount> 0
+<IntDivCount> 0
+<FPCount> 0
+<FPMulCount> 0
+<FPDivCount> 0
+<LdCount> 8064267
+<StCount> 2071577
+<Br/CallCount> 1183739
+<CondBrCount> 1109753
+<OtherCount> 43527353
+<SysCallCount> 0
+
+# END_DYNAMIC_STATS
+
+
+Saving to file ./pinball_out/xalancbmk/t0r5/imix_new.out
+
+

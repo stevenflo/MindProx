@@ -1,0 +1,827 @@
+# Mix output version 10
+# Intel(R) SDE version: 8.16.0 external
+# Starting tid 0,  OS-TID 21936
+# FINI: end of program
+
+# EMIT_IMAGE_ADDRESSES 
+# 
+#    IMAGE NAME                                                                              LOW ADDRESS   HIGH ADDRESS  
+# 
+/home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64             000000400000  00000063e8a6
+/lib64/ld-linux-x86-64.so.2                                                                  7f0250493000  7f02506b71c6
+/lib/x86_64-linux-gnu/libc.so.6                                                              7f02308af000  7f0230c772be
+# END_IMAGE_ADDRESSES
+
+# ==============================================
+# STATS FOR TID 0  OS-TID  21936 EMIT# 1
+# ==============================================
+# EMIT_TOP_BLOCK_STATS FOR TID 0  OS-TID 21936 EMIT # 1 EVENT=ICOUNT
+BLOCK:     0   PC: 00007f0230949b10   ICOUNT: 100001165   EXECUTIONS:   9091015   #BYTES: 56   %:   100   cumltv%:   100  FN: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 9ab10
+XDIS 00007f0230949b10: SSE2 F3460F6F0411             movdqu xmm8, xmmword ptr [rcx+r10*1]
+XDIS 00007f0230949b16: SSE2 66440F7F01               movdqa xmmword ptr [rcx], xmm8
+XDIS 00007f0230949b1b: SSE2 F3460F6F0409             movdqu xmm8, xmmword ptr [rcx+r9*1]
+XDIS 00007f0230949b21: SSE2 66440F7F4110             movdqa xmmword ptr [rcx+0x10], xmm8
+XDIS 00007f0230949b27: SSE2 F3460F6F0401             movdqu xmm8, xmmword ptr [rcx+r8*1]
+XDIS 00007f0230949b2d: SSE2 66440F7F4120             movdqa xmmword ptr [rcx+0x20], xmm8
+XDIS 00007f0230949b33: SSE2 F3440F6F0401             movdqu xmm8, xmmword ptr [rcx+rax*1]
+XDIS 00007f0230949b39: SSE2 66440F7F4130             movdqa xmmword ptr [rcx+0x30], xmm8
+XDIS 00007f0230949b3f: BASE 4883C140                 add rcx, 0x40
+XDIS 00007f0230949b43: BASE 4839CA                   cmp rdx, rcx
+XDIS 00007f0230949b46: BASE 75C8                     jnz 0x7f0230949b10
+
+BLOCK:     1   PC: 00007f023092f8bd   ICOUNT:        38   EXECUTIONS:         1   #BYTES: 165   %: 3.8e-05   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 808bd
+XDIS 00007f023092f8bd: BASE 89E8                     mov eax, ebp
+XDIS 00007f023092f8bf: BASE 48C744241001000000       mov qword ptr [rsp+0x10], 0x1
+XDIS 00007f023092f8c8: BASE 4C8D7358                 lea r14, ptr [rbx+0x58]
+XDIS 00007f023092f8cc: BASE C1E804                   shr eax, 0x4
+XDIS 00007f023092f8cf: BASE 4589CD                   mov r13d, r9d
+XDIS 00007f023092f8d2: BASE 89442418                 mov dword ptr [rsp+0x18], eax
+XDIS 00007f023092f8d6: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f8d9: BASE 48C1E806                 shr rax, 0x6
+XDIS 00007f023092f8dd: BASE 4889442420               mov qword ptr [rsp+0x20], rax
+XDIS 00007f023092f8e2: BASE 83C030                   add eax, 0x30
+XDIS 00007f023092f8e5: BASE 89442428                 mov dword ptr [rsp+0x28], eax
+XDIS 00007f023092f8e9: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f8ec: BASE 48C1E809                 shr rax, 0x9
+XDIS 00007f023092f8f0: BASE 4889442438               mov qword ptr [rsp+0x38], rax
+XDIS 00007f023092f8f5: BASE 83C05B                   add eax, 0x5b
+XDIS 00007f023092f8f8: BASE 89442444                 mov dword ptr [rsp+0x44], eax
+XDIS 00007f023092f8fc: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f8ff: BASE 48C1E80C                 shr rax, 0xc
+XDIS 00007f023092f903: BASE 4889442448               mov qword ptr [rsp+0x48], rax
+XDIS 00007f023092f908: BASE 83C06E                   add eax, 0x6e
+XDIS 00007f023092f90b: BASE 89442458                 mov dword ptr [rsp+0x58], eax
+XDIS 00007f023092f90f: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f912: BASE 48C1E80F                 shr rax, 0xf
+XDIS 00007f023092f916: BASE 4889442450               mov qword ptr [rsp+0x50], rax
+XDIS 00007f023092f91b: BASE 83C077                   add eax, 0x77
+XDIS 00007f023092f91e: BASE 8944245C                 mov dword ptr [rsp+0x5c], eax
+XDIS 00007f023092f922: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f925: BASE 48C1E812                 shr rax, 0x12
+XDIS 00007f023092f929: BASE 4889442460               mov qword ptr [rsp+0x60], rax
+XDIS 00007f023092f92e: BASE 83C07C                   add eax, 0x7c
+XDIS 00007f023092f931: BASE 89842480000000           mov dword ptr [rsp+0x80], eax
+XDIS 00007f023092f938: BASE 488D842490000000         lea rax, ptr [rsp+0x90]
+XDIS 00007f023092f940: BASE 4829442410               sub qword ptr [rsp+0x10], rax
+XDIS 00007f023092f945: BASE 4889442430               mov qword ptr [rsp+0x30], rax
+XDIS 00007f023092f94a: BASE 488D84248F000000         lea rax, ptr [rsp+0x8f]
+XDIS 00007f023092f952: BASE 4889442468               mov qword ptr [rsp+0x68], rax
+XDIS 00007f023092f957: BASE 41BF10270000             mov r15d, 0x2710
+XDIS 00007f023092f95d: BASE E94C000000               jmp 0x7f023092f9ae
+
+BLOCK:     2   PC: 0000000000428b80   ICOUNT:        19   EXECUTIONS:         1   #BYTES: 127   %: 1.9e-05   cumltv%:   100  FN: sha_init  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28b80 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 106,116
+XDIS 0000000000428b80: BASE 48B808C9BCF367E6096A     mov rax, 0x6a09e667f3bcc908
+XDIS 0000000000428b8a: BASE C7474800000000           mov dword ptr [rdi+0x48], 0x0
+XDIS 0000000000428b91: BASE 48894708                 mov qword ptr [rdi+0x8], rax
+XDIS 0000000000428b95: BASE 48B83BA7CA8485AE67BB     mov rax, 0xbb67ae8584caa73b
+XDIS 0000000000428b9f: BASE 48894710                 mov qword ptr [rdi+0x10], rax
+XDIS 0000000000428ba3: BASE 48B82BF894FE72F36E3C     mov rax, 0x3c6ef372fe94f82b
+XDIS 0000000000428bad: BASE 48894718                 mov qword ptr [rdi+0x18], rax
+XDIS 0000000000428bb1: BASE 48B8F1361D5F3AF54FA5     mov rax, 0xa54ff53a5f1d36f1
+XDIS 0000000000428bbb: BASE 48894720                 mov qword ptr [rdi+0x20], rax
+XDIS 0000000000428bbf: BASE 48B8D182E6AD7F520E51     mov rax, 0x510e527fade682d1
+XDIS 0000000000428bc9: BASE 48894728                 mov qword ptr [rdi+0x28], rax
+XDIS 0000000000428bcd: BASE 48B81F6C3E2B8C68059B     mov rax, 0x9b05688c2b3e6c1f
+XDIS 0000000000428bd7: BASE 48894730                 mov qword ptr [rdi+0x30], rax
+XDIS 0000000000428bdb: BASE 48B86BBD41FBABD9831F     mov rax, 0x1f83d9abfb41bd6b
+XDIS 0000000000428be5: BASE 48894738                 mov qword ptr [rdi+0x38], rax
+XDIS 0000000000428be9: BASE 48B879217E1319CDE05B     mov rax, 0x5be0cd19137e2179
+XDIS 0000000000428bf3: BASE 48C70700000000           mov qword ptr [rdi], 0x0
+XDIS 0000000000428bfa: BASE 48894740                 mov qword ptr [rdi+0x40], rax
+XDIS 0000000000428bfe: BASE C3                       ret 
+
+BLOCK:     3   PC: 00007f023092fc54   ICOUNT:        15   EXECUTIONS:         1   #BYTES: 55   %: 1.5e-05   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 80c54
+XDIS 00007f023092fc54: BASE 418D4D01                 lea ecx, ptr [r13+0x1]
+XDIS 00007f023092fc58: BASE 438D442D00               lea eax, ptr [r13+r13*1]
+XDIS 00007f023092fc5d: BASE 89CF                     mov edi, ecx
+XDIS 00007f023092fc5f: BASE 488D54C358               lea rdx, ptr [rbx+rax*8+0x58]
+XDIS 00007f023092fc64: BASE C1EF05                   shr edi, 0x5
+XDIS 00007f023092fc67: BASE 89F8                     mov eax, edi
+XDIS 00007f023092fc69: BASE 8BB48358080000           mov esi, dword ptr [rbx+rax*4+0x858]
+XDIS 00007f023092fc70: BASE B801000000               mov eax, 0x1
+XDIS 00007f023092fc75: BASE D3E0                     shl eax, cl
+XDIS 00007f023092fc77: BASE 85C0                     test eax, eax
+XDIS 00007f023092fc79: BASE 410F94C3                 setz r11b
+XDIS 00007f023092fc7d: BASE 39F0                     cmp eax, esi
+XDIS 00007f023092fc7f: BASE 0F97C1                   setnbe cl
+XDIS 00007f023092fc82: BASE 4108CB                   or r11b, cl
+XDIS 00007f023092fc85: BASE 0F8411010000             jz 0x7f023092fd9c
+
+BLOCK:     4   PC: 0000000000428c00   ICOUNT:        13   EXECUTIONS:         1   #BYTES: 33   %: 1.3e-05   cumltv%:   100  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28c00 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 135,129
+XDIS 0000000000428c00: BASE 4157                     push r15
+XDIS 0000000000428c02: BASE 4156                     push r14
+XDIS 0000000000428c04: BASE 4989F6                   mov r14, rsi
+XDIS 0000000000428c07: BASE 4155                     push r13
+XDIS 0000000000428c09: LONGMODE 4C63EA                   movsxd r13, edx
+XDIS 0000000000428c0c: BASE 4154                     push r12
+XDIS 0000000000428c0e: BASE 55                       push rbp
+XDIS 0000000000428c0f: BASE 4889FD                   mov rbp, rdi
+XDIS 0000000000428c12: BASE 4C89EF                   mov rdi, r13
+XDIS 0000000000428c15: BASE 53                       push rbx
+XDIS 0000000000428c16: BASE 89D3                     mov ebx, edx
+XDIS 0000000000428c18: BASE 4883EC18                 sub rsp, 0x18
+XDIS 0000000000428c1c: BASE E8AF7FFDFF               call 0x400bd0
+
+BLOCK:     5   PC: 00007f0230949aa0   ICOUNT:        10   EXECUTIONS:         1   #BYTES: 61   %: 1e-05   cumltv%:   100  FN: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 9aaa0
+XDIS 00007f0230949aa0: SSE2 F3440F6F4620             movdqu xmm8, xmmword ptr [rsi+0x20]
+XDIS 00007f0230949aa6: BASE 4881FA80000000           cmp rdx, 0x80
+XDIS 00007f0230949aad: SSE2 F3440F7F4720             movdqu xmmword ptr [rdi+0x20], xmm8
+XDIS 00007f0230949ab3: SSE2 F3440F6F4416D0           movdqu xmm8, xmmword ptr [rsi+rdx*1-0x30]
+XDIS 00007f0230949aba: SSE2 F3440F7F4417D0           movdqu xmmword ptr [rdi+rdx*1-0x30], xmm8
+XDIS 00007f0230949ac1: SSE2 F3440F6F4630             movdqu xmm8, xmmword ptr [rsi+0x30]
+XDIS 00007f0230949ac7: SSE2 F3440F7F4730             movdqu xmmword ptr [rdi+0x30], xmm8
+XDIS 00007f0230949acd: SSE2 F3440F6F4416C0           movdqu xmm8, xmmword ptr [rsi+rdx*1-0x40]
+XDIS 00007f0230949ad4: SSE2 F3440F7F4417C0           movdqu xmmword ptr [rdi+rdx*1-0x40], xmm8
+XDIS 00007f0230949adb: BASE 7691                     jbe 0x7f0230949a6e
+
+BLOCK:     6   PC: 00000000004276ce   ICOUNT:        10   EXECUTIONS:         1   #BYTES: 36   %: 1e-05   cumltv%:   100  FN: spec_mem_load  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 276ce Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/spec_mem_io/spec_mem_io.c 114,117
+XDIS 00000000004276ce: BASE 6690                     data16 nop 
+XDIS 00000000004276d0: BASE 488D7C2420               lea rdi, ptr [rsp+0x20]
+XDIS 00000000004276d5: BASE 4829E8                   sub rax, rbp
+XDIS 00000000004276d8: BASE 4889EE                   mov rsi, rbp
+XDIS 00000000004276db: BASE 4939C5                   cmp r13, rax
+XDIS 00000000004276de: BASE 4C0F4FE8                 cmovnle r13, rax
+XDIS 00000000004276e2: BASE 4903742420               add rsi, qword ptr [r12+0x20]
+XDIS 00000000004276e7: BASE 4489EA                   mov edx, r13d
+XDIS 00000000004276ea: BASE 4C01ED                   add rbp, r13
+XDIS 00000000004276ed: BASE E80E150000               call 0x428c00
+
+BLOCK:     7   PC: 00007f023092f740   ICOUNT:        10   EXECUTIONS:         1   #BYTES: 32   %: 1e-05   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 80740
+XDIS 00007f023092f740: BASE 4157                     push r15
+XDIS 00007f023092f742: BASE 4156                     push r14
+XDIS 00007f023092f744: BASE 4155                     push r13
+XDIS 00007f023092f746: BASE 4154                     push r12
+XDIS 00007f023092f748: BASE 55                       push rbp
+XDIS 00007f023092f749: BASE 53                       push rbx
+XDIS 00007f023092f74a: BASE 4881ECB8000000           sub rsp, 0xb8
+XDIS 00007f023092f751: BASE 4883FEBF                 cmp rsi, 0xffffffffffffffbf
+XDIS 00007f023092f755: BASE 4889742408               mov qword ptr [rsp+0x8], rsi
+XDIS 00007f023092f75a: BASE 0F8799070000             jnbe 0x7f023092fef9
+
+BLOCK:     8   PC: 00007f023092f760   ICOUNT:        10   EXECUTIONS:         1   #BYTES: 39   %: 1e-05   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 80760
+XDIS 00007f023092f760: BASE 4889F0                   mov rax, rsi
+XDIS 00007f023092f763: BASE BD20000000               mov ebp, 0x20
+XDIS 00007f023092f768: BASE 4889FB                   mov rbx, rdi
+XDIS 00007f023092f76b: BASE 4883C017                 add rax, 0x17
+XDIS 00007f023092f76f: BASE 4889C2                   mov rdx, rax
+XDIS 00007f023092f772: BASE 4883E2F0                 and rdx, 0xfffffffffffffff0
+XDIS 00007f023092f776: BASE 4883F820                 cmp rax, 0x20
+XDIS 00007f023092f77a: BASE 480F43EA                 cmovnb rbp, rdx
+XDIS 00007f023092f77e: BASE 483B2DBB433400           cmp rbp, qword ptr [rip+0x3443bb]
+XDIS 00007f023092f785: BASE 7772                     jnbe 0x7f023092f7f9
+
+BLOCK:     9   PC: 00007f0230949add   ICOUNT:         9   EXECUTIONS:         1   #BYTES: 33   %: 9e-06   cumltv%:   100  FN: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 9aadd
+XDIS 00007f0230949add: BASE 488D4F40                 lea rcx, ptr [rdi+0x40]
+XDIS 00007f0230949ae1: BASE 4801FA                   add rdx, rdi
+XDIS 00007f0230949ae4: BASE 4883E2C0                 and rdx, 0xffffffffffffffc0
+XDIS 00007f0230949ae8: BASE 4883E1C0                 and rcx, 0xffffffffffffffc0
+XDIS 00007f0230949aec: BASE 4889C8                   mov rax, rcx
+XDIS 00007f0230949aef: BASE 4829F8                   sub rax, rdi
+XDIS 00007f0230949af2: BASE 4801C6                   add rsi, rax
+XDIS 00007f0230949af5: BASE 4839D1                   cmp rcx, rdx
+XDIS 00007f0230949af8: BASE 0F8470FFFFFF             jz 0x7f0230949a6e
+
+BLOCK:     a   PC: 00007f02309303e2   ICOUNT:         9   EXECUTIONS:         1   #BYTES: 37   %: 9e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 813e2
+XDIS 00007f02309303e2: BASE 4C89EA                   mov rdx, r13
+XDIS 00007f02309303e5: BASE 4883CA02                 or rdx, 0x2
+XDIS 00007f02309303e9: BASE 48895008                 mov qword ptr [rax+0x8], rdx
+XDIS 00007f02309303ed: BASE BA01000000               mov edx, 0x1
+XDIS 00007f02309303f2: BASE F00FC115CE0D3400         lock xadd dword ptr [rip+0x340dce], edx
+XDIS 00007f02309303fa: BASE 83C201                   add edx, 0x1
+XDIS 00007f02309303fd: BASE 8B05CD0D3400             mov eax, dword ptr [rip+0x340dcd]
+XDIS 00007f0230930403: BASE 39C2                     cmp edx, eax
+XDIS 00007f0230930405: BASE 7E0A                     jle 0x7f0230930411
+
+BLOCK:     b   PC: 00007f023092f86a   ICOUNT:         9   EXECUTIONS:         1   #BYTES: 21   %: 9e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 8086a
+XDIS 00007f023092f86a: BASE 4881C4B8000000           add rsp, 0xb8
+XDIS 00007f023092f871: BASE 4C89E0                   mov rax, r12
+XDIS 00007f023092f874: BASE 5B                       pop rbx
+XDIS 00007f023092f875: BASE 5D                       pop rbp
+XDIS 00007f023092f876: BASE 415C                     pop r12
+XDIS 00007f023092f878: BASE 415D                     pop r13
+XDIS 00007f023092f87a: BASE 415E                     pop r14
+XDIS 00007f023092f87c: BASE 415F                     pop r15
+XDIS 00007f023092f87e: BASE C3                       ret 
+
+BLOCK:     c   PC: 00007f02309303a7   ICOUNT:         8   EXECUTIONS:         1   #BYTES: 34   %: 8e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 813a7
+XDIS 00007f02309303a7: BASE 4531C9                   xor r9d, r9d
+XDIS 00007f02309303aa: BASE 31FF                     xor edi, edi
+XDIS 00007f02309303ac: BASE 41B8FFFFFFFF             mov r8d, 0xffffffff
+XDIS 00007f02309303b2: BASE B922000000               mov ecx, 0x22
+XDIS 00007f02309303b7: BASE BA03000000               mov edx, 0x3
+XDIS 00007f02309303bc: BASE 4C89EE                   mov rsi, r13
+XDIS 00007f02309303bf: BASE 44895C2428               mov dword ptr [rsp+0x28], r11d
+XDIS 00007f02309303c4: BASE E827710700               call 0x7f02309a74f0
+
+BLOCK:     d   PC: 00007f02309300e0   ICOUNT:         8   EXECUTIONS:         1   #BYTES: 43   %: 8e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 810e0
+XDIS 00007f02309300e0: BASE 4889542418               mov qword ptr [rsp+0x18], rdx
+XDIS 00007f02309300e5: BASE 488B15740D3400           mov rdx, qword ptr [rip+0x340d74]
+XDIS 00007f02309300ec: BASE 488B7A18                 mov rdi, qword ptr [rdx+0x18]
+XDIS 00007f02309300f0: BASE 48897C2420               mov qword ptr [rsp+0x20], rdi
+XDIS 00007f02309300f5: BASE 4883EF01                 sub rdi, 0x1
+XDIS 00007f02309300f9: BASE 483B2DB0103400           cmp rbp, qword ptr [rip+0x3410b0]
+XDIS 00007f0230930100: BASE 48897C2410               mov qword ptr [rsp+0x10], rdi
+XDIS 00007f0230930105: BASE 0F8285010000             jb 0x7f0230930290
+
+BLOCK:     e   PC: 00007f0230931a80   ICOUNT:         8   EXECUTIONS:         1   #BYTES: 28   %: 8e-06   cumltv%:   100  FN: malloc  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 82a80
+XDIS 00007f0230931a80: BASE 55                       push rbp
+XDIS 00007f0230931a81: BASE 4889FD                   mov rbp, rdi
+XDIS 00007f0230931a84: BASE 53                       push rbx
+XDIS 00007f0230931a85: BASE 4883EC08                 sub rsp, 0x8
+XDIS 00007f0230931a89: BASE 488B0550F43300           mov rax, qword ptr [rip+0x33f450]
+XDIS 00007f0230931a90: BASE 488B00                   mov rax, qword ptr [rax]
+XDIS 00007f0230931a93: BASE 4885C0                   test rax, rax
+XDIS 00007f0230931a96: BASE 0F850E010000             jnz 0x7f0230931baa
+
+BLOCK:     f   PC: 00007f023092fce8   ICOUNT:         7   EXECUTIONS:         1   #BYTES: 28   %: 7e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 80ce8
+XDIS 00007f023092fce8: BASE 4C8B7B58                 mov r15, qword ptr [rbx+0x58]
+XDIS 00007f023092fcec: BASE 488D5520                 lea rdx, ptr [rbp+0x20]
+XDIS 00007f023092fcf0: BASE 498B4708                 mov rax, qword ptr [r15+0x8]
+XDIS 00007f023092fcf4: BASE 4989C4                   mov r12, rax
+XDIS 00007f023092fcf7: BASE 4983E4F8                 and r12, 0xfffffffffffffff8
+XDIS 00007f023092fcfb: BASE 4939D4                   cmp r12, rdx
+XDIS 00007f023092fcfe: BASE 0F8334060000             jnb 0x7f0230930338
+
+BLOCK:    10   PC: 00007f023093011d   ICOUNT:         7   EXECUTIONS:         1   #BYTES: 30   %: 7e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 8111d
+XDIS 00007f023093011d: BASE 488B442420               mov rax, qword ptr [rsp+0x20]
+XDIS 00007f0230930122: BASE 4C8D6C0507               lea r13, ptr [rbp+rax*1+0x7]
+XDIS 00007f0230930127: BASE 488B442410               mov rax, qword ptr [rsp+0x10]
+XDIS 00007f023093012c: BASE 48F7D0                   not rax
+XDIS 00007f023093012f: BASE 4921C5                   and r13, rax
+XDIS 00007f0230930132: BASE 4C39ED                   cmp rbp, r13
+XDIS 00007f0230930135: BASE 0F826C020000             jb 0x7f02309303a7
+
+BLOCK:    11   PC: 00007f023093008a   ICOUNT:         7   EXECUTIONS:         1   #BYTES: 29   %: 7e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 8108a
+XDIS 00007f023093008a: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023093008d: BASE 41B97E000000             mov r9d, 0x7e
+XDIS 00007f0230930093: BASE 48C1E812                 shr rax, 0x12
+XDIS 00007f0230930097: BASE 8D507C                   lea edx, ptr [rax+0x7c]
+XDIS 00007f023093009a: BASE 4883F802                 cmp rax, 0x2
+XDIS 00007f023093009e: BASE 440F46CA                 cmovbe r9d, edx
+XDIS 00007f02309300a2: BASE E9FEF7FFFF               jmp 0x7f023092f8a5
+
+BLOCK:    12   PC: 00007f0230949a30   ICOUNT:         6   EXECUTIONS:         1   #BYTES: 22   %: 6e-06   cumltv%:   100  FN: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 9aa30
+XDIS 00007f0230949a30: BASE 4889F0                   mov rax, rsi
+XDIS 00007f0230949a33: BASE 488D0C12                 lea rcx, ptr [rdx+rdx*1]
+XDIS 00007f0230949a37: BASE 4829F8                   sub rax, rdi
+XDIS 00007f0230949a3a: BASE 4829D0                   sub rax, rdx
+XDIS 00007f0230949a3d: BASE 4839C8                   cmp rax, rcx
+XDIS 00007f0230949a40: BASE 0F8207010000             jb 0x7f0230949b4d
+
+BLOCK:    13   PC: 00007f0230930411   ICOUNT:         6   EXECUTIONS:         1   #BYTES: 31   %: 6e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 81411
+XDIS 00007f0230930411: BASE 4C89E8                   mov rax, r13
+XDIS 00007f0230930414: BASE F0480FC105BB0D3400       lock xadd qword ptr [rip+0x340dbb], rax
+XDIS 00007f023093041d: BASE 4901C5                   add r13, rax
+XDIS 00007f0230930420: BASE 488B05B90D3400           mov rax, qword ptr [rip+0x340db9]
+XDIS 00007f0230930427: BASE 4939C5                   cmp r13, rax
+XDIS 00007f023093042a: BASE 0F863AFEFFFF             jbe 0x7f023093026a
+
+# END_TOP_BLOCK_STATS
+# EMIT_DYNAMIC_STATS FOR TID 0  OS-TID 21936 EMIT #1
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*mem-atomic                                                            3
+*stack-read                                                           17
+*stack-write                                                          40
+*iprel-read                                                           17
+*iprel-write                                                           3
+*mem-read-1                                                            2
+*mem-read-4                                                           11
+*mem-read-8                                                           37
+*mem-read-16                                                    36364068
+*mem-write-4                                                          11
+*mem-write-8                                                          46
+*mem-write-16                                                   36364068
+*isa-ext-BASE                                                   27273364
+*isa-ext-LONGMODE                                                      2
+*isa-ext-SSE2                                                   72728136
+*isa-set-CMOV                                                          3
+*isa-set-I186                                                         12
+*isa-set-I386                                                          2
+*isa-set-I486REAL                                                      4
+*isa-set-I86                                                    27273343
+*isa-set-LONGMODE                                                      2
+*isa-set-SSE2                                                   72728136
+*category-BINARY                                                18182088
+*category-CALL                                                         6
+*category-CMOV                                                         3
+*category-COND_BR                                                9091058
+*category-DATAXFER                                              72728250
+*category-LOGICAL                                                     24
+*category-MISC                                                        20
+*category-NOP                                                          1
+*category-POP                                                          8
+*category-PUSH                                                        14
+*category-RET                                                          5
+*category-SEMAPHORE                                                    4
+*category-SETCC                                                        2
+*category-SHIFT                                                       13
+*category-SYSCALL                                                      1
+*category-UNCOND_BR                                                    5
+*ilen-1                                                               15
+*ilen-2                                                          9091059
+*ilen-3                                                          9091097
+*ilen-4                                                          9091083
+*ilen-5                                                          9091060
+*ilen-6                                                         63637149
+*ilen-7                                                               25
+*ilen-8                                                                3
+*ilen-9                                                                3
+*ilen-10                                                               8
+*nop-ilen-2                                                            1
+*sse-packed                                                     72728136
+*gpr64                                                          18182235
+*legacy-prefixes-0                                               9091135
+*legacy-prefixes-1                                              54546304
+*legacy-prefixes-2                                              36364063
+*legacy-prefixes-and-escapes-0                                   9091105
+*legacy-prefixes-and-escapes-1                                  18182253
+*legacy-prefixes-and-escapes-2                                  36364082
+*legacy-prefixes-and-escapes-3                                  36364062
+*segment_prefix                                                        1
+*lock_prefix                                                           3
+*66_prefix                                                      36364061
+*rex_prefix                                                     90910365
+*rexw_prefix                                                    18182201
+*rexr_prefix                                                    72728164
+*rexx_prefix                                                    27273047
+*rexb_prefix                                                          58
+*loadop                                                               50
+*one-memops                                                     72728237
+*cond-branch-forward                                                  33
+*cond-branch-backward                                            9091025
+*base_only                                                       9091055
+*base_disp                                                      27273113
+*base_index                                                     36364060
+*base_index_disp                                                       9
+*scale_1                                                        72728254
+*scale_4                                                               1
+*scale_8                                                               2
+*memdisp8                                                       27273120
+*memdisp32                                                            21
+*dataxfer_i32_4                                                 72728136
+ADD                                                              9091030
+AND                                                                    5
+CALL_NEAR                                                              6
+CMOVBE                                                                 1
+CMOVNB                                                                 1
+CMOVNLE                                                                1
+CMP                                                              9091047
+CMPXCHG                                                                1
+CMPXCHG_LOCK                                                           1
+DEC                                                                    1
+JB                                                                     3
+JBE                                                                    6
+JLE                                                                    3
+JMP                                                                    5
+JNB                                                                    2
+JNBE                                                                   8
+JNL                                                                    1
+JNZ                                                              9091022
+JZ                                                                    13
+LEA                                                                   20
+MOV                                                                  113
+MOVDQA                                                          36364060
+MOVDQU                                                          36364076
+MOVSXD                                                                 1
+NOP                                                                    1
+NOT                                                                    1
+OR                                                                     2
+POP                                                                    8
+PUSH                                                                  14
+RET_NEAR                                                               5
+SETNBE                                                                 1
+SETZ                                                                   1
+SHL                                                                    1
+SHR                                                                   12
+SUB                                                                   10
+SYSCALL                                                                1
+TEST                                                                  12
+XADD_LOCK                                                              2
+XOR                                                                    4
+*total                                                         100001502
+# END_DYNAMIC_STATS
+# FUNCTION TOTALS FOR TID 0  OS-TID 21936
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+            100001502 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 21936 EMIT# 1
+# END_PER_FUNCTION_STATS 
+# EMIT_GLOBAL_TOP_BLOCK_STATS EVENT=ICOUNT
+BLOCK:     0   PC: 00007f0230949b10   ICOUNT: 100001165   EXECUTIONS:   9091015   #BYTES: 56   %:   100   cumltv%:   100  FN: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 9ab10
+XDIS 00007f0230949b10: SSE2 F3460F6F0411             movdqu xmm8, xmmword ptr [rcx+r10*1]
+XDIS 00007f0230949b16: SSE2 66440F7F01               movdqa xmmword ptr [rcx], xmm8
+XDIS 00007f0230949b1b: SSE2 F3460F6F0409             movdqu xmm8, xmmword ptr [rcx+r9*1]
+XDIS 00007f0230949b21: SSE2 66440F7F4110             movdqa xmmword ptr [rcx+0x10], xmm8
+XDIS 00007f0230949b27: SSE2 F3460F6F0401             movdqu xmm8, xmmword ptr [rcx+r8*1]
+XDIS 00007f0230949b2d: SSE2 66440F7F4120             movdqa xmmword ptr [rcx+0x20], xmm8
+XDIS 00007f0230949b33: SSE2 F3440F6F0401             movdqu xmm8, xmmword ptr [rcx+rax*1]
+XDIS 00007f0230949b39: SSE2 66440F7F4130             movdqa xmmword ptr [rcx+0x30], xmm8
+XDIS 00007f0230949b3f: BASE 4883C140                 add rcx, 0x40
+XDIS 00007f0230949b43: BASE 4839CA                   cmp rdx, rcx
+XDIS 00007f0230949b46: BASE 75C8                     jnz 0x7f0230949b10
+
+BLOCK:     1   PC: 00007f023092f8bd   ICOUNT:        38   EXECUTIONS:         1   #BYTES: 165   %: 3.8e-05   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 808bd
+XDIS 00007f023092f8bd: BASE 89E8                     mov eax, ebp
+XDIS 00007f023092f8bf: BASE 48C744241001000000       mov qword ptr [rsp+0x10], 0x1
+XDIS 00007f023092f8c8: BASE 4C8D7358                 lea r14, ptr [rbx+0x58]
+XDIS 00007f023092f8cc: BASE C1E804                   shr eax, 0x4
+XDIS 00007f023092f8cf: BASE 4589CD                   mov r13d, r9d
+XDIS 00007f023092f8d2: BASE 89442418                 mov dword ptr [rsp+0x18], eax
+XDIS 00007f023092f8d6: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f8d9: BASE 48C1E806                 shr rax, 0x6
+XDIS 00007f023092f8dd: BASE 4889442420               mov qword ptr [rsp+0x20], rax
+XDIS 00007f023092f8e2: BASE 83C030                   add eax, 0x30
+XDIS 00007f023092f8e5: BASE 89442428                 mov dword ptr [rsp+0x28], eax
+XDIS 00007f023092f8e9: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f8ec: BASE 48C1E809                 shr rax, 0x9
+XDIS 00007f023092f8f0: BASE 4889442438               mov qword ptr [rsp+0x38], rax
+XDIS 00007f023092f8f5: BASE 83C05B                   add eax, 0x5b
+XDIS 00007f023092f8f8: BASE 89442444                 mov dword ptr [rsp+0x44], eax
+XDIS 00007f023092f8fc: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f8ff: BASE 48C1E80C                 shr rax, 0xc
+XDIS 00007f023092f903: BASE 4889442448               mov qword ptr [rsp+0x48], rax
+XDIS 00007f023092f908: BASE 83C06E                   add eax, 0x6e
+XDIS 00007f023092f90b: BASE 89442458                 mov dword ptr [rsp+0x58], eax
+XDIS 00007f023092f90f: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f912: BASE 48C1E80F                 shr rax, 0xf
+XDIS 00007f023092f916: BASE 4889442450               mov qword ptr [rsp+0x50], rax
+XDIS 00007f023092f91b: BASE 83C077                   add eax, 0x77
+XDIS 00007f023092f91e: BASE 8944245C                 mov dword ptr [rsp+0x5c], eax
+XDIS 00007f023092f922: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023092f925: BASE 48C1E812                 shr rax, 0x12
+XDIS 00007f023092f929: BASE 4889442460               mov qword ptr [rsp+0x60], rax
+XDIS 00007f023092f92e: BASE 83C07C                   add eax, 0x7c
+XDIS 00007f023092f931: BASE 89842480000000           mov dword ptr [rsp+0x80], eax
+XDIS 00007f023092f938: BASE 488D842490000000         lea rax, ptr [rsp+0x90]
+XDIS 00007f023092f940: BASE 4829442410               sub qword ptr [rsp+0x10], rax
+XDIS 00007f023092f945: BASE 4889442430               mov qword ptr [rsp+0x30], rax
+XDIS 00007f023092f94a: BASE 488D84248F000000         lea rax, ptr [rsp+0x8f]
+XDIS 00007f023092f952: BASE 4889442468               mov qword ptr [rsp+0x68], rax
+XDIS 00007f023092f957: BASE 41BF10270000             mov r15d, 0x2710
+XDIS 00007f023092f95d: BASE E94C000000               jmp 0x7f023092f9ae
+
+BLOCK:     2   PC: 0000000000428b80   ICOUNT:        19   EXECUTIONS:         1   #BYTES: 127   %: 1.9e-05   cumltv%:   100  FN: sha_init  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28b80 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 106,116
+XDIS 0000000000428b80: BASE 48B808C9BCF367E6096A     mov rax, 0x6a09e667f3bcc908
+XDIS 0000000000428b8a: BASE C7474800000000           mov dword ptr [rdi+0x48], 0x0
+XDIS 0000000000428b91: BASE 48894708                 mov qword ptr [rdi+0x8], rax
+XDIS 0000000000428b95: BASE 48B83BA7CA8485AE67BB     mov rax, 0xbb67ae8584caa73b
+XDIS 0000000000428b9f: BASE 48894710                 mov qword ptr [rdi+0x10], rax
+XDIS 0000000000428ba3: BASE 48B82BF894FE72F36E3C     mov rax, 0x3c6ef372fe94f82b
+XDIS 0000000000428bad: BASE 48894718                 mov qword ptr [rdi+0x18], rax
+XDIS 0000000000428bb1: BASE 48B8F1361D5F3AF54FA5     mov rax, 0xa54ff53a5f1d36f1
+XDIS 0000000000428bbb: BASE 48894720                 mov qword ptr [rdi+0x20], rax
+XDIS 0000000000428bbf: BASE 48B8D182E6AD7F520E51     mov rax, 0x510e527fade682d1
+XDIS 0000000000428bc9: BASE 48894728                 mov qword ptr [rdi+0x28], rax
+XDIS 0000000000428bcd: BASE 48B81F6C3E2B8C68059B     mov rax, 0x9b05688c2b3e6c1f
+XDIS 0000000000428bd7: BASE 48894730                 mov qword ptr [rdi+0x30], rax
+XDIS 0000000000428bdb: BASE 48B86BBD41FBABD9831F     mov rax, 0x1f83d9abfb41bd6b
+XDIS 0000000000428be5: BASE 48894738                 mov qword ptr [rdi+0x38], rax
+XDIS 0000000000428be9: BASE 48B879217E1319CDE05B     mov rax, 0x5be0cd19137e2179
+XDIS 0000000000428bf3: BASE 48C70700000000           mov qword ptr [rdi], 0x0
+XDIS 0000000000428bfa: BASE 48894740                 mov qword ptr [rdi+0x40], rax
+XDIS 0000000000428bfe: BASE C3                       ret 
+
+BLOCK:     3   PC: 00007f023092fc54   ICOUNT:        15   EXECUTIONS:         1   #BYTES: 55   %: 1.5e-05   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 80c54
+XDIS 00007f023092fc54: BASE 418D4D01                 lea ecx, ptr [r13+0x1]
+XDIS 00007f023092fc58: BASE 438D442D00               lea eax, ptr [r13+r13*1]
+XDIS 00007f023092fc5d: BASE 89CF                     mov edi, ecx
+XDIS 00007f023092fc5f: BASE 488D54C358               lea rdx, ptr [rbx+rax*8+0x58]
+XDIS 00007f023092fc64: BASE C1EF05                   shr edi, 0x5
+XDIS 00007f023092fc67: BASE 89F8                     mov eax, edi
+XDIS 00007f023092fc69: BASE 8BB48358080000           mov esi, dword ptr [rbx+rax*4+0x858]
+XDIS 00007f023092fc70: BASE B801000000               mov eax, 0x1
+XDIS 00007f023092fc75: BASE D3E0                     shl eax, cl
+XDIS 00007f023092fc77: BASE 85C0                     test eax, eax
+XDIS 00007f023092fc79: BASE 410F94C3                 setz r11b
+XDIS 00007f023092fc7d: BASE 39F0                     cmp eax, esi
+XDIS 00007f023092fc7f: BASE 0F97C1                   setnbe cl
+XDIS 00007f023092fc82: BASE 4108CB                   or r11b, cl
+XDIS 00007f023092fc85: BASE 0F8411010000             jz 0x7f023092fd9c
+
+BLOCK:     4   PC: 0000000000428c00   ICOUNT:        13   EXECUTIONS:         1   #BYTES: 33   %: 1.3e-05   cumltv%:   100  FN: sha_process  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 28c00 Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/sha-2/sha512.c 135,129
+XDIS 0000000000428c00: BASE 4157                     push r15
+XDIS 0000000000428c02: BASE 4156                     push r14
+XDIS 0000000000428c04: BASE 4989F6                   mov r14, rsi
+XDIS 0000000000428c07: BASE 4155                     push r13
+XDIS 0000000000428c09: LONGMODE 4C63EA                   movsxd r13, edx
+XDIS 0000000000428c0c: BASE 4154                     push r12
+XDIS 0000000000428c0e: BASE 55                       push rbp
+XDIS 0000000000428c0f: BASE 4889FD                   mov rbp, rdi
+XDIS 0000000000428c12: BASE 4C89EF                   mov rdi, r13
+XDIS 0000000000428c15: BASE 53                       push rbx
+XDIS 0000000000428c16: BASE 89D3                     mov ebx, edx
+XDIS 0000000000428c18: BASE 4883EC18                 sub rsp, 0x18
+XDIS 0000000000428c1c: BASE E8AF7FFDFF               call 0x400bd0
+
+BLOCK:     5   PC: 00007f0230949aa0   ICOUNT:        10   EXECUTIONS:         1   #BYTES: 61   %: 1e-05   cumltv%:   100  FN: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 9aaa0
+XDIS 00007f0230949aa0: SSE2 F3440F6F4620             movdqu xmm8, xmmword ptr [rsi+0x20]
+XDIS 00007f0230949aa6: BASE 4881FA80000000           cmp rdx, 0x80
+XDIS 00007f0230949aad: SSE2 F3440F7F4720             movdqu xmmword ptr [rdi+0x20], xmm8
+XDIS 00007f0230949ab3: SSE2 F3440F6F4416D0           movdqu xmm8, xmmword ptr [rsi+rdx*1-0x30]
+XDIS 00007f0230949aba: SSE2 F3440F7F4417D0           movdqu xmmword ptr [rdi+rdx*1-0x30], xmm8
+XDIS 00007f0230949ac1: SSE2 F3440F6F4630             movdqu xmm8, xmmword ptr [rsi+0x30]
+XDIS 00007f0230949ac7: SSE2 F3440F7F4730             movdqu xmmword ptr [rdi+0x30], xmm8
+XDIS 00007f0230949acd: SSE2 F3440F6F4416C0           movdqu xmm8, xmmword ptr [rsi+rdx*1-0x40]
+XDIS 00007f0230949ad4: SSE2 F3440F7F4417C0           movdqu xmmword ptr [rdi+rdx*1-0x40], xmm8
+XDIS 00007f0230949adb: BASE 7691                     jbe 0x7f0230949a6e
+
+BLOCK:     6   PC: 00000000004276ce   ICOUNT:        10   EXECUTIONS:         1   #BYTES: 36   %: 1e-05   cumltv%:   100  FN: spec_mem_load  IMG: /home/sflolid/pinballs/cpu2017/ref_build/xz_s/xz_s_base.refspeed.gcc48-64bit-m64  OFFSET: 276ce Source: /home/rpanda/cpu2017/benchspec/CPU/657.xz_s/build/build_base_gcc48-64bit-m64.0000/spec_mem_io/spec_mem_io.c 114,117
+XDIS 00000000004276ce: BASE 6690                     data16 nop 
+XDIS 00000000004276d0: BASE 488D7C2420               lea rdi, ptr [rsp+0x20]
+XDIS 00000000004276d5: BASE 4829E8                   sub rax, rbp
+XDIS 00000000004276d8: BASE 4889EE                   mov rsi, rbp
+XDIS 00000000004276db: BASE 4939C5                   cmp r13, rax
+XDIS 00000000004276de: BASE 4C0F4FE8                 cmovnle r13, rax
+XDIS 00000000004276e2: BASE 4903742420               add rsi, qword ptr [r12+0x20]
+XDIS 00000000004276e7: BASE 4489EA                   mov edx, r13d
+XDIS 00000000004276ea: BASE 4C01ED                   add rbp, r13
+XDIS 00000000004276ed: BASE E80E150000               call 0x428c00
+
+BLOCK:     7   PC: 00007f023092f740   ICOUNT:        10   EXECUTIONS:         1   #BYTES: 32   %: 1e-05   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 80740
+XDIS 00007f023092f740: BASE 4157                     push r15
+XDIS 00007f023092f742: BASE 4156                     push r14
+XDIS 00007f023092f744: BASE 4155                     push r13
+XDIS 00007f023092f746: BASE 4154                     push r12
+XDIS 00007f023092f748: BASE 55                       push rbp
+XDIS 00007f023092f749: BASE 53                       push rbx
+XDIS 00007f023092f74a: BASE 4881ECB8000000           sub rsp, 0xb8
+XDIS 00007f023092f751: BASE 4883FEBF                 cmp rsi, 0xffffffffffffffbf
+XDIS 00007f023092f755: BASE 4889742408               mov qword ptr [rsp+0x8], rsi
+XDIS 00007f023092f75a: BASE 0F8799070000             jnbe 0x7f023092fef9
+
+BLOCK:     8   PC: 00007f023092f760   ICOUNT:        10   EXECUTIONS:         1   #BYTES: 39   %: 1e-05   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 80760
+XDIS 00007f023092f760: BASE 4889F0                   mov rax, rsi
+XDIS 00007f023092f763: BASE BD20000000               mov ebp, 0x20
+XDIS 00007f023092f768: BASE 4889FB                   mov rbx, rdi
+XDIS 00007f023092f76b: BASE 4883C017                 add rax, 0x17
+XDIS 00007f023092f76f: BASE 4889C2                   mov rdx, rax
+XDIS 00007f023092f772: BASE 4883E2F0                 and rdx, 0xfffffffffffffff0
+XDIS 00007f023092f776: BASE 4883F820                 cmp rax, 0x20
+XDIS 00007f023092f77a: BASE 480F43EA                 cmovnb rbp, rdx
+XDIS 00007f023092f77e: BASE 483B2DBB433400           cmp rbp, qword ptr [rip+0x3443bb]
+XDIS 00007f023092f785: BASE 7772                     jnbe 0x7f023092f7f9
+
+BLOCK:     9   PC: 00007f0230949add   ICOUNT:         9   EXECUTIONS:         1   #BYTES: 33   %: 9e-06   cumltv%:   100  FN: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 9aadd
+XDIS 00007f0230949add: BASE 488D4F40                 lea rcx, ptr [rdi+0x40]
+XDIS 00007f0230949ae1: BASE 4801FA                   add rdx, rdi
+XDIS 00007f0230949ae4: BASE 4883E2C0                 and rdx, 0xffffffffffffffc0
+XDIS 00007f0230949ae8: BASE 4883E1C0                 and rcx, 0xffffffffffffffc0
+XDIS 00007f0230949aec: BASE 4889C8                   mov rax, rcx
+XDIS 00007f0230949aef: BASE 4829F8                   sub rax, rdi
+XDIS 00007f0230949af2: BASE 4801C6                   add rsi, rax
+XDIS 00007f0230949af5: BASE 4839D1                   cmp rcx, rdx
+XDIS 00007f0230949af8: BASE 0F8470FFFFFF             jz 0x7f0230949a6e
+
+BLOCK:     a   PC: 00007f02309303e2   ICOUNT:         9   EXECUTIONS:         1   #BYTES: 37   %: 9e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 813e2
+XDIS 00007f02309303e2: BASE 4C89EA                   mov rdx, r13
+XDIS 00007f02309303e5: BASE 4883CA02                 or rdx, 0x2
+XDIS 00007f02309303e9: BASE 48895008                 mov qword ptr [rax+0x8], rdx
+XDIS 00007f02309303ed: BASE BA01000000               mov edx, 0x1
+XDIS 00007f02309303f2: BASE F00FC115CE0D3400         lock xadd dword ptr [rip+0x340dce], edx
+XDIS 00007f02309303fa: BASE 83C201                   add edx, 0x1
+XDIS 00007f02309303fd: BASE 8B05CD0D3400             mov eax, dword ptr [rip+0x340dcd]
+XDIS 00007f0230930403: BASE 39C2                     cmp edx, eax
+XDIS 00007f0230930405: BASE 7E0A                     jle 0x7f0230930411
+
+BLOCK:     b   PC: 00007f023092f86a   ICOUNT:         9   EXECUTIONS:         1   #BYTES: 21   %: 9e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 8086a
+XDIS 00007f023092f86a: BASE 4881C4B8000000           add rsp, 0xb8
+XDIS 00007f023092f871: BASE 4C89E0                   mov rax, r12
+XDIS 00007f023092f874: BASE 5B                       pop rbx
+XDIS 00007f023092f875: BASE 5D                       pop rbp
+XDIS 00007f023092f876: BASE 415C                     pop r12
+XDIS 00007f023092f878: BASE 415D                     pop r13
+XDIS 00007f023092f87a: BASE 415E                     pop r14
+XDIS 00007f023092f87c: BASE 415F                     pop r15
+XDIS 00007f023092f87e: BASE C3                       ret 
+
+BLOCK:     c   PC: 00007f02309303a7   ICOUNT:         8   EXECUTIONS:         1   #BYTES: 34   %: 8e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 813a7
+XDIS 00007f02309303a7: BASE 4531C9                   xor r9d, r9d
+XDIS 00007f02309303aa: BASE 31FF                     xor edi, edi
+XDIS 00007f02309303ac: BASE 41B8FFFFFFFF             mov r8d, 0xffffffff
+XDIS 00007f02309303b2: BASE B922000000               mov ecx, 0x22
+XDIS 00007f02309303b7: BASE BA03000000               mov edx, 0x3
+XDIS 00007f02309303bc: BASE 4C89EE                   mov rsi, r13
+XDIS 00007f02309303bf: BASE 44895C2428               mov dword ptr [rsp+0x28], r11d
+XDIS 00007f02309303c4: BASE E827710700               call 0x7f02309a74f0
+
+BLOCK:     d   PC: 00007f02309300e0   ICOUNT:         8   EXECUTIONS:         1   #BYTES: 43   %: 8e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 810e0
+XDIS 00007f02309300e0: BASE 4889542418               mov qword ptr [rsp+0x18], rdx
+XDIS 00007f02309300e5: BASE 488B15740D3400           mov rdx, qword ptr [rip+0x340d74]
+XDIS 00007f02309300ec: BASE 488B7A18                 mov rdi, qword ptr [rdx+0x18]
+XDIS 00007f02309300f0: BASE 48897C2420               mov qword ptr [rsp+0x20], rdi
+XDIS 00007f02309300f5: BASE 4883EF01                 sub rdi, 0x1
+XDIS 00007f02309300f9: BASE 483B2DB0103400           cmp rbp, qword ptr [rip+0x3410b0]
+XDIS 00007f0230930100: BASE 48897C2410               mov qword ptr [rsp+0x10], rdi
+XDIS 00007f0230930105: BASE 0F8285010000             jb 0x7f0230930290
+
+BLOCK:     e   PC: 00007f0230931a80   ICOUNT:         8   EXECUTIONS:         1   #BYTES: 28   %: 8e-06   cumltv%:   100  FN: malloc  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 82a80
+XDIS 00007f0230931a80: BASE 55                       push rbp
+XDIS 00007f0230931a81: BASE 4889FD                   mov rbp, rdi
+XDIS 00007f0230931a84: BASE 53                       push rbx
+XDIS 00007f0230931a85: BASE 4883EC08                 sub rsp, 0x8
+XDIS 00007f0230931a89: BASE 488B0550F43300           mov rax, qword ptr [rip+0x33f450]
+XDIS 00007f0230931a90: BASE 488B00                   mov rax, qword ptr [rax]
+XDIS 00007f0230931a93: BASE 4885C0                   test rax, rax
+XDIS 00007f0230931a96: BASE 0F850E010000             jnz 0x7f0230931baa
+
+BLOCK:     f   PC: 00007f023092fce8   ICOUNT:         7   EXECUTIONS:         1   #BYTES: 28   %: 7e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 80ce8
+XDIS 00007f023092fce8: BASE 4C8B7B58                 mov r15, qword ptr [rbx+0x58]
+XDIS 00007f023092fcec: BASE 488D5520                 lea rdx, ptr [rbp+0x20]
+XDIS 00007f023092fcf0: BASE 498B4708                 mov rax, qword ptr [r15+0x8]
+XDIS 00007f023092fcf4: BASE 4989C4                   mov r12, rax
+XDIS 00007f023092fcf7: BASE 4983E4F8                 and r12, 0xfffffffffffffff8
+XDIS 00007f023092fcfb: BASE 4939D4                   cmp r12, rdx
+XDIS 00007f023092fcfe: BASE 0F8334060000             jnb 0x7f0230930338
+
+BLOCK:    10   PC: 00007f023093011d   ICOUNT:         7   EXECUTIONS:         1   #BYTES: 30   %: 7e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 8111d
+XDIS 00007f023093011d: BASE 488B442420               mov rax, qword ptr [rsp+0x20]
+XDIS 00007f0230930122: BASE 4C8D6C0507               lea r13, ptr [rbp+rax*1+0x7]
+XDIS 00007f0230930127: BASE 488B442410               mov rax, qword ptr [rsp+0x10]
+XDIS 00007f023093012c: BASE 48F7D0                   not rax
+XDIS 00007f023093012f: BASE 4921C5                   and r13, rax
+XDIS 00007f0230930132: BASE 4C39ED                   cmp rbp, r13
+XDIS 00007f0230930135: BASE 0F826C020000             jb 0x7f02309303a7
+
+BLOCK:    11   PC: 00007f023093008a   ICOUNT:         7   EXECUTIONS:         1   #BYTES: 29   %: 7e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 8108a
+XDIS 00007f023093008a: BASE 4889E8                   mov rax, rbp
+XDIS 00007f023093008d: BASE 41B97E000000             mov r9d, 0x7e
+XDIS 00007f0230930093: BASE 48C1E812                 shr rax, 0x12
+XDIS 00007f0230930097: BASE 8D507C                   lea edx, ptr [rax+0x7c]
+XDIS 00007f023093009a: BASE 4883F802                 cmp rax, 0x2
+XDIS 00007f023093009e: BASE 440F46CA                 cmovbe r9d, edx
+XDIS 00007f02309300a2: BASE E9FEF7FFFF               jmp 0x7f023092f8a5
+
+BLOCK:    12   PC: 00007f0230949a30   ICOUNT:         6   EXECUTIONS:         1   #BYTES: 22   %: 6e-06   cumltv%:   100  FN: envz_strip  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 9aa30
+XDIS 00007f0230949a30: BASE 4889F0                   mov rax, rsi
+XDIS 00007f0230949a33: BASE 488D0C12                 lea rcx, ptr [rdx+rdx*1]
+XDIS 00007f0230949a37: BASE 4829F8                   sub rax, rdi
+XDIS 00007f0230949a3a: BASE 4829D0                   sub rax, rdx
+XDIS 00007f0230949a3d: BASE 4839C8                   cmp rax, rcx
+XDIS 00007f0230949a40: BASE 0F8207010000             jb 0x7f0230949b4d
+
+BLOCK:    13   PC: 00007f0230930411   ICOUNT:         6   EXECUTIONS:         1   #BYTES: 31   %: 6e-06   cumltv%:   100  FN: _IO_str_seekoff  IMG: /lib/x86_64-linux-gnu/libc.so.6  OFFSET: 81411
+XDIS 00007f0230930411: BASE 4C89E8                   mov rax, r13
+XDIS 00007f0230930414: BASE F0480FC105BB0D3400       lock xadd qword ptr [rip+0x340dbb], rax
+XDIS 00007f023093041d: BASE 4901C5                   add r13, rax
+XDIS 00007f0230930420: BASE 488B05B90D3400           mov rax, qword ptr [rip+0x340db9]
+XDIS 00007f0230930427: BASE 4939C5                   cmp r13, rax
+XDIS 00007f023093042a: BASE 0F863AFEFFFF             jbe 0x7f023093026a
+
+# END_TOP_BLOCK_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS
+#
+# $dynamic-counts
+#
+# TID 0
+#       opcode                 count
+#
+*total                                                                 0
+# END_DYNAMIC_STATS
+#GLOBAL FUNCTION TOTALS
+#rank total-icount     %   cumulative%   #times-called    address  function-name    image-name
+            100001502 TOTAL
+# END FUNCTION TOTALS
+# EMIT_PER_FUNCTION_STATS FOR TID 0  OS-TID 0 EMIT# 1
+# END_PER_FUNCTION_STATS 
+# EMIT_STATIC_STATS 
+#
+# $static-counts
+#
+#       opcode                 count
+#
+*total                                                                 0
+
+# END_STATIC_STATS
+# EMIT_GLOBAL_DYNAMIC_STATS   EMIT# 1
+#
+# $global-dynamic-counts
+#
+#       opcode                 count
+#
+*mem-atomic                                                            3
+*stack-read                                                           17
+*stack-write                                                          40
+*iprel-read                                                           17
+*iprel-write                                                           3
+*mem-read-1                                                            2
+*mem-read-4                                                           11
+*mem-read-8                                                           37
+*mem-read-16                                                    36364068
+*mem-write-4                                                          11
+*mem-write-8                                                          46
+*mem-write-16                                                   36364068
+*isa-ext-BASE                                                   27273364
+*isa-ext-LONGMODE                                                      2
+*isa-ext-SSE2                                                   72728136
+*isa-set-CMOV                                                          3
+*isa-set-I186                                                         12
+*isa-set-I386                                                          2
+*isa-set-I486REAL                                                      4
+*isa-set-I86                                                    27273343
+*isa-set-LONGMODE                                                      2
+*isa-set-SSE2                                                   72728136
+*category-BINARY                                                18182088
+*category-CALL                                                         6
+*category-CMOV                                                         3
+*category-COND_BR                                                9091058
+*category-DATAXFER                                              72728250
+*category-LOGICAL                                                     24
+*category-MISC                                                        20
+*category-NOP                                                          1
+*category-POP                                                          8
+*category-PUSH                                                        14
+*category-RET                                                          5
+*category-SEMAPHORE                                                    4
+*category-SETCC                                                        2
+*category-SHIFT                                                       13
+*category-SYSCALL                                                      1
+*category-UNCOND_BR                                                    5
+*ilen-1                                                               15
+*ilen-2                                                          9091059
+*ilen-3                                                          9091097
+*ilen-4                                                          9091083
+*ilen-5                                                          9091060
+*ilen-6                                                         63637149
+*ilen-7                                                               25
+*ilen-8                                                                3
+*ilen-9                                                                3
+*ilen-10                                                               8
+*nop-ilen-2                                                            1
+*sse-packed                                                     72728136
+*gpr64                                                          18182235
+*legacy-prefixes-0                                               9091135
+*legacy-prefixes-1                                              54546304
+*legacy-prefixes-2                                              36364063
+*legacy-prefixes-and-escapes-0                                   9091105
+*legacy-prefixes-and-escapes-1                                  18182253
+*legacy-prefixes-and-escapes-2                                  36364082
+*legacy-prefixes-and-escapes-3                                  36364062
+*segment_prefix                                                        1
+*lock_prefix                                                           3
+*66_prefix                                                      36364061
+*rex_prefix                                                     90910365
+*rexw_prefix                                                    18182201
+*rexr_prefix                                                    72728164
+*rexx_prefix                                                    27273047
+*rexb_prefix                                                          58
+*loadop                                                               50
+*one-memops                                                     72728237
+*cond-branch-forward                                                  33
+*cond-branch-backward                                            9091025
+*base_only                                                       9091055
+*base_disp                                                      27273113
+*base_index                                                     36364060
+*base_index_disp                                                       9
+*scale_1                                                        72728254
+*scale_4                                                               1
+*scale_8                                                               2
+*memdisp8                                                       27273120
+*memdisp32                                                            21
+*dataxfer_i32_4                                                 72728136
+ADD                                                              9091030
+AND                                                                    5
+CALL_NEAR                                                              6
+CMOVBE                                                                 1
+CMOVNB                                                                 1
+CMOVNLE                                                                1
+CMP                                                              9091047
+CMPXCHG                                                                1
+CMPXCHG_LOCK                                                           1
+DEC                                                                    1
+JB                                                                     3
+JBE                                                                    6
+JLE                                                                    3
+JMP                                                                    5
+JNB                                                                    2
+JNBE                                                                   8
+JNL                                                                    1
+JNZ                                                              9091022
+JZ                                                                    13
+LEA                                                                   20
+MOV                                                                  113
+MOVDQA                                                          36364060
+MOVDQU                                                          36364076
+MOVSXD                                                                 1
+NOP                                                                    1
+NOT                                                                    1
+OR                                                                     2
+POP                                                                    8
+PUSH                                                                  14
+RET_NEAR                                                               5
+SETNBE                                                                 1
+SETZ                                                                   1
+SHL                                                                    1
+SHR                                                                   12
+SUB                                                                   10
+SYSCALL                                                                1
+TEST                                                                  12
+XADD_LOCK                                                              2
+XOR                                                                    4
+*total                                                         100001502
+
+# END_GLOBAL_DYNAMIC_STATS

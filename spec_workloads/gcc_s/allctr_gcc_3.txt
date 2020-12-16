@@ -1,0 +1,48 @@
+gcc-pp.c: In function 'fibheap_delete_node':
+gcc-pp.c:19958:49: warning: overflow in implicit constant conversion
+gcc-pp.c: In function 'htab_mod_1':
+gcc-pp.c:25469:7: warning: right shift count >= width of type
+
+ Performance counter stats for './sgcc_base.gcc48-64bit-m64 gcc-pp.c -O5 -finline-limit=24000 -fgcse -fgcse-las -fgcse-lm -fgcse-sm -o gcc-pp.opts-O5_-finline-limit_24000_-fgcse_-fgcse-las_-fgcse-lm_-fgcse-sm.s':
+
+ 1,315,294,294,522      instructions              #    1.35  insns per cycle          (13.16%)
+   974,777,812,451      cycles                                                        (13.16%)
+ 1,311,405,142,047      instructions:u                                                (13.16%)
+     2,502,690,636      instructions:k                                                (13.16%)
+     9,277,648,428      L1-dcache-load-misses     #    1.71% of all L1-dcache hits    (13.16%)
+     2,198,951,017      L1-dcache-store-misses                                        (13.16%)
+     7,429,542,528      L1-icache-load-misses                                         (13.16%)
+   542,468,768,122      L1-dcache-loads                                               (7.90%)
+   253,068,691,273      L1-dcache-stores                                              (7.90%)
+       282,434,171      LLC-load-misses                                               (5.27%)
+       116,190,611      LLC-store-misses                                              (5.26%)
+     4,059,018,352      branch-misses                                                 (7.90%)
+        66,821,508      iTLB-load-misses          #   38.80% of all iTLB cache hits   (10.53%)
+       578,144,783      dTLB-load-misses          #    0.11% of all dTLB cache hits   (10.53%)
+        61,140,222      dTLB-store-misses                                             (10.53%)
+       172,211,460      iTLB-loads                                                    (10.53%)
+   541,531,170,759      dTLB-loads                                                    (10.52%)
+   253,322,931,450      dTLB-stores                                                   (5.26%)
+     5,324,791,183      cache-references                                              (5.26%)
+     4,655,106,406      r0124                                                         (5.26%)
+     1,134,330,258      r2024                                                         (7.90%)
+     9,838,328,740      r1024                                                         (10.53%)
+     8,287,889,510      r0324                                                         (10.53%)
+   231,893,552,886      r00c4                                                         (10.53%)
+    58,448,531,746      r10c4                                                         (10.53%)
+        66,986,575      r0185                                                         (10.53%)
+       585,043,452      r8108                                                         (10.53%)
+        58,759,260      r0149                                                         (10.53%)
+       334,763,210      r8208                                                         (10.53%)
+        34,227,121      r0249                                                         (10.53%)
+ 1,653,546,254,628      r010e                                                         (10.53%)
+       639,488,793      r0110                                                         (10.53%)
+   541,677,567,593      r81d0                                                         (10.52%)
+   253,032,462,837      r82d0                                                         (10.52%)
+   232,549,616,462      r00c4                                                         (5.26%)
+        41,927,281      r0285                                                         (5.26%)
+                 0      r0111                                                         (7.89%)
+                 0      r0211                                                         (10.53%)
+
+     391.007012924 seconds time elapsed
+

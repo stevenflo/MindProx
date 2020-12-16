@@ -1,0 +1,5 @@
+#The final step to generating a proxy is to convert the JSON file into an actual proxy. To do this is straight forward. There are three versions of the proxy generator that handle memory accesses differently. The current technique is to select the version of the proxy with the best correlation from the three options. 
+
+#Using the scripts included in this director run: SyntheticGenerator_Global_*VERSION*.py --configFile=../jsongen/something/BENCHMARK.json -o ./proxies/BENCHMARK.c
+
+Upon completion you should have a c file that can be compiled as a proxy for a benchmark.

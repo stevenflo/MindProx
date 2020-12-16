@@ -1,0 +1,10 @@
+./leela_s_base.refspeed.gcc48-64bit-m64: Interrupt
+
+ Performance counter stats for 'system wide':
+
+              2.65 Joules power/energy-cores/                                          [100.00%]
+              4.28 Joules power/energy-pkg/                                            [100.00%]
+              1.28 Joules power/energy-ram/                                           
+
+       0.199271368 seconds time elapsed
+

@@ -1,0 +1,2578 @@
+# Mix output version 2
+# FINI: end of program
+# EMIT_DYNAMIC_STATS FOR TID 1
+# instructions = 100001493, basic blocks = 17311791
+Local Byte Stride Bucket -256 is equal to 3309560
+Local Byte Stride Bucket -255 is equal to 314
+Local Byte Stride Bucket -254 is equal to 281
+Local Byte Stride Bucket -253 is equal to 408
+Local Byte Stride Bucket -252 is equal to 1077
+Local Byte Stride Bucket -251 is equal to 389
+Local Byte Stride Bucket -250 is equal to 313
+Local Byte Stride Bucket -249 is equal to 353
+Local Byte Stride Bucket -248 is equal to 3391
+Local Byte Stride Bucket -247 is equal to 417
+Local Byte Stride Bucket -246 is equal to 370
+Local Byte Stride Bucket -245 is equal to 366
+Local Byte Stride Bucket -244 is equal to 1130
+Local Byte Stride Bucket -243 is equal to 360
+Local Byte Stride Bucket -242 is equal to 480
+Local Byte Stride Bucket -241 is equal to 429
+Local Byte Stride Bucket -240 is equal to 2178
+Local Byte Stride Bucket -239 is equal to 311
+Local Byte Stride Bucket -238 is equal to 428
+Local Byte Stride Bucket -237 is equal to 516
+Local Byte Stride Bucket -236 is equal to 1497
+Local Byte Stride Bucket -235 is equal to 299
+Local Byte Stride Bucket -234 is equal to 308
+Local Byte Stride Bucket -233 is equal to 280
+Local Byte Stride Bucket -232 is equal to 2868
+Local Byte Stride Bucket -231 is equal to 421
+Local Byte Stride Bucket -230 is equal to 247
+Local Byte Stride Bucket -229 is equal to 305
+Local Byte Stride Bucket -228 is equal to 1654
+Local Byte Stride Bucket -227 is equal to 312
+Local Byte Stride Bucket -226 is equal to 391
+Local Byte Stride Bucket -225 is equal to 365
+Local Byte Stride Bucket -224 is equal to 2881
+Local Byte Stride Bucket -223 is equal to 487
+Local Byte Stride Bucket -222 is equal to 435
+Local Byte Stride Bucket -221 is equal to 423
+Local Byte Stride Bucket -220 is equal to 4002
+Local Byte Stride Bucket -219 is equal to 483
+Local Byte Stride Bucket -218 is equal to 432
+Local Byte Stride Bucket -217 is equal to 511
+Local Byte Stride Bucket -216 is equal to 5096
+Local Byte Stride Bucket -215 is equal to 705
+Local Byte Stride Bucket -214 is equal to 460
+Local Byte Stride Bucket -213 is equal to 505
+Local Byte Stride Bucket -212 is equal to 1908
+Local Byte Stride Bucket -211 is equal to 448
+Local Byte Stride Bucket -210 is equal to 450
+Local Byte Stride Bucket -209 is equal to 360
+Local Byte Stride Bucket -208 is equal to 6567
+Local Byte Stride Bucket -207 is equal to 363
+Local Byte Stride Bucket -206 is equal to 451
+Local Byte Stride Bucket -205 is equal to 499
+Local Byte Stride Bucket -204 is equal to 1572
+Local Byte Stride Bucket -203 is equal to 535
+Local Byte Stride Bucket -202 is equal to 413
+Local Byte Stride Bucket -201 is equal to 419
+Local Byte Stride Bucket -200 is equal to 4119
+Local Byte Stride Bucket -199 is equal to 465
+Local Byte Stride Bucket -198 is equal to 801
+Local Byte Stride Bucket -197 is equal to 446
+Local Byte Stride Bucket -196 is equal to 1396
+Local Byte Stride Bucket -195 is equal to 491
+Local Byte Stride Bucket -194 is equal to 575
+Local Byte Stride Bucket -193 is equal to 548
+Local Byte Stride Bucket -192 is equal to 2896
+Local Byte Stride Bucket -191 is equal to 579
+Local Byte Stride Bucket -190 is equal to 1041
+Local Byte Stride Bucket -189 is equal to 489
+Local Byte Stride Bucket -188 is equal to 1518
+Local Byte Stride Bucket -187 is equal to 803
+Local Byte Stride Bucket -186 is equal to 683
+Local Byte Stride Bucket -185 is equal to 662
+Local Byte Stride Bucket -184 is equal to 2949
+Local Byte Stride Bucket -183 is equal to 633
+Local Byte Stride Bucket -182 is equal to 487
+Local Byte Stride Bucket -181 is equal to 527
+Local Byte Stride Bucket -180 is equal to 1512
+Local Byte Stride Bucket -179 is equal to 397
+Local Byte Stride Bucket -178 is equal to 751
+Local Byte Stride Bucket -177 is equal to 465
+Local Byte Stride Bucket -176 is equal to 6463
+Local Byte Stride Bucket -175 is equal to 516
+Local Byte Stride Bucket -174 is equal to 477
+Local Byte Stride Bucket -173 is equal to 431
+Local Byte Stride Bucket -172 is equal to 2240
+Local Byte Stride Bucket -171 is equal to 585
+Local Byte Stride Bucket -170 is equal to 666
+Local Byte Stride Bucket -169 is equal to 477
+Local Byte Stride Bucket -168 is equal to 2592
+Local Byte Stride Bucket -167 is equal to 537
+Local Byte Stride Bucket -166 is equal to 546
+Local Byte Stride Bucket -165 is equal to 1047
+Local Byte Stride Bucket -164 is equal to 2268
+Local Byte Stride Bucket -163 is equal to 703
+Local Byte Stride Bucket -162 is equal to 765
+Local Byte Stride Bucket -161 is equal to 556
+Local Byte Stride Bucket -160 is equal to 3390
+Local Byte Stride Bucket -159 is equal to 614
+Local Byte Stride Bucket -158 is equal to 811
+Local Byte Stride Bucket -157 is equal to 823
+Local Byte Stride Bucket -156 is equal to 3133
+Local Byte Stride Bucket -155 is equal to 820
+Local Byte Stride Bucket -154 is equal to 982
+Local Byte Stride Bucket -153 is equal to 713
+Local Byte Stride Bucket -152 is equal to 3740
+Local Byte Stride Bucket -151 is equal to 767
+Local Byte Stride Bucket -150 is equal to 838
+Local Byte Stride Bucket -149 is equal to 769
+Local Byte Stride Bucket -148 is equal to 2499
+Local Byte Stride Bucket -147 is equal to 744
+Local Byte Stride Bucket -146 is equal to 778
+Local Byte Stride Bucket -145 is equal to 881
+Local Byte Stride Bucket -144 is equal to 3697
+Local Byte Stride Bucket -143 is equal to 701
+Local Byte Stride Bucket -142 is equal to 720
+Local Byte Stride Bucket -141 is equal to 765
+Local Byte Stride Bucket -140 is equal to 2798
+Local Byte Stride Bucket -139 is equal to 989
+Local Byte Stride Bucket -138 is equal to 463
+Local Byte Stride Bucket -137 is equal to 658
+Local Byte Stride Bucket -136 is equal to 2422
+Local Byte Stride Bucket -135 is equal to 531
+Local Byte Stride Bucket -134 is equal to 685
+Local Byte Stride Bucket -133 is equal to 652
+Local Byte Stride Bucket -132 is equal to 3784
+Local Byte Stride Bucket -131 is equal to 824
+Local Byte Stride Bucket -130 is equal to 782
+Local Byte Stride Bucket -129 is equal to 777
+Local Byte Stride Bucket -128 is equal to 3088
+Local Byte Stride Bucket -127 is equal to 914
+Local Byte Stride Bucket -126 is equal to 997
+Local Byte Stride Bucket -125 is equal to 1139
+Local Byte Stride Bucket -124 is equal to 2141
+Local Byte Stride Bucket -123 is equal to 1352
+Local Byte Stride Bucket -122 is equal to 1191
+Local Byte Stride Bucket -121 is equal to 1292
+Local Byte Stride Bucket -120 is equal to 4111
+Local Byte Stride Bucket -119 is equal to 999
+Local Byte Stride Bucket -118 is equal to 987
+Local Byte Stride Bucket -117 is equal to 1062
+Local Byte Stride Bucket -116 is equal to 2371
+Local Byte Stride Bucket -115 is equal to 948
+Local Byte Stride Bucket -114 is equal to 833
+Local Byte Stride Bucket -113 is equal to 871
+Local Byte Stride Bucket -112 is equal to 3070
+Local Byte Stride Bucket -111 is equal to 747
+Local Byte Stride Bucket -110 is equal to 788
+Local Byte Stride Bucket -109 is equal to 967
+Local Byte Stride Bucket -108 is equal to 3562
+Local Byte Stride Bucket -107 is equal to 1054
+Local Byte Stride Bucket -106 is equal to 930
+Local Byte Stride Bucket -105 is equal to 1260
+Local Byte Stride Bucket -104 is equal to 3818
+Local Byte Stride Bucket -103 is equal to 974
+Local Byte Stride Bucket -102 is equal to 1249
+Local Byte Stride Bucket -101 is equal to 849
+Local Byte Stride Bucket -100 is equal to 1885
+Local Byte Stride Bucket -99 is equal to 1178
+Local Byte Stride Bucket -98 is equal to 1133
+Local Byte Stride Bucket -97 is equal to 801
+Local Byte Stride Bucket -96 is equal to 3060
+Local Byte Stride Bucket -95 is equal to 1153
+Local Byte Stride Bucket -94 is equal to 2106
+Local Byte Stride Bucket -93 is equal to 887
+Local Byte Stride Bucket -92 is equal to 3515
+Local Byte Stride Bucket -91 is equal to 1059
+Local Byte Stride Bucket -90 is equal to 1667
+Local Byte Stride Bucket -89 is equal to 1173
+Local Byte Stride Bucket -88 is equal to 6894
+Local Byte Stride Bucket -87 is equal to 1008
+Local Byte Stride Bucket -86 is equal to 1531
+Local Byte Stride Bucket -85 is equal to 1615
+Local Byte Stride Bucket -84 is equal to 3378
+Local Byte Stride Bucket -83 is equal to 1751
+Local Byte Stride Bucket -82 is equal to 1848
+Local Byte Stride Bucket -81 is equal to 2092
+Local Byte Stride Bucket -80 is equal to 5078
+Local Byte Stride Bucket -79 is equal to 7844
+Local Byte Stride Bucket -78 is equal to 2165
+Local Byte Stride Bucket -77 is equal to 1706
+Local Byte Stride Bucket -76 is equal to 3495
+Local Byte Stride Bucket -75 is equal to 1719
+Local Byte Stride Bucket -74 is equal to 1534
+Local Byte Stride Bucket -73 is equal to 1144
+Local Byte Stride Bucket -72 is equal to 4429
+Local Byte Stride Bucket -71 is equal to 1277
+Local Byte Stride Bucket -70 is equal to 1066
+Local Byte Stride Bucket -69 is equal to 1141
+Local Byte Stride Bucket -68 is equal to 4623
+Local Byte Stride Bucket -67 is equal to 1249
+Local Byte Stride Bucket -66 is equal to 1162
+Local Byte Stride Bucket -65 is equal to 1429
+Local Byte Stride Bucket -64 is equal to 10265
+Local Byte Stride Bucket -63 is equal to 1638
+Local Byte Stride Bucket -62 is equal to 1844
+Local Byte Stride Bucket -61 is equal to 1543
+Local Byte Stride Bucket -60 is equal to 6476
+Local Byte Stride Bucket -59 is equal to 1607
+Local Byte Stride Bucket -58 is equal to 1419
+Local Byte Stride Bucket -57 is equal to 1349
+Local Byte Stride Bucket -56 is equal to 8514
+Local Byte Stride Bucket -55 is equal to 1467
+Local Byte Stride Bucket -54 is equal to 1463
+Local Byte Stride Bucket -53 is equal to 1676
+Local Byte Stride Bucket -52 is equal to 12133
+Local Byte Stride Bucket -51 is equal to 1625
+Local Byte Stride Bucket -50 is equal to 1771
+Local Byte Stride Bucket -49 is equal to 1702
+Local Byte Stride Bucket -48 is equal to 13000
+Local Byte Stride Bucket -47 is equal to 1769
+Local Byte Stride Bucket -46 is equal to 2747
+Local Byte Stride Bucket -45 is equal to 1326
+Local Byte Stride Bucket -44 is equal to 27610
+Local Byte Stride Bucket -43 is equal to 1883
+Local Byte Stride Bucket -42 is equal to 1896
+Local Byte Stride Bucket -41 is equal to 1932
+Local Byte Stride Bucket -40 is equal to 8936
+Local Byte Stride Bucket -39 is equal to 1864
+Local Byte Stride Bucket -38 is equal to 2201
+Local Byte Stride Bucket -37 is equal to 1516
+Local Byte Stride Bucket -36 is equal to 7765
+Local Byte Stride Bucket -35 is equal to 1531
+Local Byte Stride Bucket -34 is equal to 2003
+Local Byte Stride Bucket -33 is equal to 1395
+Local Byte Stride Bucket -32 is equal to 10149
+Local Byte Stride Bucket -31 is equal to 1736
+Local Byte Stride Bucket -30 is equal to 2186
+Local Byte Stride Bucket -29 is equal to 1841
+Local Byte Stride Bucket -28 is equal to 10995
+Local Byte Stride Bucket -27 is equal to 2397
+Local Byte Stride Bucket -26 is equal to 3104
+Local Byte Stride Bucket -25 is equal to 2267
+Local Byte Stride Bucket -24 is equal to 10812
+Local Byte Stride Bucket -23 is equal to 2340
+Local Byte Stride Bucket -22 is equal to 4198
+Local Byte Stride Bucket -21 is equal to 2226
+Local Byte Stride Bucket -20 is equal to 9325
+Local Byte Stride Bucket -19 is equal to 2337
+Local Byte Stride Bucket -18 is equal to 3453
+Local Byte Stride Bucket -17 is equal to 2068
+Local Byte Stride Bucket -16 is equal to 15013
+Local Byte Stride Bucket -15 is equal to 2637
+Local Byte Stride Bucket -14 is equal to 7182
+Local Byte Stride Bucket -13 is equal to 196991
+Local Byte Stride Bucket -12 is equal to 36891
+Local Byte Stride Bucket -11 is equal to 13844
+Local Byte Stride Bucket -10 is equal to 19769
+Local Byte Stride Bucket -9 is equal to 22085
+Local Byte Stride Bucket -8 is equal to 104674
+Local Byte Stride Bucket -7 is equal to 37046
+Local Byte Stride Bucket -6 is equal to 55531
+Local Byte Stride Bucket -5 is equal to 60748
+Local Byte Stride Bucket -4 is equal to 107457
+Local Byte Stride Bucket -3 is equal to 129992
+Local Byte Stride Bucket -2 is equal to 35997
+Local Byte Stride Bucket -1 is equal to 48910
+Local Byte Stride Bucket 0 is equal to 12496634
+Local Byte Stride Bucket 1 is equal to 9149970
+Local Byte Stride Bucket 2 is equal to 49689
+Local Byte Stride Bucket 3 is equal to 19764
+Local Byte Stride Bucket 4 is equal to 362907
+Local Byte Stride Bucket 5 is equal to 30115
+Local Byte Stride Bucket 6 is equal to 24523
+Local Byte Stride Bucket 7 is equal to 12275
+Local Byte Stride Bucket 8 is equal to 688312
+Local Byte Stride Bucket 9 is equal to 5938
+Local Byte Stride Bucket 10 is equal to 10031
+Local Byte Stride Bucket 11 is equal to 3144
+Local Byte Stride Bucket 12 is equal to 18952
+Local Byte Stride Bucket 13 is equal to 2225
+Local Byte Stride Bucket 14 is equal to 4472
+Local Byte Stride Bucket 15 is equal to 1676
+Local Byte Stride Bucket 16 is equal to 32327
+Local Byte Stride Bucket 17 is equal to 2601
+Local Byte Stride Bucket 18 is equal to 5341
+Local Byte Stride Bucket 19 is equal to 2141
+Local Byte Stride Bucket 20 is equal to 17088
+Local Byte Stride Bucket 21 is equal to 1921
+Local Byte Stride Bucket 22 is equal to 3791
+Local Byte Stride Bucket 23 is equal to 1432
+Local Byte Stride Bucket 24 is equal to 18768
+Local Byte Stride Bucket 25 is equal to 1382
+Local Byte Stride Bucket 26 is equal to 1984
+Local Byte Stride Bucket 27 is equal to 971
+Local Byte Stride Bucket 28 is equal to 5762
+Local Byte Stride Bucket 29 is equal to 844
+Local Byte Stride Bucket 30 is equal to 1416
+Local Byte Stride Bucket 31 is equal to 1104
+Local Byte Stride Bucket 32 is equal to 11199
+Local Byte Stride Bucket 33 is equal to 1116
+Local Byte Stride Bucket 34 is equal to 2427
+Local Byte Stride Bucket 35 is equal to 1130
+Local Byte Stride Bucket 36 is equal to 9003
+Local Byte Stride Bucket 37 is equal to 1536
+Local Byte Stride Bucket 38 is equal to 1817
+Local Byte Stride Bucket 39 is equal to 1023
+Local Byte Stride Bucket 40 is equal to 10445
+Local Byte Stride Bucket 41 is equal to 751
+Local Byte Stride Bucket 42 is equal to 844
+Local Byte Stride Bucket 43 is equal to 670
+Local Byte Stride Bucket 44 is equal to 135560
+Local Byte Stride Bucket 45 is equal to 539
+Local Byte Stride Bucket 46 is equal to 2074
+Local Byte Stride Bucket 47 is equal to 719
+Local Byte Stride Bucket 48 is equal to 8852
+Local Byte Stride Bucket 49 is equal to 688
+Local Byte Stride Bucket 50 is equal to 1436
+Local Byte Stride Bucket 51 is equal to 657
+Local Byte Stride Bucket 52 is equal to 8800
+Local Byte Stride Bucket 53 is equal to 567
+Local Byte Stride Bucket 54 is equal to 1015
+Local Byte Stride Bucket 55 is equal to 522
+Local Byte Stride Bucket 56 is equal to 6522
+Local Byte Stride Bucket 57 is equal to 560
+Local Byte Stride Bucket 58 is equal to 662
+Local Byte Stride Bucket 59 is equal to 803
+Local Byte Stride Bucket 60 is equal to 3083
+Local Byte Stride Bucket 61 is equal to 570
+Local Byte Stride Bucket 62 is equal to 1018
+Local Byte Stride Bucket 63 is equal to 731
+Local Byte Stride Bucket 64 is equal to 53714
+Local Byte Stride Bucket 65 is equal to 481
+Local Byte Stride Bucket 66 is equal to 1542
+Local Byte Stride Bucket 67 is equal to 377
+Local Byte Stride Bucket 68 is equal to 5339
+Local Byte Stride Bucket 69 is equal to 458
+Local Byte Stride Bucket 70 is equal to 870
+Local Byte Stride Bucket 71 is equal to 414
+Local Byte Stride Bucket 72 is equal to 6690
+Local Byte Stride Bucket 73 is equal to 342
+Local Byte Stride Bucket 74 is equal to 994
+Local Byte Stride Bucket 75 is equal to 324
+Local Byte Stride Bucket 76 is equal to 4591
+Local Byte Stride Bucket 77 is equal to 376
+Local Byte Stride Bucket 78 is equal to 734
+Local Byte Stride Bucket 79 is equal to 331
+Local Byte Stride Bucket 80 is equal to 4874
+Local Byte Stride Bucket 81 is equal to 552
+Local Byte Stride Bucket 82 is equal to 774
+Local Byte Stride Bucket 83 is equal to 440
+Local Byte Stride Bucket 84 is equal to 1731
+Local Byte Stride Bucket 85 is equal to 244
+Local Byte Stride Bucket 86 is equal to 489
+Local Byte Stride Bucket 87 is equal to 255
+Local Byte Stride Bucket 88 is equal to 8849
+Local Byte Stride Bucket 89 is equal to 197
+Local Byte Stride Bucket 90 is equal to 882
+Local Byte Stride Bucket 91 is equal to 220
+Local Byte Stride Bucket 92 is equal to 2422
+Local Byte Stride Bucket 93 is equal to 150
+Local Byte Stride Bucket 94 is equal to 612
+Local Byte Stride Bucket 95 is equal to 190
+Local Byte Stride Bucket 96 is equal to 2726
+Local Byte Stride Bucket 97 is equal to 138
+Local Byte Stride Bucket 98 is equal to 652
+Local Byte Stride Bucket 99 is equal to 219
+Local Byte Stride Bucket 100 is equal to 1317
+Local Byte Stride Bucket 101 is equal to 239
+Local Byte Stride Bucket 102 is equal to 343
+Local Byte Stride Bucket 103 is equal to 171
+Local Byte Stride Bucket 104 is equal to 2051
+Local Byte Stride Bucket 105 is equal to 157
+Local Byte Stride Bucket 106 is equal to 247
+Local Byte Stride Bucket 107 is equal to 181
+Local Byte Stride Bucket 108 is equal to 674
+Local Byte Stride Bucket 109 is equal to 149
+Local Byte Stride Bucket 110 is equal to 277
+Local Byte Stride Bucket 111 is equal to 195
+Local Byte Stride Bucket 112 is equal to 5270
+Local Byte Stride Bucket 113 is equal to 181
+Local Byte Stride Bucket 114 is equal to 163
+Local Byte Stride Bucket 115 is equal to 182
+Local Byte Stride Bucket 116 is equal to 856
+Local Byte Stride Bucket 117 is equal to 207
+Local Byte Stride Bucket 118 is equal to 251
+Local Byte Stride Bucket 119 is equal to 152
+Local Byte Stride Bucket 120 is equal to 1699
+Local Byte Stride Bucket 121 is equal to 183
+Local Byte Stride Bucket 122 is equal to 226
+Local Byte Stride Bucket 123 is equal to 154
+Local Byte Stride Bucket 124 is equal to 469
+Local Byte Stride Bucket 125 is equal to 433
+Local Byte Stride Bucket 126 is equal to 144
+Local Byte Stride Bucket 127 is equal to 109
+Local Byte Stride Bucket 128 is equal to 2340
+Local Byte Stride Bucket 129 is equal to 81
+Local Byte Stride Bucket 130 is equal to 423
+Local Byte Stride Bucket 131 is equal to 86
+Local Byte Stride Bucket 132 is equal to 3151
+Local Byte Stride Bucket 133 is equal to 90
+Local Byte Stride Bucket 134 is equal to 641
+Local Byte Stride Bucket 135 is equal to 122
+Local Byte Stride Bucket 136 is equal to 2500
+Local Byte Stride Bucket 137 is equal to 73
+Local Byte Stride Bucket 138 is equal to 186
+Local Byte Stride Bucket 139 is equal to 97
+Local Byte Stride Bucket 140 is equal to 1352
+Local Byte Stride Bucket 141 is equal to 96
+Local Byte Stride Bucket 142 is equal to 203
+Local Byte Stride Bucket 143 is equal to 83
+Local Byte Stride Bucket 144 is equal to 4251
+Local Byte Stride Bucket 145 is equal to 75
+Local Byte Stride Bucket 146 is equal to 282
+Local Byte Stride Bucket 147 is equal to 78
+Local Byte Stride Bucket 148 is equal to 1845
+Local Byte Stride Bucket 149 is equal to 65
+Local Byte Stride Bucket 150 is equal to 222
+Local Byte Stride Bucket 151 is equal to 84
+Local Byte Stride Bucket 152 is equal to 2460
+Local Byte Stride Bucket 153 is equal to 106
+Local Byte Stride Bucket 154 is equal to 333
+Local Byte Stride Bucket 155 is equal to 111
+Local Byte Stride Bucket 156 is equal to 598
+Local Byte Stride Bucket 157 is equal to 99
+Local Byte Stride Bucket 158 is equal to 229
+Local Byte Stride Bucket 159 is equal to 82
+Local Byte Stride Bucket 160 is equal to 1896
+Local Byte Stride Bucket 161 is equal to 81
+Local Byte Stride Bucket 162 is equal to 216
+Local Byte Stride Bucket 163 is equal to 79
+Local Byte Stride Bucket 164 is equal to 973
+Local Byte Stride Bucket 165 is equal to 65
+Local Byte Stride Bucket 166 is equal to 100
+Local Byte Stride Bucket 167 is equal to 68
+Local Byte Stride Bucket 168 is equal to 1901
+Local Byte Stride Bucket 169 is equal to 79
+Local Byte Stride Bucket 170 is equal to 99
+Local Byte Stride Bucket 171 is equal to 61
+Local Byte Stride Bucket 172 is equal to 713
+Local Byte Stride Bucket 173 is equal to 34
+Local Byte Stride Bucket 174 is equal to 132
+Local Byte Stride Bucket 175 is equal to 35
+Local Byte Stride Bucket 176 is equal to 3546
+Local Byte Stride Bucket 177 is equal to 51
+Local Byte Stride Bucket 178 is equal to 361
+Local Byte Stride Bucket 179 is equal to 88
+Local Byte Stride Bucket 180 is equal to 1071
+Local Byte Stride Bucket 181 is equal to 56
+Local Byte Stride Bucket 182 is equal to 226
+Local Byte Stride Bucket 183 is equal to 68
+Local Byte Stride Bucket 184 is equal to 2085
+Local Byte Stride Bucket 185 is equal to 92
+Local Byte Stride Bucket 186 is equal to 639
+Local Byte Stride Bucket 187 is equal to 66
+Local Byte Stride Bucket 188 is equal to 1023
+Local Byte Stride Bucket 189 is equal to 105
+Local Byte Stride Bucket 190 is equal to 198
+Local Byte Stride Bucket 191 is equal to 83
+Local Byte Stride Bucket 192 is equal to 1702
+Local Byte Stride Bucket 193 is equal to 54
+Local Byte Stride Bucket 194 is equal to 349
+Local Byte Stride Bucket 195 is equal to 72
+Local Byte Stride Bucket 196 is equal to 684
+Local Byte Stride Bucket 197 is equal to 76
+Local Byte Stride Bucket 198 is equal to 102
+Local Byte Stride Bucket 199 is equal to 69
+Local Byte Stride Bucket 200 is equal to 3937
+Local Byte Stride Bucket 201 is equal to 73
+Local Byte Stride Bucket 202 is equal to 143
+Local Byte Stride Bucket 203 is equal to 79
+Local Byte Stride Bucket 204 is equal to 1594
+Local Byte Stride Bucket 205 is equal to 50
+Local Byte Stride Bucket 206 is equal to 112
+Local Byte Stride Bucket 207 is equal to 70
+Local Byte Stride Bucket 208 is equal to 3192
+Local Byte Stride Bucket 209 is equal to 45
+Local Byte Stride Bucket 210 is equal to 89
+Local Byte Stride Bucket 211 is equal to 33
+Local Byte Stride Bucket 212 is equal to 1229
+Local Byte Stride Bucket 213 is equal to 68
+Local Byte Stride Bucket 214 is equal to 128
+Local Byte Stride Bucket 215 is equal to 75
+Local Byte Stride Bucket 216 is equal to 1516
+Local Byte Stride Bucket 217 is equal to 48
+Local Byte Stride Bucket 218 is equal to 183
+Local Byte Stride Bucket 219 is equal to 48
+Local Byte Stride Bucket 220 is equal to 2601
+Local Byte Stride Bucket 221 is equal to 61
+Local Byte Stride Bucket 222 is equal to 97
+Local Byte Stride Bucket 223 is equal to 55
+Local Byte Stride Bucket 224 is equal to 3156
+Local Byte Stride Bucket 225 is equal to 74
+Local Byte Stride Bucket 226 is equal to 465
+Local Byte Stride Bucket 227 is equal to 52
+Local Byte Stride Bucket 228 is equal to 1062
+Local Byte Stride Bucket 229 is equal to 50
+Local Byte Stride Bucket 230 is equal to 151
+Local Byte Stride Bucket 231 is equal to 62
+Local Byte Stride Bucket 232 is equal to 1343
+Local Byte Stride Bucket 233 is equal to 53
+Local Byte Stride Bucket 234 is equal to 97
+Local Byte Stride Bucket 235 is equal to 102
+Local Byte Stride Bucket 236 is equal to 751
+Local Byte Stride Bucket 237 is equal to 47
+Local Byte Stride Bucket 238 is equal to 96
+Local Byte Stride Bucket 239 is equal to 61
+Local Byte Stride Bucket 240 is equal to 1268
+Local Byte Stride Bucket 241 is equal to 39
+Local Byte Stride Bucket 242 is equal to 52
+Local Byte Stride Bucket 243 is equal to 58
+Local Byte Stride Bucket 244 is equal to 930
+Local Byte Stride Bucket 245 is equal to 49
+Local Byte Stride Bucket 246 is equal to 84
+Local Byte Stride Bucket 247 is equal to 53
+Local Byte Stride Bucket 248 is equal to 1761
+Local Byte Stride Bucket 249 is equal to 72
+Local Byte Stride Bucket 250 is equal to 103
+Local Byte Stride Bucket 251 is equal to 38
+Local Byte Stride Bucket 252 is equal to 1270
+Local Byte Stride Bucket 253 is equal to 81
+Local Byte Stride Bucket 254 is equal to 296
+Local Byte Stride Bucket 255 is equal to 46
+Local Byte Stride Bucket 256 is equal to 1273054
+
+Local Cache Stride Bucket -256 is equal to 2186325
+Local Cache Stride Bucket -255 is equal to 1154
+Local Cache Stride Bucket -254 is equal to 1240
+Local Cache Stride Bucket -253 is equal to 1292
+Local Cache Stride Bucket -252 is equal to 1354
+Local Cache Stride Bucket -251 is equal to 1153
+Local Cache Stride Bucket -250 is equal to 1212
+Local Cache Stride Bucket -249 is equal to 1268
+Local Cache Stride Bucket -248 is equal to 1042
+Local Cache Stride Bucket -247 is equal to 1243
+Local Cache Stride Bucket -246 is equal to 1226
+Local Cache Stride Bucket -245 is equal to 1474
+Local Cache Stride Bucket -244 is equal to 1084
+Local Cache Stride Bucket -243 is equal to 956
+Local Cache Stride Bucket -242 is equal to 1151
+Local Cache Stride Bucket -241 is equal to 1177
+Local Cache Stride Bucket -240 is equal to 1207
+Local Cache Stride Bucket -239 is equal to 1179
+Local Cache Stride Bucket -238 is equal to 1267
+Local Cache Stride Bucket -237 is equal to 1285
+Local Cache Stride Bucket -236 is equal to 1032
+Local Cache Stride Bucket -235 is equal to 1224
+Local Cache Stride Bucket -234 is equal to 1272
+Local Cache Stride Bucket -233 is equal to 1090
+Local Cache Stride Bucket -232 is equal to 1012
+Local Cache Stride Bucket -231 is equal to 1019
+Local Cache Stride Bucket -230 is equal to 1008
+Local Cache Stride Bucket -229 is equal to 1098
+Local Cache Stride Bucket -228 is equal to 1197
+Local Cache Stride Bucket -227 is equal to 1212
+Local Cache Stride Bucket -226 is equal to 1170
+Local Cache Stride Bucket -225 is equal to 1118
+Local Cache Stride Bucket -224 is equal to 1080
+Local Cache Stride Bucket -223 is equal to 1104
+Local Cache Stride Bucket -222 is equal to 1310
+Local Cache Stride Bucket -221 is equal to 1573
+Local Cache Stride Bucket -220 is equal to 1387
+Local Cache Stride Bucket -219 is equal to 1265
+Local Cache Stride Bucket -218 is equal to 1405
+Local Cache Stride Bucket -217 is equal to 1446
+Local Cache Stride Bucket -216 is equal to 1661
+Local Cache Stride Bucket -215 is equal to 1541
+Local Cache Stride Bucket -214 is equal to 1073
+Local Cache Stride Bucket -213 is equal to 1198
+Local Cache Stride Bucket -212 is equal to 1418
+Local Cache Stride Bucket -211 is equal to 1223
+Local Cache Stride Bucket -210 is equal to 1651
+Local Cache Stride Bucket -209 is equal to 1161
+Local Cache Stride Bucket -208 is equal to 1293
+Local Cache Stride Bucket -207 is equal to 1299
+Local Cache Stride Bucket -206 is equal to 1239
+Local Cache Stride Bucket -205 is equal to 1262
+Local Cache Stride Bucket -204 is equal to 1259
+Local Cache Stride Bucket -203 is equal to 1436
+Local Cache Stride Bucket -202 is equal to 1391
+Local Cache Stride Bucket -201 is equal to 1297
+Local Cache Stride Bucket -200 is equal to 1447
+Local Cache Stride Bucket -199 is equal to 1788
+Local Cache Stride Bucket -198 is equal to 1612
+Local Cache Stride Bucket -197 is equal to 1035
+Local Cache Stride Bucket -196 is equal to 1275
+Local Cache Stride Bucket -195 is equal to 1465
+Local Cache Stride Bucket -194 is equal to 1378
+Local Cache Stride Bucket -193 is equal to 1411
+Local Cache Stride Bucket -192 is equal to 1432
+Local Cache Stride Bucket -191 is equal to 1497
+Local Cache Stride Bucket -190 is equal to 1438
+Local Cache Stride Bucket -189 is equal to 1606
+Local Cache Stride Bucket -188 is equal to 1492
+Local Cache Stride Bucket -187 is equal to 1493
+Local Cache Stride Bucket -186 is equal to 1308
+Local Cache Stride Bucket -185 is equal to 1534
+Local Cache Stride Bucket -184 is equal to 1587
+Local Cache Stride Bucket -183 is equal to 1638
+Local Cache Stride Bucket -182 is equal to 1456
+Local Cache Stride Bucket -181 is equal to 1250
+Local Cache Stride Bucket -180 is equal to 1494
+Local Cache Stride Bucket -179 is equal to 1620
+Local Cache Stride Bucket -178 is equal to 1591
+Local Cache Stride Bucket -177 is equal to 1486
+Local Cache Stride Bucket -176 is equal to 1951
+Local Cache Stride Bucket -175 is equal to 1715
+Local Cache Stride Bucket -174 is equal to 1146
+Local Cache Stride Bucket -173 is equal to 1537
+Local Cache Stride Bucket -172 is equal to 1488
+Local Cache Stride Bucket -171 is equal to 1383
+Local Cache Stride Bucket -170 is equal to 1550
+Local Cache Stride Bucket -169 is equal to 1377
+Local Cache Stride Bucket -168 is equal to 1238
+Local Cache Stride Bucket -167 is equal to 1569
+Local Cache Stride Bucket -166 is equal to 1471
+Local Cache Stride Bucket -165 is equal to 1443
+Local Cache Stride Bucket -164 is equal to 1596
+Local Cache Stride Bucket -163 is equal to 1460
+Local Cache Stride Bucket -162 is equal to 1696
+Local Cache Stride Bucket -161 is equal to 1657
+Local Cache Stride Bucket -160 is equal to 1450
+Local Cache Stride Bucket -159 is equal to 1904
+Local Cache Stride Bucket -158 is equal to 1569
+Local Cache Stride Bucket -157 is equal to 1783
+Local Cache Stride Bucket -156 is equal to 1903
+Local Cache Stride Bucket -155 is equal to 1981
+Local Cache Stride Bucket -154 is equal to 1843
+Local Cache Stride Bucket -153 is equal to 1898
+Local Cache Stride Bucket -152 is equal to 2546
+Local Cache Stride Bucket -151 is equal to 1675
+Local Cache Stride Bucket -150 is equal to 1933
+Local Cache Stride Bucket -149 is equal to 1590
+Local Cache Stride Bucket -148 is equal to 2160
+Local Cache Stride Bucket -147 is equal to 2028
+Local Cache Stride Bucket -146 is equal to 2038
+Local Cache Stride Bucket -145 is equal to 1987
+Local Cache Stride Bucket -144 is equal to 2367
+Local Cache Stride Bucket -143 is equal to 1940
+Local Cache Stride Bucket -142 is equal to 1574
+Local Cache Stride Bucket -141 is equal to 2014
+Local Cache Stride Bucket -140 is equal to 1781
+Local Cache Stride Bucket -139 is equal to 1652
+Local Cache Stride Bucket -138 is equal to 1882
+Local Cache Stride Bucket -137 is equal to 1875
+Local Cache Stride Bucket -136 is equal to 1849
+Local Cache Stride Bucket -135 is equal to 1800
+Local Cache Stride Bucket -134 is equal to 2275
+Local Cache Stride Bucket -133 is equal to 1750
+Local Cache Stride Bucket -132 is equal to 1882
+Local Cache Stride Bucket -131 is equal to 1904
+Local Cache Stride Bucket -130 is equal to 2141
+Local Cache Stride Bucket -129 is equal to 1910
+Local Cache Stride Bucket -128 is equal to 1935
+Local Cache Stride Bucket -127 is equal to 2086
+Local Cache Stride Bucket -126 is equal to 2039
+Local Cache Stride Bucket -125 is equal to 2068
+Local Cache Stride Bucket -124 is equal to 2506
+Local Cache Stride Bucket -123 is equal to 2189
+Local Cache Stride Bucket -122 is equal to 2335
+Local Cache Stride Bucket -121 is equal to 2441
+Local Cache Stride Bucket -120 is equal to 2108
+Local Cache Stride Bucket -119 is equal to 2045
+Local Cache Stride Bucket -118 is equal to 2119
+Local Cache Stride Bucket -117 is equal to 1868
+Local Cache Stride Bucket -116 is equal to 2985
+Local Cache Stride Bucket -115 is equal to 2608
+Local Cache Stride Bucket -114 is equal to 2180
+Local Cache Stride Bucket -113 is equal to 2462
+Local Cache Stride Bucket -112 is equal to 2831
+Local Cache Stride Bucket -111 is equal to 2581
+Local Cache Stride Bucket -110 is equal to 2267
+Local Cache Stride Bucket -109 is equal to 2513
+Local Cache Stride Bucket -108 is equal to 1944
+Local Cache Stride Bucket -107 is equal to 2291
+Local Cache Stride Bucket -106 is equal to 2181
+Local Cache Stride Bucket -105 is equal to 2501
+Local Cache Stride Bucket -104 is equal to 2116
+Local Cache Stride Bucket -103 is equal to 2138
+Local Cache Stride Bucket -102 is equal to 2076
+Local Cache Stride Bucket -101 is equal to 2235
+Local Cache Stride Bucket -100 is equal to 2735
+Local Cache Stride Bucket -99 is equal to 2745
+Local Cache Stride Bucket -98 is equal to 2555
+Local Cache Stride Bucket -97 is equal to 3025
+Local Cache Stride Bucket -96 is equal to 2712
+Local Cache Stride Bucket -95 is equal to 2865
+Local Cache Stride Bucket -94 is equal to 2443
+Local Cache Stride Bucket -93 is equal to 2128
+Local Cache Stride Bucket -92 is equal to 2674
+Local Cache Stride Bucket -91 is equal to 2922
+Local Cache Stride Bucket -90 is equal to 2551
+Local Cache Stride Bucket -89 is equal to 3057
+Local Cache Stride Bucket -88 is equal to 2940
+Local Cache Stride Bucket -87 is equal to 2964
+Local Cache Stride Bucket -86 is equal to 2945
+Local Cache Stride Bucket -85 is equal to 2831
+Local Cache Stride Bucket -84 is equal to 2490
+Local Cache Stride Bucket -83 is equal to 2680
+Local Cache Stride Bucket -82 is equal to 3043
+Local Cache Stride Bucket -81 is equal to 2987
+Local Cache Stride Bucket -80 is equal to 3118
+Local Cache Stride Bucket -79 is equal to 3087
+Local Cache Stride Bucket -78 is equal to 3018
+Local Cache Stride Bucket -77 is equal to 3001
+Local Cache Stride Bucket -76 is equal to 3081
+Local Cache Stride Bucket -75 is equal to 2745
+Local Cache Stride Bucket -74 is equal to 2942
+Local Cache Stride Bucket -73 is equal to 3096
+Local Cache Stride Bucket -72 is equal to 3073
+Local Cache Stride Bucket -71 is equal to 3204
+Local Cache Stride Bucket -70 is equal to 2855
+Local Cache Stride Bucket -69 is equal to 3273
+Local Cache Stride Bucket -68 is equal to 3164
+Local Cache Stride Bucket -67 is equal to 3614
+Local Cache Stride Bucket -66 is equal to 3404
+Local Cache Stride Bucket -65 is equal to 3759
+Local Cache Stride Bucket -64 is equal to 3039
+Local Cache Stride Bucket -63 is equal to 4011
+Local Cache Stride Bucket -62 is equal to 3737
+Local Cache Stride Bucket -61 is equal to 3351
+Local Cache Stride Bucket -60 is equal to 3851
+Local Cache Stride Bucket -59 is equal to 4063
+Local Cache Stride Bucket -58 is equal to 4086
+Local Cache Stride Bucket -57 is equal to 3938
+Local Cache Stride Bucket -56 is equal to 3746
+Local Cache Stride Bucket -55 is equal to 4057
+Local Cache Stride Bucket -54 is equal to 4031
+Local Cache Stride Bucket -53 is equal to 4518
+Local Cache Stride Bucket -52 is equal to 4827
+Local Cache Stride Bucket -51 is equal to 5441
+Local Cache Stride Bucket -50 is equal to 4625
+Local Cache Stride Bucket -49 is equal to 4980
+Local Cache Stride Bucket -48 is equal to 4836
+Local Cache Stride Bucket -47 is equal to 4828
+Local Cache Stride Bucket -46 is equal to 4237
+Local Cache Stride Bucket -45 is equal to 4777
+Local Cache Stride Bucket -44 is equal to 4945
+Local Cache Stride Bucket -43 is equal to 4950
+Local Cache Stride Bucket -42 is equal to 5811
+Local Cache Stride Bucket -41 is equal to 4897
+Local Cache Stride Bucket -40 is equal to 4594
+Local Cache Stride Bucket -39 is equal to 5267
+Local Cache Stride Bucket -38 is equal to 5033
+Local Cache Stride Bucket -37 is equal to 5287
+Local Cache Stride Bucket -36 is equal to 5390
+Local Cache Stride Bucket -35 is equal to 5462
+Local Cache Stride Bucket -34 is equal to 5818
+Local Cache Stride Bucket -33 is equal to 5965
+Local Cache Stride Bucket -32 is equal to 6182
+Local Cache Stride Bucket -31 is equal to 7430
+Local Cache Stride Bucket -30 is equal to 7682
+Local Cache Stride Bucket -29 is equal to 7184
+Local Cache Stride Bucket -28 is equal to 8908
+Local Cache Stride Bucket -27 is equal to 10252
+Local Cache Stride Bucket -26 is equal to 9444
+Local Cache Stride Bucket -25 is equal to 10070
+Local Cache Stride Bucket -24 is equal to 11622
+Local Cache Stride Bucket -23 is equal to 13210
+Local Cache Stride Bucket -22 is equal to 14525
+Local Cache Stride Bucket -21 is equal to 16759
+Local Cache Stride Bucket -20 is equal to 18274
+Local Cache Stride Bucket -19 is equal to 21447
+Local Cache Stride Bucket -18 is equal to 19411
+Local Cache Stride Bucket -17 is equal to 17619
+Local Cache Stride Bucket -16 is equal to 21233
+Local Cache Stride Bucket -15 is equal to 24507
+Local Cache Stride Bucket -14 is equal to 23074
+Local Cache Stride Bucket -13 is equal to 23157
+Local Cache Stride Bucket -12 is equal to 23711
+Local Cache Stride Bucket -11 is equal to 27491
+Local Cache Stride Bucket -10 is equal to 43039
+Local Cache Stride Bucket -9 is equal to 28849
+Local Cache Stride Bucket -8 is equal to 35101
+Local Cache Stride Bucket -7 is equal to 34696
+Local Cache Stride Bucket -6 is equal to 39685
+Local Cache Stride Bucket -5 is equal to 51708
+Local Cache Stride Bucket -4 is equal to 72199
+Local Cache Stride Bucket -3 is equal to 71728
+Local Cache Stride Bucket -2 is equal to 90798
+Local Cache Stride Bucket -1 is equal to 293664
+Local Cache Stride Bucket 0 is equal to 23641200
+Local Cache Stride Bucket 1 is equal to 534894
+Local Cache Stride Bucket 2 is equal to 44949
+Local Cache Stride Bucket 3 is equal to 31593
+Local Cache Stride Bucket 4 is equal to 58192
+Local Cache Stride Bucket 5 is equal to 35912
+Local Cache Stride Bucket 6 is equal to 15986
+Local Cache Stride Bucket 7 is equal to 13972
+Local Cache Stride Bucket 8 is equal to 20924
+Local Cache Stride Bucket 9 is equal to 17573
+Local Cache Stride Bucket 10 is equal to 10588
+Local Cache Stride Bucket 11 is equal to 9867
+Local Cache Stride Bucket 12 is equal to 8298
+Local Cache Stride Bucket 13 is equal to 7866
+Local Cache Stride Bucket 14 is equal to 8417
+Local Cache Stride Bucket 15 is equal to 7423
+Local Cache Stride Bucket 16 is equal to 8329
+Local Cache Stride Bucket 17 is equal to 8891
+Local Cache Stride Bucket 18 is equal to 6311
+Local Cache Stride Bucket 19 is equal to 7655
+Local Cache Stride Bucket 20 is equal to 6779
+Local Cache Stride Bucket 21 is equal to 6132
+Local Cache Stride Bucket 22 is equal to 4257
+Local Cache Stride Bucket 23 is equal to 4087
+Local Cache Stride Bucket 24 is equal to 4385
+Local Cache Stride Bucket 25 is equal to 4076
+Local Cache Stride Bucket 26 is equal to 3015
+Local Cache Stride Bucket 27 is equal to 3963
+Local Cache Stride Bucket 28 is equal to 2028
+Local Cache Stride Bucket 29 is equal to 1522
+Local Cache Stride Bucket 30 is equal to 1418
+Local Cache Stride Bucket 31 is equal to 1043
+Local Cache Stride Bucket 32 is equal to 858
+Local Cache Stride Bucket 33 is equal to 831
+Local Cache Stride Bucket 34 is equal to 1167
+Local Cache Stride Bucket 35 is equal to 631
+Local Cache Stride Bucket 36 is equal to 546
+Local Cache Stride Bucket 37 is equal to 498
+Local Cache Stride Bucket 38 is equal to 559
+Local Cache Stride Bucket 39 is equal to 629
+Local Cache Stride Bucket 40 is equal to 583
+Local Cache Stride Bucket 41 is equal to 555
+Local Cache Stride Bucket 42 is equal to 745
+Local Cache Stride Bucket 43 is equal to 596
+Local Cache Stride Bucket 44 is equal to 661
+Local Cache Stride Bucket 45 is equal to 523
+Local Cache Stride Bucket 46 is equal to 464
+Local Cache Stride Bucket 47 is equal to 451
+Local Cache Stride Bucket 48 is equal to 736
+Local Cache Stride Bucket 49 is equal to 522
+Local Cache Stride Bucket 50 is equal to 922
+Local Cache Stride Bucket 51 is equal to 707
+Local Cache Stride Bucket 52 is equal to 601
+Local Cache Stride Bucket 53 is equal to 523
+Local Cache Stride Bucket 54 is equal to 617
+Local Cache Stride Bucket 55 is equal to 435
+Local Cache Stride Bucket 56 is equal to 468
+Local Cache Stride Bucket 57 is equal to 368
+Local Cache Stride Bucket 58 is equal to 386
+Local Cache Stride Bucket 59 is equal to 435
+Local Cache Stride Bucket 60 is equal to 362
+Local Cache Stride Bucket 61 is equal to 374
+Local Cache Stride Bucket 62 is equal to 341
+Local Cache Stride Bucket 63 is equal to 346
+Local Cache Stride Bucket 64 is equal to 380
+Local Cache Stride Bucket 65 is equal to 419
+Local Cache Stride Bucket 66 is equal to 300
+Local Cache Stride Bucket 67 is equal to 383
+Local Cache Stride Bucket 68 is equal to 364
+Local Cache Stride Bucket 69 is equal to 304
+Local Cache Stride Bucket 70 is equal to 372
+Local Cache Stride Bucket 71 is equal to 261
+Local Cache Stride Bucket 72 is equal to 367
+Local Cache Stride Bucket 73 is equal to 256
+Local Cache Stride Bucket 74 is equal to 275
+Local Cache Stride Bucket 75 is equal to 366
+Local Cache Stride Bucket 76 is equal to 270
+Local Cache Stride Bucket 77 is equal to 278
+Local Cache Stride Bucket 78 is equal to 360
+Local Cache Stride Bucket 79 is equal to 672
+Local Cache Stride Bucket 80 is equal to 403
+Local Cache Stride Bucket 81 is equal to 340
+Local Cache Stride Bucket 82 is equal to 315
+Local Cache Stride Bucket 83 is equal to 289
+Local Cache Stride Bucket 84 is equal to 269
+Local Cache Stride Bucket 85 is equal to 259
+Local Cache Stride Bucket 86 is equal to 430
+Local Cache Stride Bucket 87 is equal to 344
+Local Cache Stride Bucket 88 is equal to 426
+Local Cache Stride Bucket 89 is equal to 274
+Local Cache Stride Bucket 90 is equal to 259
+Local Cache Stride Bucket 91 is equal to 282
+Local Cache Stride Bucket 92 is equal to 243
+Local Cache Stride Bucket 93 is equal to 264
+Local Cache Stride Bucket 94 is equal to 268
+Local Cache Stride Bucket 95 is equal to 345
+Local Cache Stride Bucket 96 is equal to 458
+Local Cache Stride Bucket 97 is equal to 622
+Local Cache Stride Bucket 98 is equal to 209
+Local Cache Stride Bucket 99 is equal to 243
+Local Cache Stride Bucket 100 is equal to 216
+Local Cache Stride Bucket 101 is equal to 238
+Local Cache Stride Bucket 102 is equal to 260
+Local Cache Stride Bucket 103 is equal to 362
+Local Cache Stride Bucket 104 is equal to 187
+Local Cache Stride Bucket 105 is equal to 276
+Local Cache Stride Bucket 106 is equal to 235
+Local Cache Stride Bucket 107 is equal to 252
+Local Cache Stride Bucket 108 is equal to 213
+Local Cache Stride Bucket 109 is equal to 193
+Local Cache Stride Bucket 110 is equal to 258
+Local Cache Stride Bucket 111 is equal to 184
+Local Cache Stride Bucket 112 is equal to 238
+Local Cache Stride Bucket 113 is equal to 370
+Local Cache Stride Bucket 114 is equal to 154
+Local Cache Stride Bucket 115 is equal to 234
+Local Cache Stride Bucket 116 is equal to 259
+Local Cache Stride Bucket 117 is equal to 154
+Local Cache Stride Bucket 118 is equal to 181
+Local Cache Stride Bucket 119 is equal to 264
+Local Cache Stride Bucket 120 is equal to 189
+Local Cache Stride Bucket 121 is equal to 163
+Local Cache Stride Bucket 122 is equal to 307
+Local Cache Stride Bucket 123 is equal to 196
+Local Cache Stride Bucket 124 is equal to 207
+Local Cache Stride Bucket 125 is equal to 148
+Local Cache Stride Bucket 126 is equal to 189
+Local Cache Stride Bucket 127 is equal to 253
+Local Cache Stride Bucket 128 is equal to 208
+Local Cache Stride Bucket 129 is equal to 163
+Local Cache Stride Bucket 130 is equal to 188
+Local Cache Stride Bucket 131 is equal to 201
+Local Cache Stride Bucket 132 is equal to 158
+Local Cache Stride Bucket 133 is equal to 162
+Local Cache Stride Bucket 134 is equal to 193
+Local Cache Stride Bucket 135 is equal to 155
+Local Cache Stride Bucket 136 is equal to 163
+Local Cache Stride Bucket 137 is equal to 234
+Local Cache Stride Bucket 138 is equal to 149
+Local Cache Stride Bucket 139 is equal to 192
+Local Cache Stride Bucket 140 is equal to 157
+Local Cache Stride Bucket 141 is equal to 200
+Local Cache Stride Bucket 142 is equal to 215
+Local Cache Stride Bucket 143 is equal to 151
+Local Cache Stride Bucket 144 is equal to 194
+Local Cache Stride Bucket 145 is equal to 262
+Local Cache Stride Bucket 146 is equal to 164
+Local Cache Stride Bucket 147 is equal to 196
+Local Cache Stride Bucket 148 is equal to 179
+Local Cache Stride Bucket 149 is equal to 187
+Local Cache Stride Bucket 150 is equal to 147
+Local Cache Stride Bucket 151 is equal to 223
+Local Cache Stride Bucket 152 is equal to 276
+Local Cache Stride Bucket 153 is equal to 239
+Local Cache Stride Bucket 154 is equal to 149
+Local Cache Stride Bucket 155 is equal to 158
+Local Cache Stride Bucket 156 is equal to 358
+Local Cache Stride Bucket 157 is equal to 202
+Local Cache Stride Bucket 158 is equal to 134
+Local Cache Stride Bucket 159 is equal to 292
+Local Cache Stride Bucket 160 is equal to 183
+Local Cache Stride Bucket 161 is equal to 197
+Local Cache Stride Bucket 162 is equal to 118
+Local Cache Stride Bucket 163 is equal to 145
+Local Cache Stride Bucket 164 is equal to 179
+Local Cache Stride Bucket 165 is equal to 121
+Local Cache Stride Bucket 166 is equal to 129
+Local Cache Stride Bucket 167 is equal to 100
+Local Cache Stride Bucket 168 is equal to 244
+Local Cache Stride Bucket 169 is equal to 289
+Local Cache Stride Bucket 170 is equal to 166
+Local Cache Stride Bucket 171 is equal to 127
+Local Cache Stride Bucket 172 is equal to 179
+Local Cache Stride Bucket 173 is equal to 174
+Local Cache Stride Bucket 174 is equal to 143
+Local Cache Stride Bucket 175 is equal to 130
+Local Cache Stride Bucket 176 is equal to 235
+Local Cache Stride Bucket 177 is equal to 209
+Local Cache Stride Bucket 178 is equal to 104
+Local Cache Stride Bucket 179 is equal to 108
+Local Cache Stride Bucket 180 is equal to 135
+Local Cache Stride Bucket 181 is equal to 121
+Local Cache Stride Bucket 182 is equal to 127
+Local Cache Stride Bucket 183 is equal to 131
+Local Cache Stride Bucket 184 is equal to 145
+Local Cache Stride Bucket 185 is equal to 197
+Local Cache Stride Bucket 186 is equal to 118
+Local Cache Stride Bucket 187 is equal to 110
+Local Cache Stride Bucket 188 is equal to 182
+Local Cache Stride Bucket 189 is equal to 141
+Local Cache Stride Bucket 190 is equal to 95
+Local Cache Stride Bucket 191 is equal to 113
+Local Cache Stride Bucket 192 is equal to 386
+Local Cache Stride Bucket 193 is equal to 159
+Local Cache Stride Bucket 194 is equal to 149
+Local Cache Stride Bucket 195 is equal to 235
+Local Cache Stride Bucket 196 is equal to 158
+Local Cache Stride Bucket 197 is equal to 189
+Local Cache Stride Bucket 198 is equal to 140
+Local Cache Stride Bucket 199 is equal to 88
+Local Cache Stride Bucket 200 is equal to 472
+Local Cache Stride Bucket 201 is equal to 160
+Local Cache Stride Bucket 202 is equal to 149
+Local Cache Stride Bucket 203 is equal to 134
+Local Cache Stride Bucket 204 is equal to 116
+Local Cache Stride Bucket 205 is equal to 102
+Local Cache Stride Bucket 206 is equal to 172
+Local Cache Stride Bucket 207 is equal to 114
+Local Cache Stride Bucket 208 is equal to 317
+Local Cache Stride Bucket 209 is equal to 100
+Local Cache Stride Bucket 210 is equal to 143
+Local Cache Stride Bucket 211 is equal to 162
+Local Cache Stride Bucket 212 is equal to 133
+Local Cache Stride Bucket 213 is equal to 90
+Local Cache Stride Bucket 214 is equal to 93
+Local Cache Stride Bucket 215 is equal to 116
+Local Cache Stride Bucket 216 is equal to 139
+Local Cache Stride Bucket 217 is equal to 144
+Local Cache Stride Bucket 218 is equal to 116
+Local Cache Stride Bucket 219 is equal to 185
+Local Cache Stride Bucket 220 is equal to 136
+Local Cache Stride Bucket 221 is equal to 112
+Local Cache Stride Bucket 222 is equal to 135
+Local Cache Stride Bucket 223 is equal to 406
+Local Cache Stride Bucket 224 is equal to 199
+Local Cache Stride Bucket 225 is equal to 140
+Local Cache Stride Bucket 226 is equal to 116
+Local Cache Stride Bucket 227 is equal to 164
+Local Cache Stride Bucket 228 is equal to 219
+Local Cache Stride Bucket 229 is equal to 85
+Local Cache Stride Bucket 230 is equal to 105
+Local Cache Stride Bucket 231 is equal to 143
+Local Cache Stride Bucket 232 is equal to 109
+Local Cache Stride Bucket 233 is equal to 88
+Local Cache Stride Bucket 234 is equal to 64
+Local Cache Stride Bucket 235 is equal to 158
+Local Cache Stride Bucket 236 is equal to 81
+Local Cache Stride Bucket 237 is equal to 133
+Local Cache Stride Bucket 238 is equal to 160
+Local Cache Stride Bucket 239 is equal to 273
+Local Cache Stride Bucket 240 is equal to 117
+Local Cache Stride Bucket 241 is equal to 116
+Local Cache Stride Bucket 242 is equal to 103
+Local Cache Stride Bucket 243 is equal to 170
+Local Cache Stride Bucket 244 is equal to 105
+Local Cache Stride Bucket 245 is equal to 110
+Local Cache Stride Bucket 246 is equal to 103
+Local Cache Stride Bucket 247 is equal to 117
+Local Cache Stride Bucket 248 is equal to 112
+Local Cache Stride Bucket 249 is equal to 153
+Local Cache Stride Bucket 250 is equal to 96
+Local Cache Stride Bucket 251 is equal to 89
+Local Cache Stride Bucket 252 is equal to 181
+Local Cache Stride Bucket 253 is equal to 87
+Local Cache Stride Bucket 254 is equal to 86
+Local Cache Stride Bucket 255 is equal to 151
+Local Cache Stride Bucket 256 is equal to 943558
+
+
+Global LD ST Byte Stride Bucket -256 is equal to 10322932
+Global LD ST Byte Stride Bucket -255 is equal to 736
+Global LD ST Byte Stride Bucket -254 is equal to 646
+Global LD ST Byte Stride Bucket -253 is equal to 1374
+Global LD ST Byte Stride Bucket -252 is equal to 4143
+Global LD ST Byte Stride Bucket -251 is equal to 1014
+Global LD ST Byte Stride Bucket -250 is equal to 694
+Global LD ST Byte Stride Bucket -249 is equal to 859
+Global LD ST Byte Stride Bucket -248 is equal to 9285
+Global LD ST Byte Stride Bucket -247 is equal to 826
+Global LD ST Byte Stride Bucket -246 is equal to 1292
+Global LD ST Byte Stride Bucket -245 is equal to 1834
+Global LD ST Byte Stride Bucket -244 is equal to 4289
+Global LD ST Byte Stride Bucket -243 is equal to 914
+Global LD ST Byte Stride Bucket -242 is equal to 1066
+Global LD ST Byte Stride Bucket -241 is equal to 1690
+Global LD ST Byte Stride Bucket -240 is equal to 3267
+Global LD ST Byte Stride Bucket -239 is equal to 2589
+Global LD ST Byte Stride Bucket -238 is equal to 1094
+Global LD ST Byte Stride Bucket -237 is equal to 1941
+Global LD ST Byte Stride Bucket -236 is equal to 5447
+Global LD ST Byte Stride Bucket -235 is equal to 6414
+Global LD ST Byte Stride Bucket -234 is equal to 526
+Global LD ST Byte Stride Bucket -233 is equal to 1922
+Global LD ST Byte Stride Bucket -232 is equal to 4520
+Global LD ST Byte Stride Bucket -231 is equal to 2458
+Global LD ST Byte Stride Bucket -230 is equal to 1237
+Global LD ST Byte Stride Bucket -229 is equal to 1011
+Global LD ST Byte Stride Bucket -228 is equal to 705
+Global LD ST Byte Stride Bucket -227 is equal to 497
+Global LD ST Byte Stride Bucket -226 is equal to 357
+Global LD ST Byte Stride Bucket -225 is equal to 1048
+Global LD ST Byte Stride Bucket -224 is equal to 2800
+Global LD ST Byte Stride Bucket -223 is equal to 696
+Global LD ST Byte Stride Bucket -222 is equal to 1719
+Global LD ST Byte Stride Bucket -221 is equal to 1523
+Global LD ST Byte Stride Bucket -220 is equal to 891
+Global LD ST Byte Stride Bucket -219 is equal to 1804
+Global LD ST Byte Stride Bucket -218 is equal to 868
+Global LD ST Byte Stride Bucket -217 is equal to 1743
+Global LD ST Byte Stride Bucket -216 is equal to 1705
+Global LD ST Byte Stride Bucket -215 is equal to 912
+Global LD ST Byte Stride Bucket -214 is equal to 1751
+Global LD ST Byte Stride Bucket -213 is equal to 1180
+Global LD ST Byte Stride Bucket -212 is equal to 6934
+Global LD ST Byte Stride Bucket -211 is equal to 1114
+Global LD ST Byte Stride Bucket -210 is equal to 1429
+Global LD ST Byte Stride Bucket -209 is equal to 1391
+Global LD ST Byte Stride Bucket -208 is equal to 1315
+Global LD ST Byte Stride Bucket -207 is equal to 1929
+Global LD ST Byte Stride Bucket -206 is equal to 874
+Global LD ST Byte Stride Bucket -205 is equal to 1735
+Global LD ST Byte Stride Bucket -204 is equal to 7354
+Global LD ST Byte Stride Bucket -203 is equal to 2204
+Global LD ST Byte Stride Bucket -202 is equal to 2010
+Global LD ST Byte Stride Bucket -201 is equal to 1734
+Global LD ST Byte Stride Bucket -200 is equal to 2221
+Global LD ST Byte Stride Bucket -199 is equal to 1317
+Global LD ST Byte Stride Bucket -198 is equal to 1161
+Global LD ST Byte Stride Bucket -197 is equal to 1970
+Global LD ST Byte Stride Bucket -196 is equal to 1281
+Global LD ST Byte Stride Bucket -195 is equal to 1853
+Global LD ST Byte Stride Bucket -194 is equal to 1995
+Global LD ST Byte Stride Bucket -193 is equal to 2566
+Global LD ST Byte Stride Bucket -192 is equal to 5694
+Global LD ST Byte Stride Bucket -191 is equal to 3322
+Global LD ST Byte Stride Bucket -190 is equal to 2256
+Global LD ST Byte Stride Bucket -189 is equal to 3160
+Global LD ST Byte Stride Bucket -188 is equal to 2560
+Global LD ST Byte Stride Bucket -187 is equal to 1369
+Global LD ST Byte Stride Bucket -186 is equal to 3851
+Global LD ST Byte Stride Bucket -185 is equal to 1985
+Global LD ST Byte Stride Bucket -184 is equal to 2076
+Global LD ST Byte Stride Bucket -183 is equal to 4772
+Global LD ST Byte Stride Bucket -182 is equal to 2430
+Global LD ST Byte Stride Bucket -181 is equal to 1088
+Global LD ST Byte Stride Bucket -180 is equal to 2213
+Global LD ST Byte Stride Bucket -179 is equal to 2369
+Global LD ST Byte Stride Bucket -178 is equal to 595
+Global LD ST Byte Stride Bucket -177 is equal to 1006
+Global LD ST Byte Stride Bucket -176 is equal to 2946
+Global LD ST Byte Stride Bucket -175 is equal to 2651
+Global LD ST Byte Stride Bucket -174 is equal to 1263
+Global LD ST Byte Stride Bucket -173 is equal to 2014
+Global LD ST Byte Stride Bucket -172 is equal to 3690
+Global LD ST Byte Stride Bucket -171 is equal to 954
+Global LD ST Byte Stride Bucket -170 is equal to 2734
+Global LD ST Byte Stride Bucket -169 is equal to 1961
+Global LD ST Byte Stride Bucket -168 is equal to 999
+Global LD ST Byte Stride Bucket -167 is equal to 2076
+Global LD ST Byte Stride Bucket -166 is equal to 1505
+Global LD ST Byte Stride Bucket -165 is equal to 2479
+Global LD ST Byte Stride Bucket -164 is equal to 4326
+Global LD ST Byte Stride Bucket -163 is equal to 2501
+Global LD ST Byte Stride Bucket -162 is equal to 3309
+Global LD ST Byte Stride Bucket -161 is equal to 1763
+Global LD ST Byte Stride Bucket -160 is equal to 2325
+Global LD ST Byte Stride Bucket -159 is equal to 2573
+Global LD ST Byte Stride Bucket -158 is equal to 1407
+Global LD ST Byte Stride Bucket -157 is equal to 2079
+Global LD ST Byte Stride Bucket -156 is equal to 3968
+Global LD ST Byte Stride Bucket -155 is equal to 5885
+Global LD ST Byte Stride Bucket -154 is equal to 2508
+Global LD ST Byte Stride Bucket -153 is equal to 5628
+Global LD ST Byte Stride Bucket -152 is equal to 3599
+Global LD ST Byte Stride Bucket -151 is equal to 2083
+Global LD ST Byte Stride Bucket -150 is equal to 2843
+Global LD ST Byte Stride Bucket -149 is equal to 2823
+Global LD ST Byte Stride Bucket -148 is equal to 3861
+Global LD ST Byte Stride Bucket -147 is equal to 2718
+Global LD ST Byte Stride Bucket -146 is equal to 2797
+Global LD ST Byte Stride Bucket -145 is equal to 2486
+Global LD ST Byte Stride Bucket -144 is equal to 3010
+Global LD ST Byte Stride Bucket -143 is equal to 1546
+Global LD ST Byte Stride Bucket -142 is equal to 2337
+Global LD ST Byte Stride Bucket -141 is equal to 833
+Global LD ST Byte Stride Bucket -140 is equal to 3478
+Global LD ST Byte Stride Bucket -139 is equal to 1885
+Global LD ST Byte Stride Bucket -138 is equal to 3620
+Global LD ST Byte Stride Bucket -137 is equal to 1337
+Global LD ST Byte Stride Bucket -136 is equal to 3090
+Global LD ST Byte Stride Bucket -135 is equal to 1641
+Global LD ST Byte Stride Bucket -134 is equal to 1591
+Global LD ST Byte Stride Bucket -133 is equal to 1208
+Global LD ST Byte Stride Bucket -132 is equal to 1876
+Global LD ST Byte Stride Bucket -131 is equal to 2665
+Global LD ST Byte Stride Bucket -130 is equal to 2416
+Global LD ST Byte Stride Bucket -129 is equal to 1830
+Global LD ST Byte Stride Bucket -128 is equal to 13872
+Global LD ST Byte Stride Bucket -127 is equal to 1768
+Global LD ST Byte Stride Bucket -126 is equal to 3416
+Global LD ST Byte Stride Bucket -125 is equal to 2779
+Global LD ST Byte Stride Bucket -124 is equal to 9603
+Global LD ST Byte Stride Bucket -123 is equal to 3975
+Global LD ST Byte Stride Bucket -122 is equal to 4840
+Global LD ST Byte Stride Bucket -121 is equal to 2617
+Global LD ST Byte Stride Bucket -120 is equal to 4351
+Global LD ST Byte Stride Bucket -119 is equal to 1832
+Global LD ST Byte Stride Bucket -118 is equal to 2505
+Global LD ST Byte Stride Bucket -117 is equal to 4278
+Global LD ST Byte Stride Bucket -116 is equal to 2958
+Global LD ST Byte Stride Bucket -115 is equal to 2715
+Global LD ST Byte Stride Bucket -114 is equal to 2973
+Global LD ST Byte Stride Bucket -113 is equal to 1720
+Global LD ST Byte Stride Bucket -112 is equal to 9531
+Global LD ST Byte Stride Bucket -111 is equal to 4239
+Global LD ST Byte Stride Bucket -110 is equal to 2232
+Global LD ST Byte Stride Bucket -109 is equal to 1557
+Global LD ST Byte Stride Bucket -108 is equal to 4074
+Global LD ST Byte Stride Bucket -107 is equal to 3380
+Global LD ST Byte Stride Bucket -106 is equal to 3612
+Global LD ST Byte Stride Bucket -105 is equal to 3039
+Global LD ST Byte Stride Bucket -104 is equal to 15530
+Global LD ST Byte Stride Bucket -103 is equal to 3588
+Global LD ST Byte Stride Bucket -102 is equal to 4096
+Global LD ST Byte Stride Bucket -101 is equal to 4229
+Global LD ST Byte Stride Bucket -100 is equal to 11049
+Global LD ST Byte Stride Bucket -99 is equal to 3409
+Global LD ST Byte Stride Bucket -98 is equal to 5276
+Global LD ST Byte Stride Bucket -97 is equal to 4360
+Global LD ST Byte Stride Bucket -96 is equal to 1529
+Global LD ST Byte Stride Bucket -95 is equal to 3605
+Global LD ST Byte Stride Bucket -94 is equal to 3694
+Global LD ST Byte Stride Bucket -93 is equal to 3361
+Global LD ST Byte Stride Bucket -92 is equal to 2681
+Global LD ST Byte Stride Bucket -91 is equal to 6946
+Global LD ST Byte Stride Bucket -90 is equal to 3861
+Global LD ST Byte Stride Bucket -89 is equal to 6281
+Global LD ST Byte Stride Bucket -88 is equal to 5549
+Global LD ST Byte Stride Bucket -87 is equal to 4555
+Global LD ST Byte Stride Bucket -86 is equal to 4554
+Global LD ST Byte Stride Bucket -85 is equal to 4141
+Global LD ST Byte Stride Bucket -84 is equal to 7710
+Global LD ST Byte Stride Bucket -83 is equal to 12285
+Global LD ST Byte Stride Bucket -82 is equal to 6263
+Global LD ST Byte Stride Bucket -81 is equal to 6627
+Global LD ST Byte Stride Bucket -80 is equal to 197727
+Global LD ST Byte Stride Bucket -79 is equal to 6935
+Global LD ST Byte Stride Bucket -78 is equal to 11801
+Global LD ST Byte Stride Bucket -77 is equal to 3539
+Global LD ST Byte Stride Bucket -76 is equal to 178246
+Global LD ST Byte Stride Bucket -75 is equal to 4949
+Global LD ST Byte Stride Bucket -74 is equal to 6206
+Global LD ST Byte Stride Bucket -73 is equal to 2264
+Global LD ST Byte Stride Bucket -72 is equal to 9924
+Global LD ST Byte Stride Bucket -71 is equal to 5126
+Global LD ST Byte Stride Bucket -70 is equal to 3690
+Global LD ST Byte Stride Bucket -69 is equal to 3262
+Global LD ST Byte Stride Bucket -68 is equal to 10582
+Global LD ST Byte Stride Bucket -67 is equal to 4579
+Global LD ST Byte Stride Bucket -66 is equal to 2954
+Global LD ST Byte Stride Bucket -65 is equal to 2757
+Global LD ST Byte Stride Bucket -64 is equal to 36766
+Global LD ST Byte Stride Bucket -63 is equal to 2468
+Global LD ST Byte Stride Bucket -62 is equal to 4925
+Global LD ST Byte Stride Bucket -61 is equal to 9507
+Global LD ST Byte Stride Bucket -60 is equal to 16997
+Global LD ST Byte Stride Bucket -59 is equal to 4130
+Global LD ST Byte Stride Bucket -58 is equal to 3144
+Global LD ST Byte Stride Bucket -57 is equal to 3572
+Global LD ST Byte Stride Bucket -56 is equal to 189778
+Global LD ST Byte Stride Bucket -55 is equal to 3071
+Global LD ST Byte Stride Bucket -54 is equal to 2450
+Global LD ST Byte Stride Bucket -53 is equal to 4365
+Global LD ST Byte Stride Bucket -52 is equal to 7879
+Global LD ST Byte Stride Bucket -51 is equal to 4114
+Global LD ST Byte Stride Bucket -50 is equal to 4990
+Global LD ST Byte Stride Bucket -49 is equal to 6225
+Global LD ST Byte Stride Bucket -48 is equal to 8772
+Global LD ST Byte Stride Bucket -47 is equal to 5895
+Global LD ST Byte Stride Bucket -46 is equal to 3969
+Global LD ST Byte Stride Bucket -45 is equal to 4501
+Global LD ST Byte Stride Bucket -44 is equal to 10269
+Global LD ST Byte Stride Bucket -43 is equal to 3538
+Global LD ST Byte Stride Bucket -42 is equal to 8011
+Global LD ST Byte Stride Bucket -41 is equal to 3330
+Global LD ST Byte Stride Bucket -40 is equal to 9611
+Global LD ST Byte Stride Bucket -39 is equal to 3305
+Global LD ST Byte Stride Bucket -38 is equal to 5114
+Global LD ST Byte Stride Bucket -37 is equal to 2142
+Global LD ST Byte Stride Bucket -36 is equal to 7952
+Global LD ST Byte Stride Bucket -35 is equal to 1643
+Global LD ST Byte Stride Bucket -34 is equal to 3032
+Global LD ST Byte Stride Bucket -33 is equal to 3222
+Global LD ST Byte Stride Bucket -32 is equal to 40101
+Global LD ST Byte Stride Bucket -31 is equal to 3127
+Global LD ST Byte Stride Bucket -30 is equal to 1879
+Global LD ST Byte Stride Bucket -29 is equal to 2665
+Global LD ST Byte Stride Bucket -28 is equal to 7017
+Global LD ST Byte Stride Bucket -27 is equal to 3906
+Global LD ST Byte Stride Bucket -26 is equal to 6121
+Global LD ST Byte Stride Bucket -25 is equal to 10982
+Global LD ST Byte Stride Bucket -24 is equal to 21395
+Global LD ST Byte Stride Bucket -23 is equal to 3274
+Global LD ST Byte Stride Bucket -22 is equal to 3607
+Global LD ST Byte Stride Bucket -21 is equal to 6559
+Global LD ST Byte Stride Bucket -20 is equal to 184326
+Global LD ST Byte Stride Bucket -19 is equal to 3633
+Global LD ST Byte Stride Bucket -18 is equal to 2909
+Global LD ST Byte Stride Bucket -17 is equal to 2082
+Global LD ST Byte Stride Bucket -16 is equal to 89089
+Global LD ST Byte Stride Bucket -15 is equal to 2637
+Global LD ST Byte Stride Bucket -14 is equal to 1635
+Global LD ST Byte Stride Bucket -13 is equal to 2367
+Global LD ST Byte Stride Bucket -12 is equal to 208619
+Global LD ST Byte Stride Bucket -11 is equal to 1400
+Global LD ST Byte Stride Bucket -10 is equal to 1188
+Global LD ST Byte Stride Bucket -9 is equal to 1532
+Global LD ST Byte Stride Bucket -8 is equal to 1472867
+Global LD ST Byte Stride Bucket -7 is equal to 1681
+Global LD ST Byte Stride Bucket -6 is equal to 1150
+Global LD ST Byte Stride Bucket -5 is equal to 3789
+Global LD ST Byte Stride Bucket -4 is equal to 364583
+Global LD ST Byte Stride Bucket -3 is equal to 314
+Global LD ST Byte Stride Bucket -2 is equal to 100
+Global LD ST Byte Stride Bucket -1 is equal to 14199
+Global LD ST Byte Stride Bucket 0 is equal to 1104104
+Global LD ST Byte Stride Bucket 1 is equal to 1241931
+Global LD ST Byte Stride Bucket 2 is equal to 2505
+Global LD ST Byte Stride Bucket 3 is equal to 252
+Global LD ST Byte Stride Bucket 4 is equal to 464244
+Global LD ST Byte Stride Bucket 5 is equal to 440
+Global LD ST Byte Stride Bucket 6 is equal to 4142
+Global LD ST Byte Stride Bucket 7 is equal to 900
+Global LD ST Byte Stride Bucket 8 is equal to 1667667
+Global LD ST Byte Stride Bucket 9 is equal to 1072
+Global LD ST Byte Stride Bucket 10 is equal to 1617
+Global LD ST Byte Stride Bucket 11 is equal to 1158
+Global LD ST Byte Stride Bucket 12 is equal to 193299
+Global LD ST Byte Stride Bucket 13 is equal to 1686
+Global LD ST Byte Stride Bucket 14 is equal to 2473
+Global LD ST Byte Stride Bucket 15 is equal to 1586
+Global LD ST Byte Stride Bucket 16 is equal to 76999
+Global LD ST Byte Stride Bucket 17 is equal to 2968
+Global LD ST Byte Stride Bucket 18 is equal to 2027
+Global LD ST Byte Stride Bucket 19 is equal to 3088
+Global LD ST Byte Stride Bucket 20 is equal to 203409
+Global LD ST Byte Stride Bucket 21 is equal to 2327
+Global LD ST Byte Stride Bucket 22 is equal to 7154
+Global LD ST Byte Stride Bucket 23 is equal to 3046
+Global LD ST Byte Stride Bucket 24 is equal to 35635
+Global LD ST Byte Stride Bucket 25 is equal to 4141
+Global LD ST Byte Stride Bucket 26 is equal to 11564
+Global LD ST Byte Stride Bucket 27 is equal to 5622
+Global LD ST Byte Stride Bucket 28 is equal to 8392
+Global LD ST Byte Stride Bucket 29 is equal to 1948
+Global LD ST Byte Stride Bucket 30 is equal to 2679
+Global LD ST Byte Stride Bucket 31 is equal to 1854
+Global LD ST Byte Stride Bucket 32 is equal to 31566
+Global LD ST Byte Stride Bucket 33 is equal to 1991
+Global LD ST Byte Stride Bucket 34 is equal to 3366
+Global LD ST Byte Stride Bucket 35 is equal to 3002
+Global LD ST Byte Stride Bucket 36 is equal to 5405
+Global LD ST Byte Stride Bucket 37 is equal to 2014
+Global LD ST Byte Stride Bucket 38 is equal to 2284
+Global LD ST Byte Stride Bucket 39 is equal to 5373
+Global LD ST Byte Stride Bucket 40 is equal to 11987
+Global LD ST Byte Stride Bucket 41 is equal to 6076
+Global LD ST Byte Stride Bucket 42 is equal to 2871
+Global LD ST Byte Stride Bucket 43 is equal to 8480
+Global LD ST Byte Stride Bucket 44 is equal to 16084
+Global LD ST Byte Stride Bucket 45 is equal to 5083
+Global LD ST Byte Stride Bucket 46 is equal to 4445
+Global LD ST Byte Stride Bucket 47 is equal to 3983
+Global LD ST Byte Stride Bucket 48 is equal to 36773
+Global LD ST Byte Stride Bucket 49 is equal to 2715
+Global LD ST Byte Stride Bucket 50 is equal to 6598
+Global LD ST Byte Stride Bucket 51 is equal to 4928
+Global LD ST Byte Stride Bucket 52 is equal to 15003
+Global LD ST Byte Stride Bucket 53 is equal to 8075
+Global LD ST Byte Stride Bucket 54 is equal to 3885
+Global LD ST Byte Stride Bucket 55 is equal to 2287
+Global LD ST Byte Stride Bucket 56 is equal to 198013
+Global LD ST Byte Stride Bucket 57 is equal to 3055
+Global LD ST Byte Stride Bucket 58 is equal to 3615
+Global LD ST Byte Stride Bucket 59 is equal to 3189
+Global LD ST Byte Stride Bucket 60 is equal to 187552
+Global LD ST Byte Stride Bucket 61 is equal to 3805
+Global LD ST Byte Stride Bucket 62 is equal to 9908
+Global LD ST Byte Stride Bucket 63 is equal to 4282
+Global LD ST Byte Stride Bucket 64 is equal to 190622
+Global LD ST Byte Stride Bucket 65 is equal to 5829
+Global LD ST Byte Stride Bucket 66 is equal to 2389
+Global LD ST Byte Stride Bucket 67 is equal to 2980
+Global LD ST Byte Stride Bucket 68 is equal to 14533
+Global LD ST Byte Stride Bucket 69 is equal to 4808
+Global LD ST Byte Stride Bucket 70 is equal to 3099
+Global LD ST Byte Stride Bucket 71 is equal to 3721
+Global LD ST Byte Stride Bucket 72 is equal to 10170
+Global LD ST Byte Stride Bucket 73 is equal to 1918
+Global LD ST Byte Stride Bucket 74 is equal to 2274
+Global LD ST Byte Stride Bucket 75 is equal to 6625
+Global LD ST Byte Stride Bucket 76 is equal to 9991
+Global LD ST Byte Stride Bucket 77 is equal to 2638
+Global LD ST Byte Stride Bucket 78 is equal to 3531
+Global LD ST Byte Stride Bucket 79 is equal to 12813
+Global LD ST Byte Stride Bucket 80 is equal to 12706
+Global LD ST Byte Stride Bucket 81 is equal to 16443
+Global LD ST Byte Stride Bucket 82 is equal to 5779
+Global LD ST Byte Stride Bucket 83 is equal to 6304
+Global LD ST Byte Stride Bucket 84 is equal to 22115
+Global LD ST Byte Stride Bucket 85 is equal to 6922
+Global LD ST Byte Stride Bucket 86 is equal to 3891
+Global LD ST Byte Stride Bucket 87 is equal to 4536
+Global LD ST Byte Stride Bucket 88 is equal to 7298
+Global LD ST Byte Stride Bucket 89 is equal to 2965
+Global LD ST Byte Stride Bucket 90 is equal to 6653
+Global LD ST Byte Stride Bucket 91 is equal to 3638
+Global LD ST Byte Stride Bucket 92 is equal to 8851
+Global LD ST Byte Stride Bucket 93 is equal to 2194
+Global LD ST Byte Stride Bucket 94 is equal to 3509
+Global LD ST Byte Stride Bucket 95 is equal to 3775
+Global LD ST Byte Stride Bucket 96 is equal to 10584
+Global LD ST Byte Stride Bucket 97 is equal to 1232
+Global LD ST Byte Stride Bucket 98 is equal to 4640
+Global LD ST Byte Stride Bucket 99 is equal to 5345
+Global LD ST Byte Stride Bucket 100 is equal to 4956
+Global LD ST Byte Stride Bucket 101 is equal to 3767
+Global LD ST Byte Stride Bucket 102 is equal to 4281
+Global LD ST Byte Stride Bucket 103 is equal to 4122
+Global LD ST Byte Stride Bucket 104 is equal to 5488
+Global LD ST Byte Stride Bucket 105 is equal to 3512
+Global LD ST Byte Stride Bucket 106 is equal to 2969
+Global LD ST Byte Stride Bucket 107 is equal to 3647
+Global LD ST Byte Stride Bucket 108 is equal to 10473
+Global LD ST Byte Stride Bucket 109 is equal to 3782
+Global LD ST Byte Stride Bucket 110 is equal to 1317
+Global LD ST Byte Stride Bucket 111 is equal to 2263
+Global LD ST Byte Stride Bucket 112 is equal to 13528
+Global LD ST Byte Stride Bucket 113 is equal to 2193
+Global LD ST Byte Stride Bucket 114 is equal to 1759
+Global LD ST Byte Stride Bucket 115 is equal to 3029
+Global LD ST Byte Stride Bucket 116 is equal to 7858
+Global LD ST Byte Stride Bucket 117 is equal to 2869
+Global LD ST Byte Stride Bucket 118 is equal to 4263
+Global LD ST Byte Stride Bucket 119 is equal to 2344
+Global LD ST Byte Stride Bucket 120 is equal to 5759
+Global LD ST Byte Stride Bucket 121 is equal to 4303
+Global LD ST Byte Stride Bucket 122 is equal to 2457
+Global LD ST Byte Stride Bucket 123 is equal to 5169
+Global LD ST Byte Stride Bucket 124 is equal to 5446
+Global LD ST Byte Stride Bucket 125 is equal to 4122
+Global LD ST Byte Stride Bucket 126 is equal to 2523
+Global LD ST Byte Stride Bucket 127 is equal to 3386
+Global LD ST Byte Stride Bucket 128 is equal to 2897
+Global LD ST Byte Stride Bucket 129 is equal to 2016
+Global LD ST Byte Stride Bucket 130 is equal to 1795
+Global LD ST Byte Stride Bucket 131 is equal to 2457
+Global LD ST Byte Stride Bucket 132 is equal to 3890
+Global LD ST Byte Stride Bucket 133 is equal to 1408
+Global LD ST Byte Stride Bucket 134 is equal to 1110
+Global LD ST Byte Stride Bucket 135 is equal to 1605
+Global LD ST Byte Stride Bucket 136 is equal to 2684
+Global LD ST Byte Stride Bucket 137 is equal to 2990
+Global LD ST Byte Stride Bucket 138 is equal to 1211
+Global LD ST Byte Stride Bucket 139 is equal to 3794
+Global LD ST Byte Stride Bucket 140 is equal to 2760
+Global LD ST Byte Stride Bucket 141 is equal to 3348
+Global LD ST Byte Stride Bucket 142 is equal to 585
+Global LD ST Byte Stride Bucket 143 is equal to 2520
+Global LD ST Byte Stride Bucket 144 is equal to 2460
+Global LD ST Byte Stride Bucket 145 is equal to 2532
+Global LD ST Byte Stride Bucket 146 is equal to 2438
+Global LD ST Byte Stride Bucket 147 is equal to 2784
+Global LD ST Byte Stride Bucket 148 is equal to 8854
+Global LD ST Byte Stride Bucket 149 is equal to 3929
+Global LD ST Byte Stride Bucket 150 is equal to 2656
+Global LD ST Byte Stride Bucket 151 is equal to 2859
+Global LD ST Byte Stride Bucket 152 is equal to 2803
+Global LD ST Byte Stride Bucket 153 is equal to 3367
+Global LD ST Byte Stride Bucket 154 is equal to 5815
+Global LD ST Byte Stride Bucket 155 is equal to 2216
+Global LD ST Byte Stride Bucket 156 is equal to 7351
+Global LD ST Byte Stride Bucket 157 is equal to 3461
+Global LD ST Byte Stride Bucket 158 is equal to 2001
+Global LD ST Byte Stride Bucket 159 is equal to 1203
+Global LD ST Byte Stride Bucket 160 is equal to 9102
+Global LD ST Byte Stride Bucket 161 is equal to 1730
+Global LD ST Byte Stride Bucket 162 is equal to 1716
+Global LD ST Byte Stride Bucket 163 is equal to 3442
+Global LD ST Byte Stride Bucket 164 is equal to 3135
+Global LD ST Byte Stride Bucket 165 is equal to 4093
+Global LD ST Byte Stride Bucket 166 is equal to 2341
+Global LD ST Byte Stride Bucket 167 is equal to 1452
+Global LD ST Byte Stride Bucket 168 is equal to 3379
+Global LD ST Byte Stride Bucket 169 is equal to 562
+Global LD ST Byte Stride Bucket 170 is equal to 2160
+Global LD ST Byte Stride Bucket 171 is equal to 2778
+Global LD ST Byte Stride Bucket 172 is equal to 1457
+Global LD ST Byte Stride Bucket 173 is equal to 2551
+Global LD ST Byte Stride Bucket 174 is equal to 1940
+Global LD ST Byte Stride Bucket 175 is equal to 1136
+Global LD ST Byte Stride Bucket 176 is equal to 2849
+Global LD ST Byte Stride Bucket 177 is equal to 1513
+Global LD ST Byte Stride Bucket 178 is equal to 948
+Global LD ST Byte Stride Bucket 179 is equal to 522
+Global LD ST Byte Stride Bucket 180 is equal to 2739
+Global LD ST Byte Stride Bucket 181 is equal to 1805
+Global LD ST Byte Stride Bucket 182 is equal to 1002
+Global LD ST Byte Stride Bucket 183 is equal to 2564
+Global LD ST Byte Stride Bucket 184 is equal to 5009
+Global LD ST Byte Stride Bucket 185 is equal to 1512
+Global LD ST Byte Stride Bucket 186 is equal to 2000
+Global LD ST Byte Stride Bucket 187 is equal to 4038
+Global LD ST Byte Stride Bucket 188 is equal to 7798
+Global LD ST Byte Stride Bucket 189 is equal to 2441
+Global LD ST Byte Stride Bucket 190 is equal to 3228
+Global LD ST Byte Stride Bucket 191 is equal to 2131
+Global LD ST Byte Stride Bucket 192 is equal to 3414
+Global LD ST Byte Stride Bucket 193 is equal to 1682
+Global LD ST Byte Stride Bucket 194 is equal to 2685
+Global LD ST Byte Stride Bucket 195 is equal to 1873
+Global LD ST Byte Stride Bucket 196 is equal to 1911
+Global LD ST Byte Stride Bucket 197 is equal to 976
+Global LD ST Byte Stride Bucket 198 is equal to 1994
+Global LD ST Byte Stride Bucket 199 is equal to 1017
+Global LD ST Byte Stride Bucket 200 is equal to 7479
+Global LD ST Byte Stride Bucket 201 is equal to 1752
+Global LD ST Byte Stride Bucket 202 is equal to 1742
+Global LD ST Byte Stride Bucket 203 is equal to 1972
+Global LD ST Byte Stride Bucket 204 is equal to 2658
+Global LD ST Byte Stride Bucket 205 is equal to 1676
+Global LD ST Byte Stride Bucket 206 is equal to 1731
+Global LD ST Byte Stride Bucket 207 is equal to 903
+Global LD ST Byte Stride Bucket 208 is equal to 2460
+Global LD ST Byte Stride Bucket 209 is equal to 786
+Global LD ST Byte Stride Bucket 210 is equal to 1429
+Global LD ST Byte Stride Bucket 211 is equal to 1404
+Global LD ST Byte Stride Bucket 212 is equal to 939
+Global LD ST Byte Stride Bucket 213 is equal to 601
+Global LD ST Byte Stride Bucket 214 is equal to 1241
+Global LD ST Byte Stride Bucket 215 is equal to 1725
+Global LD ST Byte Stride Bucket 216 is equal to 1011
+Global LD ST Byte Stride Bucket 217 is equal to 976
+Global LD ST Byte Stride Bucket 218 is equal to 1809
+Global LD ST Byte Stride Bucket 219 is equal to 732
+Global LD ST Byte Stride Bucket 220 is equal to 1984
+Global LD ST Byte Stride Bucket 221 is equal to 370
+Global LD ST Byte Stride Bucket 222 is equal to 1622
+Global LD ST Byte Stride Bucket 223 is equal to 1752
+Global LD ST Byte Stride Bucket 224 is equal to 629
+Global LD ST Byte Stride Bucket 225 is equal to 1845
+Global LD ST Byte Stride Bucket 226 is equal to 954
+Global LD ST Byte Stride Bucket 227 is equal to 311
+Global LD ST Byte Stride Bucket 228 is equal to 525
+Global LD ST Byte Stride Bucket 229 is equal to 606
+Global LD ST Byte Stride Bucket 230 is equal to 1009
+Global LD ST Byte Stride Bucket 231 is equal to 1274
+Global LD ST Byte Stride Bucket 232 is equal to 5978
+Global LD ST Byte Stride Bucket 233 is equal to 3356
+Global LD ST Byte Stride Bucket 234 is equal to 1841
+Global LD ST Byte Stride Bucket 235 is equal to 362
+Global LD ST Byte Stride Bucket 236 is equal to 10344
+Global LD ST Byte Stride Bucket 237 is equal to 3549
+Global LD ST Byte Stride Bucket 238 is equal to 1805
+Global LD ST Byte Stride Bucket 239 is equal to 1050
+Global LD ST Byte Stride Bucket 240 is equal to 6324
+Global LD ST Byte Stride Bucket 241 is equal to 1086
+Global LD ST Byte Stride Bucket 242 is equal to 1739
+Global LD ST Byte Stride Bucket 243 is equal to 994
+Global LD ST Byte Stride Bucket 244 is equal to 4841
+Global LD ST Byte Stride Bucket 245 is equal to 1214
+Global LD ST Byte Stride Bucket 246 is equal to 1859
+Global LD ST Byte Stride Bucket 247 is equal to 1251
+Global LD ST Byte Stride Bucket 248 is equal to 4359
+Global LD ST Byte Stride Bucket 249 is equal to 2781
+Global LD ST Byte Stride Bucket 250 is equal to 602
+Global LD ST Byte Stride Bucket 251 is equal to 785
+Global LD ST Byte Stride Bucket 252 is equal to 4503
+Global LD ST Byte Stride Bucket 253 is equal to 938
+Global LD ST Byte Stride Bucket 254 is equal to 1383
+Global LD ST Byte Stride Bucket 255 is equal to 587
+Global LD ST Byte Stride Bucket 256 is equal to 8668116
+
+Global LD ST Cache Stride Bucket -256 is equal to 8690458
+Global LD ST Cache Stride Bucket -255 is equal to 1826
+Global LD ST Cache Stride Bucket -254 is equal to 1846
+Global LD ST Cache Stride Bucket -253 is equal to 1730
+Global LD ST Cache Stride Bucket -252 is equal to 1898
+Global LD ST Cache Stride Bucket -251 is equal to 1402
+Global LD ST Cache Stride Bucket -250 is equal to 1553
+Global LD ST Cache Stride Bucket -249 is equal to 1475
+Global LD ST Cache Stride Bucket -248 is equal to 1461
+Global LD ST Cache Stride Bucket -247 is equal to 1501
+Global LD ST Cache Stride Bucket -246 is equal to 1695
+Global LD ST Cache Stride Bucket -245 is equal to 1579
+Global LD ST Cache Stride Bucket -244 is equal to 1207
+Global LD ST Cache Stride Bucket -243 is equal to 1467
+Global LD ST Cache Stride Bucket -242 is equal to 2162
+Global LD ST Cache Stride Bucket -241 is equal to 1946
+Global LD ST Cache Stride Bucket -240 is equal to 2159
+Global LD ST Cache Stride Bucket -239 is equal to 1678
+Global LD ST Cache Stride Bucket -238 is equal to 1748
+Global LD ST Cache Stride Bucket -237 is equal to 1873
+Global LD ST Cache Stride Bucket -236 is equal to 1154
+Global LD ST Cache Stride Bucket -235 is equal to 1784
+Global LD ST Cache Stride Bucket -234 is equal to 1400
+Global LD ST Cache Stride Bucket -233 is equal to 1293
+Global LD ST Cache Stride Bucket -232 is equal to 1349
+Global LD ST Cache Stride Bucket -231 is equal to 1623
+Global LD ST Cache Stride Bucket -230 is equal to 1142
+Global LD ST Cache Stride Bucket -229 is equal to 1608
+Global LD ST Cache Stride Bucket -228 is equal to 1432
+Global LD ST Cache Stride Bucket -227 is equal to 1607
+Global LD ST Cache Stride Bucket -226 is equal to 1376
+Global LD ST Cache Stride Bucket -225 is equal to 1593
+Global LD ST Cache Stride Bucket -224 is equal to 1369
+Global LD ST Cache Stride Bucket -223 is equal to 1264
+Global LD ST Cache Stride Bucket -222 is equal to 1645
+Global LD ST Cache Stride Bucket -221 is equal to 1341
+Global LD ST Cache Stride Bucket -220 is equal to 1569
+Global LD ST Cache Stride Bucket -219 is equal to 1341
+Global LD ST Cache Stride Bucket -218 is equal to 1675
+Global LD ST Cache Stride Bucket -217 is equal to 1699
+Global LD ST Cache Stride Bucket -216 is equal to 1808
+Global LD ST Cache Stride Bucket -215 is equal to 1801
+Global LD ST Cache Stride Bucket -214 is equal to 1536
+Global LD ST Cache Stride Bucket -213 is equal to 1737
+Global LD ST Cache Stride Bucket -212 is equal to 2360
+Global LD ST Cache Stride Bucket -211 is equal to 2233
+Global LD ST Cache Stride Bucket -210 is equal to 2176
+Global LD ST Cache Stride Bucket -209 is equal to 1424
+Global LD ST Cache Stride Bucket -208 is equal to 1399
+Global LD ST Cache Stride Bucket -207 is equal to 1516
+Global LD ST Cache Stride Bucket -206 is equal to 1662
+Global LD ST Cache Stride Bucket -205 is equal to 1829
+Global LD ST Cache Stride Bucket -204 is equal to 1466
+Global LD ST Cache Stride Bucket -203 is equal to 2055
+Global LD ST Cache Stride Bucket -202 is equal to 1719
+Global LD ST Cache Stride Bucket -201 is equal to 1437
+Global LD ST Cache Stride Bucket -200 is equal to 1875
+Global LD ST Cache Stride Bucket -199 is equal to 1997
+Global LD ST Cache Stride Bucket -198 is equal to 1815
+Global LD ST Cache Stride Bucket -197 is equal to 1645
+Global LD ST Cache Stride Bucket -196 is equal to 1735
+Global LD ST Cache Stride Bucket -195 is equal to 1869
+Global LD ST Cache Stride Bucket -194 is equal to 1734
+Global LD ST Cache Stride Bucket -193 is equal to 1903
+Global LD ST Cache Stride Bucket -192 is equal to 2051
+Global LD ST Cache Stride Bucket -191 is equal to 1837
+Global LD ST Cache Stride Bucket -190 is equal to 1640
+Global LD ST Cache Stride Bucket -189 is equal to 1869
+Global LD ST Cache Stride Bucket -188 is equal to 1993
+Global LD ST Cache Stride Bucket -187 is equal to 1919
+Global LD ST Cache Stride Bucket -186 is equal to 1641
+Global LD ST Cache Stride Bucket -185 is equal to 1760
+Global LD ST Cache Stride Bucket -184 is equal to 2292
+Global LD ST Cache Stride Bucket -183 is equal to 1799
+Global LD ST Cache Stride Bucket -182 is equal to 2804
+Global LD ST Cache Stride Bucket -181 is equal to 1734
+Global LD ST Cache Stride Bucket -180 is equal to 1769
+Global LD ST Cache Stride Bucket -179 is equal to 1972
+Global LD ST Cache Stride Bucket -178 is equal to 1869
+Global LD ST Cache Stride Bucket -177 is equal to 5924
+Global LD ST Cache Stride Bucket -176 is equal to 4172
+Global LD ST Cache Stride Bucket -175 is equal to 1924
+Global LD ST Cache Stride Bucket -174 is equal to 1708
+Global LD ST Cache Stride Bucket -173 is equal to 1884
+Global LD ST Cache Stride Bucket -172 is equal to 1539
+Global LD ST Cache Stride Bucket -171 is equal to 1927
+Global LD ST Cache Stride Bucket -170 is equal to 1731
+Global LD ST Cache Stride Bucket -169 is equal to 1626
+Global LD ST Cache Stride Bucket -168 is equal to 1517
+Global LD ST Cache Stride Bucket -167 is equal to 1549
+Global LD ST Cache Stride Bucket -166 is equal to 2074
+Global LD ST Cache Stride Bucket -165 is equal to 2185
+Global LD ST Cache Stride Bucket -164 is equal to 3141
+Global LD ST Cache Stride Bucket -163 is equal to 2375
+Global LD ST Cache Stride Bucket -162 is equal to 2206
+Global LD ST Cache Stride Bucket -161 is equal to 2533
+Global LD ST Cache Stride Bucket -160 is equal to 2214
+Global LD ST Cache Stride Bucket -159 is equal to 2404
+Global LD ST Cache Stride Bucket -158 is equal to 2463
+Global LD ST Cache Stride Bucket -157 is equal to 2341
+Global LD ST Cache Stride Bucket -156 is equal to 2448
+Global LD ST Cache Stride Bucket -155 is equal to 2707
+Global LD ST Cache Stride Bucket -154 is equal to 2377
+Global LD ST Cache Stride Bucket -153 is equal to 2502
+Global LD ST Cache Stride Bucket -152 is equal to 6589
+Global LD ST Cache Stride Bucket -151 is equal to 2434
+Global LD ST Cache Stride Bucket -150 is equal to 2166
+Global LD ST Cache Stride Bucket -149 is equal to 3193
+Global LD ST Cache Stride Bucket -148 is equal to 3303
+Global LD ST Cache Stride Bucket -147 is equal to 2538
+Global LD ST Cache Stride Bucket -146 is equal to 3257
+Global LD ST Cache Stride Bucket -145 is equal to 2248
+Global LD ST Cache Stride Bucket -144 is equal to 2331
+Global LD ST Cache Stride Bucket -143 is equal to 3026
+Global LD ST Cache Stride Bucket -142 is equal to 2354
+Global LD ST Cache Stride Bucket -141 is equal to 2511
+Global LD ST Cache Stride Bucket -140 is equal to 2155
+Global LD ST Cache Stride Bucket -139 is equal to 2125
+Global LD ST Cache Stride Bucket -138 is equal to 2306
+Global LD ST Cache Stride Bucket -137 is equal to 2813
+Global LD ST Cache Stride Bucket -136 is equal to 2657
+Global LD ST Cache Stride Bucket -135 is equal to 2610
+Global LD ST Cache Stride Bucket -134 is equal to 3520
+Global LD ST Cache Stride Bucket -133 is equal to 3017
+Global LD ST Cache Stride Bucket -132 is equal to 2510
+Global LD ST Cache Stride Bucket -131 is equal to 2015
+Global LD ST Cache Stride Bucket -130 is equal to 2875
+Global LD ST Cache Stride Bucket -129 is equal to 2661
+Global LD ST Cache Stride Bucket -128 is equal to 2885
+Global LD ST Cache Stride Bucket -127 is equal to 3519
+Global LD ST Cache Stride Bucket -126 is equal to 3783
+Global LD ST Cache Stride Bucket -125 is equal to 3277
+Global LD ST Cache Stride Bucket -124 is equal to 3889
+Global LD ST Cache Stride Bucket -123 is equal to 3783
+Global LD ST Cache Stride Bucket -122 is equal to 3651
+Global LD ST Cache Stride Bucket -121 is equal to 3489
+Global LD ST Cache Stride Bucket -120 is equal to 3407
+Global LD ST Cache Stride Bucket -119 is equal to 4021
+Global LD ST Cache Stride Bucket -118 is equal to 3592
+Global LD ST Cache Stride Bucket -117 is equal to 3193
+Global LD ST Cache Stride Bucket -116 is equal to 3189
+Global LD ST Cache Stride Bucket -115 is equal to 3904
+Global LD ST Cache Stride Bucket -114 is equal to 3466
+Global LD ST Cache Stride Bucket -113 is equal to 3521
+Global LD ST Cache Stride Bucket -112 is equal to 4249
+Global LD ST Cache Stride Bucket -111 is equal to 4345
+Global LD ST Cache Stride Bucket -110 is equal to 3971
+Global LD ST Cache Stride Bucket -109 is equal to 3912
+Global LD ST Cache Stride Bucket -108 is equal to 3224
+Global LD ST Cache Stride Bucket -107 is equal to 3634
+Global LD ST Cache Stride Bucket -106 is equal to 3566
+Global LD ST Cache Stride Bucket -105 is equal to 4165
+Global LD ST Cache Stride Bucket -104 is equal to 4143
+Global LD ST Cache Stride Bucket -103 is equal to 4264
+Global LD ST Cache Stride Bucket -102 is equal to 5371
+Global LD ST Cache Stride Bucket -101 is equal to 4942
+Global LD ST Cache Stride Bucket -100 is equal to 4632
+Global LD ST Cache Stride Bucket -99 is equal to 4923
+Global LD ST Cache Stride Bucket -98 is equal to 9929
+Global LD ST Cache Stride Bucket -97 is equal to 8193
+Global LD ST Cache Stride Bucket -96 is equal to 5665
+Global LD ST Cache Stride Bucket -95 is equal to 5888
+Global LD ST Cache Stride Bucket -94 is equal to 4896
+Global LD ST Cache Stride Bucket -93 is equal to 4249
+Global LD ST Cache Stride Bucket -92 is equal to 5082
+Global LD ST Cache Stride Bucket -91 is equal to 6108
+Global LD ST Cache Stride Bucket -90 is equal to 5599
+Global LD ST Cache Stride Bucket -89 is equal to 5068
+Global LD ST Cache Stride Bucket -88 is equal to 10505
+Global LD ST Cache Stride Bucket -87 is equal to 6884
+Global LD ST Cache Stride Bucket -86 is equal to 5633
+Global LD ST Cache Stride Bucket -85 is equal to 4868
+Global LD ST Cache Stride Bucket -84 is equal to 5540
+Global LD ST Cache Stride Bucket -83 is equal to 5642
+Global LD ST Cache Stride Bucket -82 is equal to 4628
+Global LD ST Cache Stride Bucket -81 is equal to 5216
+Global LD ST Cache Stride Bucket -80 is equal to 5455
+Global LD ST Cache Stride Bucket -79 is equal to 5317
+Global LD ST Cache Stride Bucket -78 is equal to 6258
+Global LD ST Cache Stride Bucket -77 is equal to 4625
+Global LD ST Cache Stride Bucket -76 is equal to 5000
+Global LD ST Cache Stride Bucket -75 is equal to 4833
+Global LD ST Cache Stride Bucket -74 is equal to 5192
+Global LD ST Cache Stride Bucket -73 is equal to 5022
+Global LD ST Cache Stride Bucket -72 is equal to 6189
+Global LD ST Cache Stride Bucket -71 is equal to 7385
+Global LD ST Cache Stride Bucket -70 is equal to 8657
+Global LD ST Cache Stride Bucket -69 is equal to 5243
+Global LD ST Cache Stride Bucket -68 is equal to 4229
+Global LD ST Cache Stride Bucket -67 is equal to 4884
+Global LD ST Cache Stride Bucket -66 is equal to 5604
+Global LD ST Cache Stride Bucket -65 is equal to 5694
+Global LD ST Cache Stride Bucket -64 is equal to 5003
+Global LD ST Cache Stride Bucket -63 is equal to 6442
+Global LD ST Cache Stride Bucket -62 is equal to 6781
+Global LD ST Cache Stride Bucket -61 is equal to 6090
+Global LD ST Cache Stride Bucket -60 is equal to 6537
+Global LD ST Cache Stride Bucket -59 is equal to 5828
+Global LD ST Cache Stride Bucket -58 is equal to 6774
+Global LD ST Cache Stride Bucket -57 is equal to 7809
+Global LD ST Cache Stride Bucket -56 is equal to 8751
+Global LD ST Cache Stride Bucket -55 is equal to 6602
+Global LD ST Cache Stride Bucket -54 is equal to 6852
+Global LD ST Cache Stride Bucket -53 is equal to 6834
+Global LD ST Cache Stride Bucket -52 is equal to 7398
+Global LD ST Cache Stride Bucket -51 is equal to 8568
+Global LD ST Cache Stride Bucket -50 is equal to 8321
+Global LD ST Cache Stride Bucket -49 is equal to 8669
+Global LD ST Cache Stride Bucket -48 is equal to 9182
+Global LD ST Cache Stride Bucket -47 is equal to 8496
+Global LD ST Cache Stride Bucket -46 is equal to 10195
+Global LD ST Cache Stride Bucket -45 is equal to 13581
+Global LD ST Cache Stride Bucket -44 is equal to 10098
+Global LD ST Cache Stride Bucket -43 is equal to 9619
+Global LD ST Cache Stride Bucket -42 is equal to 10559
+Global LD ST Cache Stride Bucket -41 is equal to 9595
+Global LD ST Cache Stride Bucket -40 is equal to 9013
+Global LD ST Cache Stride Bucket -39 is equal to 8900
+Global LD ST Cache Stride Bucket -38 is equal to 9409
+Global LD ST Cache Stride Bucket -37 is equal to 9022
+Global LD ST Cache Stride Bucket -36 is equal to 9212
+Global LD ST Cache Stride Bucket -35 is equal to 9725
+Global LD ST Cache Stride Bucket -34 is equal to 16483
+Global LD ST Cache Stride Bucket -33 is equal to 14211
+Global LD ST Cache Stride Bucket -32 is equal to 12498
+Global LD ST Cache Stride Bucket -31 is equal to 12995
+Global LD ST Cache Stride Bucket -30 is equal to 12563
+Global LD ST Cache Stride Bucket -29 is equal to 11251
+Global LD ST Cache Stride Bucket -28 is equal to 12464
+Global LD ST Cache Stride Bucket -27 is equal to 16509
+Global LD ST Cache Stride Bucket -26 is equal to 18511
+Global LD ST Cache Stride Bucket -25 is equal to 20987
+Global LD ST Cache Stride Bucket -24 is equal to 18778
+Global LD ST Cache Stride Bucket -23 is equal to 17696
+Global LD ST Cache Stride Bucket -22 is equal to 19351
+Global LD ST Cache Stride Bucket -21 is equal to 19070
+Global LD ST Cache Stride Bucket -20 is equal to 19541
+Global LD ST Cache Stride Bucket -19 is equal to 21116
+Global LD ST Cache Stride Bucket -18 is equal to 20179
+Global LD ST Cache Stride Bucket -17 is equal to 22801
+Global LD ST Cache Stride Bucket -16 is equal to 25471
+Global LD ST Cache Stride Bucket -15 is equal to 28704
+Global LD ST Cache Stride Bucket -14 is equal to 32770
+Global LD ST Cache Stride Bucket -13 is equal to 28476
+Global LD ST Cache Stride Bucket -12 is equal to 35224
+Global LD ST Cache Stride Bucket -11 is equal to 35759
+Global LD ST Cache Stride Bucket -10 is equal to 38731
+Global LD ST Cache Stride Bucket -9 is equal to 33078
+Global LD ST Cache Stride Bucket -8 is equal to 37149
+Global LD ST Cache Stride Bucket -7 is equal to 42109
+Global LD ST Cache Stride Bucket -6 is equal to 55697
+Global LD ST Cache Stride Bucket -5 is equal to 66146
+Global LD ST Cache Stride Bucket -4 is equal to 105426
+Global LD ST Cache Stride Bucket -3 is equal to 148780
+Global LD ST Cache Stride Bucket -2 is equal to 232088
+Global LD ST Cache Stride Bucket -1 is equal to 1613854
+Global LD ST Cache Stride Bucket 0 is equal to 6354562
+Global LD ST Cache Stride Bucket 1 is equal to 1473653
+Global LD ST Cache Stride Bucket 2 is equal to 238408
+Global LD ST Cache Stride Bucket 3 is equal to 164250
+Global LD ST Cache Stride Bucket 4 is equal to 104566
+Global LD ST Cache Stride Bucket 5 is equal to 63475
+Global LD ST Cache Stride Bucket 6 is equal to 50991
+Global LD ST Cache Stride Bucket 7 is equal to 40783
+Global LD ST Cache Stride Bucket 8 is equal to 36705
+Global LD ST Cache Stride Bucket 9 is equal to 30001
+Global LD ST Cache Stride Bucket 10 is equal to 30668
+Global LD ST Cache Stride Bucket 11 is equal to 27677
+Global LD ST Cache Stride Bucket 12 is equal to 31901
+Global LD ST Cache Stride Bucket 13 is equal to 25332
+Global LD ST Cache Stride Bucket 14 is equal to 29655
+Global LD ST Cache Stride Bucket 15 is equal to 24971
+Global LD ST Cache Stride Bucket 16 is equal to 22180
+Global LD ST Cache Stride Bucket 17 is equal to 19895
+Global LD ST Cache Stride Bucket 18 is equal to 17349
+Global LD ST Cache Stride Bucket 19 is equal to 18361
+Global LD ST Cache Stride Bucket 20 is equal to 16574
+Global LD ST Cache Stride Bucket 21 is equal to 16234
+Global LD ST Cache Stride Bucket 22 is equal to 16864
+Global LD ST Cache Stride Bucket 23 is equal to 15755
+Global LD ST Cache Stride Bucket 24 is equal to 16864
+Global LD ST Cache Stride Bucket 25 is equal to 19435
+Global LD ST Cache Stride Bucket 26 is equal to 16457
+Global LD ST Cache Stride Bucket 27 is equal to 13885
+Global LD ST Cache Stride Bucket 28 is equal to 10154
+Global LD ST Cache Stride Bucket 29 is equal to 9807
+Global LD ST Cache Stride Bucket 30 is equal to 10737
+Global LD ST Cache Stride Bucket 31 is equal to 10974
+Global LD ST Cache Stride Bucket 32 is equal to 10257
+Global LD ST Cache Stride Bucket 33 is equal to 12979
+Global LD ST Cache Stride Bucket 34 is equal to 17429
+Global LD ST Cache Stride Bucket 35 is equal to 15945
+Global LD ST Cache Stride Bucket 36 is equal to 9412
+Global LD ST Cache Stride Bucket 37 is equal to 7396
+Global LD ST Cache Stride Bucket 38 is equal to 8743
+Global LD ST Cache Stride Bucket 39 is equal to 9619
+Global LD ST Cache Stride Bucket 40 is equal to 8242
+Global LD ST Cache Stride Bucket 41 is equal to 8438
+Global LD ST Cache Stride Bucket 42 is equal to 10464
+Global LD ST Cache Stride Bucket 43 is equal to 10477
+Global LD ST Cache Stride Bucket 44 is equal to 9879
+Global LD ST Cache Stride Bucket 45 is equal to 12559
+Global LD ST Cache Stride Bucket 46 is equal to 10986
+Global LD ST Cache Stride Bucket 47 is equal to 8501
+Global LD ST Cache Stride Bucket 48 is equal to 9016
+Global LD ST Cache Stride Bucket 49 is equal to 7693
+Global LD ST Cache Stride Bucket 50 is equal to 7647
+Global LD ST Cache Stride Bucket 51 is equal to 8086
+Global LD ST Cache Stride Bucket 52 is equal to 7095
+Global LD ST Cache Stride Bucket 53 is equal to 6698
+Global LD ST Cache Stride Bucket 54 is equal to 6746
+Global LD ST Cache Stride Bucket 55 is equal to 6556
+Global LD ST Cache Stride Bucket 56 is equal to 9093
+Global LD ST Cache Stride Bucket 57 is equal to 7961
+Global LD ST Cache Stride Bucket 58 is equal to 7121
+Global LD ST Cache Stride Bucket 59 is equal to 5983
+Global LD ST Cache Stride Bucket 60 is equal to 6845
+Global LD ST Cache Stride Bucket 61 is equal to 6655
+Global LD ST Cache Stride Bucket 62 is equal to 7343
+Global LD ST Cache Stride Bucket 63 is equal to 6792
+Global LD ST Cache Stride Bucket 64 is equal to 5225
+Global LD ST Cache Stride Bucket 65 is equal to 6317
+Global LD ST Cache Stride Bucket 66 is equal to 8155
+Global LD ST Cache Stride Bucket 67 is equal to 5722
+Global LD ST Cache Stride Bucket 68 is equal to 5397
+Global LD ST Cache Stride Bucket 69 is equal to 5356
+Global LD ST Cache Stride Bucket 70 is equal to 7956
+Global LD ST Cache Stride Bucket 71 is equal to 7184
+Global LD ST Cache Stride Bucket 72 is equal to 5656
+Global LD ST Cache Stride Bucket 73 is equal to 5174
+Global LD ST Cache Stride Bucket 74 is equal to 5370
+Global LD ST Cache Stride Bucket 75 is equal to 4848
+Global LD ST Cache Stride Bucket 76 is equal to 4861
+Global LD ST Cache Stride Bucket 77 is equal to 4029
+Global LD ST Cache Stride Bucket 78 is equal to 5741
+Global LD ST Cache Stride Bucket 79 is equal to 4729
+Global LD ST Cache Stride Bucket 80 is equal to 4850
+Global LD ST Cache Stride Bucket 81 is equal to 4688
+Global LD ST Cache Stride Bucket 82 is equal to 4280
+Global LD ST Cache Stride Bucket 83 is equal to 4944
+Global LD ST Cache Stride Bucket 84 is equal to 4844
+Global LD ST Cache Stride Bucket 85 is equal to 4024
+Global LD ST Cache Stride Bucket 86 is equal to 4089
+Global LD ST Cache Stride Bucket 87 is equal to 5617
+Global LD ST Cache Stride Bucket 88 is equal to 9416
+Global LD ST Cache Stride Bucket 89 is equal to 3704
+Global LD ST Cache Stride Bucket 90 is equal to 4345
+Global LD ST Cache Stride Bucket 91 is equal to 4740
+Global LD ST Cache Stride Bucket 92 is equal to 3710
+Global LD ST Cache Stride Bucket 93 is equal to 2760
+Global LD ST Cache Stride Bucket 94 is equal to 3095
+Global LD ST Cache Stride Bucket 95 is equal to 4038
+Global LD ST Cache Stride Bucket 96 is equal to 3728
+Global LD ST Cache Stride Bucket 97 is equal to 6440
+Global LD ST Cache Stride Bucket 98 is equal to 8242
+Global LD ST Cache Stride Bucket 99 is equal to 2994
+Global LD ST Cache Stride Bucket 100 is equal to 2788
+Global LD ST Cache Stride Bucket 101 is equal to 3341
+Global LD ST Cache Stride Bucket 102 is equal to 3984
+Global LD ST Cache Stride Bucket 103 is equal to 3083
+Global LD ST Cache Stride Bucket 104 is equal to 2734
+Global LD ST Cache Stride Bucket 105 is equal to 2701
+Global LD ST Cache Stride Bucket 106 is equal to 2227
+Global LD ST Cache Stride Bucket 107 is equal to 2326
+Global LD ST Cache Stride Bucket 108 is equal to 1932
+Global LD ST Cache Stride Bucket 109 is equal to 2700
+Global LD ST Cache Stride Bucket 110 is equal to 2807
+Global LD ST Cache Stride Bucket 111 is equal to 3117
+Global LD ST Cache Stride Bucket 112 is equal to 3166
+Global LD ST Cache Stride Bucket 113 is equal to 2437
+Global LD ST Cache Stride Bucket 114 is equal to 3260
+Global LD ST Cache Stride Bucket 115 is equal to 3194
+Global LD ST Cache Stride Bucket 116 is equal to 2487
+Global LD ST Cache Stride Bucket 117 is equal to 2208
+Global LD ST Cache Stride Bucket 118 is equal to 2245
+Global LD ST Cache Stride Bucket 119 is equal to 3226
+Global LD ST Cache Stride Bucket 120 is equal to 2354
+Global LD ST Cache Stride Bucket 121 is equal to 2628
+Global LD ST Cache Stride Bucket 122 is equal to 3369
+Global LD ST Cache Stride Bucket 123 is equal to 3167
+Global LD ST Cache Stride Bucket 124 is equal to 3607
+Global LD ST Cache Stride Bucket 125 is equal to 2598
+Global LD ST Cache Stride Bucket 126 is equal to 3247
+Global LD ST Cache Stride Bucket 127 is equal to 3044
+Global LD ST Cache Stride Bucket 128 is equal to 2532
+Global LD ST Cache Stride Bucket 129 is equal to 2271
+Global LD ST Cache Stride Bucket 130 is equal to 2680
+Global LD ST Cache Stride Bucket 131 is equal to 1727
+Global LD ST Cache Stride Bucket 132 is equal to 2195
+Global LD ST Cache Stride Bucket 133 is equal to 2710
+Global LD ST Cache Stride Bucket 134 is equal to 3164
+Global LD ST Cache Stride Bucket 135 is equal to 2294
+Global LD ST Cache Stride Bucket 136 is equal to 2282
+Global LD ST Cache Stride Bucket 137 is equal to 2457
+Global LD ST Cache Stride Bucket 138 is equal to 1936
+Global LD ST Cache Stride Bucket 139 is equal to 1851
+Global LD ST Cache Stride Bucket 140 is equal to 1833
+Global LD ST Cache Stride Bucket 141 is equal to 2179
+Global LD ST Cache Stride Bucket 142 is equal to 1998
+Global LD ST Cache Stride Bucket 143 is equal to 2674
+Global LD ST Cache Stride Bucket 144 is equal to 1886
+Global LD ST Cache Stride Bucket 145 is equal to 1861
+Global LD ST Cache Stride Bucket 146 is equal to 2988
+Global LD ST Cache Stride Bucket 147 is equal to 2209
+Global LD ST Cache Stride Bucket 148 is equal to 2992
+Global LD ST Cache Stride Bucket 149 is equal to 2857
+Global LD ST Cache Stride Bucket 150 is equal to 1862
+Global LD ST Cache Stride Bucket 151 is equal to 2137
+Global LD ST Cache Stride Bucket 152 is equal to 6204
+Global LD ST Cache Stride Bucket 153 is equal to 2113
+Global LD ST Cache Stride Bucket 154 is equal to 2024
+Global LD ST Cache Stride Bucket 155 is equal to 2309
+Global LD ST Cache Stride Bucket 156 is equal to 2072
+Global LD ST Cache Stride Bucket 157 is equal to 2061
+Global LD ST Cache Stride Bucket 158 is equal to 2261
+Global LD ST Cache Stride Bucket 159 is equal to 2132
+Global LD ST Cache Stride Bucket 160 is equal to 1900
+Global LD ST Cache Stride Bucket 161 is equal to 2266
+Global LD ST Cache Stride Bucket 162 is equal to 1970
+Global LD ST Cache Stride Bucket 163 is equal to 2086
+Global LD ST Cache Stride Bucket 164 is equal to 2824
+Global LD ST Cache Stride Bucket 165 is equal to 1946
+Global LD ST Cache Stride Bucket 166 is equal to 1824
+Global LD ST Cache Stride Bucket 167 is equal to 1279
+Global LD ST Cache Stride Bucket 168 is equal to 1253
+Global LD ST Cache Stride Bucket 169 is equal to 1506
+Global LD ST Cache Stride Bucket 170 is equal to 1446
+Global LD ST Cache Stride Bucket 171 is equal to 1668
+Global LD ST Cache Stride Bucket 172 is equal to 1266
+Global LD ST Cache Stride Bucket 173 is equal to 1570
+Global LD ST Cache Stride Bucket 174 is equal to 1667
+Global LD ST Cache Stride Bucket 175 is equal to 1602
+Global LD ST Cache Stride Bucket 176 is equal to 3622
+Global LD ST Cache Stride Bucket 177 is equal to 5833
+Global LD ST Cache Stride Bucket 178 is equal to 1642
+Global LD ST Cache Stride Bucket 179 is equal to 1666
+Global LD ST Cache Stride Bucket 180 is equal to 1421
+Global LD ST Cache Stride Bucket 181 is equal to 1552
+Global LD ST Cache Stride Bucket 182 is equal to 2514
+Global LD ST Cache Stride Bucket 183 is equal to 1471
+Global LD ST Cache Stride Bucket 184 is equal to 2007
+Global LD ST Cache Stride Bucket 185 is equal to 1522
+Global LD ST Cache Stride Bucket 186 is equal to 1429
+Global LD ST Cache Stride Bucket 187 is equal to 1589
+Global LD ST Cache Stride Bucket 188 is equal to 1670
+Global LD ST Cache Stride Bucket 189 is equal to 1534
+Global LD ST Cache Stride Bucket 190 is equal to 1372
+Global LD ST Cache Stride Bucket 191 is equal to 1512
+Global LD ST Cache Stride Bucket 192 is equal to 1776
+Global LD ST Cache Stride Bucket 193 is equal to 1638
+Global LD ST Cache Stride Bucket 194 is equal to 1537
+Global LD ST Cache Stride Bucket 195 is equal to 1677
+Global LD ST Cache Stride Bucket 196 is equal to 1483
+Global LD ST Cache Stride Bucket 197 is equal to 1697
+Global LD ST Cache Stride Bucket 198 is equal to 1845
+Global LD ST Cache Stride Bucket 199 is equal to 1620
+Global LD ST Cache Stride Bucket 200 is equal to 1646
+Global LD ST Cache Stride Bucket 201 is equal to 1168
+Global LD ST Cache Stride Bucket 202 is equal to 1525
+Global LD ST Cache Stride Bucket 203 is equal to 1816
+Global LD ST Cache Stride Bucket 204 is equal to 1242
+Global LD ST Cache Stride Bucket 205 is equal to 1561
+Global LD ST Cache Stride Bucket 206 is equal to 1484
+Global LD ST Cache Stride Bucket 207 is equal to 1330
+Global LD ST Cache Stride Bucket 208 is equal to 1083
+Global LD ST Cache Stride Bucket 209 is equal to 1376
+Global LD ST Cache Stride Bucket 210 is equal to 1998
+Global LD ST Cache Stride Bucket 211 is equal to 2038
+Global LD ST Cache Stride Bucket 212 is equal to 2109
+Global LD ST Cache Stride Bucket 213 is equal to 1492
+Global LD ST Cache Stride Bucket 214 is equal to 1392
+Global LD ST Cache Stride Bucket 215 is equal to 1498
+Global LD ST Cache Stride Bucket 216 is equal to 1501
+Global LD ST Cache Stride Bucket 217 is equal to 1327
+Global LD ST Cache Stride Bucket 218 is equal to 1443
+Global LD ST Cache Stride Bucket 219 is equal to 1112
+Global LD ST Cache Stride Bucket 220 is equal to 1310
+Global LD ST Cache Stride Bucket 221 is equal to 1109
+Global LD ST Cache Stride Bucket 222 is equal to 1375
+Global LD ST Cache Stride Bucket 223 is equal to 1059
+Global LD ST Cache Stride Bucket 224 is equal to 1127
+Global LD ST Cache Stride Bucket 225 is equal to 1354
+Global LD ST Cache Stride Bucket 226 is equal to 1103
+Global LD ST Cache Stride Bucket 227 is equal to 1379
+Global LD ST Cache Stride Bucket 228 is equal to 1265
+Global LD ST Cache Stride Bucket 229 is equal to 1452
+Global LD ST Cache Stride Bucket 230 is equal to 944
+Global LD ST Cache Stride Bucket 231 is equal to 1420
+Global LD ST Cache Stride Bucket 232 is equal to 1086
+Global LD ST Cache Stride Bucket 233 is equal to 1079
+Global LD ST Cache Stride Bucket 234 is equal to 1141
+Global LD ST Cache Stride Bucket 235 is equal to 1510
+Global LD ST Cache Stride Bucket 236 is equal to 963
+Global LD ST Cache Stride Bucket 237 is equal to 1694
+Global LD ST Cache Stride Bucket 238 is equal to 1565
+Global LD ST Cache Stride Bucket 239 is equal to 1364
+Global LD ST Cache Stride Bucket 240 is equal to 1925
+Global LD ST Cache Stride Bucket 241 is equal to 1776
+Global LD ST Cache Stride Bucket 242 is equal to 1943
+Global LD ST Cache Stride Bucket 243 is equal to 1292
+Global LD ST Cache Stride Bucket 244 is equal to 913
+Global LD ST Cache Stride Bucket 245 is equal to 1259
+Global LD ST Cache Stride Bucket 246 is equal to 1362
+Global LD ST Cache Stride Bucket 247 is equal to 1265
+Global LD ST Cache Stride Bucket 248 is equal to 1201
+Global LD ST Cache Stride Bucket 249 is equal to 1208
+Global LD ST Cache Stride Bucket 250 is equal to 1325
+Global LD ST Cache Stride Bucket 251 is equal to 1259
+Global LD ST Cache Stride Bucket 252 is equal to 1626
+Global LD ST Cache Stride Bucket 253 is equal to 1513
+Global LD ST Cache Stride Bucket 254 is equal to 1617
+Global LD ST Cache Stride Bucket 255 is equal to 1503
+Global LD ST Cache Stride Bucket 256 is equal to 7197363
+
+
+            "-256": "10322932",
+            "-255": "736",
+            "-254": "646",
+            "-253": "1374",
+            "-252": "4143",
+            "-251": "1014",
+            "-250": "694",
+            "-249": "859",
+            "-248": "9285",
+            "-247": "826",
+            "-246": "1292",
+            "-245": "1834",
+            "-244": "4289",
+            "-243": "914",
+            "-242": "1066",
+            "-241": "1690",
+            "-240": "3267",
+            "-239": "2589",
+            "-238": "1094",
+            "-237": "1941",
+            "-236": "5447",
+            "-235": "6414",
+            "-234": "526",
+            "-233": "1922",
+            "-232": "4520",
+            "-231": "2458",
+            "-230": "1237",
+            "-229": "1011",
+            "-228": "705",
+            "-227": "497",
+            "-226": "357",
+            "-225": "1048",
+            "-224": "2800",
+            "-223": "696",
+            "-222": "1719",
+            "-221": "1523",
+            "-220": "891",
+            "-219": "1804",
+            "-218": "868",
+            "-217": "1743",
+            "-216": "1705",
+            "-215": "912",
+            "-214": "1751",
+            "-213": "1180",
+            "-212": "6934",
+            "-211": "1114",
+            "-210": "1429",
+            "-209": "1391",
+            "-208": "1315",
+            "-207": "1929",
+            "-206": "874",
+            "-205": "1735",
+            "-204": "7354",
+            "-203": "2204",
+            "-202": "2010",
+            "-201": "1734",
+            "-200": "2221",
+            "-199": "1317",
+            "-198": "1161",
+            "-197": "1970",
+            "-196": "1281",
+            "-195": "1853",
+            "-194": "1995",
+            "-193": "2566",
+            "-192": "5694",
+            "-191": "3322",
+            "-190": "2256",
+            "-189": "3160",
+            "-188": "2560",
+            "-187": "1369",
+            "-186": "3851",
+            "-185": "1985",
+            "-184": "2076",
+            "-183": "4772",
+            "-182": "2430",
+            "-181": "1088",
+            "-180": "2213",
+            "-179": "2369",
+            "-178": "595",
+            "-177": "1006",
+            "-176": "2946",
+            "-175": "2651",
+            "-174": "1263",
+            "-173": "2014",
+            "-172": "3690",
+            "-171": "954",
+            "-170": "2734",
+            "-169": "1961",
+            "-168": "999",
+            "-167": "2076",
+            "-166": "1505",
+            "-165": "2479",
+            "-164": "4326",
+            "-163": "2501",
+            "-162": "3309",
+            "-161": "1763",
+            "-160": "2325",
+            "-159": "2573",
+            "-158": "1407",
+            "-157": "2079",
+            "-156": "3968",
+            "-155": "5885",
+            "-154": "2508",
+            "-153": "5628",
+            "-152": "3599",
+            "-151": "2083",
+            "-150": "2843",
+            "-149": "2823",
+            "-148": "3861",
+            "-147": "2718",
+            "-146": "2797",
+            "-145": "2486",
+            "-144": "3010",
+            "-143": "1546",
+            "-142": "2337",
+            "-141": "833",
+            "-140": "3478",
+            "-139": "1885",
+            "-138": "3620",
+            "-137": "1337",
+            "-136": "3090",
+            "-135": "1641",
+            "-134": "1591",
+            "-133": "1208",
+            "-132": "1876",
+            "-131": "2665",
+            "-130": "2416",
+            "-129": "1830",
+            "-128": "13872",
+            "-127": "1768",
+            "-126": "3416",
+            "-125": "2779",
+            "-124": "9603",
+            "-123": "3975",
+            "-122": "4840",
+            "-121": "2617",
+            "-120": "4351",
+            "-119": "1832",
+            "-118": "2505",
+            "-117": "4278",
+            "-116": "2958",
+            "-115": "2715",
+            "-114": "2973",
+            "-113": "1720",
+            "-112": "9531",
+            "-111": "4239",
+            "-110": "2232",
+            "-109": "1557",
+            "-108": "4074",
+            "-107": "3380",
+            "-106": "3612",
+            "-105": "3039",
+            "-104": "15530",
+            "-103": "3588",
+            "-102": "4096",
+            "-101": "4229",
+            "-100": "11049",
+            "-99": "3409",
+            "-98": "5276",
+            "-97": "4360",
+            "-96": "1529",
+            "-95": "3605",
+            "-94": "3694",
+            "-93": "3361",
+            "-92": "2681",
+            "-91": "6946",
+            "-90": "3861",
+            "-89": "6281",
+            "-88": "5549",
+            "-87": "4555",
+            "-86": "4554",
+            "-85": "4141",
+            "-84": "7710",
+            "-83": "12285",
+            "-82": "6263",
+            "-81": "6627",
+            "-80": "197727",
+            "-79": "6935",
+            "-78": "11801",
+            "-77": "3539",
+            "-76": "178246",
+            "-75": "4949",
+            "-74": "6206",
+            "-73": "2264",
+            "-72": "9924",
+            "-71": "5126",
+            "-70": "3690",
+            "-69": "3262",
+            "-68": "10582",
+            "-67": "4579",
+            "-66": "2954",
+            "-65": "2757",
+            "-64": "36766",
+            "-63": "2468",
+            "-62": "4925",
+            "-61": "9507",
+            "-60": "16997",
+            "-59": "4130",
+            "-58": "3144",
+            "-57": "3572",
+            "-56": "189778",
+            "-55": "3071",
+            "-54": "2450",
+            "-53": "4365",
+            "-52": "7879",
+            "-51": "4114",
+            "-50": "4990",
+            "-49": "6225",
+            "-48": "8772",
+            "-47": "5895",
+            "-46": "3969",
+            "-45": "4501",
+            "-44": "10269",
+            "-43": "3538",
+            "-42": "8011",
+            "-41": "3330",
+            "-40": "9611",
+            "-39": "3305",
+            "-38": "5114",
+            "-37": "2142",
+            "-36": "7952",
+            "-35": "1643",
+            "-34": "3032",
+            "-33": "3222",
+            "-32": "40101",
+            "-31": "3127",
+            "-30": "1879",
+            "-29": "2665",
+            "-28": "7017",
+            "-27": "3906",
+            "-26": "6121",
+            "-25": "10982",
+            "-24": "21395",
+            "-23": "3274",
+            "-22": "3607",
+            "-21": "6559",
+            "-20": "184326",
+            "-19": "3633",
+            "-18": "2909",
+            "-17": "2082",
+            "-16": "89089",
+            "-15": "2637",
+            "-14": "1635",
+            "-13": "2367",
+            "-12": "208619",
+            "-11": "1400",
+            "-10": "1188",
+            "-9": "1532",
+            "-8": "1472867",
+            "-7": "1681",
+            "-6": "1150",
+            "-5": "3789",
+            "-4": "364583",
+            "-3": "314",
+            "-2": "100",
+            "-1": "14199",
+            "0": "1104104",
+            "1": "1241931",
+            "2": "2505",
+            "3": "252",
+            "4": "464244",
+            "5": "440",
+            "6": "4142",
+            "7": "900",
+            "8": "1667667",
+            "9": "1072",
+            "10": "1617",
+            "11": "1158",
+            "12": "193299",
+            "13": "1686",
+            "14": "2473",
+            "15": "1586",
+            "16": "76999",
+            "17": "2968",
+            "18": "2027",
+            "19": "3088",
+            "20": "203409",
+            "21": "2327",
+            "22": "7154",
+            "23": "3046",
+            "24": "35635",
+            "25": "4141",
+            "26": "11564",
+            "27": "5622",
+            "28": "8392",
+            "29": "1948",
+            "30": "2679",
+            "31": "1854",
+            "32": "31566",
+            "33": "1991",
+            "34": "3366",
+            "35": "3002",
+            "36": "5405",
+            "37": "2014",
+            "38": "2284",
+            "39": "5373",
+            "40": "11987",
+            "41": "6076",
+            "42": "2871",
+            "43": "8480",
+            "44": "16084",
+            "45": "5083",
+            "46": "4445",
+            "47": "3983",
+            "48": "36773",
+            "49": "2715",
+            "50": "6598",
+            "51": "4928",
+            "52": "15003",
+            "53": "8075",
+            "54": "3885",
+            "55": "2287",
+            "56": "198013",
+            "57": "3055",
+            "58": "3615",
+            "59": "3189",
+            "60": "187552",
+            "61": "3805",
+            "62": "9908",
+            "63": "4282",
+            "64": "190622",
+            "65": "5829",
+            "66": "2389",
+            "67": "2980",
+            "68": "14533",
+            "69": "4808",
+            "70": "3099",
+            "71": "3721",
+            "72": "10170",
+            "73": "1918",
+            "74": "2274",
+            "75": "6625",
+            "76": "9991",
+            "77": "2638",
+            "78": "3531",
+            "79": "12813",
+            "80": "12706",
+            "81": "16443",
+            "82": "5779",
+            "83": "6304",
+            "84": "22115",
+            "85": "6922",
+            "86": "3891",
+            "87": "4536",
+            "88": "7298",
+            "89": "2965",
+            "90": "6653",
+            "91": "3638",
+            "92": "8851",
+            "93": "2194",
+            "94": "3509",
+            "95": "3775",
+            "96": "10584",
+            "97": "1232",
+            "98": "4640",
+            "99": "5345",
+            "100": "4956",
+            "101": "3767",
+            "102": "4281",
+            "103": "4122",
+            "104": "5488",
+            "105": "3512",
+            "106": "2969",
+            "107": "3647",
+            "108": "10473",
+            "109": "3782",
+            "110": "1317",
+            "111": "2263",
+            "112": "13528",
+            "113": "2193",
+            "114": "1759",
+            "115": "3029",
+            "116": "7858",
+            "117": "2869",
+            "118": "4263",
+            "119": "2344",
+            "120": "5759",
+            "121": "4303",
+            "122": "2457",
+            "123": "5169",
+            "124": "5446",
+            "125": "4122",
+            "126": "2523",
+            "127": "3386",
+            "128": "2897",
+            "129": "2016",
+            "130": "1795",
+            "131": "2457",
+            "132": "3890",
+            "133": "1408",
+            "134": "1110",
+            "135": "1605",
+            "136": "2684",
+            "137": "2990",
+            "138": "1211",
+            "139": "3794",
+            "140": "2760",
+            "141": "3348",
+            "142": "585",
+            "143": "2520",
+            "144": "2460",
+            "145": "2532",
+            "146": "2438",
+            "147": "2784",
+            "148": "8854",
+            "149": "3929",
+            "150": "2656",
+            "151": "2859",
+            "152": "2803",
+            "153": "3367",
+            "154": "5815",
+            "155": "2216",
+            "156": "7351",
+            "157": "3461",
+            "158": "2001",
+            "159": "1203",
+            "160": "9102",
+            "161": "1730",
+            "162": "1716",
+            "163": "3442",
+            "164": "3135",
+            "165": "4093",
+            "166": "2341",
+            "167": "1452",
+            "168": "3379",
+            "169": "562",
+            "170": "2160",
+            "171": "2778",
+            "172": "1457",
+            "173": "2551",
+            "174": "1940",
+            "175": "1136",
+            "176": "2849",
+            "177": "1513",
+            "178": "948",
+            "179": "522",
+            "180": "2739",
+            "181": "1805",
+            "182": "1002",
+            "183": "2564",
+            "184": "5009",
+            "185": "1512",
+            "186": "2000",
+            "187": "4038",
+            "188": "7798",
+            "189": "2441",
+            "190": "3228",
+            "191": "2131",
+            "192": "3414",
+            "193": "1682",
+            "194": "2685",
+            "195": "1873",
+            "196": "1911",
+            "197": "976",
+            "198": "1994",
+            "199": "1017",
+            "200": "7479",
+            "201": "1752",
+            "202": "1742",
+            "203": "1972",
+            "204": "2658",
+            "205": "1676",
+            "206": "1731",
+            "207": "903",
+            "208": "2460",
+            "209": "786",
+            "210": "1429",
+            "211": "1404",
+            "212": "939",
+            "213": "601",
+            "214": "1241",
+            "215": "1725",
+            "216": "1011",
+            "217": "976",
+            "218": "1809",
+            "219": "732",
+            "220": "1984",
+            "221": "370",
+            "222": "1622",
+            "223": "1752",
+            "224": "629",
+            "225": "1845",
+            "226": "954",
+            "227": "311",
+            "228": "525",
+            "229": "606",
+            "230": "1009",
+            "231": "1274",
+            "232": "5978",
+            "233": "3356",
+            "234": "1841",
+            "235": "362",
+            "236": "10344",
+            "237": "3549",
+            "238": "1805",
+            "239": "1050",
+            "240": "6324",
+            "241": "1086",
+            "242": "1739",
+            "243": "994",
+            "244": "4841",
+            "245": "1214",
+            "246": "1859",
+            "247": "1251",
+            "248": "4359",
+            "249": "2781",
+            "250": "602",
+            "251": "785",
+            "252": "4503",
+            "253": "938",
+            "254": "1383",
+            "255": "587",
+            "256": "8668116",
+
+
+# END_DYNAMIC_STATS
