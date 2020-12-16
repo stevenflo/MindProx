@@ -301,7 +301,7 @@ def log_convert(name):
     arg2 = base + "log_scale_log"
 
 
-    print(cmd, " ", arg1, " ", arg2, " > ", base + output)
+    print(cmd, " ", arg1, " ", arg2, " > ", base , "log_scale_out")
     if(HALO):
         command = subprocess.Popen([cmd,arg1,arg2],stdout=output)
     else:
@@ -535,10 +535,10 @@ def measure_histogram(name):
 
 pid = "18579"
 #for name in ["deepsjeng", "gcc", "leela", "mcf","perlbench"]
-for name in ["deepsjeng"]:
+for name in ["perlbench"]:
 
 
-    prep_experiment(name)
+    #prep_experiment(name)
     ########################
     ###Profiling Workload###
     ########################
@@ -557,7 +557,7 @@ for name in ["deepsjeng"]:
     ###CREATING PROXIES#######
     ##########################
     #make_proxy(name)
-    #compile_proxy(name)
+    compile_proxy(name)
 
     ##########################
     ###ANALYZING RUNS#########
